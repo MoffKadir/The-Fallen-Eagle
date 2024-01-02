@@ -35,10 +35,10 @@
  legion_government_desc:1 "Cities within a Latinized domain can be designated toward the recruitment and mustering of Legions, providing experienced units to serve on the battlefield."
  legion_government_vassals_label:1 ""
 
- eranshar_government:0 "Eranshahr"
- eranshar_government_adjective:0 "Eranshahr"
- eranshar_government_realm:0 "Eranshahr Bureaucracy"
- eranshar_government_desc:1 "Eranshahr Bureaucracy is the main system of administration within the Eranian Empire. It focused primarily on centralizing the empire and giving most of the power to the Shah in terms of [soldiers|E] and [taxes|E]. That, however, didn't stop many nobles from ignoring the Shah's decrees, and instead sending solely [taxes|E]."
+ eranshar_government:0 "Tāg ī Ērānšahr"
+ eranshar_government_adjective:0 "Tāg ī Ērānšahr"
+ eranshar_government_realm:0 "Tāg ī Ērānšahr"
+ eranshar_government_desc:1 "The administrative institutions of the Ērānšahr answered to the authority of the Shahanshah under a complex bureaucratic system. It focused primarily on centralizing the empire and giving most of the power to the Shahanshah in terms of [soldiers|E] and [taxes|E]. That, however, didn't stop many nobles from ignoring the decrees of the Shahanshah, and instead sending [taxes|E] solely, while conserving their [soldiers|E]."
  eranshar_government_vassals_label:1 ""
 
  caliphate_government:0 "Caliphate"

@@ -69,7 +69,7 @@
 
  # Ending Bonuses
  struggle_roman_persian_ending_total_victory_conversion_tt:1 "$task_conversion$ and/or $task_promote_culture$ [councillor_tasks|E] speed in the [GetGeographicalRegion('TFE_roman_persian_struggle_region').GetName] [region|E]: #P +50%#!"
- struggle_roman_persian_modifier_list_tt:1 "Select one of the following modifiers for your [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_roman_persian_house_war_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_roman_persian_house_culture_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_roman_persian_house_politics_modifier').GetNameWithTooltip|L]"
+ struggle_roman_persian_modifier_list_tt:1 "Select one of the following modifiers for your [house|E]:\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_roman_persian_house_war_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_roman_persian_house_culture_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_roman_persian_house_politics_modifier').GetNameWithTooltip|L]"
 
  # Ending Events
 

@@ -105,3 +105,59 @@
  TFE_flavour_events.0034.t:0 "$TFE_flavour_events.0033.t$"
  TFE_flavour_events.0034.desc:0 "For years, the Göktürk clans have toiled under the Rouran Khaganate, fighting their wars and bringing prosperity to the Rouran at the expense of our own.  For years, Göktürk resentment and anger grew with each and every insult and injustice. Yet, for years, they tolerated these abuses, and merely fumed to themselves.\n\nRecently, however, one of their chiefs, [gokturk_leader.GetName], politely requested more acknowledgement for their efforts to help the Rouran, they received the following, degrading response from the Rouran leaders: "You are a blacksmith slave. How dare you utter these words?"\n\n[gokturk_leader.GetFirstNameNoTooltip], as a descendant of the great [gokturk_leader.GetDynasty.GetName] clan, is enraged, and [gokturk_leader.GetHerHis] people are too. Now, [gokturk_leader.GetSheHe] seeks to not only humiliate the Rouran, but overthrow them and take their place as the preeminent power in the steppes. Could this be the end of the Rouran Khaganate?"
  TFE_flavour_events.0034.a:0 "A bad omen for the Rourans..."
+
+ TFE_flavour_events.0035.t:0 "The Eternal Peace is Broken!"
+ TFE_flavour_events.0035.desc:0 "The court erupted in dismay after a messanger approached me with an alarming development from the east: [truce_breaker.GetName] has declared our 'perpetual' peace to be null and void. \n\nWhile the peace was fragile at best, it nonetheless warranted shock and outrage among my courtiers and government officials. The threat of another war between the two empires is on the horizon. Tt is now only a matter of #italic when#! it will come..."
+ TFE_flavour_events.0035.a:0 "This is an outrage!"
+
+ TFE_flavour_events.0036.t:0 "The Eternal Peace is Broken!"
+ TFE_flavour_events.0036.desc:0 "I have just received word that [truce_breaker.GetName] has declared their 'perpetual' peace with [truce_breakee.GetName] to be null and void. War is on the horizon..."
+ TFE_flavour_events.0036.a:0 "Interesting..."
+
+ TFE_flavour_events.0037.t:0 "A Worthy Victory Site? (World Event)"
+ TFE_flavour_events.0037.desc:0 "A successful Islamic conqueror (or convert) can now construct the Minarets of Jam"
+ TFE_flavour_events.0037.a:0 "Interesting..."
+
+ #TFE_flavour_events.0039.t:0 "A Solid Vantage Point (World Event)"
+ #TFE_flavour_events.0039.desc:0 "A keen-eyed ruler can now construct Alamut Castle"
+ #TFE_flavour_events.0039.a:0 "Interesting..."
+
+ TFE_flavour_events.0039.t:0 "The Plague of [ROOT.Char.GetFirstName]"
+ TFE_flavour_events.0039.desc:0 "It was an otherwise inconspicuous banquet: goblets brimming with wine were slammed upon the polished tables, the air was choked by a cacaphony of lively conversations - mostly in [ROOT.Char.GetCulture.GetLanguage.GetName], but also in other languages of the empire - and each course was succeeded by the next; more spoilsome and extravagent than the last. \n\nAll the guests were startled as [first_blood_plague.GetName] burst into the room, with a visible corruption upon their face and body caused by some horrid malady. The hall was emptied as I called my councilors into a separate chamber to discuss the dire matter at hand. A stench of dread filled the air as a frantic messanger burst in with a troubling report; a new disease is spreading rapidly across the empire. \n\n\n#N Death Toll: 1#!"
+ TFE_flavour_events.0039.a:0 "[ROOT.Char.GetFaith.HighGodName] preserve us from what may come..."
+ TFE_flavour_events.0039.a.tt:0 "#low A plague started! You will get a random event once a year until the situation is concluded.#!"
+
+ TFE_flavour_events.0040.desc:0 "It started with whispers, but now the streets echo with the agonizing wails of the afflicted. The clergy's efforts have proven effective in mitigating the devastation. Blessed priests tirelessly work to soothe the suffering and provide solace to those on the brink of despair. Though the situation remains dire, there is a glimmer of hope amidst the darkness.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0041.desc:0 "The once bustling trade routes now lie dormant, shrouded in the fear of the spreading plague. The merchants have shuttered their shops, and the marketplaces stand eerily silent. The economic heartbeat of the realm falters, its pulse weakened by the merciless grip of the insidious disease.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0042.desc:0 "The garrison, once a stalwart defender of the realm, has been diminished by the relentless onslaught of the plague. The soldiers, bravely standing guard, are now afflicted and weakened. The defenses that once inspired confidence now stand vulnerable, a shadow of their former strength.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0043.desc:0 "A solemn atmosphere pervades the court as the once vibrant gatherings now bear the weight of sorrow, for [plague_kill.GetName] has succumbed to the merciless grasp of the plague. The loss is felt deeply, a poignant reminder of the fragility of life in the face of an unseen enemy.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0044.desc:0 "Skilled physicians tirelessly toil to curb the advance of the plague. Their efforts yield some success, as the number of casualties is kept in check. The realm owes a debt of gratitude to these healers, who work tirelessly to mend the wounds inflicted by the merciless scourge.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0045.desc:0 "The once peaceful streets now echo with the sounds of unrest. Riots erupt as the people, gripped by fear and desperation, demand a better solution. The delicate balance between order and chaos teeters on the edge, threatening to plunge the realm into further turmoil.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0046.desc:0 "The skills of the physicians prove lacking in the face of the relentless plague. Despite their best efforts, the disease persists, claiming lives unabated. The realm grapples with the harsh reality that not all healers possess the expertise needed to combat this unseen adversary.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0047.desc:0 "While returning to your palace, you come across a tavern, its doors swinging open in the breeze. The choice lies before you — will you seek solace within its walls, embracing a temporary reprieve from the grim reality, or will you close it down, acknowledging the need for strict measures in the face of the spreading plague?\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0048.desc:0 "The relentless advance of the plague takes its toll, Supplies dwindle as the disease disrupts the flow of goods and resources. The once plentiful storerooms now stand depleted, and the realm must grapple with the challenges of sustaining itself in the midst of the relentless onslaught.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0049.desc:0 "A somber decree echoes through the realm. A curfew is enacted, a measure deemed necessary to contain the spread of the plague. The once bustling streets now lie deserted after nightfall, the silence broken only by the distant wails of the afflicted. The people, though subdued, cling to the hope that these sacrifices will pave the way to a brighter tomorrow.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0040.a:0 "Praise our faithful priests!"
+ TFE_flavour_events.0041.a:0 "When will our prayers be answered?!"
+ TFE_flavour_events.0042.a:0 "When will our prayers be answered?!"
+ TFE_flavour_events.0043.a:0 "Another life lost in this terrible war"
+ TFE_flavour_events.0044.a:0 "Praise our diligent physicians!"
+ TFE_flavour_events.0045.a:0 "What more can we do?!"
+ TFE_flavour_events.0046.a:0 "There is no room for incompetence in this time!"
+ TFE_flavour_events.0047.a:0 "Some pleasure in this dark time"
+ TFE_flavour_events.0047.b:0 "We can't be leisured when our subjects are dying!"
+ TFE_flavour_events.0048.a:0 "We need to find a way to sustain our realm."
+ TFE_flavour_events.0049.a:0 "It is necessary"
+
+ TFE_flavour_events.0050.desc:0 "The relentless grip of the plague begins to loosen its hold on our realm. As the days pass, a collective sigh of relief echoes through the land. The once-fearful whispers are replaced by the sounds of rebuilding and renewal. The city now stands as a solemn testament to the sacrifices endured and the lives forever changed.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!" # ending event
+ TFE_flavour_events.0050.a:0 "Alas"

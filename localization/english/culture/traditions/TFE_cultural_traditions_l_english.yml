@@ -137,7 +137,10 @@ tradition_migrations_name:0 "Migrators"
 
  tradition_sacred_iron_mines_name:0 "Sacred Iron Mines"
  tradition_sacred_iron_mines_desc:0 "This culture believes that iron mines are of great spiritual importance, and will often perform religious ceremonies at such locations."
-  
+
+ tradition_gothic_elective_name:0 "Gothic Elective"
+ tradition_gothic_elective_desc:0 "This culture has traditionally elected kindins (judges) to deal with difficult and complex issues. A natural outgrowth of this has been an elective system to choose rulers -- although in many cases, one ruling house still dominates."
+
  # Misc
  cannot_have_tradition_orpheus:0 "$cannot_combine_tradition_trigger_desc$ #high $tradition_orpheus_name$#!"
  cannot_have_tradition_music_theory:0 "$cannot_combine_tradition_trigger_desc$ #high $tradition_music_theory_name$#!"

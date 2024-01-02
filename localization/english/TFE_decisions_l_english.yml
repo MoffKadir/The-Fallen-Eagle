@@ -186,8 +186,8 @@
 
  # Iran & HOS flavour
  # Recruit Regional units
- TFE_regional_units_eran_decision:0 "Recruit Regional Experts from Ērānshahr"
- TFE_regional_units_eran_decision_tooltip:0 "The Ērānian Empire spans far and wide. We would be fools not to exploit the unique skills of each region in order to strengthen our armies."
+ TFE_regional_units_eran_decision:0 "Recruit Regional Experts from Ērānšahr"
+ TFE_regional_units_eran_decision_tooltip:0 "The Ērānšahr spans far and wide. We would be fools not to exploit the unique skills of each region in order to strengthen our armies."
  TFE_regional_units_eran_decision_desc:0 "Hailing from isolated mountain valleys, deserts and jungles, men come to fight under our banner from every corner of the known world. By using their specific talents and knowledge, we can provide our army with a more complete and powerful roster of units."
  
  TFE_regional_units_eran_decision_tooltip_1:0 "You will get [special_troops|E] consisting of the unit of your choice."
@@ -299,7 +299,7 @@
  TFE_offer_bread_to_the_virgin_mary_effect_tooltip_1:0 "You will select between three different aspects of the Virgin Mary, earning you varying amounts of [piety_i|E] [piety|E], [prestige_i|E] [prestige|E], and a powerful [character_modifier|E] for #v 5#! years."
 
  #Byzantine army
- tfe_byzantine_army_decision:0 "Reform the Byzantine Army"
+ tfe_byzantine_army_decision:0 "Reform the Roman Army"
  tfe_byzantine_army_decision_desc:0 "Now that we stand alone we have to question the failures of the Empire and re-evaluate our military doctrines. We should consider a force more flexible and with a heavier focus on cavalry, while also updating the heavy infantry at our army's core."
  tfe_byzantine_army_decision_confirm:0 "Adapting is the way of the Romans"
  tfe_byzantine_army_decision_tooltip:0 "Adopt Byzantine army tactics"
@@ -315,9 +315,9 @@
  tfe_theodoric_rome_unite_name:0 "Unite the two cultures"
  tfe_theodoric_rome_unite_desc:0 "Spend your resources to tell of the many similarities between Romans and those they consider 'barbarians', paving the road for a hybrid identity to form."
  tfe_theodoric_rome_segregate_name:0 "To each their own"
- tfe_theodoric_rome_unite_tooltip:0 "Your culture and the Romans gain #P +40%#! [cultural_acceptance|E] with each other\nEvery $roman$ county in your [realm|E] gains [GetModifier('tfe_hybridised_barbarians_and_romans').GetNameWithTooltip] for #V 50 years#!"
+ tfe_theodoric_rome_unite_tooltip:0 "Your culture and the Romans gain #P +40%#! [cultural_acceptance|E] with each other\nEvery $roman$ county in your [realm|E] gains [GetStaticModifier('tfe_hybridised_barbarians_and_romans').GetNameWithTooltip] for #V 50 years#!"
  tfe_theodoric_rome_segregate_desc:0 "The synergy of [GetPlayer.GetCulture.GetNameNoTooltip] warriors and Roman administrators will be better for the realm. Formalise this arrangement."
- tfe_theodoric_rome_segregate_tooltip:0 "Your [dynasty|E] gains [GetModifier('tfe_segregated_barbarians_and_romans').GetNameWithTooltip] for #V 100 years#!"
+ tfe_theodoric_rome_segregate_tooltip:0 "Your [dynasty|E] gains [GetStaticModifier('tfe_segregated_barbarians_and_romans').GetNameWithTooltip] for #V 100 years#!"
 
  tfe_theodoric_rome_decision_if_hybridise:0 "If you choose to hybridise"
  tfe_theodoric_rome_decision_if_segregate:0 "If you choose to segregate"
@@ -428,7 +428,7 @@
  # Hero Stone
    dharma_raise_hero_stone_decision_name:0 "Raise Hero Stone"
   raise_hero_stone_decision_desc:0 "The Death of an ancestor might be cause to celebrate their life and important events, particularly military ones. Perhaps I could benefit from erecting a Hero Stone..."
-  dharma_hero_stone_decision_tt.effects_list:0 "One of your [counties|E] will receive one of the following [modifiers|E]:\n#indent_newline: $EFFECT_LIST_BULLET$ [GetModifier('dharma_hero_stone_heros_strong').GetNameWithTooltip]"
+  dharma_hero_stone_decision_tt.effects_list:0 "One of your [counties|E] will receive one of the following [modifiers|E]:\n#indent_newline: $EFFECT_LIST_BULLET$ [GetStaticModifier('dharma_hero_stone_heros_strong').GetNameWithTooltip]"
   raise_hero_stone_decision_tooltip:0 "Pay for the carving of a runestone in one of your counties"
   dharma_raise_hero_stone_decision_confirm:0 "But what to carve?"
   dharma_raised_hero_stone_vassals:0 "$EFFECT_LIST_BULLET$All [direct_vassals|E] that also use Hero Stone"
@@ -472,10 +472,47 @@
  TFE_establish_the_rouran_khaganate_tooltip:0 "It is time for a new empire in the steppes"
  TFE_establish_the_rouran_khaganate_desc:0 "Our foes mock our progenitor, Mugulü, saying he was a mere slave who fled from his masters into the steppe. They even laugh at us Rouran, calling us "wriggling worms." Will those fools still laugh when we "worms" form a new empire to enslave them, and subjugate all in our path?"
  TFE_establish_the_rouran_khaganate_confirm:0 "We are no worms, but a proud, mighty people!"
- TFE_establish_the_rouran_khaganate_tooltip.a:0 "You gain a [casus_belli|E] to spread your Khaganate across the steppes\n#warning The [casus_belli|E] depends on your dynasty having the [GetModifier('rouran_khagans').GetName] [modifier|E] and you being an [emperor|E]#!"
+ TFE_establish_the_rouran_khaganate_tooltip.a:0 "You gain a [casus_belli|E] to spread your Khaganate across the steppes\n#warning The [casus_belli|E] depends on your dynasty having the [GetStaticModifier('rouran_khagans').GetName] [modifier|E] and you being an [emperor|E]#!"
 
  #Sicila Vandal Decision
  concession_of_italy:0 "The Concession of Sicilia"
  concession_of_italy_decision_desc:0 "While Sicilia is a land rich with resources, the rulers in Italia eye it hungrily. Rather than holding on to it, we can perhaps sell it for a substantial sum to fund other, more fruitful endeavors..."
  concession_of_italy_decision_tooltip:0 "Sell Sicilia for a lot of [gold|E]"
  concession_of_italy_confirm:0 "Sell Sicilia"
+
+ #Eternal Peace decision
+ break_eternal_peace:0 "Shatter the Eternal Peace"
+ break_eternal_peace_desc:0 "The Perpetual Peace was a treaty signed between Justinian I and Khosrau I that concluded the Iberian War. It stipulated, among other terms, that the two empires would never again go to war against each other. While this may have been beneficial in the past, the time for renewed conquest against our hated foe is now! We will shred this treaty and grind our enemies into the dust!"
+ break_eternal_peace_tooltip:0 "Send the Envoys"
+ break_eternal_peace_confirm:0 "Confirm"
+
+ # Vandalic War decision
+ vandalic_war:0 "Invade the Vandalic Kingdom"
+ vandalic_war_desc:0 "Hildirix had been on cordial terms with our Imperial regime, but his deposition at the hands of his cousin, Gelimer, has proven to be the final straw. \n\n#bold Soon, the Roman standard will fly over the West once more!"
+ vandalic_war_tooltip:0 "Choose a Commander"
+ vandalic_war_custom_tooltip:0 "You will spend 250 Gold and 1000 Prestige"
+ vandalic_war_confirm:0 "Prepare the expeditionary force!"
+
+ # Vandalic War Aftermath decision
+ vandalic_aftermath_vassals:0 "The Fate of the Vandals"
+ vandalic_aftermath_vassals_desc:0 "Historically, the Vandals practiced Arianism and other heterodox faiths. Having successfully pushed back previous Roman invasions, it is clear that they are a threat to the empire's stability, both religiously and militarily. While former vassals of the Vandal kingdom still possess significant land in the former granary of the Empire, we can not be sure of its loyalty. We must seize the opportunity afforded to us by our recent conquest of the Vandals to eradicate them from North Africa as long as they remain heathens and heretics!"
+ vandalic_aftermath_vassals_tooltip:0 "Persecution or Toleration?"
+ vandalic_aftermath_vassals_custom_tooltip:0 "You will spend 750 Prestige"
+ vandalic_aftermath_vassals_warning:0 "#warning Warning -- This will send a conversion event to all Vandal vassals and all direct vassals of the Vicar of Africae. If they refuse to convert, they will start an Independence War. #!"
+ vandalic_aftermath_vassals_confirm:0 "Confirm"
+
+ #Recall Belisarius decision
+ recall_belisarius:0 "Recall Belisarius from Africa"
+ recall_belisarius_desc:0 "Belisarius has exceeded all expectations and seized the Vandalic Kingdom in its entirety. He is a successful commander -- perhaps, some might say, too successful. Rumors amongst some of his disgruntled subordinates have reached your ears claiming that Belisarius, fresh off his successes at the Nika Riots and in Africa, is making preparations to rebel against you. To assauge your doubts, you can offer Belisarius a clear choice -- remain in Africa as a governor, or return to the capital for an Imperial Triumph and reassignment to another post. The time to test his loyalty is now."
+ recall_belisarius_tooltip:0 "Friend or Foe?"
+ recall_belisarius_custom_tooltip:0 "You will spend 500 Prestige and 250 Gold"
+ recall_belisarius_warning:0 "#warning Warning -- This will send an event to Belisarius. If he refuses to return, he will start an Independence War. #!"
+ recall_belisarius_confirm:0 "Confirm"
+
+ #Gothic War decision
+ start_gothic_war:0 "Retake Italia"
+ start_gothic_war_desc:0 "With the failure of Amalasuntha's plans to hand over Italia to its rightful masters -- me -- it falls to us to take by force what is ours by right! We will start with an invasion of Sicily, followed by an incursion into Italia..."
+ start_gothic_war_tooltip:0 "The Heartlands Secure Once More"
+ start_gothic_war_custom_tooltip:0 "You will spend 500 Prestige and 250 Gold"
+ gothic_war_belisarius_warning:0 "#warning Warning -- If Belisarius is still fighting the Vandalic War, he will not be your commander. #!"
+ start_gothic_war_confirm:0 "Confirm"

@@ -94,12 +94,20 @@
  # Anglo-Saxon
  brethwalda:0 "Bretwalda" #High King of All Anglo-Saxon Kingdoms, aka Holder of the Kingdom of Bret(britania)
  # East Germans
- east_german_count:0 "Mahteigs"
- east_german_countess:0 "Mahteigs"
- east_german_duke:0 "Reiks"
- east_german_duchess:0 "Kwens"
- east_german_king:0 "Kindins"
- east_german_queen:0 "Kwens"
+ east_german_count:0 "Grefja"
+ east_german_countess:0 "Grefjo"
+ east_german_duke:0 "Harjatuga"
+ east_german_duchess:0 "Harjatuginja"
+ east_german_king:0 "Thiudans"
+ east_german_queen:0 "Thiudano"
+ east_german_count_tribal:0 "Faths"
+ east_german_countess_tribal:0 "Fadini"
+ east_german_emperor:0 "Kaisar"
+ east_german_empress:0 "Kaisarini"
+ east_german_prince:0 "Kunings"
+ east_german_prince_empire:0 "Kunings"
+ east_german_princess:0 "Kuningini"
+ east_german_princess_empire:0 "Kuningini"
 
  # Han
  han_male_count:0 "Marquis"

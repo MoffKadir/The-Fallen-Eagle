@@ -24,3 +24,12 @@
  tfe_title_event.0008.option.a:0 "I'll leave it to the will of the council"
  tfe_title_event.0008.option.a.tooltip:0 "The office will be given to a vassal in the dejure region of the title. it will be given to the best vassal in terms of martial skill."
  tfe_title_event.0008.option.b:0 "I'll pick the person myself"
+
+ tfe_title_event.0010.t:0 "The Empire of the West"
+ tfe_title_event.0010.desc:0 "For too long, the mantle of Roman Emperor in the West has gone unclaimed. Today, as I face [founder_hof.GetTitledFirstName] in the grandest [founder.GetFaith.HouseOfWorship] in all of [ceremony_locale.GetNameNoTooltip], surrounded by my vassals and clergy, that changes.\n\nWe exchange prayers and benefactions by rote, asking [founder.GetFaith.HighGodName] to bless me with the strength and mercy to rule my empire according to [founder.GetFaith.HighGodHerHis|U] will. Solemnly, [founder_hof.GetTitledFirstNameNoTooltip] gifts me with crown and sword, and charges me with the care of all Christendom.\n\nSilence, followed by a surge of soaring hymns, drowned out only by the furious cheers of my nobles.\n\nAt last. I am the Holy Roman Emperor."
+ tfe_title_event.0010.a:0 "From Augustus, to [founder.GetFirstNameNoTooltip]!"
+ tfe_title_event.0011.desc:0 "The Roman Empire in the West has lain dormant for some time, leaving the [founder.GetFaith.GetAdjectiveNoTooltip] answer to the question of imperial dignity uncertain at best.\n\nUncertain, that is, until now, as [founder.GetTitledFirstName] has, with the consent of [founder_hof.GetTitledFirstName], established the Holy Roman Empire in a lavish ceremony hosted by the grandest of [founder.GetFaith.HouseOfWorshipPlural] in [ceremony_locale.GetNameNoTooltip].\n\nAcross the world, [founder.GetFaith.GetAdjectiveNoTooltip] [founder.GetFaith.PriestNeuterPlural] rejoice, confident that Rome at last has a true and godly heir once more!"
+ tfe_title_event.0011.a:0 "Bah, a pretentious conceit of an empire."
+ tfe_title_event.0011.b:0 "Barbarous Germans, #emphasis I#! am the Roman Emperor!"
+ tfe_title_event.0011.c:0 "Let us hope the empire proves peaceful."
+ tfe_title_event.0011.d:0 "A glorious spectacle!"

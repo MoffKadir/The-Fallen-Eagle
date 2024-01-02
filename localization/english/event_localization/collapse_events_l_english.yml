@@ -69,6 +69,11 @@
  western_roman.0029.e:0 "This bungler has wasted enough of my time."
  nepos_reward_tooltip:0 "Nepos may reciprocate my aid if he wins his war."
  nepos_reward_tooltip_unlikely:0 "Nepos is unlikely to reward me for my empty words."
+ nepos_big_help.tt:0 "A grand host arrives!"
+ nepos_medium_help.tt:0 "A respectable detachment arrives"
+ nepos_small_help.tt:0 "A token force arrives"
+ nepos_no_help.tt:0 "The emperor sends thoughts and prayers"
+ nepos_booted.tt:0 "You were humiliated and ejected from court!"
 
  western_roman.0030.t:0 "Nepos Victorious"
  western_roman.0030.desc:0 "Italia has been retaken, with the cities of Roma, Mediolanum, and Ravenna now free from foreign occupation and the familiar Roman banner proudly snapping with the wind over the buildings of the Palatine Hill. \n\nWith this victory comes a reevaluation of my relationship with the Eastern Roman Emperor. How closely should I wed my realm to Constantinople?"
@@ -127,3 +132,58 @@
  collapse.0010.desc:0 "Major competence failures are spelling out the obvious. Our realm isn't going to last for much longer. Our capital is no longer a sleepless metropolis, but a silent shriveling city. There have been quiet talks among the people about secession but today my messenger has brought to me some terrible news. Our vicar officers have seceded!\n\nStating incompetence as their reason, many of our once secure lands have left the fold of the empire and are now free to do what they please."
  collapse.0010.a:0 "Madness! All of This!"
  collapse.0010.a.tooltip:0 "All vicars who were outside Italy and Pannonia (and less than 80 opinion) have became independent due to 2 failing competence bars"
+
+ #The Vandalic War
+ western_roman.0038.t:0 "Crisis in the Vandalic Kingdom"
+ western_roman.0038.desc:0 "Unlike previous rulers of the Vandals, Hildirix had adopted a distinctly pro-Roman policy. Coupled with a recent defeat against the Mauri, this allowed his political opponents to portray him as soft and unfit to rule, leading to his deposition in a palace coup by his cousin, Gelimer. In the wake of an Eternal Peace with the Sassanids and the crushing of the Nika Riots, Hildirix's deposal presents an opportunity for Iustinianus to rebound from the turmoil that had devastated Constantinople and elevate the Roman Empire to new heights. \n\n#bold Will you follow in his footsteps and reconquer the west?#! \n\n#Italic A decision to start the Vandalic War is now available as long as Hildirix lives or if another claimant to the Vandalic throne is in your court by 550 AD.#!"
+ western_roman.0038.a:0 "I will restore the Empire to its former glory, or die trying."
+ western_roman.0038.b:0 "Only time will tell..."
+
+ western_roman.0039.t:0 "Choosing an Expedition Commander"
+ western_roman.0039.desc:0 "Now that I have decided to invade the Vandalic Kingdom, I must appoint a suitable commander to sail to the North African coast and launch a daring surprise attack on Carthage while the Vandals remain unaware of my plans. \n\nTwo candidates have been proposed to lead the invasion. \n\n#bold Who shall I choose to set sail at once?"
+ western_roman.0039.a:0 "[commander_1.GetName] is my pick."
+ western_roman.0039.b:0 "[commander_2.GetName] is capable."
+
+ western_roman.0040.t:0 "The Romans Invade!"
+ western_roman.0040.desc:0 "Disastrous news! The Romans, using the deposition of Hildirix as a pretext, have invaded us! While obviously we will fight back regardless, we must also make a decision in regards to the fate of Hildirix himself. Evidently nothing more than a pawn of the East at this point, he has clearly outlived his usefulness..."
+ western_roman.0040.a:0 "Kill the traitor"
+ western_roman.0040.b:0 "Leave him be for now..."
+
+ western_roman.0041.t:0 "Victory in the Vandalic War"
+ western_roman.0041.desc:0 "The war is over, and the Kingdom of the Vandals has fallen. The lands of North Africa have been brought beneath Roman control, and the imperial standard flies over the city of Carthage once more. \n\nHowever, questions about the administration of North Africa persist within the court in Constantinople, with several contingencies in conflict with one another. \n\n#bold What should be done with the region and how should it be governed?"
+ western_roman.0041.a:0 "Leave the local commander in place"
+ western_roman.0041.b:0 "Assume direct control"
+ western_roman.0041.c:0 "Let Hildirix govern"
+ western_roman.0041.d:0 "Release Hildirix as a tributary"
+
+ western_roman.0042.t:0 "Duty Calls"
+ western_roman.0042.desc:0 "I have just received notice from the Emperor commanding me to lead an expedition to retake North Africa from the perfidious Vandals. While a great honor, it also comes with heavy responsibilities. The war will commence immediately."
+ western_roman.0042.a:0 "The Vandals will fall!"
+
+ western_roman.0043.t:0 "A Missive from the Emperor"
+ western_roman.0043.desc:0 "North Africa has recently fallen back into the hands of the Romans, and with them come disapproval of traditional heterodox faiths such as Arianism. The Emperor has sent word that all heathens and heretics must convert forthwith. What should I do?"
+ western_roman.0043.a:0 "Freedom or death!"
+ western_roman.0043.b:0 "When in Rome..."
+
+ western_roman.0044.t:0 "Justinian's Doubts"
+ western_roman.0044.desc:0 "After conquering the Vandals in the name of the Emperor, you have been busy reorganizing the province and securing the loyalty of local power brokers. In the midst of these affairs comes a most unwelcome surprise -- a summons from Justinian. It purports to offer a choice between remaining governor of Africae or returning to the capital for a triumph, but the subtext is clear. If I remain in Africae, I will be viewed as an upstart and rebel. Two choices now lie before me..."
+ western_roman.0044.a:0 "I will repay his ingratitude in kind"
+ western_roman.0044.b:0 "I will remain loyal"
+ western_roman.0044.tt:0 "Belisarius returns; my concerns were unfounded"
+
+ western_roman.0045.t:0 "Nepos Victorious"
+ western_roman.0045.desc:0 "The most welcome of news has arrived from Italy -- Nepos has secured control over the Roman heartlands once more! Given your not insubstantial support of him during these endeavors, you could demand his direct fealty -- or you could choose a different path..."
+ western_roman.0045.a:0 "Insist on his submission as a vassal"
+ western_roman.0045.b:0 "Invest him as rightful co-emperor"
+ western_roman.0045.c:0 "Leave him to his own devices"
+
+ western_roman.0062.t:0 "Victory in the Gothic War"
+ western_roman.0062.desc:0 "The war is over, and the Kingdom of the Ostrogoths has fallen. Italia has been returned to the Romans, and the imperial standard flies over the city of Roma once more. \n\nHowever, questions about the administration of Italia persist within the court in Constantinople, with several contingencies in conflict with one another. \n\n#bold What should be done with the region and how should it be governed?"
+ western_roman.0062.a:0 "Assign a suitable candidate to administer the regions"
+ western_roman.0062.b:0 "Assume direct control"
+ western_roman.0062.c:0 "Restore the previous dioceses and assign new vicars"
+ western_roman.0062.d:0 "Restore the previous dioceses and assume direct control"
+
+ western_roman.0063.t:0 "Sicilia Falls"
+ western_roman.0063.desc:0 "I have just received notice from my commander that the island Sicilia has fallen to our forces. Just across the Strait of Messina lies the rest of the Italian peninsula, which for too long had been detatched from the administration of the Roman Empire. \n\nWith Sicilia back under our jurisdiction, it is now time to broaden our war goal to Italia Proper. The war for the former heartland of the empire will commence immediately!"
+ western_roman.0063.a:0 "The Ostrogoths will fall!"

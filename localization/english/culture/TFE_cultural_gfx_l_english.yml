@@ -6,9 +6,9 @@
  akan_building_gfx:0 "Akan"
  baltic_building_gfx:0 "Balto-Finnic"
  brythonic_building_gfx:0 "Brythonic"
- byzantine_building_gfx:0 "Roman"
+ byzantine_building_gfx:0 "Roman" # Greco-Roman
  chinese_building_gfx:0 "East Asian"
- egyptian_building_gfx:0 "Nubian"
+ egyptian_building_gfx:0 "Nubian" # Archaic Egyptian
  ethiopian_building_gfx:0 "Ethiopian"
  germanic_building_gfx:0 "Germanic"
  goidelic_building_gfx:0 "Goidelic"
@@ -18,6 +18,6 @@
  slavic_building_gfx:0 "Slavic"
  sea_building_gfx:0 "Southeast Asian"
  tibetan_building_gfx:0 "Tibetan"
- 
+ turkic_building_gfx:0 "Turkic" # Sogdian, Samarkand
  
  

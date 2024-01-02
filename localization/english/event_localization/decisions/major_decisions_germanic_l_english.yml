@@ -10,7 +10,7 @@
  unite_franks_decision_desc:0 "Our people have been divided into warring tribes for many decades. With the defeat of all other pretenders and foreign invaders I can finally crown myself as the one and only ruler of all the Franks."
  unite_franks_decision_tooltip:0 "The Franks will be united under one banner"
  unite_franks_decision_confirm:0 "The time has come!"
- hold_frankish_land:0 "Hold all Salian and Ripuarian culture provinces"
+ hold_frankish_land:0 "Hold all Salian and Ripuarian culture provinces while being independent"
  unite_the_franks_effect_tooltip_1:0 "The lands under the Salian and Ripuarian Franks will be organized into the Kingdom of Austrasia"
  unite_salian_culture_counties_custom:0 "Every $salian$ [county|e] around the River Rhine"
  unite_ripurian_culture_counties_custom:0 "Every $ripurian$ [county|e] around the River Rhine"
@@ -133,3 +133,16 @@
  establish_true_suebian_kingdom_confirm:0 "It is time"
  establish_true_suebian_kingdom_tooltip.a:0 "Every [duchy|E] in $k_suebi$ and $k_spanish_galicia$ is transferred to The $k_suebians_of_gallicia$"
  establish_true_suebian_kingdom_tooltip.b:0 "Every [county|E] and ruler with the Suevi [culture|E] in $k_suebians_of_gallicia$ become Western Suebic"
+
+
+ reunite_franks_decision:0 "Reunite The Franks"
+ reunite_franks_decision_confirm:0 "Under Our Banner"
+ reunite_franks_decision_trigger_01:0 "Control all [THIS.Char.GetCulture.GetName] [counties|E]"
+
+
+ form_the_hre_TFE:0 "Form The Empire of The West"
+ form_the_hre_TFE_desc:0 "For too long, the mantle of Roman Emperor in the West has gone unclaimed. Now, I find it my destiny to establish an Empire in the west to protect Christendom and it's faithful."
+ form_the_hre_TFE_tooltip:0 "For too long, the mantle of Roman Emperor in the West has gone unclaimed. Now, I find it my destiny to establish an Empire."
+ form_the_hre_TFE_trigger_01:0 "The Eastern Roman Emperor controls 30% or less of the [GetGeographicalRegion('form_the_hre_TFE_ere_region').GetName]"
+ form_the_hre_TFE_trigger_02:0 "You currently have the strongest military between the independent rulers in [GetGeographicalRegion('world_europe_west').GetName]"
+ form_the_hre_TFE_confirm:0 "For Christendom"

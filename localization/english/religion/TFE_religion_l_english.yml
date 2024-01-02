@@ -33,6 +33,10 @@
  #holy_site_multan_effect_name:0 "From [holy_site|E] #weak ($holy_site_multan_name$)#!"
  holy_site_konark_name:0 "Konark"
  holy_site_konark_effect_name:0 "From [holy_site|E] #weak ($holy_site_konark_name$)#!"
+ holy_site_kordofan_name:0 "Kordofan"
+ holy_site_kordofan_effect_name:0 "From [holy_site|E] #weak ($holy_site_kordofan_name$)#!"
+ holy_site_ayn_farrah_name:0 "Ayn Farrah"
+ holy_site_ayn_farrah_effect_name:0 "From [holy_site|E] #weak ($holy_site_ayn_farrah_name$)#!"
  
  doctrine_imperial_head_name:0 "Imperial"
  doctrine_imperial_head_desc:0 "There is divinity in the power of the Emperor. The supreme leader of this world should also lead the faithful, for they are tied to the gods and the spiritual world like no other."

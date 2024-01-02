@@ -27,6 +27,15 @@
  legions:0 "Legionaries"
  legions_flavor:0 "#F The Legionaries are professional army regiments in the Roman Empire, composed of recruited Roman citizens.#!"
 
+ prae_legions:0 "Legionaries"
+ prae_legions_flavor:0 "#F The Legionaries are professional army regiments in the Roman Empire, composed of recruited Roman citizens.#!"
+
+ legion_cataphract:0 "Cataphracts"
+ legion_cataphract_flavor:0 "#F Armored in coats of iron, Cataphracts can break almost any defensive line with their charge.#!"
+
+ prae_cataphract:0 "Cataphracts"
+ prae_cataphract_flavor:0 "#F Armored in coats of iron, Cataphracts can break almost any defensive line with their charge.#!"
+
  # Iranian units
  chakar:0 "Chakar"
  chakar_flavor:0 "#F The valiant, valorous personal retainers and guards of Eastern Iranian elites, particularly the patricians and nobles of cities along the Silk Road.#!"

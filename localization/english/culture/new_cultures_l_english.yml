@@ -1,4 +1,7 @@
 ﻿l_english:
+ heritage_siberian_name:0 "Siberian"
+ heritage_siberian_collective_noun:0 "Siberians"
+ evenk:0 "Evenk"
  #Endonyms
  elamite:0 "Elamite"
  elamite_prefix:0 "Elamo"
@@ -637,6 +640,10 @@
  sanhaja:0 "Sanhaja"
  sanhaja_prefix:0 "Sanhaja"
  sanhaja_collective_noun:0 "Sanhajas"
+ gurjara:0 "Gurjara"
+ gurjara_name:0 "Gurjara"
+ gurjara_prefix:0 "Gurjara"
+ gurjara_collective_noun:0 "Gurjaras"
 
  #Culture groups
  hellenistic_group:0 "Hellenistic"
@@ -719,9 +726,6 @@
  kamarupi_name:0 "Kamarupi"
  kamarupi_prefix:0 "Kamarupi"
  kamarupi_collective_noun:0 "Kamarupis"
- gurjara_name:0 "Gurjara"
- gurjara_prefix:0 "Gurjara"
- gurjara_collective_noun:0 "Gurjaras"
  malvi_proper_name:0 "Malvi"
  malvi_proper_prefix:0 "Malvi"
  malvi_proper_collective_noun:0 "Malvis"
@@ -851,9 +855,9 @@
  zo_collective_noun:0 "Zo"
  zo_prefix:0 "Zo"
 
- nuristani:0 "Peristani"
- nuristani_prefix:0 "Peristani"
- nuristani_collective_noun:0 "Peristanis"
+ nuristani:0 "Darada"
+ nuristani_prefix:0 "Darada"
+ nuristani_collective_noun:0 "Daradas"
 
  burusho:0 "Burusho"
  burusho_prefix:0 "Burusho"
@@ -866,6 +870,47 @@
 
  
  heritage_semitic_name:0 "Semitic"
+
+
+ noba:0 "Nobataean"
+ noba_collective_noun:0 "Nobataeans"
+ noba_prefix:0 "Nobataean"
+
+ meroitic:0 "Meroitic"
+ meroitic_collective_noun:0 "Meroites"
+ meroitic_prefix:0 "Meroite"
+
+ old_ferghanan:0 "Chust"
+ old_ferghanan_collective_noun:0 "Chust"
+ old_ferghanan_prefix:0 "Chust"
+
+ ferghanan:0 "Ferghanan"
+ ferghanan_collective_noun:0 "Ferghanans"
+ ferghanan_prefix:0 "Ferghanano"
+
+ kangar:0 "Kangar"
+ kangar_collective_noun:0 "Kangars"
+ kangar_prefix:0 "Kangar"
+
+ kurykan:0 "Kurykan"
+ kurykan_collective_noun:0 "Kurykans"
+ kurykan_prefix:0 "Kurykan"
+
+ dinka:0 "Dinka"
+ dinka_collective_noun:0 "Dinkas"
+ dinka_prefix:0 "Dinka"
+
+ nuba:0 "Nuba"
+ nuba_collective_noun:0 "Nuba"
+ nuba_prefix:0 "Nuba"
+
+ language_dinka_name:0 "Nilotic"
+ language_kordofanian_name:0 "Kordofanian"
+
+ harla:0 "Harla"
+ harla_collective_noun:0 "Harlas"
+ harla_prefix:0 "Harla"
+
  #History loc
  hispano_roman_history_loc:0 "Formed from [CULTURE.GetName] and several cultures of $celtiberian_group$ [heritage|E] in the year 220 BC"
  gallo_roman_history_loc:0 "Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year 58 BC"
@@ -901,3 +946,4 @@
  yaudheya_history_loc:0 "Formed from a mass migration out of the upper Indus basin in the 2nd century BC"
  pactyan_history_loc:0 "Formed from rebellious tribes on the mountain frontiers of Iran and India in the 4th century AD."
  tujue_history_loc:0 "Formed from Turkic tribes intermixing with [CULTURE.GetCollectiveNoun] in Northern China."
+ ferghanan_history_loc:0 "Formed from [CULTURE.GetCollectiveNoun] and [TARGET_CULTURE.GetName] tribes in Ferghana in the first millennium BC."

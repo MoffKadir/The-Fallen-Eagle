@@ -30,3 +30,14 @@
  calling_nomadic_empire_desc:0 "Our enemies border a nomadic [empire|E] and thus we posses an oppurtunity to call the empire to aid us against our enemies."
  at_war_with_bordering_non_nomadic_empire:0 "At war with a realm bordering the nomadic [empire|E]."
  NOT_at_war_with_bordering_non_nomadic_empire:0 "Not at war with a realm bordering the nomadic [empire|E]."
+
+ TFE_negotiate_alliance_interaction:0 "Negotiate Alliance (Imperial)"
+ TFE_negotiate_alliance_interaction_extra_icon:0 "$hook_extra_icon$"
+ TFE_negotiate_alliance_interaction_desc:0 "Offer an alliance via Imperial Policy"
+
+ IMPERIAL_MARRIAGE:0 "You have an Imperial Policy encouraging marriages"
+
+ relocate_legion_domain_interaction:0 "Relocate Legion Within Domain"
+ recently_relocated_legion_tt:0 "This legion was relocated already within the past 5 years!"
+ capital_county_legion_relocate_tt:0 "You can't relocate a legion to your capital!"
+ 

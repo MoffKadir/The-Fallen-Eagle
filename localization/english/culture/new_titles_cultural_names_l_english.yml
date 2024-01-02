@@ -39,9 +39,9 @@
  cn_gallia_cisalpina_adj:0 "Gallic Cisalpine"
  #cn_mediolanum:0 "Mediolanum"
  #cn_mediolanum_adj:0 "Mediolanean"
- cn_italia_suburbicariae:0 "Italia Suburbicariae"
+ cn_italia_suburbicariae:0 "Italia Suburbicaria"
  cn_italia_suburbicariae_adj:0 "Roman"
- cn_italia_annonariae:0 "Italia Annonariae"
+ cn_italia_annonariae:0 "Italia Annonaria"
  cn_italia_annonariae_adj:0 "Roman"
  
  cn_neapolis:0 "Neapolis"
@@ -63,7 +63,7 @@
  cn_tridentum:0 "Tridentum"
  cn_tridentum_adj:0 "Tridentian"
  # Gallia
- cn_seven_provinces:0 "Septum Provinciae"
+ cn_seven_provinces:0 "Septem Provinciae"
  cn_seven_provinces_adj:0 "Romano-Gallic"
  cn_gallia:0 "Gallia"
  cn_gallia_adj:0 "Romano-Gallic"
@@ -120,13 +120,10 @@
  cn_manavia:0 "Manavia"
  cn_cambria:0 "Cambria"
  cn_cambria_adj:0 "Cambrian"
- #Defined elsewhere
- #cn_britannia:0 "Britannia"
- #cn_britannia_adj:0 "Britannian"
  cn_britannia_secunda:0 "Britannia Secunda"
  cn_britannia_prima:0 "Britannia Prima"
- cn_maxima_caeserensis:0 "Maxima Caeserensis"
- cn_flavia_caeserensis:0 "Flavia Caeserensis"
+ cn_maxima_caeserensis:0 "Maxima Caesariensis"
+ cn_flavia_caeserensis:0 "Flavia Caesariensis"
  cn_valentia:0 "Valentia"
  cn_valentia_adj:0 "Valentian"
  cn_ebrauc:0 "Ebrauc"
@@ -501,6 +498,8 @@
  cn_bononia_adj:0 "Bononian"
  cn_britannia:0 "Britannia"
  cn_britannia_adj:0 "Britannian"
+ cn_england:0 "England"
+ cn_england_adj:0 "English"
  cn_caletum:0 "Caletum"
  cn_caletum_adj:0 "Caletan"
  cn_iprensis:0 "Iprensis"
@@ -555,6 +554,8 @@
  #Africa
  cn_vandalica:0 "Vandalica"
  cn_vandalica_adj:0 "Vandalic"
+ cn_kush:0 "Kush"
+ cn_kush_adj:0 "Kushite"
  
  #Asia
  cn_asia:0 "Asia"

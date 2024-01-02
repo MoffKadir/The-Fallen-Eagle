@@ -67,15 +67,6 @@
  #building_hagia_sophia_01_desc:0 "$building_type_hagia_sophia_01_desc$"
  #building_hagia_sophia_02:0 "Hagia Sophia Mosque"
  #building_hagia_sophia_02_desc:0 "The Hagia Sophia is a true marvel of engineering, with a massive dome and four impressive minarets standing out as the most impressive features. Started in AD 537 by Emperor Justinian I, it has since been turned into an awe-inspiring Mosque.\n\nAnd so it will remain for all eternity, for surely nothing could ever topple the might of Rum."
- 
- building_type_jousting_lists_01:0 "Racing Grounds"
- building_type_jousting_lists_01_desc:0 "By having dedicated grounds for chariot racing, more riders and athletes are encouraged to train and join the banners."
- building_jousting_lists_01:0 "Chariot Stadium"
- building_jousting_lists_01_desc:0 "A clearing is kept open year-round to facilitate the training of riders and athletes."
- building_jousting_lists_02:0 "Hippodrome"
- building_jousting_lists_02_desc:0 "With racing lists and stands for the public, these tournament grounds attract a huge amount of contestants."
- building_jousting_lists_03:0 "Imperial Hippodrome"
- building_jousting_lists_03_desc:0 "Upgraded with seats for imperial guests and a larger fairground, the Imperial Hippodrome is truly impressive."
 
  building_type_dolaucothi_gold_mines_01:0 "Dolaucothi Gold Mines"
  building_type_dolaucothi_gold_mines_01_desc:0 "The only Roman gold mine of Britain, the Dolaucothi gold mines are a prized and important location in Roman Britannia. As long as Roman forces are on the island, the mines will supply the province with gold."
@@ -109,11 +100,11 @@
    building_edessa_cathedral_02_desc:0 "Now mostly forgotten, the Cathedral of Edessa was built by Justinian I (perhaps starting in 524, one year after the flood) and was seldom said to rival Constantinopolis' Haghia Sophia. "
    building_edessa_cathedral_03_desc:0 "Now mostly forgotten, the Cathedral of Edessa was built by Justinian I (perhaps starting in 524, one year after the flood) and was seldom said to rival Constantinopolis' Haghia Sophia. "
  
-  building_marib_dam:0 "The Ma'rib Dam"
-  building_marib_dam_desc:0 "The Mar'ib Dam was a feat of classical engineering for the Kingdoms of Saba and Himyar. Said to be the oldest known hydraulic dam, Mar'ib has been restored on several occassions during its lifetime."
+   building_type_marib_dam:0 "Ma'rib Dam"
+   building_type_marib_dam_desc:0 "The Mar'ib Dam was a feat of classical engineering for the Kingdoms of Saba and Himyar. Said to be the oldest known hydraulic dam, Mar'ib has been restored on several occassions during its lifetime."
+   building_marib_dam:0 "Ma'rib Dam"
+   building_marib_dam_desc:0 "The Mar'ib Dam was a feat of classical engineering for the Kingdoms of Saba and Himyar. Said to be the oldest known hydraulic dam, Mar'ib has been restored on several occassions during its lifetime."
 
-  building_type_marib_dam:0 "The Ma'rib Dam"
-  building_type_marib_dam_desc:0 "The Mar'ib Dam was a feat of classical engineering for the Kingdoms of Saba and Himyar. Said to be the oldest known hydraulic dam, Mar'ib has been restored on several occassions during its lifetime."
 
   building_great_gurgan_wall:0 "The Great Gorgan Wall"
   building_great_gurgan_wall_desc:0 "Larger than Hadrian's Wall and the Antonine Wall taken together, The Gorgan Wall keeps away the nomadic tribes of the north and any other foe that dares to attack Ērān."
@@ -365,3 +356,13 @@
  building_kuektanar_iron_mines_03_desc:0 "The Kuektanar Iron Mines have expanded significantly from their humble beginnings, and are undoubtedly the largest source of Iron in the region. The rituals and sacrifices conducted in these mines have also become grander and more numerous."
  building_kuektanar_iron_mines_04:0 "Kuektanar Mining Complex"
  building_kuektanar_iron_mines_04_desc:0 "The Kuektanar Iron Mines are among the largest Mining works in the world, which has significantly expanded both their economic output and their ritual importance in the cultures that consider them sacred."
+
+ building_type_beirut_university:0 "Law School of Berytus"
+ building_type_beirut_university_desc:0 "$building_type_generic_university_desc$\n\nThe Law School of Berytus was the preeminent center of jurisprudence uder the Romans; such was its prominence that it was known as the 'Mother of Laws'."
+ building_beirut_university:0 "$building_type_beirut_university$"
+ building_beirut_university_desc:0 "$building_type_beirut_university_desc$"
+
+ building_type_adur_gushnasp:0 "Adur Gushnasp"
+ building_type_adur_gushnasp_desc:0 "Adur Gushnasp was one of the Three Great Fire Temples of Zoroastrianism, with its fire held to be directly derived from Ahura Mazda. Traditionally associated with the warrior class, it became an important pilgrimage site for rulers of note. "
+ building_adur_gushnasp:0 "$building_type_adur_gushnasp$"
+ building_adur_gushnasp_desc:0 "$building_type_adur_gushnasp_desc$"

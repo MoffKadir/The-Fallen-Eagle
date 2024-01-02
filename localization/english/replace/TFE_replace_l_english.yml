@@ -8,8 +8,8 @@
  tradition_roman_legacy_name:0 "Roman Legions"
  tradition_roman_legacy_desc:0 "The Roman Empire was built and kept secure by the strength of its legions. Even in these times of crisis, the idea and ideal of a strong and powerful standing army resonates in the hearts of this culture, and powerful rulers are known to delegate parts of their realm to commanders, feeding and housing thousands of soldiers ready to defend their Empire."
  tradition_roman_legacy_desc:0 "Even in these times of crisis, the idea and ideal of a strong and powerful standing army resonates in the hearts of this culture, and powerful rulers are known to delegate parts of their realm to commanders, feeding and housing thousands of soldiers ready to defend their Empire."
- language_iranian_name:0 "West Eranian"
- language_scythian_name:0 "East Eranian"
+ language_iranian_name:0 "West Ērānian"
+ language_scythian_name:0 "East Ērānian"
 
  #heritage_arabic_name:0 "Semitic"
  #heritage_arabic_collective_noun:0 "Semites"
@@ -44,8 +44,8 @@
  russian:0 "Rus"
  russian_prefix:0 "Ruso"
  russian_collective_noun:0 "Rus"
- heritage_iranian_name:0 "Eranian"
- heritage_iranian_collective_noun:0 "Eranians"
+ heritage_iranian_name:0 "Ērānian"
+ heritage_iranian_collective_noun:0 "Ērānians"
  bedouin:0 "Arabic"
  bedouin_prefix:0 "Arab"
  bedouin_collective_noun:0 "Arabs"
@@ -183,7 +183,7 @@
  hinduism_religion_desc:0 "Brahmanism is a tradition that developed from the Vedic religion. It includes a multitude of gods and religious practices. Shared is the belief in samsara, the endless cycle of the soul's continuous rebirth into the world, and moksha, the freeing from that cycle."
  
  # Moved from core_l_english.yml
- LOADSCREEN_INITIALIZING_GAME:0 "Raiding the Northern Wei . . ."
+ LOADSCREEN_INITIALIZING_GAME:0 "Reconquering the West . . ."
 
  # Hindu faiths
  vaishnavism:0 "Pauranik Vaishnava"
@@ -289,3 +289,16 @@
  zunism_religion_adherent_plural:1 "Zunists"
  zunism_religion_desc:0 "Zunists revere the sun deity Zun, who was originally a Hephthalite or Hunnic deity and whose worship is now syncretized with local Indo-Iranian traditions."
 
+
+ strict_taxation_tax_collector: "Charity"
+ strict_taxation_tax_collector_flavor_desc: "Charity is a luxury tax, usually enforced upon the wealthy as a means to provide additional income for the state and to help those in need."
+
+ building_type_alamut_castle_01_desc: "This eagle's nest, perched atop a lofty crag, was built to serve as a fortress redoubt. With its awe-inspiring setting and strong ramparts, it is near-impregnable by all accounts, and could prove an ideal stronghold for any warlike faction or sect that would thrive in such an isolated location." 
+ building_type_ark_of_bukhara_01_desc: "It is said that Prince Siyavusha built this massive fortress when the world was young. Three thousand years later, it has been restored by the rulers of this region, and it has been in use ever since. Travelers come from near and far to admire the construction, with seven great pillars mirroring the seven stars of the Big Dipper, but it is a fortification first and foremost, intimidating in its splendor."
+ building_type_tomb_of_cyrus_01: "Tomb of Cyrus the Great"
+ building_type_tomb_of_cyrus_01_desc: "This ancient tomb of white limestone is said to be the resting place of Cyrus the Great, the founder of one of the great Persian Empires."
+
+ language_sabaki_name: "Northeast Bantu"
+ welayta:0 "Omotic"
+ welayta_prefix:0 "Omoto"
+ welayta_collective_noun:0 "Omotics"

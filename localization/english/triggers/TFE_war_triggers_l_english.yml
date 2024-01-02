@@ -13,6 +13,8 @@
  NOT_gupta_nobility_scutage_validity:0 "Both parents should be noble"
  isnt_under_an_imperial_empire:0 "You can't declare war on another imperial province"
  NOT_isnt_under_an_imperial_empire:0 "You can't declare war on another imperial province"
+ has_eternal_peace_desc:0 "You can't declare war while the Treaty of Eternal Peace is active"
+ NOT_has_eternal_peace_desc:0 "You can't declare war while the Treaty of Eternal Peace is active"
  mil_restore_effect:0 "Your yearly competence gain is at least 200"
  NOT_mil_restore_effect:0 "Your yearly competence gain is not at least 200"
  civic_restore_effect:0 "Your yearly competence gain is at least 200"

@@ -42,7 +42,7 @@
  apotheosise_senate_decision_confirm:0 "They shall not be forgotten"
  apotheosise_senate_valid_tooltip_1:0 "You can only do this decision #N once#! per lifetime!"
  apotheosise_senate_valid_tooltip_2:0 "You can only apotheosise people of your [faith|E]"
- #apotheosise_senate_effect_tooltip_1:0 "If the deified emperor is of your [dynasty|E], you will gain [GetModifier('apotheosised_relative').GetNameWithTooltip] while your [dynasty|E] gains [GetModifier('apotheosised_dynasty').GetNameWithTooltip]; if they are not related to you, then your [realm_capital|E] will gain [GetModifier('apotheosised_emperor_tomb').GetNameWithTooltip] instead"
+ #apotheosise_senate_effect_tooltip_1:0 "If the deified emperor is of your [dynasty|E], you will gain [GetStaticModifier('apotheosised_relative').GetNameWithTooltip] while your [dynasty|E] gains [GetStaticModifier('apotheosised_dynasty').GetNameWithTooltip]; if they are not related to you, then your [realm_capital|E] will gain [GetStaticModifier('apotheosised_emperor_tomb').GetNameWithTooltip] instead"
  apotheosise_senate_effect_tooltip_1:0 "If the deified emperor is of your [dynasty|E], you and your [dynasty|E] will gain #P positive#! [modifiers|E]; if they are not related to you, then your [realm_capital|E] will gain a #P positive#! [county_modifier|E] instead"
  apotheosise_senate_effect_tooltip_2:0 "Depending on the greatness of this emperor, you might have to lose 1-2 levels of [prestige_level|E]"
  apotheosise_senate_decision_tooltip:0 "We should celebrate and deify our past emperors with the help of the Senate!"

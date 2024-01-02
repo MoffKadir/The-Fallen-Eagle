@@ -24,3 +24,18 @@
 
  gana_sangha_elective_electors:0 "Direct Vassals, Claimants, and Related Knights"
  gana_sangha_elective_electors_tooltip:0 "In order to be a valid elector of the Gana Sangha, a character must be a direct [de_jure|E] vassal, a claimant, or one of the army commanders related to the ruler."
+ 
+ culture_parameter_gothic_elective_enabled:0 "Can enact the #high $gothic_elective_succession_law$#! [succession_law|E]"
+
+ gothic_elective_succession_law:1 "Gothic Elective"
+ gothic_elective_succession_law_subname:0 "Gothic"
+ gothic_elective_succession_law_effects:2 "The [ruler|E] and all same heritage [vassals|E] (except Barons) can nominate a [title_heir|E] amongst the ruler's [extended_family|E], any available [claimants|E], and themselves. [voting_power|E] in this [succession_law|E] is influenced by the [elector|E]'s rank."
+
+ gothic_elective_candidates:0 "Same Heritage Vassals, Claimants, and Extended Family"
+ gothic_elective_candidates_tooltip:0 "In order to be a valid candidate, a character must be a same heritage direct vassal, a claimant, or part of the ruler's extended family."
+
+ gothic_elective_electors:0 "Same Heritage Vassals"
+ gothic_elective_electors_tooltip:0 "In order to be a valid elector, a character must be a same heritage direct vassal."
+
+ tooltip_gothic_elector_vote_candidate_ruling_house:0 "[candidate.GetShortUIName|U] is of the ruling dynasty: $VALUE|=+0$"
+ 

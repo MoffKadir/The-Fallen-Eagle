@@ -14,7 +14,7 @@
  reduce_develop_county_penalty_04:0 "Counties now reach the maximum [existing_development|E] penalty at 90 [development|E]"
  TFE_qanat_decision_unlock:0 "Can take the [decision|E] to #V $TFE_build_a_new_qanat$#!"
  innovation_RICE_qanats:0 "Qanats"
- innovation_RICE_qanats_desc:0 "In much of the Middle East and North Africa, there are special networks of canals and underground aqueducts designed to bring water to where it is most needed. Known as qanats, foggaras, karizes, and so on, these engineering feats have been around since the days of the ancient Persians."
+ innovation_RICE_qanats_desc:0 "In much of the Middle East and North Africa, there are special networks of canals and underground aqueducts designed to bring water to where it is most needed. Known as qanats, foggaras, karizes, and so on, these engineering feats have been around since the days of the ancient Ērānians."
  culture_parameter_unlock_tfe_cheaper_qanats:0 "The costs of taking the [decision|E] to #V $TFE_build_a_new_qanat$#! are reduced"
 
 
@@ -155,6 +155,8 @@
  innovation_visigothic_codes_desc:0 "Although many of the older traditions of the Visigoths have long been wiped from the world, the children of the Pyrenees remember the ancient ways, and how land was divided between sons and daughters practically but fairly."
  unlock_equal_succession_changing:0 "Can enact $equal_law$ [law|E] at any [crown_authority|E]"
 
+ innovation_constitutio_geiserici:0 "Constitutio Geiserici"
+ innovation_constitutio_geiserici_desc:0 "'Geiseric, after living on a short time, died at an advanced age, having made a will in which he enjoined many things upon the Vandals and in particular that the royal power among them should always fall to that one who should be the first in years among all the male offspring descended from Geiseric himself.' - Procopius of Caesarea"
 ######################
 # Early Medieval Era #
 ###################### 
@@ -221,7 +223,7 @@
  innovation_reconquista_desc:0 "Distracted by infighting, we have tolerated the presence of infidels in Hispania for too long. The time has come for us to rally our forces to drive them from this land once and for all!"
 
  innovation_stem_duchies:0 "Stammesherzogtum"
- innovation_stem_duchies_desc:0 "Despite coming from different tribes, we recognize the importance of unity and cooperation. Independence is overvalued when stability is what leads to safety and prosperity. "
+ innovation_stem_duchies_desc:0 "Despite coming from different tribes, we recognize the importance of unity and cooperation. Independence is overvalued when stability is what leads to safety and prosperity."
 
  innovation_ghilman:0 "Ghilman"
  innovation_ghilman_desc:0 "Slave-soldiers taken as prisoners of war, ghilman are dedicated fighters who are both more loyal to us and cheaper to pay than common mercenaries."
@@ -332,7 +334,7 @@
  innovation_ermine_cloaks_desc:0 "Anyone may claim a title, but in order to be a true monarch they must inspire awe and majesty in their subjects. Our new ermine cloaks are a form of regal dress which is sure to accomplish just that."
 
  innovation_court_officials:0 "Court Officials"
- innovation_court_officials_desc:0 "Our realm has expanded to the point where even minor nobles cannot administer everything effectively. Appointing court officials and bureaucrats to handle the more mundane court tasks will ensure that the wheels of government continue turning smoothly. "
+ innovation_court_officials_desc:0 "Our realm has expanded to the point where even minor nobles cannot administer everything effectively. Appointing court officials and bureaucrats to handle the more mundane court tasks will ensure that the wheels of government continue turning smoothly."
 
  innovation_development_04:0 "Renaissance Thought"
  innovation_development_04_desc:0 "Developments in science, philosophy, and logic have turned our cities into wondrous centers of education and innovation. The massive technological and cultural leaps we are now making has put hitherto undreamed potential within our grasp."
@@ -355,8 +357,8 @@
 
  innovation_germanic_migration:0 "Germanic Migrations"
  
- innovation_merchant_outposts_building_modifiers:0 "All markets grant #P +5%#! more taxes"
- innovation_heavy_plow_farms_modifier:0 "All farm estates grant #P +2%#! more taxes"
+ innovation_merchant_outposts_building_modifiers:0 "All markets grant #P +5%#! more taxes."
+ innovation_heavy_plow_farms_modifier:0 "All farm estates grant #P +2%#! more taxes."
 
  innovation_equestrian_husbandry:0 "Horseshoes"
  innovation_equestrian_husbandry_desc:0 "Natural hoove protection might be enough for free horses but the terrains of the battlefields and cities have resulted in significant wear and breakage. Thus placing a layer of metal under the hoove creates a much stronger and more efficient in battle."
@@ -365,25 +367,25 @@
  innovation_merchant_outposts_desc:0 "Merchant outposts greatly improve our ability to buy and sell our resources to our people and other realms."
 
  innovation_smithing_tables:0 "Smithing Tables"
- innovation_smithing_tables_desc:0 "Smithing tables help our soldiers with great weapons and armours greatly advanced warfare"
+ innovation_smithing_tables_desc:0 "Smithing tables help our soldiers with great weapons and armours greatly advanced warfare."
 
  innovation_heavy_plow:0 "Heavy Plow"
- innovation_heavy_plow_desc:0 "With the help of oxen or other strong animals, the heavy plow can turn heavy soil greatly increasing crop efficency and yield"
+ innovation_heavy_plow_desc:0 "With the help of oxen or other strong animals, the heavy plow can turn heavy soil greatly increasing crop efficency and yield."
 
  innovation_naval_carpentry:0 "Naval Carpentry"
- innovation_naval_carpentry_desc:0 "New ways to build and design our navy has lead to a significant boost in the navy's speed and embarking efficiency"
+ innovation_naval_carpentry_desc:0 "New ways to build and design our navy has lead to a significant boost in the navy's speed and embarking efficiency."
 
  innovation_officer_efficiency:0 "Administration Efficiency"
  innovation_officer_efficiency_desc:0 "We have discovered ways to improve civil administration which helps us hold more land directly and cut down on expenses."
- unlocks_office_authority_unlock:0 "Unlocks the last 2 levels of Military Office Authority"
+ unlocks_office_authority_unlock:0 "Unlocks the last 2 levels of Military Office Authority."
 
  innovation_imperial_divinity:0 "Imperial Divinity"
  innovation_imperial_divinity_desc:0 "Our rulers are granted their position by our god(s) and thus we need to support their goals and missions."
- unlocks_imperial_authority_unlock:0 "Unlocks the last 2 levels of Imperial Authority"
+ unlocks_imperial_authority_unlock:0 "Unlocks the last 2 levels of Imperial Authority."
 
  innovation_client_states:0 "Client States"
- innovation_client_states_desc:0 "By giving outside rulers more lenient contracts that still insure their independence they are more inclined to accept our request which will still guarantee our superiority in the region"
- unlocks_tributaries:0 "Unlocks the [T4N_tributary|E] mechanic and its casus belli and interactions\n Tributaries will give a portion of their gold and men each month"
+ innovation_client_states_desc:0 "By giving outside rulers more lenient contracts that still insure their independence they are more inclined to accept our request which will still guarantee our superiority in the region."
+ unlocks_tributaries:0 "Unlocks the [T4N_tributary|E] mechanic and its casus belli and interactions\n Tributaries will give a portion of their gold and men each month."
 
  innovation_imperial_faith:0 "Imperial Faiths"
  innovation_imperial_faith_desc:0 "As we build our empire, we have to declare a state faith to better enforce peace in our realm."
@@ -391,9 +393,16 @@
 
  innovation_feudalism:0 "Feudalism"
  innovation_feudalism_desc:0 "A combination of legal, economic, and military reforms, Feudalism changes the relationship between a liege and their vassals."
- unlocks_feudalism_spread:0 "Starts the slow decay of roman government"
+ unlocks_feudalism_spread:0 "Starts the slow decay of Roman bureaucracy."
 
  innovation_development_00:0 "Improved Irrigation"
  innovation_development_00_desc:0 "With the invention of new and more efficient equipment, we can now further harness our land's resources and wealth to develop our realm."
- reduce_develop_county_penalty_00:0 "Greatly increases the ability to reach 5 development or more"
+ reduce_develop_county_penalty_00:0 "Greatly increases the ability to reach 5 development or more."
 
+ # Sponsor Research Related
+ fp3_innovation_mural_sextant: "Mural Sextant"
+ fp3_innovation_mural_sextant_desc: "These large mural instruments can be used to precisely read and measure the position of heavenly objects."
+
+ fp3_innovation_fritware: "Fritware"
+ fp3_innovation_fritware_desc: "Beautiful stone pottery in the image of eastern porcelain, by mixing in materials such as quartz or glass. They make for valuable merchandise, or impressive gifts."
+ fp3_innovation_fritware_tooltip: "[opinion|E] Gain from [send_gift|E]: #P +20%#!"

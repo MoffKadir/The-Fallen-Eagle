@@ -32,11 +32,11 @@
  RHODES_TITLE:0 "The Great Colossus of Rhodes"
 
  BUILD_GARDEN:0 "#T Build Gardens: 500 [gold|E]#!"
- BUILD_GARDEN_DESC:0 "Build a garden to surround your great monument. Although this doesn't provide the security of fencing, it will raise the popular opinion and inspire the locals to build up the county.\nEffects for County:\n[GetModifier('monument_gardens').GetDesc]\nEffects for Holder:\n[GetModifier('monument_gardens_char').GetDesc]"
+ BUILD_GARDEN_DESC:0 "Build a garden to surround your great monument. Although this doesn't provide the security of fencing, it will raise the popular opinion and inspire the locals to build up the county.\nEffects for County:\n[GetStaticModifier('monument_gardens').GetDescWithEffects]\nEffects for Holder:\n[GetStaticModifier('monument_gardens_char').GetDescWithEffects]"
  GARDENS_BUILT:0 "#T Gardens Built#!"
 
  BUILD_FENCES:0 "#T Build Fences: 500 [gold|E]#!"
- BUILD_FENCES_DESC:0 "Build strong fences to surround your great monument.Although this doesn't provide the beauty and inspiration of gardens, it will raise your control of the people and increase your dread.\nEffects for County:\n[GetModifier('monument_fences').GetDesc]\nEffects for Holder:\n[GetModifier('monument_fences_char').GetDesc]"
+ BUILD_FENCES_DESC:0 "Build strong fences to surround your great monument.Although this doesn't provide the beauty and inspiration of gardens, it will raise your control of the people and increase your dread.\nEffects for County:\n[GetStaticModifier('monument_fences').GetDescWithEffects]\nEffects for Holder:\n[GetStaticModifier('monument_fences_char').GetDescWithEffects]"
  FENCES_BUILT:0 "#T FENCES Built#!"
 
  DESTROY_MONUMENT:0 "#T Destroy The Monument: [HoldingView.GetTitle.MakeScope.ScriptValue('monument_refund')|0] [gold|E] will be returned#!"

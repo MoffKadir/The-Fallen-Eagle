@@ -82,8 +82,8 @@ gothic_wars_defeat_desc:0 "[attacker.GetName] will pay appropiate respect to [de
 RADAGAISUS_INVASION_NAME:0 "Gothic Invasion of Italy"
 RADAGAISUS_INVASION_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 RADAGAISUS_INVASION_CB_NAME:0 "Gothic Invasion of Italy"
-radagaisus_invasion_victory_desc:0 "Radagaisus will seize the Roman provinces of Italia Annonariae and Italia Suburbicariae, making them a safe haven for Goths."
-radagaisus_invasion_victory_desc_attacker:0 "You will seize the Roman provinces of Italia Annonariae and Italia Suburbicariae and make them a safe haven for Goths."
+radagaisus_invasion_victory_desc:0 "Radagaisus will seize the Roman provinces of Italia Annonaria and Italia Suburbicaria, making them a safe haven for Goths."
+radagaisus_invasion_victory_desc_attacker:0 "You will seize the Roman provinces of Italia Annonaria and Italia Suburbicaria and make them a safe haven for Goths."
 radagaisus_invasion_victory_desc_defender:0 "Rome has fallen. The barbarian hordes have taken the city. God save us."
 radagaisus_invasion_white_peace_desc:0 "The bloodshedding has gone too far - although humiliating, we need to reach an agreement."
 radagaisus_invasion_white_peace_desc_attacker:0 "The bloodshedding has gone too far - although humiliating, we need to reach an agreement."
@@ -170,9 +170,44 @@ HUN_INVASION_CB_NAME:0 "Hun Invasion"
 
  ROURAN_INVASION_WAR_NAME:0 "Rouran Khagan Invasion"
  ROURAN_INVASION_EMPIRE_CB_NAME:0 "Rouran Khagan Invasion"
+ rouran_invasion_cooldown:0 "You have used this casus belli within the last 5 years"
 
  GOKTURK_INVADERS:0 "Göktürk Invaders"
 
  gokturk_rouran_war:0 "Göktürk Rebellion"
  GOKTURK_ROURAN_WAR_NAME:0 "The Göktürk Rebellion"
  GOKTURK_ROURAN_WAR_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+
+ #Vandalic War
+ VANDALIC_WAR_NAME:0 "The Vandalic War"
+ VANDALIC_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ VANDALIC_CB_NAME:0 "The Vandalic War"
+ vandalic_war_end_effect:0 "The Emperor decides the fate of North Africa"
+
+ #Gothic War -- Amalasuntha
+ cb_gothic_wars_amalasuntha:0 "The Gothic War"
+ cb_gothic_wars_amalasuntha_NAME:0 "The Gothic War"
+ cb_gothic_wars_amalasuntha_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ cb_gothic_wars_amalasuntha_NAME:0 "The Gothic War"
+ cb_gothic_wars_amalasuntha_victory_desc:0 "The Ostrogoths will reassert control."
+ cb_gothic_wars_amalasuntha_victory_desc_attacker:0 "You will gain the lands seized by the Romans."
+ cb_gothic_wars_amalasuntha_victory_desc_defender:0 "You will gain the lands of the Ostrogoths and swear fealty to the Romans."
+ cb_gothic_wars_amalasuntha_defeat_desc_attacker:0 "The Romans have utterly humiliated us, we are defeated."
+ cb_gothic_wars_amalasuntha_defeat_desc_defender:0 "The Ostrogoths have utterly humiliated us, we are defeated."
+ cb_gothic_wars_amalasuntha_defeat_desc:0 "The Ostrogoths will lose their independence."
+ cb_gothic_wars_amalasuntha_white_peace_desc:0 "Italy is partitioned."
+
+ FRANKISH_SUBJUGATION_WAR_NAME:0 "Frankish Subjucation of The [DEFENDER.GetPrimaryTitle.GetName]"
+ FRANKISH_SUBJUGATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ FRANKISH_SUBJUGATION_CB_NAME:0 "Frankish Subjucation"
+
+ #Gothic War -- Regular
+ GOTHIC_WAR_AMA_NAME:0 "The Gothic War"
+ GOTHIC_WAR_AMA_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ gothic_war_end_effect:0 "The Emperor decides the fate of Italia"
+ gothic_war_end_effect2:0 "A full scale invasion of Italia will commence"
+
+
+ FRANKISH_BURGUNDY_WAR_NAME:0 "The Frankish Annexation of Burgundy"
+ FRANKISH_BURGUNDY_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ FRANKISH_BURGUNDY_CB_NAME:0 "The Frankish Annexation of Burgundy"

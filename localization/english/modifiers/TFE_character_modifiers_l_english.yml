@@ -136,6 +136,12 @@
  king_of_the_ostrogoths:0 "King of the Ostrogoths"
  king_of_the_ostrogoths_desc:0 "A silver-tongued diplomat, a cunning commander and an able administrator -- Theodoric has truly earned the epithet 'the Great'"
 
+ the_rightful_king:0 "The Would-Be King"
+ the_rightful_king_desc:0 "Forever torn between his Gothic vassals' wishes and his mother's Roman leanings, Athalaric is a pale imitation of Theodoric"
+
+ peaceful_retirement:0 "A Peaceful Retirement"
+ peaceful_retirement_desc:0 "Mercifully given an estate after a failed rebellion rather than death, Gelimer is now content to while away his remaining days idly."
+
  zenos_blessing:0 "Zeno's Blessing"
  zenos_blessing_desc:0 "Zeno nominally backs this character's endeavors, but the Emperor is ever wary of potential threats from within the Empire"
  
@@ -189,3 +195,24 @@
  judaism_religion_opinion:0 "$judaism_religion_adherent$ Opinion"
 
  rouran_khagan_founder:0 "Rouran Founder"
+
+ # 532 Stuff
+
+ last_of_the_romans:0 "Last of the Romans"
+ last_of_the_romans_desc:0 "Belisarius truly embodies the virtues that Romans hold dear!"
+
+ imperial_triumph:0 "Recent Triumph Held"
+ imperial_triumph_desc:0 "Earning the envy of fellow vassals, this character has recently been feted at an Imperial Triumph"
+
+
+ TFE_mihirakula_modifier:0 "Defeat of the Hunas"
+ TFE_mihirakula_modifier_desc:0 "Once, Mihirakula terrified the people of India. However, his recent military defeat at the hands of an alliance of Indian rulers, led by Yashodharman of Malwa, has shattered that image."
+ TFE_yashodharman_modifier:0 "Triumph over the Hunas"
+ TFE_yashodharman_modifier_desc:0 "Under the leadership of Yashodharman, an alliance of Indian kings defeated the once feared Hunas so thoroughly that they no longer held sway over most of India."
+ TFE_arethas_modifier:0 "Patrician and Phylarch of the Saracens"
+ TFE_arethas_modifier_desc:0 "Al-Harith, known as Arethas to the Romans, commands much respect among the Romans and the Arab #italic foederati#! loyal to the Roman Empire. His presence is said to be greatly intimidating."
+ TFE_imru_al_qays_modifier:0 "The Lost King"
+ TFE_imru_al_qays_modifier_desc:0 "Once a dissolute libertine and womanizer, Imru-al-Qays transformed into an honorable, diligent man after his father, King Hujr, was murdered by the dastardly Asad tribe. Now, he wanders the world, composing beautiful, mournful poetry, dedicating his life to avenging his father and reclaim his rightful throne."
+
+
+

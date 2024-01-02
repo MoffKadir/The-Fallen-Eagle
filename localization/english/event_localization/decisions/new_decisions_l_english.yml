@@ -127,7 +127,7 @@
  restore_the_mardib_dam_tooltip:0 "Even temporarily, the dam can greatly help our realm and living conditions. We should consider investing into restoring it to its old Sabaean might."
  restore_the_mardib_dam_tooltip_1:0 "You will attempt to restore the Ma'rib Dam, resulting in great prosperity in the surrounding kingdom for #V 5 years#!"
  restore_the_mardib_dam_tooltip_2:0 "#N The restoration might fail causing loss of opinion for 5 years!#!"
- restore_the_mardib_dam_tooltip_3:0 "Every county in $k_yemen$ gains the [GetModifier('marib_dam_restored').GetName] for 5 years"
+ restore_the_mardib_dam_tooltip_3:0 "Every county in $k_yemen$ gains the [GetStaticModifier('marib_dam_restored').GetName] for 5 years"
  restore_the_mardib_dam_confirm:0 "Plan The Restoration"
 
  rebuild_the_mardib_dam:0 "Rebuild the Ma'rib Dam"
@@ -135,7 +135,7 @@
  rebuild_the_mardib_dam_tooltip:0 "After meeting with my council, we decided that restoring the dam is the best and most efficient path to follow."
  rebuild_the_mardib_dam_tooltip_1:0 "You will rebuild the Ma'rib Dam resulting in great prosperity in the surrounding kingdom #V Forever#!"
  rebuild_the_mardib_dam_confirm:0 "It is Time"
- rebuild_the_mardib_dam_tooltip_2:0 "Every county in $k_yemen$ gains the [GetModifier('marib_dam_restored').GetName] forever"
+ rebuild_the_mardib_dam_tooltip_2:0 "Every county in $k_yemen$ gains the [GetStaticModifier('marib_dam_restored').GetName] forever"
 
  TFE_expel_christians_yemen:0 "Expel Yemenite Christians"
  TFE_expel_christians_yemen_desc:0 "Our great kingdom has recently embraced a more righteous path, but many within the realm's population question said path, especially the thousands of Christians living under our banner. After careful planning with my council, we decided the best course of action to undertake is to expel the Christians from our lands."
@@ -250,9 +250,13 @@
  change_to_tribal_or_nomadic_tooltip:0 "You adopt the appropriate form of governance for your culture"
  change_to_tribal_or_nomadic_confirm:0 "It is time"
 
- restore_western_dioceses_decision_trigger_1:0 "Any of the provinces can be restored"
- NOT_restore_western_dioceses_decision_trigger_1:0 "Any of the provinces can be restored"
-
+ restore_dioceses_decision_trigger_1:0 "Any of the provinces can be restored"
+ NOT_restore_dioceses_decision_trigger_1:0 "Any of the provinces can be restored"
+ 
+ vandalic_war_decision_1:0 "The Eastern Roman Empire will muster an expeditionary force to invade the Vandalic heartland in North Africa"
+ vandalic_war_decision_2:0 "A Sardinian revolt will coincide with the expedition's arrival, putting pressure on Vandalic military strength"
+ vandalic_war_decision_3:0 "#n All of your vassals will lose 20 opinion of you due to the expenditure of resources needed for the expedition#!"
+ 
  split_the_empire:0 "Split The Roman Empire"
  split_the_empire_desc:0 "The Roman Empire has stood strong and proud for centuries, but it is time to acknowledge that it is too vast, too complex for any one person to handle. In order for the Empire to be managed more efficiently, we need to split it just like Diocletian did many years ago."
  split_the_empire_tooltip:0 "Mitigate the Empire's problems by dividing it into two parts."
