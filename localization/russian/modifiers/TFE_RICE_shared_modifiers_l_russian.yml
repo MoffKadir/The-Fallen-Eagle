@@ -1,0 +1,33 @@
+﻿l_russian:
+  
+  # PLACE TO DUMP SHARED MODIFIERS BETWEEN RICE AND TFE 
+  # DO NOT ALTER OR MODIFY IN ORDER TO MAINTAIN CONSISTENCY WITH RICE 
+  
+  # Sri Lanka 
+ RICE_india_land_grant_buddhist_character_modifier: "Передал [RICE_land_grants|E] $buddhism_religion_adj$ религиозным учреждениям"
+ RICE_india_land_grant_hindu_character_modifier: "Передал [RICE_land_grants|E] $hinduism_religion_adj$ религиозным учреждениям"
+ RICE_india_land_grant_jain_character_modifier: "Передал [RICE_land_grants|E] $jainism_religion_adj$ религиозным учреждениям"
+ RICE_india_land_grant_buddhist_county_same_modifier: "$buddhism_religion_adj$ Земельные гранты"
+ RICE_india_land_grant_buddhist_county_same_modifier_desc: "Местные $buddhism_religion_adj$ правители недавно подарили здесь $buddhism_religion_adj$ храмам и монастырям несколько [RICE_land_grants|E]. Доходы и люди с этих земель теперь принадлежат этим институтам, поскольку они расширяют сельское хозяйство и интегрируют эти приграничные регионы в экономическую и политическую сферу влияния королевства."
+ RICE_india_land_grant_buddhist_county_strong_same_modifier: "Майор $RICE_india_land_grant_buddhist_county_same_modifier$"
+ RICE_india_land_grant_buddhist_county_strong_same_modifier_desc: "$RICE_india_land_grant_buddhist_county_same_modifier_desc$"
+ RICE_india_land_grant_hindu_county_same_modifier: "$hinduism_religion_adj$ Земельные гранты"
+ RICE_india_land_grant_hindu_county_same_modifier_desc: "Местные $hinduism_religion_adj$ правители недавно подарили здесь $hinduism_religion_adj$ храмам и монастырям несколько [RICE_land_grants|E]. Доходы и люди с этих земель теперь принадлежат этим институтам, поскольку они расширяют сельское хозяйство и интегрируют эти приграничные регионы в экономическую и политическую сферу влияния королевства."
+ RICE_india_land_grant_hindu_county_strong_same_modifier: "Майор $RICE_india_land_grant_hindu_county_same_modifier$"
+ RICE_india_land_grant_hindu_county_strong_same_modifier_desc: "$RICE_india_land_grant_hindu_county_same_modifier_desc$"
+ RICE_india_land_grant_jain_county_same_modifier: "$jainism_religion_adj$ Земельные гранты"
+ RICE_india_land_grant_jain_county_same_modifier_desc: "Местные $jainism_religion_adj$ правители недавно подарили здесь $jainism_religion_adj$ храмам и монастырям несколько [RICE_land_grants|E]. Доходы и люди с этих земель теперь принадлежат этим институтам, поскольку они расширяют сельское хозяйство и интегрируют эти приграничные регионы в экономическую и политическую сферу влияния королевства."
+ RICE_india_land_grant_jain_county_strong_same_modifier: "Майор $RICE_india_land_grant_jain_county_same_modifier$"
+ RICE_india_land_grant_jain_county_strong_same_modifier_desc: "$RICE_india_land_grant_jain_county_same_modifier_desc$"
+ RICE_india_land_grant_buddhist_county_different_modifier: "$buddhism_religion_adj$ Земельные гранты"
+ RICE_india_land_grant_buddhist_county_different_modifier_desc: "Местные не-$buddhism_religion_adj$ правители недавно передали здесь $buddhism_religion_adj$ храмам и монастырям несколько [RICE_land_grants|E]. Доходы и люди с этих земель теперь принадлежат этим институтам, поскольку они расширяют сельское хозяйство и интегрируют эти приграничные регионы в экономическую и политическую сферу влияния королевства."
+ RICE_india_land_grant_buddhist_county_strong_different_modifier: "Майор $RICE_india_land_grant_buddhist_county_different_modifier$"
+ RICE_india_land_grant_buddhist_county_strong_different_modifier_desc: "$RICE_india_land_grant_buddhist_county_different_modifier_desc$"
+ RICE_india_land_grant_hindu_county_different_modifier: "$hinduism_religion_adj$ Земельные гранты"
+ RICE_india_land_grant_hindu_county_different_modifier_desc: "Местные не-$hinduism_religion_adj$ правители недавно передали здесь $hinduism_religion_adj$ храмам и монастырям несколько [RICE_land_grants|E]. Доходы и люди с этих земель теперь принадлежат этим институтам, поскольку они расширяют сельское хозяйство и интегрируют эти приграничные регионы в экономическую и политическую сферу влияния королевства."
+ RICE_india_land_grant_hindu_county_strong_different_modifier: "Майор $RICE_india_land_grant_hindu_county_different_modifier$"
+ RICE_india_land_grant_hindu_county_strong_different_modifier_desc: "$RICE_india_land_grant_hindu_county_different_modifier_desc$"
+ RICE_india_land_grant_jain_county_different_modifier: "$jainism_religion_adj$ Земельные гранты"
+ RICE_india_land_grant_jain_county_different_modifier_desc: "Местные не-$jainism_religion_adj$ правители недавно передали здесь $jainism_religion_adj$ храмам и монастырям несколько [RICE_land_grants|E]. Доходы и люди с этих земель теперь принадлежат этим институтам, поскольку они расширяют сельское хозяйство и интегрируют эти приграничные регионы в экономическую и политическую сферу влияния королевства."
+ RICE_india_land_grant_jain_county_strong_different_modifier: "Майор $RICE_india_land_grant_jain_county_different_modifier$"
+ RICE_india_land_grant_jain_county_strong_different_modifier_desc: "$RICE_india_land_grant_jain_county_different_modifier_desc$"

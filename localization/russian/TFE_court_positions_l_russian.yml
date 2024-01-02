@@ -1,0 +1,141 @@
+﻿l_russian:
+ COURT_POSITION_CATEGORY_ROMAN_VICAR: "Наместники"
+ COURT_POSITION_CATEGORY_MISSIONARY: "Миссионеры"
+ k_gallia_governor: "Наместник Галлии"
+ k_gallia_governor_employer_custom_effect_description: "Защитник и управляющий Галлии"
+ k_gallia_governor_desc: "Защитник и управляющий Галлии"
+  
+ k_britannia_governor: "Наместник Британии"
+ k_britannia_governor_employer_custom_effect_description: "Защитник и управляющий Британии"
+ k_britannia_governor_desc: "Защитник и управляющий Британии"
+  
+ k_italia_suburbicariae_governor: "Наместник Пригородной Италии"
+ k_italia_suburbicariae_governor_employer_custom_effect_description: "Governs and protects the lands of Italia Suburbicariae"
+ k_italia_suburbicariae_governor_desc: "Защитник и управляющий Пригородной Италии"
+  
+ k_africae_governor: "Наместник Африки"
+ k_africae_governor_employer_custom_effect_description: "Защитник и управляющий Африки"
+ k_africae_governor_desc: "Защитник и управляющий Африки"
+  
+ k_hispania_governor: "Наместник Испании"
+ k_hispania_governor_employer_custom_effect_description: "Защитник и управляющий Испании"
+ k_hispania_governor_desc: "Защитник и управляющий Испании"
+  
+ k_septem_provinciae_governor: "Наместник Септума Провинции"
+ k_septem_provinciae_governor_employer_custom_effect_description: "Governs and protects the lands of Septum Provinciae"
+ k_septem_provinciae_governor_desc: "Защитник и управляющий Септум Провинции"
+  
+ k_pannonia_governor: "Наместник Паннонии"
+ k_pannonia_governor_employer_custom_effect_description: "Защитник и управляющий Паннонии"
+ k_pannonia_governor_desc: "Защитник и управляющий Паннонии"
+  
+ k_italia_annonariae_governor: "Наместник Сельской Италии"
+ k_italia_annonariae_governor_employer_custom_effect_description: "Защитник и управляющий Сельской Италии"
+ k_italia_annonariae_governor_desc: "Защитник и управляющий Сельской Италии"
+  
+ k_sardinia_governor: "Наместник Сардинии"
+ k_sardinia_governor_employer_custom_effect_description: "Защитник и управляющий Сардинии"
+ k_sardinia_governor_desc: "Защитник и управляющий Сардинии"
+  
+ k_romagna_governor: "Наместник Романьи"
+ k_romagna_governor_employer_custom_effect_description: "Защитник и управляющий Романьи"
+ k_romagna_governor_desc: "Защитник и управляющий Романьи"
+  
+ k_daciae_governor: "Наместник Дакии"
+ k_daciae_governor_employer_custom_effect_description: "Защитник и управляющий Дакии"
+ k_daciae_governor_desc: "Защитник и управляющий Дакии"
+  
+ k_aegyptus_governor: "Наместник Египта"
+ k_aegyptus_governor_employer_custom_effect_description: "Защитник и управляющий Египта"
+ k_aegyptus_governor_desc: "Защитник и управляющий Египта"
+  
+ k_asiae_governor: "Наместник Азии"
+ k_asiae_governor_employer_custom_effect_description: "Защитник и управляющий Азии"
+ k_asiae_governor_desc: "Защитник и управляющий Азии"
+  
+ k_orientis_governor: "Наместник Ориентиса"
+ k_orientis_governor_employer_custom_effect_description: "Защитник и управляющий Ориентиса"
+ k_orientis_governor_desc: "Защитник и управляющий Ориентиса"
+  
+ k_nikaea_governor: "Наместник Никеи"
+ k_nikaea_governor_employer_custom_effect_description: "Защитник и управляющий Никеи"
+ k_nikaea_governor_desc: "Защитник и управляющий Никеи"
+  
+ k_macedoniae_governor: "Наместник Македонии"
+ k_macedoniae_governor_employer_custom_effect_description: "Защитник и управляющий Македонии"
+ k_macedoniae_governor_desc: "Защитник и управляющий Македонии"
+  
+ k_saruhan_governor: "Наместник Сарухана"
+ k_saruhan_governor_employer_custom_effect_description: "Защитник и управляющий Сарухана"
+ k_saruhan_governor_desc: "Защитник и управляющий Сарухана"
+  
+ k_trinacria_governor: "Наместник Тринакрии"
+ k_trinacria_governor_employer_custom_effect_description: "Защитник и управляющий Тринакрии"
+ k_trinacria_governor_desc: "Защитник и управляющий Тринакрии"
+  
+ k_tekke_governor: "Наместник Текке"
+ k_tekke_governor_employer_custom_effect_description: "Защитник и управляющий Текке"
+ k_tekke_governor_desc: "Защитник и управляющий Текке"
+  
+ k_trebizond_governor: "Наместник Трапезунда"
+ k_trebizond_governor_employer_custom_effect_description: "Защитник и управляющий Трапезунды"
+ k_trebizond_governor_desc: "Защитник и управляющий Трапезуны"
+  
+ k_ottoman_governor: "Наместник Османа"
+ k_ottoman_governor_employer_custom_effect_description: "Защитник и управляющий Османа"
+ k_ottoman_governor_desc: "Защитник и управляющий Османа"
+  
+ k_rum_governor: "Наместник Рума"
+ k_rum_governor_employer_custom_effect_description: "Защитник и управляющий Рума"
+ k_rum_governor_desc: "Защитник и управляющий Рума"
+  
+ k_mentese_governor: "Наместник Ментеза"
+ k_mentese_governor_employer_custom_effect_description: "Защитник и управляющий Ментеза"
+ k_mentese_governor_desc: "Защитник и управляющий Ментеза"
+  
+ k_karaman_governor: "Наместник Кармана"
+ k_karaman_governor_employer_custom_effect_description: "Защитник и управляющий Кармана"
+ k_karaman_governor_desc: "Защитник и управляющий Кармана"
+  
+ k_germiyan_governor: "Наместник Гермиана"
+ k_germiyan_governor_employer_custom_effect_description: "Защитник и управляющий Гермиана"
+ k_germiyan_governor_desc: "Защитник и управляющий Гермиана"
+  
+ k_eretnid_governor: "Наместник Эретнида"
+ k_eretnid_governor_employer_custom_effect_description: "Защитник и управляющий Эретнида"
+ k_eretnid_governor_desc: "Защитник и управляющий Эретнида"
+  
+ k_aydin_governor: "Наместник Айдина"
+ k_aydin_governor_employer_custom_effect_description: "Защитник и управляющий Айдина"
+ k_aydin_governor_desc: "Защитник и управляющий Айдина"
+  
+ k_candar_governor: "Наместник Кандара"
+ k_candar_governor_employer_custom_effect_description: "Защитник и управляющий Кандара"
+ k_candar_governor_desc: "Защитник и управляющий Кандара"
+  
+ k_macedon_governor: "Наместник Македона"
+ k_macedon_governor_employer_custom_effect_description: "Защитник и управляющий Македона"
+ k_macedon_governor_desc: "Защитник и управляющий Македона"
+  
+ k_thessalonika_governor: "Наместник Фессалоник"
+ k_thessalonika_governor_employer_custom_effect_description: "Защитник и управляющий Фессалоник"
+ k_thessalonika_governor_desc: "Защитник и управляющий Фессалоник"
+  
+ k_epirus_governor: "Наместник Эпира"
+ k_epirus_governor_employer_custom_effect_description: "Защитник и управляющий Эпира"
+ k_epirus_governor_desc: "Защитник и управляющий Эпира"
+  
+ k_hellas_governor: "Наместник Эллады"
+ k_hellas_governor_employer_custom_effect_description: "Защитник и управляющий Эллады"
+ k_hellas_governor_desc: "Защитник и управляющий Эллады"
+  
+ k_krete_governor: "Наместник Креты"
+ k_krete_governor_employer_custom_effect_description: "Защитник и управляющий Креты"
+ k_krete_governor_desc: "Защитник и управляющий Креты"
+  
+ head_missionary: "Главный миссионер"
+ head_missionary_employer_custom_effect_description: "Отправляется на задания по обращению других народов и [Concept('rulers', 'правителей')|E] в вашу [Concept('faith', 'конфессию')|E]; у главных миссионеров повышен шанс на обращение цели"
+ head_missionary_desc: "Отправляется на задания по обращению других народов и [Concept('rulers', 'правителей')|E] в вашу [Concept('faith', 'конфессию')|E]; у главных миссионеров повышен шанс на обращение цели"
+ missionary: "Миссионер"
+ missionary_employer_custom_effect_description: "Отправляется на задания по обращению других народов и [Concept('rulers', 'правителей')|E] в вашу [Concept('faith', 'конфессию')|E]"
+ missionary_desc: "Отправляется на задания по обращению других народов и [Concept('rulers', 'правителей')|E] в вашу [Concept('faith', 'конфессию')|E]"

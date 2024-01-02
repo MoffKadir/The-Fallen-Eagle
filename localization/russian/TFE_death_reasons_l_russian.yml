@@ -1,0 +1,10 @@
+﻿l_russian:
+ death_sold_gladiator: "Был продан в рабство как гладиатор"
+ death_sold_gladiator_killer: "Был продан в рабство как гладиатор [TARGET_CHARACTER.GetUIName]"
+ death_died_gladiator: "Был побежден и убит на арене как гладиатор"
+ death_burned_missionary: "Был сожжен на костре при попытке обратить правителя"
+ death_burned_missionary_killer: "Был сожжен на костре при попытке обратить [TARGET_CHARACTER.GetUIName]"
+ #death_defenestration: "был выброшен из окна" #NT!
+ #death_defenestration_killer: "был выброшен из окна [TARGET_CHARACTER.GetUIName]" #NT!
+ death_sacrificed_to_ancestor: "был принесён в жертву при погребении предка"
+ death_sacrificed_to_ancestor_killer: "был принесён в жертву при погребении [TARGET_CHARACTER.GetUINamePossessive] предка"

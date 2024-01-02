@@ -1,0 +1,53 @@
+﻿l_russian:
+ NOT_jihad_authority_requirement: "У вас нет 50 полномочий халифата или больше"
+ NOT_claim_authority_requirement: "У вас не больше полномочий халифата, чем у защитника"
+ #claim_authority_requirement: "У вас должно быть столько же авторитета Халифата или больше, чем у защитника"
+ #jihad_authority_requirement: "Вам нужно иметь авторитет Халифата 50 или больше"
+ fitna_ali: "Фитна может быть вызвана только в том случае, если халифом является Али ибн Аби Талиб"
+ ridda_prophet: "Вы не можете присоедениться к фракции ридда, если пророк все еще является халифом"
+ NOT_fitna_ali: "Фитна может быть вызвана, только если Али ибн Аби Талиб является халифом"
+ NOT_ridda_prophet: "Вы не можете присоедениться к фракции ридда, если пророк все еще является халифом"
+ GAME_OVER_CANNOT_PLAY_PROPHET: "Вы не можете играть за пророка"
+ NOT_GAME_OVER_CANNOT_PLAY_PROPHET: "Вы не можете играть за пророка"
+ gupta_nobility_scutage_validity: "Оба родителя должны быть благородными"
+ NOT_gupta_nobility_scutage_validity: "Оба родителя должны быть благородными"
+ isnt_under_an_imperial_empire: "Вы не можете объявить войну другой имперской провинции"
+ NOT_isnt_under_an_imperial_empire: "You can't declare war on another imperial province"
+ mil_restore_effect: "Ваша компетентность должна увеличиться на 200 при восстановлении"
+ NOT_mil_restore_effect: "Ваша компетентность не увеличится на 200 при восстановлении"
+ civic_restore_effect: "Ваша компетентность должна увеличиться на 200 при восстановлении"
+ NOT_civic_restore_effect: "Ваша компетентность не увеличится на 200, если будет восстановлена"
+ diplo_restore_effect: "Ваша компетентность должна увеличиться на 100 при восстановлении"
+ NOT_diplo_restore_effect: "Ваша компетентность не увеличится на 100 при восстановлении"
+ has_relation_antiquarian_loc: "У вас есть антиквар"
+ NOT_has_relation_antiquarian_loc: "У вас нет антиквара"
+ only_hellenic_or_kushitism: "Имперский глава веры доступен только эллинским и кушитским конфессиям"
+ NOT_only_hellenic_or_kushitism: "Имперский глава верований доступен только эллинским и кушитским конфессиям"
+ change_government_hook_requirement: "У вас на крючке"
+ SENATE_BRIBED_VICAR: "Сенат осторожен и отрицает любые изменения для правителя этой провинции"
+  
+  # doesn't belong but there isn't a file for triggers 
+ any_parent_culture_or_above: "Любой родитель [Concept('culture', 'культуры')|E] или около:"
+ any_parent_culture_or_above_all: "Нет родителя [culture|E] или выше:"
+ parent_roman: "Роман"
+ parent_sardinian: "Сардинский"
+ soissonstrigger1: "[divergent_culture|E] или [hybrid_culture|E] of [GetScriptedCharacterByHistoryID('shanshan_018').GetCulture.GetName]"
+ soissonstrigger2: "Текущая дата - 20 апреля 690 года н.э."
+  
+ roman_empire_low_competence: "Римская империя должна иметь менее 500 [Concept('competence', 'компетентности')|E] (проверьте значения в окне на титульном экране)"
+  
+ two_competence_vars_max: "Два столбика [Concept('competence', 'компетентности')|E] должны быть на максимальной отметке (5000)"
+ three_competence_vars_max: "Все три столбика [Concept('competence', 'компетентности')|E] должны быть на максимальной отметке (5000)"
+  
+ NOT_two_competence_vars_max: "Два столбика [Concept('competence', 'компетентности')|E] должны быть на максимальной отметке (5000)"
+ NOT_three_competence_vars_max: "Все три столбика [Concept('competence', 'компетентности')|E] должны быть на максимальной отметке (5000)"
+  
+  
+ great_houses_are_too_strong: "Вы не можете заключить в тюрьму [great_house|E] голов, если [great_houses|E] слишком сильны"
+ NOT_great_houses_are_too_strong: "Вы не можете заключить в тюрьму [great_house|E] голов, если [great_houses|E] слишком сильны"
+  
+ cant_grant_titles_to_legions: "Вы не можете давать титулы [legions|E]"
+ NOT_cant_grant_titles_to_legions: "Вы не можете давать титулы [legions|E]"
+  
+ cant_grant_titles_to_charioteers: "Вы не можете давать титулы возницам"
+ NOT_cant_grant_titles_to_charioteers: "Вы не можете давать титулы возницам"

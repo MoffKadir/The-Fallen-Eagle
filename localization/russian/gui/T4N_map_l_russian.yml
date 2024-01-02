@@ -1,0 +1,10 @@
+﻿l_russian:
+ CUSTOM_TRIBUTARY_MAP_LEGEND: "Легенда"
+ CUSTOM_TRIBUTARY_MAP_ME: "Моя держава"
+ CUSTOM_TRIBUTARY_MAP_MY_TRIBUTARY: "Мои [Concept( 'T4N_tributaries', 'данники' )|E]"
+ CUSTOM_TRIBUTARY_MAP_MY_SUZERAIN: "Мои сюзерены"
+ CUSTOM_TRIBUTARY_MAP_ANY_TRIBUTARY_SUZERAIN: "Данник/Сюзерен"
+ CUSTOM_TRIBUTARY_MAP_ANY_TRIBUTARY: "Данник"
+ CUSTOM_TRIBUTARY_MAP_ANY_SUZERAIN: "Сюзерен"
+ CUSTOM_TRIBUTARY_MAP_TOOLTIP: "#T Данники#!\nПоказывает всех [Concept( 'T4N_tributaries', 'данников' )|E], существующих на карте."
+ CUSTOM_MAPMODE_TRIBUTARIES_NAME: "Данники"

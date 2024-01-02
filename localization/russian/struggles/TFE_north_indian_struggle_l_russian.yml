@@ -1,0 +1,110 @@
+﻿l_russian:
+ TFE_north_indian_struggle_region: "Северная Индия и Тохаристан"
+ TFE_small_north_indian_struggle_region: "Северная Индия"
+ TFE_struggle_north_indian_ends_tt: "[north_indian_struggle|E] заканчивается"
+ TFE_north_indian_struggle_interchange_phase: "[north_indian_struggle|E] в настоящее время находится в [struggle_phase_north_indian_interchange|E]"
+ struggle_parameter_cheaper_nomadic_migrations: "Дешевле #V Кочевые миграции#! за [struggle_involved_cultures|E]"
+ struggle_parameter_kshatriya_varna_for_non_indian_rulers: "Правители без #V Касты#! [tradition|E] могут получить кшатриев [varna|E]"
+ INDIAN_STRUGGLE: "[north_indian_struggle|E]"
+  
+  # Phases 
+ north_indian_struggle: "$game_concept_north_indian_struggle$"
+ struggle_TFE_north_indian_phase_invasion: "Вторжение"
+ struggle_TFE_north_indian_phase_invasion_desc: "$game_concept_struggle_phase_north_indian_invasion_desc$"
+ struggle_TFE_north_indian_phase_glory: "Слава"
+ struggle_TFE_north_indian_phase_glory_desc: "$game_concept_struggle_phase_north_indian_glory_desc$"
+ struggle_TFE_north_indian_phase_interchange: "развязка"
+ struggle_TFE_north_indian_phase_interchange_desc: "$game_concept_struggle_phase_north_indian_interchange_desc$"
+  
+  # Catalysts 
+ catalyst_TFE_irrigation_tank_small: "Построил небольшой резервуар для орошения [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_irrigation_tank_small_desc: "Постройте небольшой резервуар для орошения" #NT!
+ catalyst_TFE_irrigation_tank_medium: "Построил средний резервуар для орошения [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_irrigation_tank_medium_desc: "Постройте средний резервуар для орошения." #NT!
+ catalyst_TFE_irrigation_tank_large: "Построил большой резервуар для орошения [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_irrigation_tank_large_desc: "Постройте большой резервуар для орошения" #NT!
+ catalyst_TFE_irrigation_tank_huge: "Построил огромный ирригационный резервуар [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_irrigation_tank_huge_desc: "Постройте большой резервуар для орошения" #NT!
+ catalyst_TFE_adopt_higher_varna: "Принял высший [varna|E] в качестве члена Шудры [varna|E] [struggle_catalyst_catalyst|E]." #NT!
+ catalyst_TFE_adopt_higher_varna_desc: "Принять высший [varna|E] в качестве члена Шудры [varna|E]" #NT!
+ catalyst_TFE_adopt_kshatriya_varna: "Принял кшатриев [varna|E] [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_adopt_kshatriya_varna_desc: "Принять кшатриев [varna|E]" #NT!
+ catalyst_TFE_indian_land_grant_different_religion: "Раздал [RICE_land_grants|E] другим [religions|E] [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_indian_land_grant_different_religion_desc: "Раздал [RICE_land_grants|E] другому [religions|E]" #NT!
+ catalyst_TFE_indian_land_grant_same_religion: "Отдал [RICE_land_grants|E] в собственность [religion|E] [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_TFE_indian_land_grant_same_religion_desc: "Отдал [RICE_land_grants|E] в пользу [religion|E]" #NT!
+  
+  # Ending decisions 
+  
+  # Foreign 
+ struggle_north_indian_ending_foreign_domination_decision: "Иностранное подчинение"
+ struggle_north_indian_ending_foreign_domination_decision_desc: "Хоть мы и не родом из [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName], мы можем построить себе здесь новый дом. Мы #italic будем#! объединять регион под [ROOT.Char.GetCulture.GetName] [ROOT.Char.Custom('GetQueenKing')|l] под знаменем [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+ struggle_north_indian_ending_foreign_domination_decision_tooltip: "Завершить $north_indian_struggle$"
+ struggle_north_indian_ending_foreign_domination_decision_confirm: "$struggle_north_indian_ending_foreign_domination_decision_tooltip$"
+ struggle_north_indian_ending_foreign_domination_correct_phase_tt: "Текущий [struggle_phase|E] — это [struggle_phase_north_indian_invasion|E] или [struggle_phase_north_indian_glory|E]"
+ struggle_north_indian_ending_domination_region_tt: "Вы контролируете более [SCOPE.ScriptValue('struggle_north_indian_ending_domination_owned_percent_value')|0]% из [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName] [region|E] (Текущий: [SCOPE.ScriptValue('TFE_north_indian_struggle_region_owned_percent_value')|0]%)"
+ struggle_north_indian_ending_others_domination_decision_region_tt: "Ни один другой [independent|E] [struggle_involved|E] [ruler|E] не контролирует более [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName]"
+ struggle_north_indian_foreigner_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_terror_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_mastery_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_authority_modifier').GetNameWithTooltip|L]"
+  
+  # Indian 
+ struggle_north_indian_ending_indian_domination_decision: "Индийское превосходство"
+ struggle_north_indian_ending_indian_domination_decision_desc: "Продолжающиеся вторжения грозных гуннов в [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName] должны быть остановлены. Как только мы защитим регион, весь регион сможет объединиться под [ROOT.Char.GetCulture.GetName] [ROOT.Char.Custom('GetQueenKing')|l] под знаменем [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+ struggle_north_indian_ending_indian_domination_decision_tooltip: "Завершить $north_indian_struggle$"
+ struggle_north_indian_ending_indian_domination_decision_confirm: "$struggle_north_indian_ending_foreign_domination_decision_tooltip$"
+ struggle_north_indian_ending_indian_domination_correct_phase_tt: "$struggle_north_indian_ending_foreign_domination_correct_phase_tt$"
+ struggle_north_indian_indian_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_majesty_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_might_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_opulence_modifier').GetNameWithTooltip|L]"
+  
+  # Confluence 
+ struggle_north_indian_ending_confluence_decision: "Слияние"
+ struggle_north_indian_ending_confluence_decision_desc: "[GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName] может быть опустошен нестабильностью и конфликтами, но так быть не должно. Мы можем и должны превратить эту землю в страну, полную культуры и духовного просвещения, где разные идеи, боги и народы могут мирно жить вместе под [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] правилом."
+ struggle_north_indian_ending_confluence_decision_tooltip: "Завершить $north_indian_struggle$"
+ struggle_north_indian_ending_confluence_decision_confirm: "$struggle_north_indian_ending_foreign_domination_decision_tooltip$"
+ struggle_north_indian_ending_confluence_correct_phase_tt: "Текущий [struggle_phase|E] — это [struggle_phase_north_indian_interchange|E] или [struggle_phase_north_indian_glory|E]"
+ struggle_north_indian_ending_confluence_county_req_tt: "Иметь не менее [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E] в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName] [region|E], включая [capital|E], в котором есть не менее [EmptyScope.ScriptValue('struggle_north_indian_development_req_value')|0] [development|E]"
+ struggle_north_indian_ending_buddhism_county_req_tt: "По крайней мере [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E], которыми вы владеете в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], следует за любыми [faith|E] из #bold $buddhism_religion_adj$#! [religion|E]"
+ struggle_north_indian_ending_hinduism_county_req_tt: "По крайней мере [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E], которыми вы владеете в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], следует за любыми [faith|E] из #bold $hinduism_religion_adj$#! [religion|E]"
+ struggle_north_indian_ending_jainism_county_req_tt: "По крайней мере [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E], которыми вы владеете в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], следует за любыми [faith|E] из #bold $jainism_religion_adj$#! [religion|E]"
+ struggle_north_indian_confluence_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_religious_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_cultural_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_economical_modifier').GetNameWithTooltip|L]"
+  
+  
+  # Ending Events 
+  
+  # Hunas Victory 
+ north_indian_struggle.1000.t: "$struggle_north_indian_ending_foreign_domination_decision$"
+ north_indian_struggle.1000.desc: "Коренные народы [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName] могут бояться нас, называя нас #bold Хунами#!, независимо от того, были ли мы потомками первоначальных первых волн захватчиков или нет. Но мы говорим, что это заслуженное звание. Нас, #italic, #! по праву следует опасаться, потому что только дурак не смог бы понять, как мы стали самыми могущественными народами [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], с империей, простирающейся через Гангскую равнину.\n\nЕсть мало сомнений в том, что § _6 владычество продлится на многие поколения вперед. Поскольку мы завоевали весь этот регион по праву завоевания, нам решать, как именно мы хотим обеспечить соблюдение нашего нового правила."
+ north_indian_struggle.1000.a: "Мы оправдаем нашу ужасающую репутацию!"
+ north_indian_struggle.1000.b: "Подчинение не может быть сделано неуклюже. Мы должны быть хитрыми."
+ north_indian_struggle.1000.c: "Другие признают наш политический авторитет."
+ north_indian_struggle.1001.t: "$struggle_north_indian_ending_foreign_domination_decision$"
+ north_indian_struggle.1001.desc: "Все изменилось в [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName], когда первые племена гуннов и другие чужеземные народы вторглись с северных гор, что привело к возникновению государства [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip]. Теперь, при их нынешнем правителе [struggle_ender.GetTitledFirstName], последние остатки старых индийских княжеств были сметены навсегда. Эти иностранцы теперь имеют прямой контроль над своей территорией. Страх будет держать в узде местные индейские народы, страх перед этими закаленными в боях гуннами.\n\n"
+ north_indian_struggle.1001.desc.closing.terror: "[struggle_ender.GetTitledFirstNameNoTooltip] пытается использовать ужасающую репутацию народа [struggle_ender.GetHerHis], чтобы установить власть [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] над этими землями. Только время покажет, окажется ли это правильным подходом, но на данный момент это более чем отпугнет других от восстания против них."
+ north_indian_struggle.1001.desc.closing.mastery: "Страх — это не просто вопрос прямого запугивания населения. [struggle_ender.GetTitledFirstNameNoTooltip] знает, что господство над этими землями должно поддерживаться путем долгосрочного планирования. Путем хитрых интриг, натравливания местных правителей друг на друга и поддерживая силу и бодрость армий [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip], [struggle_ender.GetTitledFirstNameNoTooltip] надеется, что потомки [struggle_ender.GetHerHis] будут продолжать править здесь еще долгое время."
+ north_indian_struggle.1001.desc.closing.authority: "Как бы эти хунны сохраняли контроль без старой индийской бюрократии или институтов? Однако [struggle_ender.GetTitledFirstNameNoTooltip] знает об этой проблеме и пытается навязать страх субъектам [struggle_ender.GetHerHis], укрепляя политический авторитет [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] с помощью различных средств. Страх, другими словами, должен быть смешан с уважением и трепетом, насколько это касается [struggle_ender.GetSheHe]."
+ north_indian_struggle.1001.a: "Это момент их триумфа."
+  
+  # Indian Victory 
+ north_indian_struggle.1002.t: "$struggle_north_indian_ending_indian_domination_decision$"
+ north_indian_struggle.1002.desc: "В течение многих лет коренные народы [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName] долго и упорно сражались с захватчиками-хунами. С тех пор, как они проникли в этот регион с севера, они были в лучшем случае надоедливыми вредителями, а в худшем — жестокими, безжалостными грабителями и завоевателями. Однако на этом сегодня заканчивается. Под руководством [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] хунны либо были изгнаны, либо побеждены до такой степени, что они либо не имеют значения, либо жалко служат нам.\n\nГосподство [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] над [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName] теперь будет помнить грядущие поколения. Теперь, когда регион стабилизируется, нам решать, как именно мы хотим обеспечить соблюдение нашего нового правила."
+ north_indian_struggle.1002.a: "Величие наших монархов будет непревзойденным!"
+ north_indian_struggle.1002.b: "Мы не можем успокаиваться; наша армия - наша опора."
+ north_indian_struggle.1002.c: "Другие будут в восторге от нашего богатства и изобилия."
+ north_indian_struggle.1003.t: "$struggle_north_indian_ending_indian_domination_decision$"
+ north_indian_struggle.1003.desc: "Все изменилось в [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName], когда с северных гор вторглись первые племена гуннов и другие иноземные народы. Однако после многих лет борьбы правители штата [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip], утверждающие, что они коренные индейцы, эффективно нейтрализовали угрозу хуннов. При нынешнем правителе [struggle_ender.GetTitledFirstName] племена Хуна теперь либо побеждены, либо потеряли свою значимость.\n\n"
+ north_indian_struggle.1003.desc.closing.majesty: "[struggle_ender.GetTitledFirstNameNoTooltip] знает, что победа [struggle_ender.GetHerHis] будет помниться в веках не только из-за силы оружия [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip], но из-за великолепия и величия их королей и королев. Благодаря своим административным навыкам, дипломатическим переговорам и успешным попыткам заслужить уважение других правителей они смогли построить эффективный бастион против хуннов."
+ north_indian_struggle.1003.desc.closing.might: "Нашествия гуннов сильно потрясли коренные народы региона. [struggle_ender.GetTitledFirstNameNoTooltip] понимает, что если они собираются противостоять будущим вторжениям, армия [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] должна быть готова. [struggle_ender.GetSheHe|U] будет по-прежнему сосредоточен на построении сильной обороны, частом обучении войск и изучении лучших тактик и стратегий. Никогда больше потенциальные захватчики не посмеют вторгнуться!"
+ north_indian_struggle.1003.desc.closing.opulence: "Некоторые говорят, что богатство — главный источник власти. Правда это или нет, но [struggle_ender.GetTitledFirstNameNoTooltip] верит в это. [struggle_ender.GetSheHe|U] считает, в частности, что именно сила казны [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] и экономики [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] позволили им победить хуннов. Таким образом, [struggle_ender.GetSheHe] направлен на реализацию политики, направленной на поощрение торговли, сохранение сильной казны и обеспечение процветания общества. Кроме того, побежденные гунны в любом случае могут быть лучше торговыми партнерами, чем врагами."
+ north_indian_struggle.1003.a: "Большое достижение, без сомнения."
+  
+  # Confluence 
+ north_indian_struggle.1004.t: "$struggle_north_indian_ending_confluence_decision$"
+ north_indian_struggle.1004.desc: "С тех пор, как хунны прибыли в [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName], они и местные индийские правители вели большие войны друг против друга. Но есть и другой выход из этого хаоса: слияние народов, идей, верований. Несмотря на мощь наших армий или великолепие наших дворцов, государство [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] пользуется большим уважением у многих. Поощряя терпимость, мы объединили силы многих разных народов и положили конец ожесточенным, безумным войнам, погубившим [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName].\n\nС возвращением мира в регион и великими войнами гуннов и индейцев. становясь делом прошлого, нам решать, как именно мы хотим управлять этими землями."
+ north_indian_struggle.1004.a: "Сосредоточьтесь на объединении религиозных институтов."
+ north_indian_struggle.1004.b: "Пусть культуры этой земли сойдутся вместе."
+ north_indian_struggle.1004.c: "Благодаря экономическому процветанию воцарится мир."
+ north_indian_struggle.1005.t: "$struggle_north_indian_ending_confluence_decision$"
+ north_indian_struggle.1005.desc: "Все изменилось в [GetGeographicalRegion('TFE_small_north_indian_struggle_region').GetName], когда с северных гор вторглись первые племена гуннов и другие иноземные народы. Земля была разорвана кровопролитием, когда люди всех культур и вероисповеданий ссорились из-за богатств субконтинента. Однако времена в этом регионе меняются. Независимо от того, происходят ли они от гуннов, коренных индейских народов или других, правители государства [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] успешно объединили большую часть этой земли. Их нынешний лидер, [struggle_ender.GetTitledFirstName], открыл новую эру, принеся стране процветание, поощряя терпимость и объединяя множество разных народов и религий под властью [struggle_ender.GetHerHis].\n\n"
+ north_indian_struggle.1005.desc.closing.religious: "Рост религиозных институтов, будь то $buddhism_religion_adj$, $hinduism_religion_adj$ или $jainism_religion_adj$, сыграл важную роль в помощи администраторам [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] в развитии своих земель. Религиозный обмен в наши дни, хотя и не всегда гармоничный, в целом носит уважительный характер, поскольку эти три школы соревнуются за покровительство [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] относительно мирным путем."
+ north_indian_struggle.1005.desc.closing.cultural: "Придя к власти в мультикультурной империи, лидеры [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] знали, что понимание #italic и #! уважения к культурам, обычаям и традициям многих людей, которыми они управляют, не только будет способствовать процветанию их королевства, но и станет его краеугольным камнем. Вдохновляя некогда разрозненные народы на объединение под их властью, можно совершить великие дела."
+ north_indian_struggle.1005.desc.closing.economical: "Легко завоевать землю. Ей сложнее управлять. Однако труднее всего добиться его процветания. Правители [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] это понимают. Развивая торговые сети во многих королевствах и городах и поощряя торговлю с ближними и дальними торговцами, они укрепят свою власть и принесут своему народу большое изобилие."
+ north_indian_struggle.1005.desc.closing: "\n\nВ конце концов, эти земли теперь могут начать исцеляться под руководством [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip]."
+ north_indian_struggle.1005.a: "Это рассвет новой эры."

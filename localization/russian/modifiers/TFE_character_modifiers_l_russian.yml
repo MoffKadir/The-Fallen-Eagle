@@ -1,0 +1,191 @@
+﻿l_russian:
+ swords_bent_modifier: "Мечи согнуты"
+ swords_bent_modifier_desc: "Армии этого персонажа были списаны, когда они были разбиты в войне"
+  
+ red_king_modifier: "Красный король"
+ red_queen_modifier: "Красная королева"
+ caliph_auth: "Власть халифата"
+ statue_gold: "Золотая статуя"
+ statue_marble: "Мраморная статуя"
+ statue_limestone: "Статуя из известняка"
+ statue_stone: "Каменная статуя"
+ statue_char_gold: "Золотая статуя"
+ statue_char_marble: "Мраморная статуя"
+ statue_char_limestone: "Статуя из известняка"
+ statue_char_stone: "Каменная статуя"
+ statue_char_copper: "Медная статуя"
+ statue_copper: "Медная статуя"
+ monument_gardens: "Сады монументов"
+ monument_gardens_char: "Сады памятников"
+  
+ monument_fences: "Ограды памятников"
+ monument_fences_char: "Ограды памятников"
+  
+ TFE_refused_to_give_up_dunhuang: "Отказался отказаться от Дуньхуана"
+ TFE_refused_to_give_up_dunhuang_desc: "Этот персонаж отказался от поста правителя Дуньхуана, хотя все согласились, что есть гораздо более достойный и лучший кандидат на эту должность. Вот уж действительно высокомерный имбецил!"
+ TFE_king_of_the_goths_modifier: "Король готов"
+ TFE_king_of_the_goths_modifier_desc: "Этот персонаж был провозглашен своим народом королем готов и не остановится ни перед чем, чтобы унизить своих врагов."
+ distribute_bread_modifier: "Бесплатная раздача хлеба"
+ distribute_bread_modifier_desc: "Жители этого округа получили бесплатный хлеб и еду. Достаточно, чтобы выжить и оставаться спокойными даже в трудные времена.\n#F Графства с этим [модификатором|E] не могут присоединиться к #V $FACTION_PEASANT_NAME$#! [фракции|E].#!"
+  
+ gladiatorial_games_very_bad_modifier: "Очень плохие гладиаторские игры"
+ gladiatorial_games_very_bad_modifier_desc: "Люди этого графства в смятении и открытом восстании после того, что они считают катастрофическими и возмутительными гладиаторскими играми."
+ gladiatorial_games_bad_modifier: "Плохие гладиаторские игры"
+ gladiatorial_games_bad_modifier_desc: "Жителям этого округа очень не понравились недавние гладиаторские игры, и они дают об этом знать."
+ gladiatorial_games_good_modifier: "Хорошие гладиаторские игры"
+ gladiatorial_games_good_modifier_desc: "Жители этого округа остались довольны недавними гладиаторскими играми"
+ gladiatorial_games_very_good_modifier: "Очень хорошие гладиаторские игры"
+ gladiatorial_games_very_good_modifier_desc: "Жители этого графства постоянно празднуют благодаря недавним гладиаторским играм."
+  
+ broken_bureaucratic_chain: "Сломанная бюрократическая цепь"
+ broken_bureaucratic_chain_desc: "Этот персонаж еще не отошел от некомпетентности своего старого сеньора и не основал новое самодержавное царство"
+  
+ senate_term: "Срок полномочий в сенате"
+ senate_term_desc: "Этот персонаж будет оставаться сенатором до окончания своего 5-летнего срока"
+ minumum_senate_admin: "Минимальная администрация сената"
+ taxing_rights_senate_admin: "Налоговые права сената"
+ absolute_senate_admin: "Абсолютная администрация сената"
+ exclusion_senate_mil: "Исключение сената из армии"
+ regular_senate_mil: "Права сената по регулярной переписи"
+ retinue_senate_mil: "Права сената для обученной свиты"
+ no_senate_legislation: "Нет сенатского законодательства"
+ regular_senate_legislation: "Регулярное законодательство Сената"
+ absolute_senate_legislation: "Абсолютное законодательство сената"
+  
+ minumum_senate_admin_desc: ""
+ taxing_rights_senate_admin_desc: ""
+ absolute_senate_admin_desc: ""
+ exclusion_senate_mil_desc: ""
+ regular_senate_mil_desc: ""
+ retinue_senate_mil_desc: ""
+ no_senate_legislation_desc: ""
+ regular_senate_legislation_desc: ""
+ absolute_senate_legislation_desc: ""
+  
+  # All the literacy modifiers 
+ script_grandeur_bonus: "Письменная система"
+  
+  # Roman Baths 
+ TFE_recently_built_baths_roman_province_small: "Недавно построенные римские бани (малые)"
+ TFE_recently_built_baths_roman_province_small_desc: "Местные власти недавно построили важную римскую баню в столице этого региона, повысив качество жизни местных жителей.\n\n#italic [правитель|E] этого [округа|E] потеряет дополнительный [стресс|E] при принятии [решения|E] посетить $TFE_visit_roman_bathhouse$#!"
+ TFE_recently_built_baths_non_roman_province_small: "$TFE_recently_built_baths_roman_province_small$"
+ TFE_recently_built_baths_non_roman_province_small_desc: "$TFE_recently_built_baths_roman_province_small_desc$"
+ TFE_recently_built_baths_roman_province_medium: "Недавно построенные римские бани (средние)"
+ TFE_recently_built_baths_roman_province_medium_desc: "$TFE_recently_built_baths_roman_province_small_desc$"
+ TFE_recently_built_baths_non_roman_province_medium: "$TFE_recently_built_baths_roman_province_medium$"
+ TFE_recently_built_baths_non_roman_province_medium_desc: "$TFE_recently_built_baths_roman_province_small_desc$"
+ TFE_recently_built_baths_roman_province_large: "Недавно построенные римские бани (большие)"
+ TFE_recently_built_baths_roman_province_large_desc: "$TFE_recently_built_baths_roman_province_small_desc$"
+ TFE_recently_built_baths_non_roman_province_large: "$TFE_recently_built_baths_roman_province_large$"
+ TFE_recently_built_baths_non_roman_province_large_desc: "$TFE_recently_built_baths_roman_province_small_desc$"
+  
+  # Holy Wells 
+ TFE_holy_well_level_1: "Недавно освящен незначительный святой колодец"
+ TFE_holy_well_level_1_desc: "Религиозные власти этого региона недавно освятили святой колодец, пользующийся известностью. Посвященные стекаются к нему из ближайших мест, чтобы помолиться и оставить подношения.\n\n#italic [правитель|E] этого [округа|E] может принять [решение|E] о $TFE_посещении_святого_колодца$, если в его [культуре|E] есть [традиция|E] $tradition_sacred_springs_name$. Малый святой колодец дает меньше бонусов при принятии этого [решения|E], по сравнению с большим и великим святыми колодцами.#!"
+ TFE_holy_well_level_2: "Крупный святой колодец недавно освящен"
+ TFE_holy_well_level_2_desc: "Религиозные власти этого региона недавно освятили известный святой колодец. К нему стекаются верующие из окрестностей, чтобы помолиться и оставить подношения.\n\n#italic [правитель|E] этого [округа|E] может принять [решение|E] о $TFE_посещении_святого_колодца$, если в его [культуре|E] есть [традиция|E] $tradition_sacred_springs_name$. Главный святой колодец дает больше бонусов при принятии этого [решения|E] по сравнению с малым святым колодцем, но меньше по сравнению с великим святым колодцем.#!"
+ TFE_holy_well_level_3: "Великий святой колодец недавно освящен"
+ TFE_holy_well_level_3_desc: "Религиозные власти этого региона недавно освятили известный святой колодец. Посвященные стекаются к нему из ближайших мест, чтобы помолиться и оставить подношения.\n\n#italic [правитель|E] этого [округа|E] может принять [решение|E] о $TFE_посещении_святого_колодца$, если в его [культуре|E] есть [традиция|E] $tradition_sacred_springs_name$. Великий святой колодец дает больше бонусов при принятии этого [решения|E], чем малые и главные святые колодцы.#!"
+ TFE_healing_waters_of_a_holy_well: "Целебные воды святого колодца"
+ TFE_healing_waters_of_a_holy_well_desc: "Этот персонаж недавно посетил святой колодец, чтобы помолиться и сделать религиозные подношения. После этого персонаж почувствовал, что духовно и физически омолодился."
+  
+  
+ sow_dissent_ere: "Посеял несогласие"
+ sow_dissent_ere_desc: "Правитель Италии посеял раскол в империи, чтобы ослабить свое положение"
+  
+ fellow_heptarch: "Соратник гептарха"
+ fellow_heptarch_desc: "Этот правитель - уважаемая фигура в новом политическом порядке Британии"
+  
+  # Old North stuff 
+ patron_of_trade: "Покровитель торговли"
+  
+ # Misc stuff 
+ bloody_pants_char: "Вы запретили иностранную моду..."
+  
+ sevenhouses_bad_modifier_strong: "Неблагосклонен к Великим Домам (Сильный)"
+ sevenhouses_bad_modifier_strong_desc: "[great_houses|E] не одобряет этого шаха, из-за чего положение шаха становится менее безопасным и все больше подвергается сомнению со стороны многих за пределами империи и внутри империи."
+ sevenhouses_good_modifier_strong: "Одобрен Великими Домами (Сильный)"
+ sevenhouses_good_modifier_strong_desc: "Этому шаху благоволит [great_houses|E] Эрана, в результате чего положение шаха становится более безопасным и принимается большей частью Эрана."
+  
+ sevenhouses_bad_modifier: "Неблагосклонный к Великим Домам"
+ sevenhouses_bad_modifier_desc: "[great_houses|E] не одобряет этого шаха, из-за чего положение шаха становится менее безопасным и все больше подвергается сомнению со стороны многих за пределами империи и внутри империи."
+ sevenhouses_good_modifier: "Одобрено Великими Домами"
+ sevenhouses_good_modifier_desc: "Этому шаху благоволит [great_houses|E] Эрана, в результате чего положение шаха становится более безопасным и принимается большей частью Эрана."
+  
+ sevenhouses_bad_modifier_strong_dehqan: "Неблагосклонен к Великим Домам (Сильный)"
+ sevenhouses_bad_modifier_strong_dehqan_desc: "[great_houses|E] не одобряет этого шаха, из-за чего положение шаха становится менее безопасным и все больше подвергается сомнению со стороны многих за пределами империи и внутри империи."
+ sevenhouses_good_modifier_strong_dehqan: "Одобрен Великими Домами (Сильный)"
+ sevenhouses_good_modifier_strong_dehqan_desc: "Этому шаху благоволит [great_houses|E] Эрана, в результате чего положение шаха становится более безопасным и принимается большей частью Эрана."
+  
+ sevenhouses_bad_modifier_dehqan: "Неблагосклонный к Великим Домам"
+ sevenhouses_bad_modifier_dehqan_desc: "[great_houses|E] не одобряет этого шаха, из-за чего положение шаха становится менее безопасным и все больше подвергается сомнению со стороны многих за пределами империи и внутри империи."
+ sevenhouses_good_modifier_dehqan: "Одобрено Великими Домами"
+ sevenhouses_good_modifier_dehqan_desc: "Этому шаху благоволит [great_houses|E] Эрана, в результате чего положение шаха становится более безопасным и принимается большей частью Эрана."
+  
+ avenged_worms_modifier: "Отомстил за Королевство Червей"
+  
+ migration_leader: "Лидер миграции"
+ migration_leader_desc: "Этот персонаж посвятил свою жизнь цели обеспечить своему народу лучшее будущее."
+  
+ established_suebians: "Основано королевство для свевов"
+  
+  # Donatist Revolt 
+ donatist_leader_modifier: "Лидер донатистов."
+  
+  #The Theodorics 
+ king_of_the_ostrogoths: "Король остготов"
+ king_of_the_ostrogoths_desc: "Злобный дипломат, хитрый полководец и способный администратор — Теодорих действительно заслужил прозвище «Великий»."
+  
+ zenos_blessing: "Благословение Зенона"
+ zenos_blessing_desc: "Зенон номинально поддерживает усилия этого персонажа, но Император всегда настороженно относится к потенциальным угрозам из Империи."
+  
+ pillager_king: "Устрашающий рейдер"
+ pillager_king_desc: "Этот персонаж стал почти клинически эффективным в мародерстве и мародерстве."
+  
+ governor_of_italy: "Рекс Италия" #NT!
+ governor_of_italy_desc: "Одоакр, официально назначенный Зеноном герцогом Италии, следует своим собственным путем..." #NT!
+  
+ reinvested_gift: "Реинвестированный подарок"
+ rearmed_personal_guard: "Перевооруженная личная охрана"
+  
+  #Gladiator 
+ exotic_pet_modifier: "Экзотический питомец"
+ exotic_pet_modifier_desc: "Внушительный зверь издалека, хорошо обученный и яростно преданный."
+  
+  #Scapulimancy 
+ insane_diplomacy_scapulimancy: "Удивительные дипломатические знамения"
+ great_diplomacy_scapulimancy: "Великие дипломатические знамения"
+ good_diplomacy_scapulimancy: "Хорошие дипломатические предзнаменования"
+ neutral_diplomacy_scapulimancy: "Нейтральные дипломатические предзнаменования"
+ bad_diplomacy_scapulimancy: "Плохие дипломатические предзнаменования"
+ terrible_diplomacy_scapulimancy: "Ужасные дипломатические предзнаменования"
+ insane_military_scapulimancy: "Удивительные боевые знамения"
+ great_military_scapulimancy: "Великие боевые знамения"
+ good_military_scapulimancy: "Хорошие военные предзнаменования"
+ neutral_military_scapulimancy: "Нейтральные боевые знамения"
+ bad_military_scapulimancy: "Плохие военные предзнаменования"
+ terrible_military_scapulimancy: "Ужасные военные знамения"
+ insane_stewardship_scapulimancy: "Удивительные знамения управления"
+ great_stewardship_scapulimancy: "Великие знамения управления"
+ good_stewardship_scapulimancy: "Хорошие предзнаменования управления"
+ neutral_stewardship_scapulimancy: "Нейтральные знамения управления"
+ bad_stewardship_scapulimancy: "Предзнаменования плохого управления"
+ terrible_stewardship_scapulimancy: "Ужасные знамения управления"
+ insane_intrigue_scapulimancy: "Удивительные предзнаменования интриг"
+ great_intrigue_scapulimancy: "Великие интриги"
+ good_intrigue_scapulimancy: "Хорошие предзнаменования интриг"
+ neutral_intrigue_scapulimancy: "Нейтральные предзнаменования интриг"
+ bad_intrigue_scapulimancy: "Предвестники плохих интриг"
+ terrible_intrigue_scapulimancy: "Предвестники ужасных интриг"
+ insane_learning_scapulimancy: "Удивительные знамения обучения"
+ great_learning_scapulimancy: "Великие знамения обучения"
+ good_learning_scapulimancy: "Хорошие знамения обучения"
+ neutral_learning_scapulimancy: "Нейтральные обучающие предзнаменования"
+ bad_learning_scapulimancy: "Предзнаменования плохого обучения"
+ terrible_learning_scapulimancy: "Ужасные знамения обучения"
+  
+ rebuilt_third_temple: "Восстановленный Третий Храм"
+ rebuilt_third_temple_desc: "Этот персонаж восстановил Иерусалимский храм, заслужив как вечную неприязнь всех христиан, так и стойкую дружбу всех евреев."
+ judaism_religion_opinion: "$judaism_religion_adherent$ Мнение"
+  
+ rouran_khagan_founder: "Основатель Жужана" #NT!

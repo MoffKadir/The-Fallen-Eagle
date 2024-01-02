@@ -1,0 +1,29 @@
+﻿l_russian:
+ #COA_DESIGNER_CATEGORY_abstract: "Абстрактный" #NT!
+ #COA_DESIGNER_CATEGORY_animals: "Животные" #NT!
+ #COA_DESIGNER_CATEGORY_circles_spirals: "Круги и спирали" #NT!
+ #COA_DESIGNER_CATEGORY_crosses_and_knots: "Кресты и узлы" #NT!
+ #COA_DESIGNER_CATEGORY_faiths: "Веры" #NT!
+ #COA_DESIGNER_CATEGORY_manmade: "Искусственный" #NT!
+ #COA_DESIGNER_CATEGORY_nature: "Природные объекты" #NT!
+ #COA_DESIGNER_CATEGORY_patterns: "Узоры" #NT!
+ #COA_DESIGNER_CATEGORY_tribal_seal: "Ванильные тамги" #NT!
+ #COA_DESIGNER_CATEGORY_writing: "Письмо" #NT!
+ #COA_DESIGNER_CATEGORY_figures: "Цифры" #NT!
+
+ COA_DESIGNER_CATEGORY_roman_shapes: "Позднеримские формы"
+ COA_DESIGNER_CATEGORY_roman_animals: "Позднеримские животные"
+ COA_DESIGNER_CATEGORY_roman_patterns: "Позднеримские узоры"
+ COA_DESIGNER_CATEGORY_roman_nature: "Позднеримские природные объекты"
+ COA_DESIGNER_CATEGORY_roman_manmade: "Позднеримские фигуры"
+ COA_DESIGNER_CATEGORY_roman_crosses: "Позднеримские кресты"
+
+ COA_DESIGNER_CATEGORY_chinese_writing: "Китайские иероглифы"
+
+ COA_DESIGNER_CATEGORY_tamgas: "TFE Тамги"
+
+ COA_DESIGNER_CATEGORY_germanic_animals: "Германские животные"
+ COA_DESIGNER_CATEGORY_germanic_figures: "Германские фигуры"
+
+ #COA_DESIGNER_EMBLEM_LAYOUT_TAB_HEADER: "Макет" #NT!
+ #COA_DESIGNER_EMBLEM_LAYOUT_PANEL_HEADER: "Макет эмблемы" #NT!

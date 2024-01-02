@@ -1,0 +1,117 @@
+﻿l_russian:
+ SENATE_HUD_TOOLTIP: "#T Императорский Сенат#!"
+ SENATE_HUD_TOOLTIP_desc: "К началу V века н.э. сенат утратил большую часть своего авторитета в результате столетий реформ, передачи полномочий и роста власти римских императоров. Несмотря на упадок, члены сената сохраняют разную степень влияния и престижа."
+ SEVEN_HOUSES_BUTTON: "#T Великие дома#!"
+ SEVEN_HOUSES_SUB_HEADING: "Семь великих домов Ирана"
+ SEVEN_HOUSES_SHAH: "Шахиншах"
+ SEVEN_HOUSES_STRENGTH: "[Concept( 'great_house_strength', 'Сила домов' )|E]"
+ SEVEN_HOUSES_FAVOR: "[Concept( 'great_house_favor', 'Благосклонность домов' )|E]"
+
+ trade_button_tooltip: "#T Посмотреть торговый узел#!"
+ monuments_button_tooltip: "#T Заказать памятник#!"
+ monuments_view_button_tooltip: "#T Посмотреть памятник#!"
+
+ MARS_UI_NAME: "[Select_CString(EqualTo_string(FaithWindow.GetFaith.GetNameNoTooltip, Localize('roman_pagan')), 'Mars ', 'Ares ')]"
+ MERCURY_UI_NAME: "[Select_CString(EqualTo_string(FaithWindow.GetFaith.GetNameNoTooltip, Localize('roman_pagan')), 'Mercury  ', 'Hermes ')]"
+ MINERVA_UI_NAME: "[Select_CString(EqualTo_string(FaithWindow.GetFaith.GetNameNoTooltip, Localize('roman_pagan')), 'Minerva  ', 'Athena ')]"
+ LAVERNA_UI_NAME: "[Select_CString(EqualTo_string(FaithWindow.GetFaith.GetNameNoTooltip, Localize('roman_pagan')), 'Laverna  ', 'Laverna ')]"
+ VENUS_UI_NAME: "[Select_CString(EqualTo_string(FaithWindow.GetFaith.GetNameNoTooltip, Localize('roman_pagan')), 'Venus  ', 'Aphrodite ')]"
+ marshal_statue: "Маршал"
+ personality_honorable_statue: "Благородство"
+ chancellor_statue: "Канцлер"
+ aggressive_sword_statue: "С мечом"
+ idle_statue: "Бездействие"
+
+ CHARIOT_RACES_BUTTON: "Команды гонок на колесницах"
+ CHARIOT_RACES_NAME: "[Character.GetNameNoTooltip]"
+ CHARIOT_RACES_PROWESS: "Доблесть: [Character.GetProwess]"
+
+ ecotability_desc: "#T Экономическая стабильность: [GetPlayer.MakeScope.Var('ecostability').GetValue|1V]#!\nЭкономическая стабильность очень важна для городов-государств, поскольку она позволяет определить, будет ли ваша держава процветать или вам нужно сократить некоторые расходы. Она варьируется от -150 до 150 и ежемесячно суммирует ваш ежемесячный чистый доход и дефицит. Поддержание этого показателя на максимально возможном уровне гарантирует процветание и благополучие вашей державы."
+
+ STATUE_TITLE: "Великая статуя персонажа [Character.GetName]"
+ RHODES_TITLE: "Великий Колосс Родосский"
+
+ BUILD_GARDEN: "#T Построить сады: 500 [Concept( 'gold', 'золота' )|E]#!"
+ BUILD_GARDEN_DESC: "Постройте сад вокруг вашего великого памятника. Хотя это и не обеспечит безопасности, как ограда, но поднимет народное мнение и вдохновит местных жителей на застройку округа.\nЭффекты для графства:\n[GetModifier('monument_gardens').GetDesc]\nЭффекты для владельца:\n[GetModifier('monument_gardens_char').GetDesc]"
+ GARDENS_BUILT: "#T Построенные сады#!"
+
+ BUILD_FENCES: "#T Построить ограду: 500 [gold|E]#!"
+ BUILD_FENCES_DESC: "Постройте крепкую ограду вокруг вашего великого памятника. Хотя это и не обеспечит красоты, как сады, но повысит ваш контроль над людьми и увеличит ваш ужас.\nЭффекты для графства:\n[GetModifier('monument_fences').GetDesc]\nЭффекты для владельца:\ n[GetModifier('monument_fences_char').GetDesc]"
+ FENCES_BUILT: "#T Построенная ограда#!"
+
+ DESTROY_MONUMENT: "#T Уничтожить памятник: [HoldingView.GetTitle.MakeScope.ScriptValue('monument_refund')|0] [Concept( 'gold', 'золота' )|E] будет возвращено#!"
+
+ MONUMENT_DATE: "Год постройки [HoldingView.GetTitle.MakeScope.Var('monument_date').GetValue] н.э."
+ RHODES_DATE: "Построен в 280 г. до н.э."
+
+ MATERIAL_GOLD: "Материал: золото"
+ MATERIAL_MARBLE: "Материал: Мрамор"
+ MATERIAL_LIMESTONE: "Материал: Известняк"
+ MATERIAL_STONE: "Материал: Камень"
+ MATERIAL_COPPER: "Материал: Медь"
+ MATERIAL_COPPER_O: "Материал: Медь (Окисленная)"
+
+ GOLD_TEXT_MON: "#T Золото#!"
+ COPPER_TEXT: "#T Медь#!"
+ MARBLE_TEXT: "#T Мрамор#!"
+ LIMESTONE_TEXT: "#T Известняк#!"
+ STONE_TEXT: "#T Камень#!"
+
+ MARSHAL_STATUE: "#T Маршал#!"
+ DIPLOMATIC_STATUE: "#T Канцлер#!"
+ AGGRESSIVE_TEXT: "#T Съ мечомъ#!"
+ PROUD_TEXT: "#T Благородство#!"
+ IDLE_TEXT: "#T Бездействие#!"
+
+ MODIFIERS_TEXT: "Модификаторы"
+ EFFECTS_TEXT: "#T Эффекты:#!"
+ MATERIALS_TEXT: "#T Материалы:#!"
+ POSES_TEXT: "#T Позы#!"
+ EFFECTS_HOLDER_TEXT: "#T Эффекты для владельца:#!"
+ MONUMENT_CONSTRUCTION_TIME: "#T Осталось [HoldingView.GetTitle.MakeScope.Var( 'monument_cooldown' ).GetValue] месяцев до завершения#!"
+ CONSTRUCT_MONUMENT: "Построить"
+ MONUMENT_COST: "Стоимость: [HoldingView.GetTitle.MakeScope.ScriptValue('monument_price')|0] [Concept( 'gold', 'золота' )|E]"
+
+ CALIPH_MANAGE: "Управление халифатом"
+
+ CALIPH_AUTHORITY_EQUIL: "#T Равновесие власти халифата#!"
+
+ CALIPH_EQUIL_DESC: "Это значение, к которому ваш авторитет медленно снижается."
+
+ CALIPH_AUTH: "#T Власть халифа#!"
+
+ BUILD_SHELTERS_CALIPH: "#T Построить приют для бездомных: 500 золотых#!"
+ BUILD_SHELTERS_CALIPH_DESC: "Постройте приюты по всей державе, чтобы помочь бездомным. Это увеличит развитие в зависимости от размера вашей державы."
+
+ DONATE_TO_POOR_CALIPH: "#T Пожертвовать бедным: 200 золотых#!"
+ DONATE_TO_POOR_CALIPH_DESC: "Отправьте гонцов на поиски бедных и несчастных, чтобы помочь им. Это повысит настроение и счастье по всей державе и повысит мнение"
+  
+ BUILD_SHELTERS_FOR_ALL_CALIPH: "#T Постройте приюты для бездомных для всех людей вашей веры: 1500 золотых#!"
+ BUILD_SHELTERS_FOR_ALL_CALIPH_DESC: "Постройте приюты по всему миру для людей вашей веры, чтобы помогать бездомным. Это увеличит развитие в зависимости от распространения вашей веры"
+
+ EASE_ROAD_CALIPH: "#T Обустроить дороги для путешественников: 1500 золотых#!"
+ EASE_ROAD_CALIPH_DESC: "Помогите построить несколько зон отдыха для путешественников и всех, кто пересекает дорогу. Это увеличит лимит снабжения провинций вашей державы."
+
+ LONG_TERM_SHELTERS_CALIPH: "#T Построить крупномасштабные и долгосрочные убежища: 1500 золотых#!"
+ LONG_TERM_SHELTERS_CALIPH_DESC: "Создайте крупные группы для строительства приютов для бездомных в долгосрочной перспективе. Это будет постоянно увеличивать развитие вашей державы."
+
+ BUILD_MONUMENT_HEADER: "Построить памятник в [HoldingView.GetTitle.MakeScope.Title.GetName]"
+
+ STATUE_TEXT: "Статуя"
+
+ POT_REF: "#T Памятник будет посвящен...#!"
+
+ TRADE_TEXT: "Торговля"
+ TRADE_NODE_TITLE: "Торговый узел — [Scope.Province.GetTitle.GetNameNoTier]"
+ TRADE_POWER_TEXT: "Локальная [Concept( 'trade_power', 'торговая сила' )|E]: [Scope.ScriptValue('trade_node_strength')|1]/[Scope.Var('trade_node_cap').GetValue|1]"
+ GLOBAL_TRADE_POWER_TEXT: "[global_trade_power|E]: [Scope.Var('global_power').GetValue|1]"
+ TRADE_CENTER_TEXT: "#T Торговый центр#!"
+ NODE_BLOCKADE_TEXT: "#T Узел заблокирован#!"
+
+ TRADE_NODE_TITLE_COUNTY: "[HoldingView.GetProvince.GetName] — торговый узел"
+ TRADE_POWER_TEXT_COUNTY: "Локальная [Concept( 'trade_power', 'торговая сила' )|E]: [HoldingView.GetProvince.MakeScope.ScriptValue('trade_node_strength')|1]/[HoldingView.GetProvince.MakeScope.Var('trade_node_cap').GetValue|1]"
+ GLOBAL_TRADE_POWER_TEXT_COUNTY: "[global_trade_power|E]: [HoldingView.GetProvince.MakeScope.Var('global_power').GetValue|1]"
+ TRADE_CENTER_TEXT_COUNTY: "#T Преобразовать в торговый центр: 1000 [Concept( 'gold', 'золота' )|E]#!"
+ NODE_BLOCKADE_TEXT_COUNTY: "#T Блокада узла#!"
+ INCREASE_CAP: "Увеличить лимит: 500 [Concept( 'gold', 'золота' )|E]"
+ INCREASE_CAP_DESC: "Увеличьте лимит торговой мощи на 5"

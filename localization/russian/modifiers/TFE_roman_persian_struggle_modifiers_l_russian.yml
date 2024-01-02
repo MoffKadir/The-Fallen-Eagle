@@ -1,0 +1,7 @@
+﻿l_russian:
+ struggle_roman_persian_house_war_modifier: "Военное превосходство"
+ struggle_roman_persian_house_war_modifier_desc: "[roman_persian_struggle|E] были заключены благодаря усилиям этого дома. После этого они установили военное господство в [GetGeographicalRegion('TFE_roman_persian_struggle_region').GetName] [region|E], создав непреодолимую военную мощь."
+ struggle_roman_persian_house_culture_modifier: "Культурное превосходство"
+ struggle_roman_persian_house_culture_modifier_desc: "[roman_persian_struggle|E] были заключены благодаря усилиям этого дома. Впоследствии они утвердили культурное господство на всей территории [GetGeographicalRegion('TFE_roman_persian_struggle_region').GetName] [region|E], распространяя и продвигая обычаи своего народа."
+ struggle_roman_persian_house_politics_modifier: "Политическое превосходство"
+ struggle_roman_persian_house_politics_modifier_desc: "[roman_persian_struggle|E] были заключены благодаря усилиям этого дома. Впоследствии они утвердили культурное господство на всей территории [GetGeographicalRegion('TFE_roman_persian_struggle_region').GetName] [region|E], жестко контролируя и влияя на более мелкие и слабые государства вокруг себя."

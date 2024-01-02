@@ -1,0 +1,7 @@
+﻿l_russian:
+ TFE_decision_pagan_requirement: "Следует за язычником [faith|E]"
+ NOT_IS_PRIMARY_HEIR_OF_CHARACTER_TRIGGER: "Не мой первый наследник"
+ TFE_HAS_WON_AMOUNT_WARS: "Вы лично выиграли как минимум $VALUE|V0$ войн"
+ NOT_HAS_CULTURAL_PILLAR_THIRD: "[CULTURE.GetName|U] [culture|E] #V не имеет #! [CULTURE_PILLAR.GetName] [culture_pillar|E]"
+ ROMANS_HAVE_NOT_ABANDONED_BRITANNIA_TRIGGER: "Римляне не отказались от $k_britannia$" #NT!
+ NOT_ROMANS_HAVE_NOT_ABANDONED_BRITANNIA_TRIGGER: "Римляне уже отказались от $k_britannia$" #NT!

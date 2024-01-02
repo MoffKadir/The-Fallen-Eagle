@@ -1,0 +1,84 @@
+﻿l_russian:
+ trait_green_support: "Сторонник зеленых"
+ trait_green_support_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является ярым сторонником команды гонщиков на зелёных колесницах.."
+ trait_blue_support: "Сторонник cиних"
+ trait_blue_support_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является ярым сторонником команды гонщиков на синих колесницах."
+  
+ trait_green_charioteer: "Зелень Возничий"
+ trait_green_charioteer_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом команды Зеленых по гонкам на колесницах."
+ trait_blue_charioteer: "Блюз Возничий"
+ trait_blue_charioteer_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом команды гонщиков на колесницах Синих."
+  
+ trait_restitutor_orbis: "Восстановитель сферы"
+ trait_restitutor_orbis_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] успешно восстановил разрозненные владения Рима под одной короной, одной империей."
+  
+ trait_sahabi_trait: "Сахаби"
+ trait_sahabi_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] был на стороне Пророка и способствовал возникновению и распространению ислама."
+  
+ trait_adopted_trait: "Приёмный ребенок"
+ trait_adopted_desc: "Этот человек был усыновлен и вынужден жить в доме своих родителей."
+ trait_adopted_roman_desc: "Согласно римскому обычаю, этот человек был объявлен ребенком своего усыновителя и в равной степени может унаследовать его титулы.."
+  
+ gladiator_key: "Гладиатор"
+ gladiatrix_key: "Гладиатрикс"
+ trait_gladiator_group: "Гладиатор"
+ trait_gladiator_trait: "Гладиатор"
+ trait_gladiator_trait_female: "$gladiatrix_key$"
+ trait_gladiator_desc: "Этот персонаж - гладиатор, чаще всего раб или пленник, проданный, чтобы сражаться и умереть на арене"
+ trait_gladiator_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] - это [ROOT.GetCharacter.Custom('GetGladiatorGladiatrix')], чаще всего раб или пленник, проданный, чтобы сражаться и умереть на арене"
+ trait_former_gladiator_trait: "Бывший гладиатор"
+ trait_former_gladiator_trait_female: "Former $gladiatrix_key$"
+ trait_former_gladiator_desc: "Этот персонаж пережил достаточно боев на арене в качестве гладиатора, чтобы получить свободу"
+ trait_former_gladiator_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] пережил достаточно боев на арене в качестве [ROOT.GetCharacter.Custom('GetGladiatorGladiatrix')], чтобы получить [ROOT.GetCharacter.GetHerHis] свободу"
+  
+ #Reasons 
+  #Already in vanilla 
+ #ALREADY_CONTAINTS_TRAIT: "@warning_icon!#X $CHARACTER_NAME$ уже имеет черту [TRAIT.GetName( CHARACTER.Self )]#!"
+ #CONTAINTS_OPPOSITE_TRAIT: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] нельзя добавить, потому что $CHARACTER_NAME$ уже имеет противоположный признак [TRAIT_2.GetName( CHARACTER.Self )]#!"
+ #IS_POTENTIAL_TRAIT_FALSE: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] нельзя добавить, потому что $CHARACTER_NAME$ заблокирован от владения им#!"
+ #TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] нельзя добавить, потому что $CHARACTER_NAME$ моложе $TRAIT_AGE|V$ #weak (является $CHARACTER_AGE|V$)#!#!"
+ #TRAIT_AGE_NOT_IN_RANGE_TOO_OLD: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] нельзя добавить, потому что $CHARACTER_NAME$ старше, чем $TRAIT_AGE|V$ #weak (является $CHARACTER_AGE|V$)#!#!"
+ #TRAIT_SEX_NOT_MATCHING: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] нельзя добавить, потому что $CHARACTER_NAME$ не является $TRAIT_SEX$#!"
+ #ALREADY_HAS_TRAIT_IN_GROUP: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] нельзя добавить, потому что $CHARACTER_NAME$ уже имеет черту a в группе [TRAIT_GROUP.GetName] #weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!"
+ #SEX_MALE: "Мужской"
+ #SEX_FEMALE: "Женский"
+  
+  # Decision Traits 
+ restitutor_orbis: "Restitutor Orbis"
+ restitutor_orbis_desc: "Этот персонаж смог вновь завоевать все земли Римской империи, заслужив признание и похвалу за свои усилия."
+  
+  # Attila Trait 
+ trait_the_hun: "Гунн"
+ trait_the_hun_desc: "Гунн - это прозвище, данное кочевому военачальнику, известному как Аттила, которого также называли Бичом из-за его репутации не щадить ни один христианский город во время своего разрушительного набега на Европу."
+  
+  # Heir of Attila Trait 
+ trait_heir_of_attila: "Наследник Аттилы"
+ trait_heir_of_attila_desc: "Этот персонаж смог воссоединить Гуннскую империю и провозгласить себя законным наследником Аттилы."
+  
+ trait_low_senator: "Низкий сенатор"
+ low_senator_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом Имперского Сената, хотя его низкий ранг не заслуживает никакого признания его усилий в настоящее время."
+ trait_senator: "Сенатор"
+ senator_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом Имперского Сената."
+ trait_high_senator: "Верховный сенатор"
+ high_senator_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] - член Имперского Сената, достигший высшего ранга в этом политическом органе благодаря своему опыту и влиянию."
+ trait_former_senator: "Бывший сенатор"
+ former_senator_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] раньше был членом Имперского Сената, но с тех пор был освобожден от своих обязанностей."
+ trait_training_senator: "Обучающий сенатор"
+ training_senator_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] стремится вступить в Имперский Сенат, обучаясь, чтобы стать квалифицированным для должности в этом политическом органе."
+  
+  
+ trait_apotheosised_trait: "Апофеозный"
+ apotheosised_trait_desc: "Этот персонаж, римский император, был апофеозом преемника и получил статус обожествленного."
+  
+ trait_brahmin: "Брахман"
+ trait_brahmin_desc: "Брахманы родились изо рта Пуруши, и их [varna|E] божественно предназначено служить жрецами, учителями и философами."
+ trait_brahmin_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] относится к брахманам [varna|E], которые традиционно служат духовенством и учеными на Индийском субконтиненте.\n\nСчитается грехом убить брахмана или отобрать у него землю."
+ trait_kshatriya: "кшатрии"
+ trait_kshatriya_desc: "Кшатрии родились из рук Пуруши и известны как воины. Дхармашастры учат, что в идеале царством должен управлять один из кшатриев [varna|E]."
+ trait_kshatriya_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] относится к кшатриям [varna|E], которые традиционно служат воинами и королями на всем Индийском субконтиненте.\n\nХотя правитель других высших варн приемлем, люди дхармической веры всегда предпочтут кшатриев, правящих ими."
+ trait_vaishya: "вайшья"
+ trait_vaishya_desc: "Вайшьи родились из бедер Пуруши и преуспели в коммерческой деятельности. Торговцы этого [varna|E] находятся во всех портах от Суматры до Рима."
+ trait_vaishya_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] относится к вайшьям [varna|E], которые традиционно служат торговцами и фермерами на Индийском субконтиненте и за его пределами."
+ trait_shudra: "Шудра"
+ trait_shudra_desc: "Шудры родились из стоп Пуруши, и их [varna|E] призваны служить высшим варнам."
+ trait_shudra_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является частью шудры [varna|E], традиционного рабского класса Индийского субконтинента\n\nНередко шудры становятся правителями, но большинство царей шудр принимают более высокие варнские идентичности, чтобы добиться легитимности своего правления.\n\n недопустимый союз женщины Высшей Варны и Мужчины Низшей Варны приведет к шудрам независимо от варны родителей."

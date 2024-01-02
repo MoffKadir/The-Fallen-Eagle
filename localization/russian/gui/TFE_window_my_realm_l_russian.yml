@@ -1,0 +1,21 @@
+﻿l_russian:
+ LOW_COMPETENCE_WARNING: "#X Однако, если ваша компетентность упадет до 0, ваше неумелое руководство станет очевидным, и вы столкнетесь с серьезными последствиями#!"
+ COMP_PASS_LAW: "Чтобы принять закон, шкала компетенции должна быть на максимальном значении."
+
+ GET_MIL_COMPETENCE: "#T [military_comp|E]: [GetPlayer.MakeScope.Var('mil_comp').GetValue|0]\n[GetPlayer.MakeScope.GetScriptValueDesc('mil_competence_total')|1]#!"
+ GET_MIL_COMPETENCE_COMPLETE_BREAKDOWN: "#T [military_comp|E]:#!\n$GET_MIL_COMPETENCE_BREAKDOWN$\n\n[GetPlayer.MakeScope.GetScriptValueDesc('mil_competence_total')|1]"
+ GET_MIL_COMPETENCE_BREAKDOWN: "[GetPlayer.MakeScope.GetScriptValueDesc('mil_competence_net')]"
+ MIL_COMP_EXPLAIN: "Военная компетентность делает упор на военные союзы, наличие внушительной армии и репутации в периоды конфликтов."
+
+ #P [GetPlayer.MakeScope.ScriptValue('mil_competence_net')|1]#! 
+ #N [GetPlayer.MakeScope.ScriptValue('mil_competence_net')|1]#! 
+
+ GET_CIV_COMPETENCE: "#T [civic_comp|E]: [GetPlayer.MakeScope.Var('civic_comp').GetValue|0]\n[GetPlayer.MakeScope.GetScriptValueDesc('civic_competence_total')|1]#!"
+ GET_CIVIC_COMPETENCE_COMPLETE_BREAKDOWN: "#T [civic_comp|E]:#!\n$GET_CIVIC_COMPETENCE_BREAKDOWN$\n\n[GetPlayer.MakeScope.GetScriptValueDesc('civic_competence_total')|1]"
+ GET_CIVIC_COMPETENCE_BREAKDOWN: "[GetPlayer.MakeScope.GetScriptValueDesc('civic_competence_net')]"
+ CIVIC_COMP_EXPLAIN: "Гражданская компетентность фокусируется на высоком уровне развития, контроле и централизации внутри империи."
+
+ GET_DIP_COMPETENCE: "#T [diplo_comp|E]: [GetPlayer.MakeScope.Var('diplo_comp').GetValue|0]\n[GetPlayer.MakeScope.GetScriptValueDesc('diplo_competence_total')|1]#!"
+ GET_DIPLO_COMPETENCE_COMPLETE_BREAKDOWN: "#T [diplo_comp|E]:#!\n$GET_DIPLO_COMPETENCE_BREAKDOWN$\n\n[GetPlayer.MakeScope.GetScriptValueDesc('diplo_competence_total')|1]"
+ GET_DIPLO_COMPETENCE_BREAKDOWN: "[GetPlayer.MakeScope.GetScriptValueDesc('diplo_competence_net')]"
+ DIPLO_COMP_EXPLAIN: "Дипломатическая компетентность зависит от положительных внутренних отношений, а также внешних отношений с державами, которые состоят в союзе с вами."

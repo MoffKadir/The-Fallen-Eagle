@@ -1,0 +1,142 @@
+﻿l_russian:
+  
+ ############### 
+ ###  Roman  ### 
+ ############### 
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_war_01: "Позднеримский шлем 'Замок Бург'"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_roman_war_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_war_01$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_war_02: "Позднеримский спангенхельм"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_war_03: "Позднеримский гребневой шлем"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_war_04: "Позднеримский высокий шлем"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_war_05: "Позднеримский шлем Кристи"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_diadem: "Имперская римская диадема"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_roman_diadem: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_roman_diadem$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_imperial_crown_zoroastrian: "Зороастрийская императорская корона"
+ PORTRAIT_MODIFIER_female_headgear_secular_roman_diadem: "Римская диадема императорской супруги"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_aurelian_helmet: "Шлем Аврелиана"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_aurelian_helmet: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_aurelian_helmet$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_centurion_helmet: "Шлем центуриона"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_centurion_helmet: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_centurion_helmet$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_galea_helmet: "Шлем Галеа"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_galea_helmet: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_galea_helmet$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_pref_diadem: "Римская диадема префекта"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_pref_diadem: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_pref_diadem$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_crown_of_justinian_01: "Корона Юстиниана"
+ fem_byz_crown_of_theodora_01: "Корона Феодоры" #NT!
+ PORTRAIT_MODIFIER_custom_headgear_fem_byz_crown_of_theodora_01: "Корона Феодоры"
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_roman_war: "Римские доспехи"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_roman_war_high: "Имперские римские доспехи"
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_roman_nobility_01: "Обычная римская туника"
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_roman_nobility_02: "Римская туника низкого дворянства"
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_roman_nobility_03: "Римская туника высшего дворянства"
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_roman_senate_01: "Сенаторская тога"
+  
+ PORTRAIT_MODIFIER_custom_cloaks_male_byzantine_imperial_sagum_01: "Imperial Sagum 1"
+ PORTRAIT_MODIFIER_custom_cloaks_male_byzantine_imperial_sagum_02: "Imperial Sagum"
+ PORTRAIT_MODIFIER_custom_cloaks_female_byzantine_imperial_sagum_02: "Imperial Sagum 1"
+  
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_01_high: "Высокий римский паннонский колпак 1"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_03_high: "High Roman Pannonian Cap 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_04_high: "High Roman Pannonian Cap 3"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_01_common: "Обычная римская паннонская шапочка 1"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_02_common: "Common Roman Pannonian Cap 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_03_common: "Common Roman Pannonian Cap 3"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_04_common: "Common Roman Pannonian Cap 4"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_01_low: "Низкий римский паннонский колпак 1"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_02_low: "Низкий римский паннонский колпак 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_03_low: "Низкий римский паннонский колпак 3"
+ PORTRAIT_MODIFIER_custom_headgear_male_epe_byz_pannonian_hat_04_low: "Низкий римский паннонский колпак 4"
+  
+ ################ 
+ ###  Celtic  ### 
+ ################ 
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_torque_01: "Благородный крутящий момент"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_celtic_torque_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_torque_01$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_torque_02: "Высокий крутящий момент"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_celtic_torque_02: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_torque_02$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_torque_03: "Имперский крутящий момент"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_celtic_torque_03: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_torque_03$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_waterloo: "Шлем Ватерлоо"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_celtic_waterloo: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_waterloo$"
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_berru: "Шлем Берру"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_celtic_berru: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_celtic_berru$"
+  
+ PORTRAIT_MODIFIER_special_celtic_warpaint_custom: "Боевая раскраска"
+ PORTRAIT_MODIFIER_special_celtic_warpaint_custom_celtic_warpaint1: "Кельтская боевая раскраска 1"
+ PORTRAIT_MODIFIER_special_celtic_warpaint_custom_celtic_warpaint2: "Кельтская боевая раскраска 2"
+ PORTRAIT_MODIFIER_special_celtic_warpaint_custom_celtic_warpaint3: "Кельтская боевая раскраска 3"
+ PORTRAIT_MODIFIER_special_celtic_warpaint_custom_celtic_warpaint4: "Кельтская боевая раскраска 4"
+ PORTRAIT_MODIFIER_special_celtic_warpaint_custom_celtic_warpaint5: "Кельтская боевая раскраска 5"
+  
+ ############### 
+ ###  Greek  ### 
+ ############### 
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_greek_war: "Линоторакс Александра"
+  
+ ################ 
+ ###  Hunnic  ### 
+ ################ 
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hunnic_royal_diadem_01: "Гуннская королевская диадема"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_hunnic_royal_diadem_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_hunnic_royal_diadem_01$"
+  
+ ################### 
+ ###  Gladiator  ### 
+ ################### 
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_gladiator_murmillo_01: "Шлем мурмилло"
+  
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_gladiator_outfit_01: "Экипировка мурмилло"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_special_gladiator_outfit_01: "Поножи мурмилло"
+  
+ ############# 
+ ## Legwear ## 
+ ############# 
+  
+ #PORTRAIT_MODIFIER_custom_legwear: "чулочно-носочные изделия" #NT!
+  
+ #PORTRAIT_MODIFIER_custom_legwear_male_empty: "Нет чулочно-носочных изделий" #NT!
+ #PORTRAIT_MODIFIER_custom_legwear_female_empty: "$PORTRAIT_MODIFIER_custom_legwear_male_empty$" #NT!
+ #PORTRAIT_MODIFIER_custom_legwear_boy_empty: "$PORTRAIT_MODIFIER_custom_legwear_male_empty$" #NT!
+ #PORTRAIT_MODIFIER_custom_legwear_girl_empty: "$PORTRAIT_MODIFIER_custom_legwear_male_empty$" #NT!
+  
+ ############### 
+ ##  Thracian ## 
+ ############### 
+  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_thracianInfantry: "Фракийский шлем"
+  
+  
+ ############### 
+ ##  Persian ## 
+ ############### 
+  
+ PORTRAIT_MODIFIER_custom_headgear_headgear_sasanian_war_male_01: "Персидский шлем"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_sasanian_war_female_01: "Персидский шлем"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_sasanian_war_male_01: "Персидская броня (без упряжи)"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_sasanian_war_male_02: "Персидская броня (со сбруей)"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_sasanian_war_female_01: "Персидская броня (без упряжи)"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_sasanian_war_female_02: "Персидская броня (со сбруей)"
+ PORTRAIT_MODIFIER_custom_cloaks_cloak_sasanian_war_male_01: "Сасанидские наплечники"
+ PORTRAIT_MODIFIER_custom_cloaks_cloak_sasanian_war_female_01: "Сасанидские наплечники"

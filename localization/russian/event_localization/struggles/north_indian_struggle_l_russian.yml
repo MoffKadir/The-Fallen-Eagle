@@ -1,0 +1,10 @@
+﻿l_russian:
+ north_indian_struggle.0501.t: "$game_concept_north_indian_struggle$"
+ north_indian_struggle.0501.desc: "Прошло много лет с тех пор, как восточные или иранские гунны, известные как «хунны», вышли из гор Тохаристана, чтобы опустошить северные границы империи Гупта. Многие племена взирают на богатство индийских городов и храмов жадными глазами, так же как и благоговеют перед великолепием Индии. , и убеждения смешиваются — часто это и то, и другое."
+ north_indian_struggle.0501.a: "Накопим великие заслуги и прославим наше имя!"
+  
+  # Some of the previous lines lines make no sense as they would be anachronistic for the earlier start dates: 
+  
+  # While Attila 'the Hun' devastated the frontiers of the Western Roman Empire 
+  # The initial wave of Hunas was led by the Kidarites, but they were soon followed by other factions, gradually undermining Kidarite influence in the subcontinent. Despite a successful defense against a Hunnic force by Samrat Skandagupta in 455 AD and subsequent actions by the Sassanids in 467 AD, the threat persisted from the Hephthalites and Alchon Huns who posed a danger from Punjab and the lands farther north. 
+  # Amidst the tumultuous landscope, can those who possess the right insight, skills, and merit seize the opportunities to be found? 

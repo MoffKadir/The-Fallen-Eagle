@@ -1,0 +1,291 @@
+﻿l_russian:
+  #core_l_english.yml 
+ LOADSCREEN_INITIALIZING_GAME: "Разграбление Вечного города..."
+  #holdings_l_english.yml 
+ castle_holding: "Город"
+ city_holding: "Город"
+  
+ tradition_roman_legacy_name: "Римские легионы"
+ tradition_roman_legacy_desc: "Даже в наше кризисное время идея и идеал сильной и мощной постоянной армии находит отклик в сердце этого народа, и известно, что могущественные правители делегируют части своего королевства командирам, кормя и размещая тысячи солдат, готовых защищать свою империю."
+ tradition_roman_legacy_desc: "Даже в наше кризисное время идея и идеал сильной и мощной постоянной армии находит отклик в сердце этого народа, и известно, что могущественные правители делегируют части своего королевства командирам, кормя и размещая тысячи солдат, готовых защищать свою империю."
+ language_iranian_name: "Западно-иранский"
+ language_scythian_name: "Восточно-иранский"
+  
+ #heritage_arabic_name: "Семиты"
+ #heritage_arabic_collective_noun: "Семитск"
+ heritage_latin_name: "Италикск"
+ heritage_latin_collective_noun: "Италийск"
+ heritage_celtic_name: "Континентальные кельты"
+ heritage_celtic_collective_noun: "Кельтск"
+ language_celtic_name: "Континентальный кельтский"
+  
+  # Endonyms 
+ greek: "Эллины"
+ greek_prefix: "Эллинско"
+ greek_collective_noun: "Эллинск"
+ suebi: "Свевы"
+ suebi_prefix: "Свевско"
+ suebi_collective_noun: "Свевск"
+ polish: "Поляки"
+ polish_prefix: "Польско"
+ polish_collective_noun: "Польск"
+ prussian: "Прутены"
+ prussian_prefix: "Прутено"
+ prussian_collective_noun: "Прутенск"
+ assyrian: "Ассирийцы"
+ assyrian_prefix: "Ассирийско"
+ assyrian_collective_noun: "Ассирийск"
+ old_saxon: "Древние саксы"
+ old_saxon_prefix: "Древнесаксонско"
+ old_saxon_collective_noun: "Древнесаксонск"
+ ethiopian: "Аксумитск"
+ ethiopian_prefix: "Аксумитско"
+ ethiopian_collective_noun: "Аксумитск"
+ russian: "Русы"
+ russian_prefix: "Русско"
+ russian_collective_noun: "Русск"
+ heritage_iranian_name: "Иранск"
+ heritage_iranian_collective_noun: "Иранск"
+ bedouin: "Арабы"
+ bedouin_prefix: "Арабско"
+ bedouin_collective_noun: "Арабск"
+  
+ language_qiangic_name: "Цянгикский"
+ language_wallachian_name: "Валахский"
+ language_israelite_name: "Ивритский"
+ heritage_tocharian_name: "Serindian"
+ name_list_latgalian: "Латышский"
+ cn_gaochan: "Гаочан"
+ cn_gaochan_adj: "Гаочан"
+  
+ dynn_Kuci: "Баи"
+  
+ artifact_arms_of_alex_description: "Говорят, что этот древний набор ламинированных льняных доспехов когда-то принадлежал Александру Македонскому. Сам доспех несет в себе наследие великого завоевателя, известного от Средиземноморья до краев Индии.."
+  
+ greed_strong_neg_adj: "Аскетик"
+  
+  #Germanic/Ásatrú 
+ germanic_religion: "Туистизм"
+ germanic_religion_adj: "Туистизм"
+ germanic_religion_adherent: "Туистическ"
+ germanic_religion_adherent_plural: "Туистика"
+ germanic_religion_desc: "Исконная вера Скандинавии и Германии, германское и скандинавское язычество вращается вокруг почитания богов, известных как асы. Ожидается, что приверженцы будут жить - и предпочтительно умирать - достойно."
+  # Basque Paganism 
+ basque_pagan_desc: "Древняя исконная баскская вера уже давно включает в себя другие, более преходящие религии. Элементы кельтского язычества, христианства, эллинского язычества и тяжелый субстрат их собственных местных мифов и верований сливаются воедино в синкретическую смесь."
+  # The vanilla name, "Era Zaharrak", literally means "Old Ways" in Basque. It doesn't feel appropriate for TFE given it's not really the "old ways" in TFE's timeframe since the faith still exists. "«Эра Захаррак» на баскском буквально означает «Старые пути». Это не кажется подходящим для TFE, поскольку на самом деле это не «старые пути»." #NT!
+ # basque_pagan: "Эускал Эрлихиоа"
+ # basque_pagan_adj: "Эвскал"
+ # basque_pagan_adherent: "Эускал"
+ # basque_pagan_adherent_plural: "Эвскалы"
+  # Vanilla "Old Ways" name "Старые пути" #NT!
+ # basque_pagan_old: "Эра Захаррак"
+ # basque_pagan_old_adj: "Эра Захарра"
+  # More broad 
+ # basque_religion: "Иберизм"
+ # basque_religion_adj: "Иберийский"
+ # basque_religion_adherent: "Иберийский"
+ # basque_religion_adherent_plural: "Иберийцы"
+  
+ GAME_DATE_STRING: "$DAY$ $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)200'),'',' AD'),' BC')]"
+ GAME_DATE_STRING_SHORT: "$DAY$ $MONTH_SHORT$ [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)200'),'',' AD'),' BC')]"
+ GAME_DATE_STRING_LONG: "$DAY|O$ of $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), ' AD',' BC')]"
+ CULTURE_WINDOW_ERA_JOINED: "[Abs_int32(Subtract_int32('(int32)$JOINED$', Select_int32(GreaterThan_int32('(int32)$JOINED$', '(int32)0'), '(int32)0', '(int32)1')))][Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)200'),'',' AD'),' BC')]"
+ CULTURE_WINDOW_ERA_JOINED_LEFT: "[Abs_int32(Subtract_int32('(int32)$JOINED$', Select_int32(GreaterThan_int32('(int32)$JOINED$', '(int32)0'), '(int32)0', '(int32)1')))][Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)200'),'',' AD'),' BC')]"
+  
+  # Guanche religion 
+ north_african_religion: "Гуанчи"
+ north_african_religion_adj: "Гуанчи"
+ north_african_religion_adherent: "Гуанчи"
+ north_african_religion_plural: "Гуанчи"
+ north_african_religion_desc: "Традиционные верования гуанчей следуют культу мертвых и считают, что когда человек уходит из этого мира, он становится обожествленным среди своей семьи. Поклонение камням и строительство мегалитов приближает последователей к богам, а главными божествами, уступающими Творцу, являются боги Солнца и Луны.."
+  
+ world_europe_west_francia: "Галлия"
+  # Game rules 
+ setting_none_hybrid_culture_ai_frequency_desc: "Созданные не игроками [hybrid_cultures|E] не будут появляться.\n#P Примечание TFE: Мы рекомендуем отключить все отделения и гибридизации культуры AI, поскольку TFE добавляет свою собственную коллекцию исторических культур..#!"
+ setting_none_divergent_culture_ai_frequency_desc: "Созданные не игроками [divergent_cultures|E] не появятся.\n#P Примечание TFE: Мы рекомендуем отключить все дивергентные и гибридные культуры AI, так как TFE добавляет свою собственную коллекцию исторических культур..#!"
+  
+  
+ feudalize_tribal_holding_interaction: "Феодализация племени/поместья"
+ feudalize_tribal_holding_interaction_desc: "Уничтожить все [buildings|E] в [holding|E] и сделать их [feudal|E]"
+ feudalize_tribal_holding_interaction_title_not_county_or_below: "Выберите [county|E] или [barony|E]"
+ feudalize_tribal_holding_interaction_notification: "Феодальное племя/поместье"
+  
+ scandinavian_elective_succession_law: "Германские выборы"
+  
+  # Struggle (to not reference Iberia) 
+ catalyst_usurp_title: "[struggle_catalyst_catalyst|E]: узурпация [Concept( 'title', 'титула' )|E]"
+ catalyst_usurp_title_desc: "Узурпировать новый [title|E] в [struggle_region|E]"
+ game_concept_border_raid_desc: "Это особый тип [war|E], доступный между [struggle_involved|E] [rulers|E] в различных [struggle_struggles|E], когда атакующий стремится [siege|E] к конкретному врагу [county|E], граничащему с их [realm|E].\n\n [war_leader|E] получает [gold|E] за захват [war_target|E], который потеряет [struggle_involved|E]0 и [struggle_involved|E]1. [struggle_involved|E]2 также может быть уничтожен, что даст больше [gold|E], шанс увеличивается с размером [struggle_involved|E]0 и [siege|E] [struggle_involved|E]6.\n\n[struggle_involved|E]7 будет быстро получен атакующим после [struggle_involved|E]8 [war_target|E]."
+ game_concept_contract_assistance_desc: "Это особый тип [interaction|E], доступный для [struggle_involved|E] [rulers|E] в различных [struggle_struggles|E], что позволяет им присоединяться к другим [struggle_involved|E] [rulerpossessive|E] [wars|E] в обмен на [gold|E].\n\nПлатеж производится по завершении [war|E], независимо от того, результат, если подрядчик сделал [war_contribution|E] не менее 100."
+ catalyst_gain_claim_on_title: "[struggle_catalyst_catalyst|E]: полученная [claim|E]"
+ catalyst_gain_claim_on_title_desc: "Получите [claim|E] на [title|E] в [struggle_region|E]"
+  
+ mordvin: "Эрзя"
+ mordvin_prefix: "Эрзя"
+ mordvin_collective_noun: "Эрзянск"
+ #komi: "Коми"
+ komi_prefix: "Коми"
+ komi_collective_noun: "Коми"
+  
+  # Could've been suomenusko but the suomenusko rework mod uses väenusko so 
+ finnish_pagan: "Вяэнуско"
+ finnish_pagan_adj: "Вяэнуско"
+ finnish_pagan_adherent: "Вяэнуско"
+ finnish_pagan_adherent_plural: "Вяэнускос"
+ finnish_pagan: "Вяэнуско"
+ finnish_pagan_adj: "Вяэнуско"
+ finnish_pagan_adherent: "Вяэнуско"
+ finnish_pagan_adherent_plural: "Вяэнускос"
+  
+ heritage_indo_aryan_name: "Арья"
+ heritage_indo_aryan_collective_noun: "Арьяс"
+  
+ bengali: "Вангия"
+ bengali_prefix: "Вангия"
+ bengali_collective_noun: "Вангияс"
+  
+ #  punjabi: "Мадрака"
+ #  punjabi_prefix: "Мадрака"
+ #  punjabis_collective_noun: "Мадраки"
+  
+ malvi: "Малава"
+ malvi_prefix: "Малава"
+ malvi_collective_noun: "Малавас"
+  
+ marathi: "Махараштри"
+ marathi_prefix: "Махараштри"
+ marathi_collective_noun: "Махараштри"
+  
+ oriya: "Калингья"
+ oriya_prefix: "Калингья"
+ oriya_collective_noun: "Калингиас"
+  
+ sindhi: "Саиндхава"
+ sindhi_prefix: "Саиндхава"
+ sindhi_collective_noun: "Саиндхавас"
+  
+ assamese: "Kamarupi"
+ assamese_prefix: "Kamarupi"
+ assamese_collective_noun: "Kamarupi"
+  
+ burmese: "Mranma"
+ burmese_prefix: "Mranma"
+ burmese_collective_noun: "Мранмас"
+  
+ language_rajasthani_name: "Аванти"
+ language_sinhalese_name: "сингальский"
+ language_pahari_name: "Пахади"
+  
+ hinduism_religion: "Брахманизм"
+ hinduism_religion_adj: "брахманский"
+ hinduism_religion_adherent: "брахманист"
+ hinduism_religion_adherent_plural: "брахманисты"
+ hinduism_religion_desc: "Брахманизм — это традиция, развившаяся из ведической религии. Он включает в себя множество богов и религиозных практик. Общая вера в сансару, бесконечный цикл непрерывного перерождения души в мир, и мокшу, освобождение от этого цикла."
+  
+  # Moved from core_l_english.yml 
+ LOADSCREEN_INITIALIZING_GAME: "Разграбление Вечного города..."
+  
+  # Hindu faiths 
+ vaishnavism: "Паураник-вайшнав"
+ vaishnavism_adj: "вайшнав"
+ vaishnavism_adherent: "Вишнуист"
+ vaishnavism_adherent_plural: "Вишнуисты"
+ shaivism: "Паураник Шайва"
+ shaivism_adj: "Шайва"
+ shaivism_adherent: "Шайва"
+ shaivism_adherent_plural: "Шайвас"
+ smartism: "Смарта"
+ smartism_adj: "Смартизм"
+ smartism_adherent: "Смартист"
+ smartism_adherent_plural: "Смартисты"
+ srikula_shaktism: "Шакта"
+ srikula_shaktism_adj: "Шакта"
+ srikula_shaktism_adherent: "Шакта"
+ srikula_shaktism_adherent_plural: "Шакты"
+ srikula_shaktism_desc: "Шакта верит в Великую Богиню как в Высшее Существо, из которого проистекает все сущее. Они поклоняются Трипуре Сундари как высшему аспекту Богини и источнику всей Шакти, энергии вселенной."
+ krishnaism: "Бхагавата"
+ krishnaism_adj: "Бхагавата"
+ krishnaism_adherent: "Бхагавата"
+ krishnaism_adherent_plural: "Бхагаваты"
+  
+ name_list_assamese: "Качари"
+  
+ mercenary_company_company_of_the_dead_men: "Братство Инда"
+ mercenary_company_harappan_band: "Мед-убийцы" #NT!
+  
+ dynn_Candravamsa: "Чандраванша"
+ dynn_Mukerjee: "Мухопадхьяй"
+ dynn_Banerjee: "Банопадхьяй"
+ dynn_Chatterjee: "Чаттопадхьяй"
+  
+  #Become Chakravarti 
+ become_chakravarti_decision_desc: "Самый благородный континент в мире находится в его центре и представляет собой остров розовых деревьев, известный посторонним как «Индия». С помощью необходимых ритуалов и церемоний я формализую свое божественное правление над этой землей и возьму на себя управление как законный правитель всего мира."
+ become_chakravarti_decision_tooltip: "Объедините остров Rosetrees в центре мира."
+ become_chakravarti_decision_indian_empires_unite_effect: "Я объединяю земли Роузтри."
+ become_chakravarti_decision_new_primary_title_effect: "Империя Джамбудвипы становится моим новым [primary_title|E]"
+ become_chakravarti_decision_confirm: "Присутствовать при обрядах"
+  
+ south_asia.0004.relevant_religion: "Вестники прибывают толпами, чтобы принести новости из Джамбудвипы. Впервые за век восстал Чакраварти."
+ south_asia.0004.desc: "Вестники прибыли в большом количестве из Джамбудвипы, возвещая о подъеме их «Чакраварти», восторженно отзываясь о [chakravarti.GetHerHis] доброжелательности."
+  
+ e_india: "Джамбудвипа"
+ e_india_adj: "Джамбудвипан"
+  
+  #Israel 
+ create_israel_kingdom_decision: "Восстановить Израиль"
+ create_israel_kingdom_decision_confirm: "Исход наконец-то закончится!"
+ create_israel_kingdom_decision_desc: "Настало время для детей Израиля основать новую объединенную монархию, построенную вокруг Иерусалима и Земли Обетованной, чтобы евреи снова могли жить вместе в мире и согласии."
+ create_israel_kingdom_decision_tooltip: "Царство Израиля восстановлено"
+ create_israel_kingdom_decision_effect_tooltip: "Царство Израиля восстановлено"
+  
+ middle_east_decisions.0005.t: "Земля Обетованная"
+ middle_east_decisions.0005.desc: "Когда Иерусалим и Земля Обетованная находятся под контролем евреев, настало время для восстановления утраченного Иудейского царства.\n\nЕврейский народ сильно пострадал с тех пор, как царство Ирода было распущено римлянами после смерти Агриппы Великого, пусть наше новое Иудейское Царство выдержит испытание временем!"
+ middle_east_decisions.0005.a: "Пусть Бог защитит наше новое Царство."
+ middle_east_decisions.0006.desc.others: "Вернув Иерусалим под контроль евреев, [scoped_ruler.GetTitledFirstName] решил объявить [scoped_ruler.GetHerselfHimself] [scoped_ruler.GetTitleTierName] восстановленной Иудеи.\n\nРимское правление не было выгодным для еврейского народа, и, возможно, это новое Царство позволит им вернуться к своей былой славе. ."
+ middle_east_decisions.0006.a: "Время пришло!"
+ middle_east_decisions.0006.b: "Ясно..."
+  
+ count_feudal_male_dravidian_group: "Раджа"
+ count_feudal_female_dravidian_group: "Рани"
+  
+ duke_feudal_male_dravidian_group: "Махараджа"
+ duke_feudal_female_dravidian_group: "Махарани"
+  
+ king_feudal_male_dravidian_group: "Махараджадхираджа"
+ king_feudal_female_dravidian_group: "Махаранидхираджа"
+  
+ county_feudal_dravidian_group_normal: "Раджья"
+ duchy_feudal_dravidian_group_normal: "Раджья"
+ county_feudal_dravidian_group_uparika: "Вишая"
+ duchy_feudal_dravidian_group_uparika: "Бхукти"
+ county_feudal_dravidian_group: "[CHARACTER.Custom('county_feudal_dravidian_group_loc')]"
+ duchy_feudal_dravidian_group: "[CHARACTER.Custom('duchy_feudal_dravidian_group_loc')]"
+  
+  
+ samanta_normal: "Саманта"
+ samanta_female_normal: "Саманта"
+ mahasamanta_normal: "Махасаманта"
+ mahasamanta_female_normal: "Махасаманта"
+ mahasamantadhipati_normal: "Махасамантадхипати"
+ mahasamantadhipati_female_normal: "Махасамантадхипати"
+  
+ samanta_uparika: "Локапала"
+ samanta_female_uparika: "Локапала"
+ mahasamanta_uparika: "Упарика"
+ mahasamanta_female_uparika: "Упарика"
+ mahasamantadhipati_uparika: "Махараджа-Упарика"
+ mahasamantadhipati_female_uparika: "Махарани-Упарика"
+  
+ samanta: "[CHARACTER.Custom('samanta_loc')]"
+ samanta_female: "[CHARACTER.Custom('samanta_loc')]"
+ mahasamanta: "[CHARACTER.Custom('mahasamanta_loc')]"
+ mahasamanta_female: "[CHARACTER.Custom('mahasamanta_loc')]"
+ mahasamantadhipati: "[CHARACTER.Custom('mahasamantadhipati_loc')]"
+ mahasamantadhipati_female: "[CHARACTER.Custom('mahasamantadhipati_female_loc')]"
+  
+ zunism_religion: "зунист"
+ zunism_religion_adj: "зунист"
+ zunism_religion_adherent: "зунист"
+ zunism_religion_adherent_plural: "зунисты"
+ zunism_religion_desc: "Зунисты почитают солнечное божество Зун, которое изначально было эфталитским или гуннским божеством и поклонение которому теперь синкретизировано с местными индоиранскими традициями."
+  

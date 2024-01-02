@@ -1,0 +1,68 @@
+﻿l_russian:
+ minority_culture_spread_title: "Культурное распространение"
+ minority_culture_spread_tt: "Группа из [minority_culture.GetName] крестьян переехала из [source_county.GetName] в [county.GetName]."
+  
+ minority_culture_appearance_title: "Культурное распространение"
+ minority_culture_appearance_tt: "В [county.GetName] появилась группа из [minority_culture.GetName] крестьян."
+  
+ minority_faith_spread_title: "Религиозное распространение"
+ minority_faith_spread_tt: "Группа из [minority_faith.GetAdjective] крестьян переехала из [source_county.GetName] в [county.GetName]."
+  
+ minority_faith_appearance_title: "Религиозное распространение"
+ minority_faith_appearance_tt: "В [county.GetName] появилась группа из [minority_faith.GetAdjective] крестьян."
+  
+ minority_culture_faith_spread_title: "Крестьянская миграция"
+ minority_culture_faith_spread_tt: "Группа из [source_county.GetProvince.GetCounty.GetCulture.GetName] [source_county.GetProvince.GetCounty.GetFaith.GetAdjective] крестьян переехала из [source_county.GetName] в [county.GetName]."
+  
+ minority_culture_faith_appearance_title: "Крестьянская миграция"
+ minority_culture_faith_appearance_tt: "Группа крестьян [source_county.GetProvince.GetCounty.GetCulture.GetName] [source_county.GetProvince.GetCounty.GetFaith.GetAdjective] появилась в [county.GetName]."
+  
+ minorities.0000.expel_minority_tt: "Меньшинство [expelled_culture.GetName] будет исключено"
+ minorities.1000.expel_minority_tt: "Меньшинство [expelled_faith.GetAdjective] будет исключено"
+  
+ EXPELLED_FAITH_OPINION_EFFECT: "Все [expelled_faith.GetAdjectiveNoTooltip] субъектов теряют #N 40#! [opinion|E] из вас"
+ EXPELLED_CULTURE_OPINION_EFFECT: "Все [expelled_culture.GetNameNoTooltip] субъектов теряют #N 40#! [opinion|E] из вас"
+  
+ EXPULSION_COOLDOWN_WARNING: "@warning_icon!#X Высылать меньшинства можно только раз в 10 лет"
+ EXPULSION_PURGE_IS_ON_COOLDOWN: "Нельзя снова изгонять меньшинства до [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'expelled_or_purged_peasants') )]"
+ MINORITY_LAW_IS_ON_COOLDOWN: "Недавно вы изменили закон о меньшинствах. Можно снова изменить после [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'minority_law_cooldown') )]"
+  
+ small_minority_expelled_modifier: "Изгнано маленькое меньшинство"
+ small_minority_expelled_modifier_desc: "Небольшая группа крестьян была насильственно выселена из этого уезда."
+ large_minority_expelled_modifier: "Изгнано большое меньшинство"
+ large_minority_expelled_modifier_desc: "Большая группа крестьян была насильственно выселена из этого уезда."
+ ruler_expelled_minority_modifier: "Правитель изгнал родственников"
+ ruler_expelled_minority_modifier_desc: "Жители этого графства возмущены тем, что их родственники были изгнаны из другой части королевства."
+  
+ cultural_acceptance_loss_expulsion: "[expelled_culture.GetName] культура исключена из [expulsion_realm.GetName]"
+  
+ minority_culture_growth: "Рост [minority_growth.GetAdjective] [minority_culture|E] в [county.GetName]"
+ minority_faith_growth: "Рост [minority_growth.GetAdjective] [minority_faith|E] в [county.GetName]"
+  
+ minorities.2001.t: "Продвижение меньшинств?"
+ minorities.2001.desc: "Люди моего царства не совсем однородны. Возможно, мне следует подумать о содействии росту одной из общин меньшинств в пределах моих границ?"
+ minorities.2001.religion: "Продвигать веру"
+ minorities.2001.culture: "Продвигайте культуру"
+ minorities.2001.cancel: "Возможно нет..."
+  
+ minorities.2002.t: "Продвигайте религиозное меньшинство"
+ minorities.2002.desc: "Какую веру мы будем продвигать?"
+ minorities.2003.t: "Продвигайте культурное меньшинство"
+ minorities.2003.desc: "Какую культуру мы будем продвигать?"
+ minorities.2002.a: "Продвинуть [minority_1.GetName]"
+ minorities.2002.b: "Продвинуть [minority_2.GetName]"
+ minorities.2002.c: "Продвинуть [minority_3.GetName]"
+ minorities.2002.d: "Продвинуть [minority_4.GetName]"
+ minorities.2002.e: "Продвинуть [minority_5.GetName]"
+ minorities.2002.f: "Продвинуть [minority_6.GetName]"
+ minorities.2002.g: "Продвинуть [minority_7.GetName]"
+ minorities.2002.h: "Продвинуть [minority_8.GetName]"
+ minorities.2002.i: "Продвинуть [minority_9.GetName]"
+  
+  ## New Steward task 
+ task_promote_minority: "Продвигайте меньшинство"
+ task_promote_minority_effect_desc: "Способствует росту меньшинства в одном из ваших округов."
+ task_promote_minority_effect_desc_faith: "[minority_faith|E] будет расти в [county.GetName]."
+ task_promote_minority_effect_desc_culture: "[minority_culture|E] будет расти в [county.GetName]."
+  
+ must_have_different_faith_or_culture_to_promote_tt: "Нет разных [minority_faith|E] или [minority_culture|E] для продвижения"

@@ -1,0 +1,23 @@
+﻿l_russian:
+ struggle_eastern_iranian_house_offense_modifier: "Завоевание Шелкового пути"
+ struggle_eastern_iranian_house_offense_modifier_desc: "[eastern_iranian_struggle|E] был заключен благодаря усилиям этого дома. Впоследствии они утвердили свое господство на большей части Шелкового пути, особенно на [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName] [region|E], с помощью военной мощи, чтобы заставить своих врагов съеживаться перед ними."
+ struggle_eastern_iranian_house_defense_modifier: "Бастион Шелкового пути"
+ struggle_eastern_iranian_house_defense_modifier_desc: "[eastern_iranian_struggle|E] был заключен благодаря усилиям этого дома. Впоследствии они утвердили свое господство на большей части Шелкового пути, особенно на [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName] [region|E], разработав сложную оборонительную сеть, чтобы помешать своим врагам."
+ struggle_eastern_iranian_house_political_modifier: "Влияние Шелкового пути"
+ struggle_eastern_iranian_house_political_modifier_desc: "[eastern_iranian_struggle|E] был заключен благодаря усилиям этого дома. Впоследствии они утвердили свое господство на большей части Шелкового пути, особенно на [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName] [region|E], с помощью политической власти, чтобы запугать и вызвать благоговение у своих врагов."
+ struggle_eastern_iranian_house_urban_modifier: "Горожане Шелкового пути"
+ struggle_eastern_iranian_house_urban_modifier_desc: "[eastern_iranian_struggle|E] был заключен благодаря усилиям этого дома. Впоследствии они распространили свое влияние на большую часть Шелкового пути, особенно на [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName] [region|E], за счет развития процветающих городов и городских центров."
+ struggle_eastern_iranian_house_trade_modifier: "Торговцы Шелкового пути"
+ struggle_eastern_iranian_house_trade_modifier_desc: "[eastern_iranian_struggle|E] был заключен благодаря усилиям этого дома. Впоследствии они распространили свое влияние на большую часть Шелкового пути, особенно на [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName] [region|E], расширив свои торговые сети по всей Евразии."
+ struggle_eastern_iranian_house_culture_modifier: "Цивилизаторы Шелкового пути"
+ struggle_eastern_iranian_house_culture_modifier_desc: "[eastern_iranian_struggle|E] был заключен благодаря усилиям этого дома. Впоследствии они распространили свое влияние на большую часть Шелкового пути, особенно на [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName] [region|E], посредством распространения культурных, религиозных и художественных идей."
+ struggle_eastern_iranian_compromise_house_reward_modifier: "Децентрализованные государства Шелкового пути"
+ struggle_eastern_iranian_compromise_house_reward_modifier_desc: "Этот дом вывел их царство из борьбы за [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName]."
+ struggle_eastern_iranian_compromise_defensive_reward_modifier: "Региональная крепость Шелкового пути"
+ struggle_eastern_iranian_compromise_defensive_reward_modifier_desc: "Это графство является исторической столицей одного из княжеств в [GetGeographicalRegion('TFE_eastern_iranian_struggle_region').GetName], которое пережило столетия конфликтов и роста на этой части Шелкового пути."
+ urbanize_silk_road_modifier: "Недавние усилия по урбанизации"
+ urbanize_silk_road_modifier_desc: "Местные лидеры призывают поселенцев и торговцев переселяться в эту часть Шелкового пути, а существующие здесь поселения расширять свои сельскохозяйственные, коммерческие и производственные возможности."
+  
+  
+ republic_government_levy_contribution_mult: "[republican|E] [vassal|E] [levy|E] [modifier_contribution|E]"
+ eranshar_government_opinion: "Мнение правительства Эраншара"

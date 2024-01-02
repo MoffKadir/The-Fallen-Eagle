@@ -1,0 +1,20 @@
+﻿l_russian:
+ high_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Тараниса', 'Почитатель Тараниса' )]"
+ health_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Эпоны', 'Почитатель Эпоны' )]"
+ wealth_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Кернунна', 'Почитатель Кернунна' )]"
+ knowledge_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Бригиты', 'Почитатель Бригиты' )]"
+ war_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Луга', 'Почитатель Луга' )]"
+ cathedral_of_africa: "Собор Африки"
+  
+ mars_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Марса', 'Почитатель Марса' )]"
+ mercury_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Меркурия', 'Почитатель Меркурия' )]"
+ minerva_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Миневры', 'Почитатель Миневры' )]"
+ laverna_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Лаверны', 'Почитатель Лаверны' )]"
+ venus_god: "[Select_CString( CHARACTER.IsFemale, 'Почитательница Венеры', 'Почитатель Венеры' )]"
+  
+ apotheosised_emperor_tomb: "Гробница обожествленного императора"
+ apotheosised_emperor_tomb_desc: "Здесь был похоронен великий римский император; чтобы почтить и отпраздновать их память, один из их преемников позже обожествил их."
+ apotheosised_relative: "Обожествленный родственник"
+ apotheosised_relative_desc: "Этот персонаж олицетворял покойного великого римского императора, с которым он был связан родственными узами."
+ apotheosised_dynasty: "Династия обожествленного императора"
+ apotheosised_dynasty_desc: "Поздний обожествленный император принадлежит к этой династии и, таким образом, дает им высокий статус среди своих собратьев-последователей."

@@ -1,0 +1,19 @@
+﻿l_russian:
+  
+ game_concept_heritage_family: "Семейство наследия"
+ game_concept_heritage_families: "Семейства наследия"
+ game_concept_heritage_family_desc: "Семейства наследия представляют собой группы родственного [heritages|E]. Семья с общим наследием повышает базовый уровень [cultural_acceptance|E]."
+  
+ game_concept_heritage_group: "Группа наследия"
+ game_concept_heritage_groups: "Группы наследия"
+ game_concept_heritage_group_desc: "Группы наследия представляют собой группы родственного [heritages|E]. Группа с общим наследием повышает базовый уровень [cultural_acceptance|E]."
+  
+ game_concept_language_group: "Группа языков"
+ game_concept_language_groups: "Группы языков"
+ game_concept_language_group_desc: "Группы языков представляют собой группы родственного [languages|E]. Группа с общим языком повышает базовый уровень [cultural_acceptance|E], и легче выучить язык в той же группе, что и ваша [culture|E]."
+  
+ game_concept_language_family: "Семейство языков"
+ game_concept_language_families: "Семейства языков"
+ game_concept_language_family_desc: "Семейства языков представляют собой группы родственного [language_groups|E]. Семейство с общим языком повышает базовый уровень[cultural_acceptance|E], и легче выучить язык в том же семействе, что и ваша [culture|E]."
+  
+ game_concept_heritages: "Наследие"

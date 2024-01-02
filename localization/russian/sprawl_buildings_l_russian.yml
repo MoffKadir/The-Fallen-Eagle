@@ -1,0 +1,82 @@
+﻿l_russian:
+ building_type_prambanan_temple_01: "Храм Прамбанан" #NT!
+ building_type_prambanan_temple_01_desc: "Храм Прамбанан посвящен Тримурти, индуистским божествам Брахме, Вишну и Шиве, и является одним из крупнейших индуистских храмов в Юго-Восточной Азии. Дизайн храма основан на традиционной Васту Шастре, архитектуре индуизма. Большой комплекс разделен на три зоны: Бхурлока, представляющая царство смертных и демонов, Бхуварлока, представляющая среднее царство святых людей и меньших богов, и Сварлока, представляющая высшее и самое святое царство, с похожей на драгоценный камень вершиной храм, Ратна Прамбанана, олицетворяющая нерушимость." #NT!
+ building_prambanan_temple_01: "$building_type_prambanan_temple_01$" #NT!
+ building_prambanan_temple_01_desc: "$building_type_prambanan_temple_01_desc$" #NT!
+  
+ building_type_borobudur_temple_01: "Храм Боробудур" #NT!
+ building_type_borobudur_temple_01_desc: "Храм Боробудур, состоящий из девяти сложенных друг на друга платформ, увенчанных множеством ступ и панелей, изображающих жизнь Будды, является символом Индонезии. Дизайн в форме мандалы соответствует яванской буддийской архитектуре, сочетающей яванские концепции поклонения предкам и буддийской нирваны. Основание ступенчатой ​​пирамиды служит напоминанием о горных обителях духов предков, о трех подразделениях, символизирующих буддийскую космологию, о царстве желаний у основания, о царстве форм посередине и на вершине, о бесформенном царстве." #NT!
+ building_borobudur_temple_01: "$building_type_borobudur_temple_01$" #NT!
+ building_borobudur_temple_01_desc: "$building_type_borobudur_temple_01_desc$" #NT!
+  
+ building_type_bamberg_cathedral_01: "Бамбергский собор" #NT!
+ building_type_bamberg_cathedral_01_desc: "Огни пасхальных свечей поглотили первые два собора Бамберга, но здесь стоит более крупное, великолепное здание с четырьмя башнями. Строительство началось в романском стиле, а на позднем этапе строительства перешло в готический стиль.\n\nВ склепе внизу ждет скульптурная гробница из мрамора." #NT!
+ building_bamberg_cathedral_01: "$building_type_bamberg_cathedral_01$" #NT!
+ building_bamberg_cathedral_01_desc: "$building_type_bamberg_cathedral_01_desc$" #NT!
+  
+ building_type_greek_academy_01: "Платоническая Академия" #NT!
+ building_type_greek_academy_01_desc: "Основанная Платоном, Афинская школа сохранялась на протяжении всего эллинистического периода как центр обучения и греческой философии. Известные члены академии включают Спевсиппа, Ксенократа, Аристотеля, Гераклида, Евдокса Книдского и Гераклида Понтийского." #NT!
+ building_greek_academy_01: "$building_type_greek_academy_01$" #NT!
+ building_greek_academy_01_desc: "$building_type_greek_academy_01_desc$" #NT!
+  
+ building_type_knossos_palace_01: "Кносский дворец" #NT!
+ building_type_knossos_palace_01_desc: "Один из старейших городов Европы, Кносс со временем стал церемониальным и политическим центром древней минойской цивилизации, ныне являющейся тенью своего прежнего «я». Согласно греческим легендам, во дворце жил древний царь Минос, строитель лабиринта, в котором находился легендарный Минотавр." #NT!
+ building_knossos_palace_01: "$building_type_knossos_palace_01$ Руины" #NT!
+ building_knossos_palace_01_desc: "$building_type_knossos_palace_01_desc$" #NT!
+ building_knossos_palace_02: "$building_type_knossos_palace_01$" #NT!
+ building_knossos_palace_02_desc: "$building_type_knossos_palace_01_desc$" #NT!
+  
+ building_type_athenian_acropolis_01: "Акрополь Афин" #NT!
+ building_type_athenian_acropolis_01_desc: "Древний храм-цитадель, которая доминировала над городом Афины в древности, Акрополь является физическим проявлением древней афинской славы и могущества." #NT!
+ building_athenian_acropolis_01: "Руины Акрополя" #NT!
+ building_athenian_acropolis_01_desc: "$building_type_athenian_acropolis_01_desc$" #NT!
+ building_athenian_acropolis_02: "$building_type_athenian_acropolis_01$" #NT!
+ building_athenian_acropolis_02_desc: "$building_type_athenian_acropolis_01_desc$" #NT!
+  
+ building_type_cothon_01: "Карфаген Великий Котон" #NT!
+ building_type_cothon_01_desc: "Большой котон в Карфагене был разделен на прямоугольную торговую гавань, за которой следовали внутренняя защищенная гавань и верфь, предназначенная для военно-морского флота. Эта внутренняя гавань имела круглую форму и была окружена кольцом сухих доков, способных вместить двести двадцать кораблей. В центре располагался командный пункт, приподнятый так, чтобы начальник порта мог видеть весь залив." #NT!
+ building_cothon_01: "Руины гавани" #NT!
+ building_cothon_01_desc: "$building_type_cothon_01_desc$" #NT!
+ building_cothon_02: "$building_type_cothon_01$" #NT!
+ building_cothon_02_desc: "$building_type_cothon_01_desc$" #NT!
+  
+ building_type_serpents_wall_01: "Змеиная стена" #NT!
+ building_type_serpents_wall_01_desc: "Древесно-земляная оборонительная стена #low (идущая извилистыми путями многих рек)#!, охраняет плодородные земли среднего Днепра от кочующих врагов по степи. Говорят, что он существовал в форме земляного вала на протяжении тысячелетий, сводя на нет скорость и внезапность степной лошади." #NT!
+ building_serpents_wall_01: "$building_type_serpents_wall_01$" #NT!
+ building_serpents_wall_01_desc: "$building_type_serpents_wall_01_desc$" #NT!
+  
+ building_type_maiden_rocks_01: "Дивочи Скели" #NT!
+ building_type_maiden_rocks_01_desc: "Любопытное образование скал возле Кременца." #NT!
+ building_maiden_rocks_01: "$building_type_maiden_rocks_01$" #NT!
+ building_maiden_rocks_01_desc: "$building_type_maiden_rocks_01_desc$" #NT!
+  
+ building_type_martand_surya_temple_01: "Храм Мартанд Сурья" #NT!
+ building_type_martand_surya_temple_01_desc: "Этот индуистский храм, посвященный форме Мартанды солнечного божества Сурьи, сочетает в себе стили гандхаранской, гуптской и китайской архитектуры. С его позиции на горном плато можно наблюдать всю Кашмирскую долину. Комплекс храма Солнца состоит из 84 небольших святынь, окружающих большой главный двор; Центральный храм окружает отражающий бассейн бассейн, отражающий солнце." #NT!
+ building_martand_surya_temple_01: "$building_type_martand_surya_temple_01$" #NT!
+ building_martand_surya_temple_01_desc: "$building_type_martand_surya_temple_01_desc$" #NT!
+  
+  # Trigger Localisation 
+ current_date_above_1200_trigger: "Текущая дата находится за пределами 13 века." #NT!
+  
+ has_western_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $western_building_gfx$." #NT!
+ has_western_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $western_building_gfx$." #NT!
+ has_western_building_gfx_trigger_third: "$has_western_building_gfx_trigger_first$" #NT!
+ has_western_building_gfx_trigger_third_not: "$has_western_building_gfx_trigger_first_not$" #NT!
+  
+ has_mediterranean_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mediterranean_building_gfx$." #NT!
+ has_mediterranean_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mediterranean_building_gfx$." #NT!
+ has_mediterranean_building_gfx_trigger_third: "$has_mediterranean_building_gfx_trigger_first$" #NT!
+ has_mediterranean_building_gfx_trigger_third_not: "$has_mediterranean_building_gfx_trigger_first_not$" #NT!
+  
+ has_indian_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $indian_building_gfx$." #NT!
+ has_indian_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $indian_building_gfx$." #NT!
+ has_indian_building_gfx_trigger_third: "$has_indian_building_gfx_trigger_first$" #NT!
+ has_indian_building_gfx_trigger_third_not: "$has_indian_building_gfx_trigger_first_not$" #NT!
+  
+ has_mena_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mena_building_gfx$." #NT!
+ has_mena_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mena_building_gfx$." #NT!
+ has_mena_building_gfx_trigger_third: "$has_mena_building_gfx_trigger_first$" #NT!
+ has_mena_building_gfx_trigger_third_not: "$has_mena_building_gfx_trigger_first_not$" #NT!
+  
+  
+  

@@ -1,0 +1,9 @@
+﻿l_russian:
+ faith_minority_map_mode_tooltip: "Карта религиозных меньшинств"
+ faith_minority_map_mode_revert_tooltip: "Карта религий"
+ #Legend
+ FAITH_MINORITY_MAP_LEGEND: "Религиозные меньшинства"
+ FAITH_MINORITY_MAP_LEGEND_MAJORITY: "Вера большинства"
+ FAITH_MINORITY_MAP_LEGEND_MAJORITY_SHARED_HOF: "Вера большинства (тот же HOF)"
+ FAITH_MINORITY_MAP_LEGEND_LARGE_MINORITY: "Крупное религиозное меньшинство"
+ FAITH_MINORITY_MAP_LEGEND_SMALL_MINORITY: "Религиозное меньшинство"

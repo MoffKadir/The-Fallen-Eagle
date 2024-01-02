@@ -1,0 +1,3 @@
+﻿l_russian:
+ catalyst_starting_progress: "Начальный прогресс [Concept('struggle_catalyst_catalyst', 'катализации')|E]"
+ catalyst_starting_progress_desc: "Начальный прогресс этой [Concept('struggle_phase', 'фазы борьбы')|E]"

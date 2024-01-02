@@ -1,0 +1,175 @@
+﻿l_russian:
+  # Generic 
+ britannia_struggle_house_tt: "Все [Concept('houses', 'дома')|E] участников:"
+ britannia_struggle_can_create_empire_of_britannia_tt: "Разблокирует создание [Concept('empire', 'империи')|E] [GetTitleByKey('e_britannia').GetNameNoTier]"
+ britannia_struggle_get_empire_of_britannia_tt: "Вы получаете [GetTitleByKey('e_britannia').GetName]"
+ britannia_struggle_can_keep_using_struggle_clash_tt: ""[struggle_conquest|E] остается доступным"
+ FORM_BRITANNIA_MUST_END_STRUGGLE_TRIGGER: "$e_britannia$ не может быть сформирована, пока [Concept('britannia_struggle', 'борьба за британию')|E] не завершится"
+ britannia_color_change_tt: "[GetTitleByKey('e_britannia').GetName] меняет свой цвет на #N красный#!"
+ NO_OTHER_DECISION_AVAILABLE: "Ни одно из других финальных решений, зависящих от культуры, вам недоступно."
+ RECLAIMED_BRITANNIA: "Вы приняли решение о восстановлении Британии."
+ CREATED_CALEDONIA: "Вы приняли решение о создании провинции «Каледония»."
+ CREATED_HIBERNIA: "Вы приняли решение о создании провинции «Гиберния»."
+ AT_LEAST_THREE_DUCHY_TITLES: "У вас есть как минимум 3 [Concept('duchy', 'герцогских')|E] титула"
+  
+  # Phases 
+ britannia_struggle: "Борьба за Британию"
+ struggle_britannia_phase_migration: "Миграция"
+ struggle_britannia_phase_migration_desc: "$game_concept_struggle_phase_britannia_migration_desc$"
+ struggle_britannia_phase_opportunity: "Возможность"
+ struggle_britannia_phase_opportunity_desc: ""$game_concept_struggle_phase_britannia_migration_desc$"
+ struggle_britannia_phase_hostility: "Враждебность"
+ struggle_britannia_phase_hostility_desc: "$game_concept_struggle_phase_britannia_hostility_desc$"
+ struggle_britannia_phase_conciliation: "Примирение"
+ struggle_britannia_phase_conciliation_desc: "$game_concept_struggle_phase_britannia_conciliation_desc$"
+ struggle_britannia_phase_compromise: "Компромисс"
+ struggle_britannia_phase_compromise_desc: "$game_concept_struggle_phase_britannia_compromise_desc$"
+  
+  # Parameters 
+ struggle_parameter_cheaper_migrations_within_struggle_region: "Более дешёвая стоимость миграции в [Concept('struggle_region', 'регион борьбы')|E] для [Concept('struggle_involved_cultures', 'участвующих в борьбе культур')|E]"
+ struggle_parameter_involved_cultures_may_migrate: "Все [struggle_involved_cultures|E] могут мигрировать в пределах [Concept('struggle_region', 'региона борьбы')|E], независимо от [Concept('culture_traditions', 'традиций культуры')|E]"
+ struggle_parameter_more_migration_armies: "В миграционных войнах будут выданы дополнительные армии"
+ struggle_parameter_faster_enforce_de_jure: "[chancellor|E] быстрее выполняет задачу «[Concept('integrate_title', 'интегрировать титул')|E]»"
+  
+  # Triggers 
+ is_struggle_phase_TRIGGER: "Текущая фаза [STRUGGLE.GetName] - [StrugglePhase.GetName]"
+ NOT_is_struggle_phase_TRIGGER: "Текущая фаза [STRUGGLE.GetName] не [StrugglePhase.GetName]"
+ britannia_struggle_is_celtic_desc: "[GetPlayer.GetCulture.GetName] принадлежит к кельтской [Concept('heritage_group', 'группе наследий')|E]"
+  
+  # Other stuff I guess 
+ BRITANNIA_STRUGGLE: "[britannia_struggle|E]"
+ CANNOT_MIGRATE_OUTSIDE_STRUGGLE_REGION: "Невозможно мигрировать за пределы [Concept('struggle_region', 'региона борьбы')|E]"
+  
+  # Phases 
+  
+  # Ending decisions 
+  # Hostility - Generic 
+ struggle_britannia_ending_hostility_decision_generic: "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] Доминирование"
+ struggle_britannia_ending_hostility_decision_generic_desc: "Пришло время сильному лидеру наконец вытащить этот остров из трясины войны и раскола. Британия будет объединена под знаменем [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+ struggle_britannia_ending_hostility_decision_tooltip: "Конец [Concept('struggle', 'борьбы')|E] для Британии"
+ struggle_britannia_ending_hostility_decision_generic_confirm: "Завершить борьбу за Британию"
+  
+  # Hostility - Germanic 
+ struggle_britannia_ending_hostility_decision_germanic: "Бретвальда"
+ struggle_britannia_ending_hostility_decision_germanic_desc: "Хотя наши предки изначально прибыли с чужих берегов, Британия теперь действительно наш дом. Пришло время сильному лидеру наконец вытащить этот остров из трясины войны и раскола. Британия будет объединена под знаменем [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+ struggle_britannia_ending_hostility_decision_germanic_confirm: "Завершить борьбу за Британию"
+  
+  # Hostility - Celtic 
+ struggle_britannia_ending_hostility_decision_celtic: "Британия для кельтов"
+ struggle_britannia_ending_hostility_decision_celtic_desc: "Несмотря на столетия иноземных вторжений, кельты Британии выстояли. Пришло время кельтским народам Британии взять на себя ответственность за свою судьбу. Британия будет объединена под знаменем [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+ struggle_britannia_ending_hostility_decision_celtic_confirm: "Завершить борьбу за Британию"
+  
+  # Hostility - Roman (This can actually be taken by either Roman emperor in _any_ phase, not just the hostility phase) 
+ struggle_britannia_ending_hostility_decision_roman: "Вернуть Великую Британию"
+ struggle_britannia_ending_hostility_decision_roman_desc: "Когда-то неотъемлемая пограничная провинция Римской империи, Британия была оставлена ​​Империей при далеко не идеальных обстоятельствах. Эта трагедия должна быть исправлена. Британия больше не должна страдать от разрушительного действия варварства и нестабильности: она снова станет частью Римской империи!"
+ struggle_britannia_ending_hostility_decision_roman_confirm: "Завершить борьбу за Британию"
+  
+  # Conciliation 
+ struggle_britannia_ending_conciliation_decision: "Разрядка"
+ struggle_britannia_ending_conciliation_decision_desc: "Пока раны конфликта все еще остаются, мы должны сделать все возможное, чтобы Британия окрепла. Римская империя больше не поддерживает стабильность и мир. Поэтому мы должны научиться работать вместе для достижения прочного мира на Британских островах, несмотря на наши разногласия."
+ struggle_britannia_ending_conciliation_decision_tooltip: "$struggle_britannia_ending_hostility_decision_tooltip$"
+ struggle_britannia_ending_conciliation_decision_confirm: "$struggle_britannia_ending_hostility_decision_generic_confirm$"
+  
+  # Compromise 
+ struggle_britannia_ending_compromise_decision: "Статус-кво"
+ struggle_britannia_ending_compromise_decision_desc: "Становится все более очевидным, что без Римской империи, обеспечивающей стабильность и мир в Британии, Британские острова навсегда будут опустошены конфликтами. Пришло время признать, что Британия никогда не собиралась объединяться после ухода римлян, и вместо этого мы должны довольствоваться [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+ struggle_britannia_ending_compromise_decision_tooltip: "$struggle_britannia_ending_hostility_decision_tooltip$"
+ struggle_britannia_ending_compromise_decision_confirm: "$struggle_britannia_ending_hostility_decision_generic_confirm$"
+ struggle_britannia_ending_compromise_decision_region_tt: "Вы контролируете менее [SCOPE.ScriptValue('britannia_struggle_compromise_owned_percent_value')|0]% [Concept('region', 'региона')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName] (Сейчас: [SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_region_owned_percent_value')|0]%)"
+  
+  
+  # Ending decision triggers 
+ #struggle_britannia_ending_compromise_decision_correct_phase_tt: "Сейчас [struggle_phase|E] - это [struggle_phase_britannia_compromise|E]" # Концепция игры для последнего не работает по какой-то причине, работает только если я помещаю что-то между "[struggle_phase_britannia_compromise|E]"
+ #struggle_britannia_ending_compromise_decision_correct_phase_tt: "Сейчас [struggle_phase|E] - это [struggle_phase_britannia_compromise|E]" # Концепция игры для последнего не работает по какой-то причине, работает только если я помещаю что-то между "[struggle_phase_britannia_compromise|E]"
+ struggle_britannia_ending_conciliation_decision_correct_phase_tt: "Текущая [Concept('struggle_phase', 'фаза борьбы')|E] - это [struggle_phase_britannia_conciliation|E]"
+  
+ struggle_britannia_ending_hostility_decision_correct_phase_tt: "Текущая [Concept('struggle_phase', 'фаза борьбы')|E] - это [struggle_phase_britannia_hostility|E]"
+ struggle_britannia_ending_hostility_decision_kingdom_tt: "Вы [Concept('hold', 'владеете')|E] и [Concept('completely_control', 'полностью контролируете')|E] как минимум 2 [Concept('de_jure', 'де-юре')|E] [Concept('kingdoms', 'королевствами')|E] в [GetTitleByKey('e_britannia').GetNameNoTier]"
+ struggle_britannia_ending_hostility_decision_county_tt: "80% от [Concept('de_jure', 'де-юре')|E [Concept('counties', 'графств')|E] от [Concept('capital', 'столичного')|E] [Concept('kingdoms', 'королевства')|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должны быть [THIS.Char.GetCulture.GetName] и [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('tfe_struggle_britannia_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('tfe_struggle_britannia_hostility_county_total_value')|0])"
+ struggle_britannia_ending_hostility_decision_region_tt: "Ни один другой [Concept('independent', 'независимый')|E], [Concept('struggle_involved', 'вовлечённый в борьбу')|E] [ruler|E] не контролирует более 20% [GetGeographicalRegion('world_europe_west_britannia').GetName]"
+ struggle_britannia_ending_compromise_decision_kingdom_tt: "Вы [Concept('hold', 'владеете')|E] и [Concept('completely_control', 'полностью контролируете')|E] любые [Concept('de_jure', 'де-юре')|E] [Concept('kingdoms', 'королевствами')|E] в [GetTitleByKey('e_britannia').GetNameNoTier] ([SCOPE.ScriptValue('britannia_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('britannia_struggle_conciliation_kingdom_total_value')|0])"
+ #struggle_britannia_ending_compromise_decision_region_tt: "Вы контролируете менее [SCOPE.ScriptValue('britannia_struggle_compromise_owned_percent_value')|0]% из [GetGeographicalRegion('world_europe_west_britannia').GetName] [region|E] (Текущий: [SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_region_owned_percent_value')|0]%)"
+ struggle_britannia_ending_compromise_decision_other_region_tt: "Ни один другой [Concept('independent', 'независимый')|E] [Concept('struggle_involved', 'вовлечённый в борьбу')|E] [ruler|E] не контролирует [SCOPE.ScriptValue('britannia_struggle_compromise_involved_percent_value')|0]% или более от [Concept('region', 'региона')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName]"
+ struggle_britannia_ending_compromise_decision_opinion_tt: "Все остальные [Concept('independent', 'независимые')|E] [Concept('struggle_involved', 'вовлечённые в борьбу')|E] [Concept('ruler', 'правители')|E] имеют как минимум [SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_opinion_value')|0] [opinion|E] о вас или находятся у вас на [Concept('strong_hook', 'крючке')|E] ([SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_britannia_ending_ending_decision_foreign_realm_total_value')|0])"
+ struggle_britannia_ending_compromise_decision_independent_tt: "[Concept('independent', 'независимых')|E] [Concept('struggle_involved', 'вовлечённых в борьбу')|E] [Concept('ruler', 'правителей')|E] равных [Concept('rank', 'рангу')|E] [Concept('king', 'короля')|E] или [Concept('emperor', 'императора')|E]] (Сейчас: [SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_independent_counter_value')|0])"
+ struggle_britannia_ending_compromise_decision_interloper_tt: "Более [SCOPE.ScriptValue('britannia_struggle_compromise_uninvolved_percent_value')]% [Concept('region', 'региона')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName]] принадлежит [Concept('struggle_interloper', 'вмешавшемуся')|E] или [Concept('struggle_involved', 'вовлечённому в борьбу')|E] [Concept('ruler', 'правителю')|E] (Сейчас: [SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_region_interloper_percent_value')|1]%)"
+ struggle_britannia_ending_compromise_truce_tt: "Нет [Concept('wars', 'войны')|E] между [Concept('struggle_involved', 'вовлечёнными в борьбу')|E] [Concept('independent', 'независимыми')|E] [Concept('ruler', 'правителями')|E] (Сейчас: [SCOPE.ScriptValue('struggle_britannia_ending_compromise_decision_war_counter_value')|0])"
+ struggle_britannia_ending_conciliation_decision_alliance_tt: "Все остальные [Concept('independent', 'независимые')|E] [Concept('struggle_involved', 'вовлечённые в борьбу')|E] [Concept('rulers', 'правители')|E] имеют с вами [Concept('alliance', 'союз')|E] ([SCOPE.ScriptValue('struggle_britannia_ending_conciliation_decision_alliance_counter_value')|0]/[SCOPE.ScriptValue('struggle_britannia_ending_ending_decision_foreign_realm_total_value')|0])"
+  
+  # Ending decision effects 
+ britannia_struggle_hostility_opinion_tt: "[opinion|E] [Concept('characters', 'персонажей')|E] той же [Concept('faith', 'конфессии')|E] и/или [Concept('culture', ''культуры)|E]: #positive_value +15#!"
+ britannia_struggle_hostility_opinion_negative_tt: "[opinion|E] [Concept('characters', 'персонажей')|E] других [Concept('struggle_involved', 'вовлечённых в борьбу')|E] [Concept('faith', 'конфессий')|E] и/или [Concept('culture', ''культур)|E]: ​​#negative_value -15#!"
+ britannia_struggle_hostility_conversion_tt: "Скорость выполнения [Concept('councillor_tasks', 'задачи советника')|E] «$task_conversion$» и/или «$task_promote_culture$» в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName]: #P +50%#!"
+ britannia_struggle_hostility_conversion_holy_tt: "Скорость выполнения [Concept('councillor_tasks', 'задачи советника')|E] «$task_conversion$»  в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName]: #P +50%#!"
+ britannia_struggle_hostility_conversion_culture_tt: "Скорость выполнения [Concept('councillor_tasks', 'задачи советника')|E] «$task_promote_culture$» в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName]: #P +50%#!"
+ britannia_struggle_hostility_list_tt: "Выберите один из следующих модификаторов для вашего [Concept('house', 'дома')|E]:\n$EFFECT_LIST_BULLET$[GetModifier('britannia_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. Кроме того, [holy_wars|E] будут стоить меньше.\n$EFFECT_LIST_BULLET$[GetModifier('britannia_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. Кроме того, «Завоевание» будет стоить меньше.\n$EFFECT_LIST_BULLET$[GetModifier('britannia_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]. Кроме того, [holy_war|E] и «Завоевание» будут стоить меньше."
+ britannia_struggle_hostility_holy_cb_tt: "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] других [Concept('struggle_involved', 'вовлечённых в борьбу')|E] [Concept('faith', 'конфессий')|E]: #positive_value -50%#!"
+ britannia_struggle_hostility_holy_cb_joint_tt: "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] других [Concept('struggle_involved', 'вовлечённых в борьбу')|E] [Concept('faith', 'конфессий')|E]: #positive_value -50%#!\n$culture_parameter_cb_lower_piety_level_requirement$"
+ britannia_struggle_hostility_culture_cb_tt: "$CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] других [Concept('struggle_involved', 'вовлечённых в борьбу')|E] [Concept('cultures', 'культур')|E]: #positive_value -50%#!"
+ britannia_struggle_hostility_culture_tt: "Все [Concept('struggle_involved', 'вовлечённые в борьбу')|E] [Concept('cultures', 'культуры')|E] теряют #negative_value [SCOPE.ScriptValue('britannia_struggle_hostility_culture_acceptance_value')]%#! [Concept('cultural_acceptance', 'терпимости культур')|E] "
+ britannia_struggle_hostility_culture_large_tt: "Все [Concept('struggle_involved', 'вовлечённые в борьбу')|E] [Concept('cultures', 'культуры')|E] теряют #negative_value [SCOPE.ScriptValue('britannia_struggle_hostility_culture_acceptance_large_value')]%#! [Concept('cultural_acceptance', 'терпимости культур')|E] "
+ britannia_struggle_hostility_acceptance_tt: "Враждебность в Британии"
+ britannia_struggle_conciliation_marriage_unlocked_tt: "Всегда #positive_value разрешать#! межконфессиональный [marriage|E] между всеми [Concept('struggle_involved', 'вовлечёнными в борьбу')|E] [Concept('cultures', 'культурами')|E]"
+ britannia_struggle_conciliation_holy_war_disabled_tt: "Навсегда отключить #negative_value#! [Concept('holy_wars', 'священные войны')|E] между всеми [Concept('struggle_involved', 'вовлечёнными в борьбу')|E] [Concept('cultures', 'культурами')|E]"
+ britannia_struggle_conciliation_acceptance_tt: "Примирение в Британии"
+ britannia_struggle_conciliation_culture_tt: "Все [Concept('struggle_involved', 'вовлечённые в борьбу')|E] [Concept('cultures', 'культуры')|E] получают #positive_value +50%#! [Concept('cultural_acceptance', 'терпимости культур')|E]"
+ britannia_struggle_conciliation_join_war_tt: "Навсегда разрешает [Concept('rulers', 'правителям')|E] Concept('struggle_involved', 'вовлечённых в борьбу')|E] [Concept('cultures', 'культур')|E] и [Concept('faith', 'конфессий')|E]  присоединиться к оборонительной [Concept('wars', 'войне')|E]] против внешних захватчиков [GetGeographicalRegion('world_europe_west_britannia').GetName]"
+ britannia_struggle_compromise_house_rewards_tt: "Ваш и [Concept('independent', 'независимые')|E] [Concept('struggle_involved', 'вовлечённые в борьбу')|E] [houses|E] [rulerpossessive|E]"
+  
+  # Modifiers 
+ britannia_struggle_hostility_house_faith_modifier: "Враждебность: Вера"
+ britannia_struggle_hostility_house_faith_modifier_desc: "Этот дом завоевал большую часть Британии во имя своей веры."
+ britannia_struggle_hostility_house_culture_modifier: "Враждебность: Культура"
+ britannia_struggle_hostility_house_culture_modifier_desc: "Этот дом завоевал большую часть Британии во имя своего народа."
+ britannia_struggle_hostility_house_combined_modifier: "Враждебность: Доминирование"
+ britannia_struggle_hostility_house_combined_modifier_desc: ""Этот дом завоевал большую часть Британии во имя своей веры и народа."
+ britannia_struggle_hostility_faith_conversion_task_desc: "$britannia_struggle_hostility_house_faith_modifier$"
+ britannia_struggle_hostility_culture_conversion_task_desc: "$britannia_struggle_hostility_house_culture_modifier$"
+ britannia_struggle_conciliation_house_reward_modifier: "Примирение"
+  
+  # Ending Events 
+  # Hostility - Generic 
+ britannia_struggle.9000.t: "$struggle_britannia_ending_hostility_decision_generic$"
+ britannia_struggle.9000.desc: "Мы долго и упорно боролись за то, чтобы стать настоящими хозяевами Британских островов, и никто не может отказать нам в моменте нашего триумфа. Теперь нет другого королевства, которое могло бы по-настоящему оспорить [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] господство в Британии, ни [ROOT.Char.GetFaith.PriestNeuterPlural] и поселенцев, несущих слово [ROOT.Char.GetFaith.HighGodName] и [ROOT.Char.GetCulture.GetName] цивилизации в свои деревни.\n\nОсталось только объявить эту победу, решив, как поступить с нашим правлением."
+ britannia_struggle.90xx.a: "Это будет земля [ROOT.Char.GetFaith.HighGodName]!"
+ britannia_struggle.90xx.b: "Наше внимание будет сосредоточено на заселении Британии."
+ britannia_struggle.90xx.c: "[ROOT.Char.GetFaith.HighGodName] [Select_CString(CHARACTER.IsFemale, 'отдала', 'отдал')]  Британию [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
+ britannia_struggle.9010.opening.involved: "Когда-то римляне были стабилизирующим фактором на Британских островах. Когда они ушли, начался ад, когда мелкие военачальники всех культур и религий сражались друг с другом в оставшемся вакууме власти. Сегодня это заканчивается, пусть даже благодаря усилиям других."
+ britannia_struggle.9010.opening: "Когда-то римляне были стабилизирующим фактором на Британских островах. Когда они ушли, начался ад, когда мелкие военачальники всех культур и религий сражались друг с другом в оставшемся вакууме власти. Сегодня это заканчивается... предположительно."
+ britannia_struggle.9010.desc: "\n\nМогучий [struggle_ender.GetTitledFirstName] теперь контролирует большую часть Британских островов и провозгласил [struggle_ender.GetHerselfHimself] окончательным победителем в борьбе, начавшейся давным-давно, когда римляне покинули Британию.\n\n"
+ britannia_struggle.9010.closing.faith: "[struggle_ender.GetSheHe|U] [Select_CString(CHARACTER.IsFemale, 'провозгласила', 'провозгласил')]  Британию [struggle_ender.GetFaith.GetAdjective] землей, что, [struggle_ender.GetFaith.HighGodName] желают, все еретики и неверные будут изгнаны из [struggle_ender.GetHerHis] владений."
+ britannia_struggle.9010.closing.culture: "[struggle_ender.GetSheHe|U] [Select_CString(CHARACTER.IsFemale, 'провозгласила', 'провозгласил')] , что Британия принадлежит [struggle_ender.GetCulture.GetName], и что все чужеземные народы — будь то захватчики или порабощенные — принимают эту реальность."
+ britannia_struggle.9010.closing.combined: "[struggle_ender.GetSheHe|U] провозгласил Британию и [struggle_ender.GetPrimaryTitle.GetNameNoTier] одним и тем же, теперь переданным в руки [struggle_ender.GetFaith.GetAdjective] [struggle_ender.GetCulture.GetName] [struggle_ender.GetFaith.HighGodName]..."
+ britannia_struggle.9010.a: "Ситуация не всегда развивалась в нашу пользу, не так ли?"
+ britannia_struggle.9010.b: "Интересно.... Кто знает, что будет дальше в Британии?"
+  
+  # Hostility - Germanic 
+ britannia_struggle.9001.t: "$struggle_britannia_ending_hostility_decision_generic$"
+ britannia_struggle.9001.desc: "\n\nИстория нашего народа настолько же сложна, насколько мы разнообразны, и настолько полна, насколько мы сильны. Хотя наши предки пришли сюда из континентальной Европы, теперь мы [ROOT.Char.GetCulture.GetCollectiveNoun] без сомнения можем называть Британские острова своим домом, потому что мы больше не чужаки и не иностранцы на этой земле: мы ее хозяева! Теперь нет другого королевства, которое могло бы по-настоящему оспаривать [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] господство в Британии, ни [ROOT.Char.GetFaith.PriestNeuterPlural] ни поселенцев, несущих слово [ROOT.Char.GetFaith.HighGodName] и [ROOT.Char.GetCulture.GetName] цивилизации в ее деревни.\n\nОсталось только объявить эту победу, решив, как поступить с нашим правлением."
+  
+  # Hostility - Celtic 
+ britannia_struggle.9002.t: "$struggle_britannia_ending_hostility_decision_generic$"
+ britannia_struggle.9002.desc: "\n\nМы [ROOT.Char.GetCulture.GetNameNoTooltip] пережили столетия вторжений: римляне, саксы, викинги... но со временем каждая из их сил пошатнулась. Сегодня судьба Британии в #EMP our#! руки еще раз. Теперь нет другого королевства, которое могло бы по-настоящему оспаривать [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] господство в Британии, ни [ROOT.Char.GetFaith.PriestNeuterPlural] ни поселенцев, несущих слово [ROOT.Char.GetFaith.HighGodName] и [ROOT.Char.GetCulture.GetName] цивилизации в ее деревни.\n\nОсталось только объявить эту победу, решив, как поступить с нашим правлением."
+  
+  # Hostility - Roman 
+ britannia_struggle.9003.t: "$struggle_britannia_ending_hostility_decision_generic$"
+ britannia_struggle.9003.desc: "\n\nПосле столетий набегов варваров с севера земли Британии снова находятся под властью римлян, и мы, в частности, находимся в авангарде этого возвращения к истинной цивилизации. Теперь нет другого королевства, которое могло бы по-настоящему оспорить [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] господство в Британии, ни [ROOT.Char.GetFaith.PriestNeuterPlural] и поселенцев, несущих слово [ROOT.Char.GetFaith.HighGodName] и [ROOT.Char.GetCulture.GetName] цивилизации в свои деревни.\n\nОсталось только объявить эту победу, решив, как поступить с нашим правлением."
+  
+  # Conciliation 
+ britannia_struggle.9100.t: "$struggle_britannia_ending_conciliation_decision$"
+ britannia_struggle.9100.desc: "\n\nМы всегда должны стремиться к большему миру, даже если иногда все еще могут происходить раздоры и кровопролитие. Хотя Римской империи больше нет в качестве стабилизирующего элемента в Британии, это не означает, что мы не можем объединиться, чтобы вместе принести стабильность на эту землю. Нет сомнений, что у нас есть все, что нужно.\n\nКак один из самых влиятельных и уважаемых лидеров на Британских островах, я теперь в состоянии обеспечить клятвенную гарантию защиты, гарантируя, что не только различные народы регион живет и поклоняется свободно.\n\nТеперь, когда в истории Британии начинается новая глава, можно только надеяться, что эта эра мира и гармонии сохранится надолго."
+ britannia_struggle.9100.a: "Хороший день для Британских островов!"
+ britannia_struggle.9110.desc: "\n\nНекоторые сейчас с осторожным оптимизмом смотрят в будущее. Похоже, что великий [struggle_ender.GetTitledFirstName], пользующийся уважением на Британских островах и обладающий большим политическим влиянием, послал глашатаев, чтобы провозгласить гарантии свободного прохода и поклонения для всех, заявив, что [struggle_ender.GetSheHe] обеспечит соблюдение этих гарантий дипломатическими средствами."
+ britannia_struggle.9110.a: "Жители Британии теперь смотрят в лучшее будущее!"
+ tfe_struggle_compromise_destroy_britannia_tt: "[empire|E] [GetTitleByKey('e_britannia').GetNameNoTier] навсегда #negative_value уничтожена#!"
+ tfe_struggle_compromise_create_new_kingdoms_tt: ""Каждый [Concept('independent', 'независимый')|E] [Concept('duchy', 'герцог')|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName] становится становится [de_jure|E] [Concept('kingdom', 'королевством')|E]"
+ tfe_struggle_compromise_create_new_empires_tt: "Каждое [de_jure|E] [kingdom|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName] с более чем [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [Concept('counties', 'графств')|E] становится [de_jure|E] [Concept('empire', 'империей')|E]. Остальные [Concept('kingdoms', 'королевства')|E] попадут под [de_jure|E] соседнюю [Concept('empire', 'империею')|E]."
+  
+  # Compromise 
+ britannia_struggle.0901.t: "$struggle_britannia_ending_compromise_decision$"
+ britannia_struggle.0901.desc: "\n\nПостоянное кровопролитие и опустошение сказались на этой земле. И для чего? Ничего такого. Понятно, что Британские острова никогда не предназначались для воссоединения после того, как старая Римская империя отошла от этих берегов, по крайней мере, на очень долгое время.\n\nУвы, мы должны довольствоваться [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]. Остальной Британии придется остаться разделенным месивом разных народов и верований."
+ britannia_struggle.0901.a: "Что есть, то есть."
+ britannia_struggle.0911.desc: "\n\n[struggle_ender.GetTitledFirstName], [Select_CString(CHARACTER.IsFemale, 'одна', 'один')] из самых могущественных правителей Британии, официально отказался от любых намерений объединить Британские острова под одним знаменем. Даже такой великий и влиятельный человек, как [struggle_ender.GetHerHim], знает, что Британия стала слишком разделенной после ухода римлян.\n\nБританские острова, так сказать, останутся разделенным месивом разных народов и верований в обозримом будущем. Будущее весьма неопределенно, и не обязательно в хорошем смысле."
+ britannia_struggle.0911.a: "Тем не менее, наследие Британии будет жить в наших сердцах."
+ britannia_struggle_compromise_create_new_kingdoms_tt: "Каждый [Concept('independent', 'независимый')|E] [Concept('duchy', 'герцог')|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_europe_west_britannia').GetName] становится [de_jure|E] [Concept('kingdom', 'королевством')|E]"
+ struggle_britannia_ending_compromise_decision_correct_phase_tt: "Сейчас [struggle_phase|E] - это [struggle_britannia_phase_compromise|E]"

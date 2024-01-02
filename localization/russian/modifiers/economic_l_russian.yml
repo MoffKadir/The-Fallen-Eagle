@@ -1,0 +1,13 @@
+﻿l_russian:
+ traders_attracted_modifier: "Привлечённые торговцы"
+ gave_out_titles: "Розданные титулы"
+ sold_titles: "Проданные титулы"
+ ignored_unstable_economy: "Проигнорированная нестабильная экономика"
+ gave_back_gift: "[Select_CString( CHARACTER.IsFemale, 'Вернула подарок', 'Вернул подарок' )]"
+ base_income: "Торговля"
+ opinion_zakah: "Закят"
+ #zakah_modifier_supply: "Дороги и путешествия улучшились"
+ #zakah_modifier_dev: "Постоянные приюты для бездомных"
+ mil_collapse: "Разрушенная военная компетентность"
+ civic_collapse: "Разрушенная гражданская компетентность"
+ secured_gaul_border: "Охраняемая франкская граница"
