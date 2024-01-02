@@ -1,4 +1,4 @@
-﻿l_russian:
+﻿l_english:
  BOOKMARK_CHARACTER_TITLE: "[BookmarkCharacter.GetTitleTierName] владения [BookmarkCharacter.GetTitleName]"
  BOOKMARK_CHARACTER_TITLE_TYPE: "[BookmarkCharacter.GetTitleTierName] [BookmarkCharacter.GetTitleName] #weak ([BookmarkCharacter.GetGovernmentType.GetName])#!"
  BOOKMARK_CHARACTER_TITLE_DATA: "[primary_title|E]: #V [BOOKMARK_CHARACTER.GetTitleTierName|U] [BOOKMARK_CHARACTER.GetTitleName]#!"
