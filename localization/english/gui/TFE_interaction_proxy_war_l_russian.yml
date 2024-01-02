@@ -1,9 +1,0 @@
-﻿l_russian:
- proxy_war_interaction: "Устроить войну чужими руками"
- proxy_war_interaction_desc: "[secondary_actor.GetShortUINameNoTooltip] получит ваше предложение объявить [Concept( 'proxy_war', 'войну чужими руками' )|E] правителю соседнего графства в обмен на войска и [gold|El]"
- PROXY_WAR_DEFENDER: "Защитник"
- PROXY_WAR_INFO: "Вы предложите персонажу [CharacterInteractionConfirmationWindow.GetSecondaryActor.GetName] объявить [Concept( 'proxy_war', 'войну чужими руками' )|E] персонажу [CharacterInteractionConfirmationWindow.GetRecipient.GetName] за соседнее графство в обмен на войска и [CharacterInteractionConfirmationWindow.GetRecipient.MakeScope.ScriptValue('proxy_war_price')|0] [Concept( 'gold', 'золотых' )|E]"
- PROXY_WAR_PROMPT: "#P Вы предложите персонажу [CharacterInteractionConfirmationWindow.GetSecondaryActor.GetName] объявить [Concept( 'proxy_war', 'войну чужими руками' )|E]...#!"
- actor_secondary_proxy_war_interaction: "Атакующий"
- proxy_war_send: "Устроить войну чужими руками"
- declined_proxy_war: "Отказ от призыва к войну чужими руками"

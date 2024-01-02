@@ -141,10 +141,10 @@ TRAVEL_NAME_FOR_activity_TFE_games:0 "[Character.GetFirstNamePossessiveNoTooltip
  TFE_gladiator_completed_log:0 "[CHARACTER.GetShortUIName|U] successfully hosted [CHARACTER.GetHerHis] some Gladiatorial Games"
  TFE_finished_gladiator:0 "Finished Gladiatorial Games"
  activity_TFE_games_conclusion_desc:0 "The Ludi have concluded. [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.Custom('gladiator_games_result')]"
- gladiatorial_games_very_good_loc:0 "The [ROOT.Title.GetName] gains [GetStaticModifier('gladiatorial_games_very_good_modifier').GetNameWithTooltip] for 10 years."
- gladiatorial_games_good_loc:0 "The [ROOT.Title.GetName] gains [GetStaticModifier('gladiatorial_games_good_modifier').GetNameWithTooltip] for 10 years."
- gladiatorial_games_bad_loc:0 "The [ROOT.Title.GetName] gains [GetStaticModifier('gladiatorial_games_bad_modifier').GetNameWithTooltip] for 10 years."
- gladiatorial_games_very_bad_loc:0 "The [ROOT.Title.GetName] gains [GetStaticModifier('gladiatorial_games_very_bad_modifier').GetNameWithTooltip] for 10 years."
+ gladiatorial_games_very_good_loc:0 "The [ROOT.Title.GetName] gains [GetModifier('gladiatorial_games_very_good_modifier').GetNameWithTooltip] for 10 years."
+ gladiatorial_games_good_loc:0 "The [ROOT.Title.GetName] gains [GetModifier('gladiatorial_games_good_modifier').GetNameWithTooltip] for 10 years."
+ gladiatorial_games_bad_loc:0 "The [ROOT.Title.GetName] gains [GetModifier('gladiatorial_games_bad_modifier').GetNameWithTooltip] for 10 years."
+ gladiatorial_games_very_bad_loc:0 "The [ROOT.Title.GetName] gains [GetModifier('gladiatorial_games_very_bad_modifier').GetNameWithTooltip] for 10 years."
  gladiatorial_games_mid_af:0 "You gained 75 [prestige|E]"
 
  # Memories

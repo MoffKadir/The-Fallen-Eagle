@@ -1,4 +1,0 @@
-﻿l_russian:
- pathfinder_debug_title: "DEBUG: Путь найден!"
- pathfinder_debug_desc: "Путь от [origin.GetName] к [destination.GetName]"
- pathfinder_debug_print: "[THIS.Title.GetName]"

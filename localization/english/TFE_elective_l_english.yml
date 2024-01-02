@@ -1,0 +1,26 @@
+﻿l_english:
+ rashidun_elective_succession_law:0 "Rashidun Elective"
+ rashidun_elective_succession_law_subname:0 "Rashidun"
+
+ rashidun_elective_candidates:0 "Wise Close Family, Vassals and Sahabis"
+ rashidun_elective_candidates_tooltip:0 "To be considered a legitimate heir to the Caliphate, one must have 15 or more in martial, learning, diplomacy, and stewardship or be a sahabi."
+
+ rashidun_elective_electors:0 "Rashidun Electors"
+ rashidun_elective_electors_tooltip:0 "The Rashidun Candidates vote amongst themselves."
+
+ polish_elective_succession_law:0 "Polish Elective"
+ polish_elective_succession_law_subname:0 "Sejm"
+ polish_elective_electors:0 "All direct and indirect De Jure vassals"
+ polish_elective_electors_tooltip:1 "In order to be a valid elector of the Sejm, a character must be a De Jure vassal, either direct or indirect."
+ polish_elective_candidates:0 "Extended Family and Claimants"
+ polish_elective_candidates_tooltip:1 "In order to be a valid candidate, a character must either be part of the current ruler's [close_family|E] or [extended_family|E], or be a title claimant."
+
+
+ gana_sangha_elective_succession_law:0 "Gana Sangha Elective"
+ gana_sangha_elective_succession_law_subname:0 "Gana Sangha"
+
+ gana_sangha_elective_candidates:0 "Direct Vassals, Claimants, and Children"
+ gana_sangha_elective_candidates_tooltip:0 "In order to be a valid candidate of the Gana Sangha, a character must be a direct [de_jure|E] vassal, a claimant, or one of the ruler's current children."
+
+ gana_sangha_elective_electors:0 "Direct Vassals, Claimants, and Related Knights"
+ gana_sangha_elective_electors_tooltip:0 "In order to be a valid elector of the Gana Sangha, a character must be a direct [de_jure|E] vassal, a claimant, or one of the army commanders related to the ruler."

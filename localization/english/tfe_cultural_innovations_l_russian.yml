@@ -1,8 +1,0 @@
-﻿l_russian:
-  # Don't need to override the vanilla file 
-  
- innovation_scorpio: "Скорпионы"
-  #Defined elsewhere 
- #innovation_equestrian_husbandry: "Конный спорт"
-  
- culture_parameter_unlock_maa_scorpion: "Может нанимать [GetMaA('scorpion').GetName]как [Concept('men_at_arms', 'профессиональную гвардию')|E]"

@@ -1,8 +1,0 @@
-﻿l_russian:
- culture_minority_map_mode_tooltip: "Карта культурных меньшинств"
- culture_minority_map_mode_revert_tooltip: "Карта культур"
- #Legend
- CULTURE_MINORITY_MAP_LEGEND: "Культурные меньшинства"
- CULTURE_MINORITY_MAP_LEGEND_MAJORITY: "Культура большинства"
- CULTURE_MINORITY_MAP_LEGEND_LARGE_MINORITY: "Крупное культурное меньшинство"
- CULTURE_MINORITY_MAP_LEGEND_SMALL_MINORITY: "Культурное меньшинство"

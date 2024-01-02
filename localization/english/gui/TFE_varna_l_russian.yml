@@ -1,5 +1,0 @@
-﻿l_russian:
- BRAHMIN_WEDDING_TOOLTIP: "#warning Дети от этого брака, станут частью [Concept( 'varna', 'варны' )|E] «[GetTrait('brahmin').GetName(GetNullCharacter)l]»#!"
- KSHATRIYA_WEDDING_TOOLTIP: "#warning Дети от этого брака, станут частью [Concept( 'varna', 'варны' )|E] «[GetTrait('kshatriya').GetName(GetNullCharacter)]»#!"
- VAISHYA_WEDDING_TOOLTIP: "#warning Дети от этого брака, станут частью [Concept( 'varna', 'варны' )|E] «[GetTrait('vaishya').GetName(GetNullCharacter)]»#!"
- SHUDRA_WEDDING_TOOLTIP: "#warning Дети от этого брака, станут частью [Concept( 'varna', 'варны' )|E] «[GetTrait('shudra').GetName(GetNullCharacter)]»#!"
