@@ -345,66 +345,66 @@
  TFE_chariot_events.0015.d: "Хотя они, возможно, и проиграли, они мчались хорошо. За Зелёных!"
  TFE_chariot_events.0015.e: "Обе команды заслуживают признания за такие зрелищные игры!"
 
- #New Pulse actions 
- TFE_activities_leftover_food_giveaway_title: "[province.GetName|U] Полученные остатки еды"
-  
- TFE_activities_lauded_food_title: "$activity_pulse_action_lauded_food$"
- activity_pulse_action_TFE_activities_lauded_food: "[first.GetShortUINameNoTooltip] Хвалите[_s(first)] [root_scope.Custom('GetExpensiveMeal')|U]"
-  
- TFE_activities_excellent_food_title: "[first.GetShortUINameNoTooltip|U] В восторге от количества [root_scope.Custom('GetExpensiveDessert')|U]"
-  
- TFE_activities_noble_privileges_title: "[first.GetShortUINameNoTooltip|U] Был удостоен благородных привилегий"
-  
- TFE_activities_guest_chokes_on_bone_title: "$activity_pulse_action_guest_chokes_on_bone$"
- activity_pulse_action_TFE_activities_guest_chokes_on_bone: "[first.GetShortUINameNoTooltip] Удушение[_s(first)] на кости [first.Custom('GetFoodBird')|U]"
-  
- TFE_activities_courtly_vassals_appeased_title: "$activity_pulse_action_courtly_vassals_appeased$"
- activity_pulse_action_TFE_activities_courtly_vassals_appeased: "Придворные вассалы восхищаются [root_scope.GetShortUINamePossessiveNoTooltip|U] Подготовка"
-  
- TFE_feast_phase_virtuous_feast_title: "[first.GetShortUINameNoTooltip|U] Посетил добродетельный пир"
-  
- TFE_feast_phase_children_bonding_title: "$activity_pulse_action_relation_gains_friend$"
- activity_pulse_action_TFE_feast_phase_children_bonding: "[root_scope.GetShortUINamePossessiveNoTooltip|U] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] Связан после игры с [second.GetShortUINamePossessiveNoTooltip] [first.Custom('child_favorite_toy')]"
-  
- TFE_feast_phase_antiquarian_admires_artifact_title: "[first.GetShortUINameNoTooltip|U] Угощение [host.GetShortUINameNoTooltip|U] С историей [artifact.GetName|U]"
-  
- TFE_feast_phase_jester_entertained_guests_title: "[first.GetShortUINameNoTooltip|U] Сделано [second.GetShortUINameNoTooltip|U] Смейся от души"
-  
- TFE_feast_phase_spouse_manages_feast_splendidly_title: "$activity_pulse_action_spouse_manages_feast_splendidly$"
- activity_pulse_action_TFE_feast_phase_spouse_manages_feast_splendidly: "[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] Руководство [first.GetWifeHusband|U] удивляет гостей"
-  
- TFE_feast_phase_impressed_courtly_vassal_title: "Придворные вассалы впечатлены щедрым пиром"
-  
- TFE_feast_phase_relation_gains_friend_title: "$activity_pulse_action_relation_gains_friend$"
- activity_pulse_action_TFE_feast_phase_relation_gains_friend: "[root_scope.GetShortUINamePossessiveNoTooltip|U] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] Подружиться [second.GetShortUINameNoTooltip]"
-  
- TFE_feast_phase_guest_impressed_by_court_artifact_title: "$activity_pulse_action_guest_impressed_by_court_artifact$"
- activity_pulse_action_TFE_feast_phase_guest_impressed_by_court_artifact: "[first.GetShortUINameNoTooltip] Впечатлен [second.GetName]"
-  
- TFE_activities_ridiculed_food_title: "$activity_pulse_action_ridiculed_food$"
- activity_pulse_action_TFE_activities_ridiculed_food: "[first.GetShortUINameNoTooltip|U] Ламбаст[_s(first)] Качество [root_scope.Custom('GetExpensiveMeal')|U]"
-  
- TFE_gladiator_relation_gains_friend_title: "$activity_pulse_action_relation_gains_friend$"
- activity_pulse_action_TFE_gladiator_relation_gains_friend: "[root_scope.GetShortUINamePossessiveNoTooltip|U] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] Подружиться [second.GetShortUINameNoTooltip]"
-  
- TFE_gladiator_children_bonding_title: "$activity_pulse_action_relation_gains_friend$"
- activity_pulse_action_TFE_gladiator_children_bonding: "[root_scope.GetShortUINamePossessiveNoTooltip|U] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] Связан после игры с [second.GetShortUINamePossessiveNoTooltip] [first.Custom('child_favorite_toy')]"
-  
-  #Modifiers 
- upset_blues_modifier: "Расстроенный блюз"
- upset_blues_modifier_desc: "«Синие» создают проблемы после нескольких неудовлетворительных гонок."
-  
- upset_greens_modifier: "Расстроенные зеленые"
- upset_greens_modifier_desc: "Зеленые создают проблемы после нескольких неудовлетворительных гонок."
-  
- chariot_games_modifier: "Игры с колесницами"
- chariot_games_modifier_desc: ""
-  
- honored_chariot_winners: "Заслуженные победители колесниц"
- honored_chariot_winners_desc: ""
-  
- honored_chariot_losers: "Заслуженные проигравшие колесницы"
- honored_chariot_losers_desc: ""
-  
- honored_charioteers: "Заслуженные колесничие"
- honored_charioteers_desc: ""
+ #New Pulse actions
+ TFE_activities_leftover_food_giveaway_title:0 "[province.GetName|U] получает остатки еды"
+
+ TFE_activities_lauded_food_title:0 "$activity_pulse_action_lauded_food$"
+ activity_pulse_action_TFE_activities_lauded_food:0 "[first.GetShortUINameNoTooltip] [Select_CString(first.IsLocalPlayer, 'хвалите', 'хвалит' )] такое блюдо, как [root_scope.Custom('GetExpensiveMeal')|l]"
+
+ TFE_activities_excellent_food_title:0 "[first.GetShortUINameNoTooltip|U] в восторге от количества такого блюда, как [root_scope.Custom('GetExpensiveDessert')|U]"
+
+ TFE_activities_noble_privileges_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString(first.IsFemale, 'была удостоена', 'был удостоен' )] благородных привилегий"
+
+ TFE_activities_guest_chokes_on_bone_title:0 "$activity_pulse_action_guest_chokes_on_bone$"
+ activity_pulse_action_TFE_activities_guest_chokes_on_bone:0 "[first.GetShortUINameNoTooltip] [Select_CString(first.IsLocalPlayer, 'давитесь', 'давится' )] птичьей костью"
+
+ TFE_activities_courtly_vassals_appeased_title:0 "$activity_pulse_action_courtly_vassals_appeased$"
+ activity_pulse_action_TFE_activities_courtly_vassals_appeased:0 "вассалы в восторге от приготовлений персонажа [root_scope.GetShortUINameNoTooltip|U]"
+
+ TFE_feast_phase_virtuous_feast_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString(first.IsFemale, 'посетила', 'посетил' )] добродетельный пир"
+
+ TFE_feast_phase_children_bonding_title:0 "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_TFE_feast_phase_children_bonding:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] персонажа [root_scope.GetShortUINameNoTooltip|U] и [second.GetShortUINameNoTooltip] становятся друзьями"
+
+ TFE_feast_phase_antiquarian_admires_artifact_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString(first.IsFemale, 'польстила', 'польстил' )] персонажа [host.GetShortUINameNoTooltip|U] знанием истории [artifact.GetName|U]"
+
+ TFE_feast_phase_jester_entertained_guests_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString(first.IsFemale, 'заставила', 'заставил' )] персонажа [second.GetShortUINameNoTooltip|U] рассмеяться от души"
+
+ TFE_feast_phase_spouse_manages_feast_splendidly_title:0 "$activity_pulse_action_spouse_manages_feast_splendidly$"
+ activity_pulse_action_TFE_feast_phase_spouse_manages_feast_splendidly:0 "[first.GetWifeHusband|U] персонажа [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] удивляет гостей своими познаниями в управлении"
+
+ TFE_feast_phase_impressed_courtly_vassal_title:0 "Придворные вассалы впечатлены щедрым пиром"
+
+ TFE_feast_phase_relation_gains_friend_title:0 "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_TFE_feast_phase_relation_gains_friend:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] персонажа [root_scope.GetShortUINameNoTooltip|U] и [second.GetShortUINameNoTooltip] становятся друзьями"
+
+ TFE_feast_phase_guest_impressed_by_court_artifact_title:0 "$activity_pulse_action_guest_impressed_by_court_artifact$"
+ activity_pulse_action_TFE_feast_phase_guest_impressed_by_court_artifact:0 "[second.GetNamePossessiveOrMy|U][Select_CString(second.IsPlayer, ' персонаж', '' )] производит впечатление на [Select_CString(first.IsPlayer, '', 'персонажа ' )][first.GetNamePossessiveOrMy][Select_CString(first.IsPlayer, 'его персонажа', '' )] персонажа своими [Concept( 'court_artifacts', 'придворными артефактами' )|E]"
+
+ TFE_activities_ridiculed_food_title:0 "$activity_pulse_action_ridiculed_food$"
+ activity_pulse_action_TFE_activities_ridiculed_food:0 "[first.GetShortUINameNoTooltip|U] [Select_CString(first.IsLocalPlayer, 'выступаете', 'выступает' )] с громкой критикой из-за того, что [root_scope.Custom('GetExpensiveMeal')|l] ненадлежащего качества"
+
+ TFE_gladiator_relation_gains_friend_title:0 "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_TFE_gladiator_relation_gains_friend:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] персонажа [root_scope.GetShortUINameNoTooltip|U] и [second.GetShortUINameNoTooltip] становятся друзьями"
+
+ TFE_gladiator_children_bonding_title:0 "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_TFE_gladiator_children_bonding:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] персонажа [root_scope.GetShortUINameNoTooltip|U] и [second.GetShortUINameNoTooltip] становятся друзьями после игры в [first.Custom('child_favorite_toy')]"
+
+ #Modifiers
+ upset_blues_modifier:0 "Расстроенные Синие"
+ upset_blues_modifier_desc:0 "Синие создают проблемы после нескольких неудовлетворительных гонок."
+
+ upset_greens_modifier:0 "Расстроенные Зелёные"
+ upset_greens_modifier_desc:0 "Зелёные создают проблемы после нескольких неудовлетворительных гонок."
+
+ chariot_games_modifier:0 "Гонки на колесницах"
+ chariot_games_modifier_desc:0 ""
+
+ honored_chariot_winners:0 "Почтение победителей гонок"
+ honored_chariot_winners_desc:0 ""
+
+ honored_chariot_losers:0 "Почтение к проигравшей команде"
+ honored_chariot_losers_desc:0 ""
+
+ honored_charioteers:0 "Почтение к колесничим"
+ honored_charioteers_desc:0 ""
