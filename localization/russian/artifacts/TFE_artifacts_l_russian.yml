@@ -1,140 +1,140 @@
 ﻿l_russian:
-  ############################## 
-  # Procedural court artifacts # 
-  ############################## 
- artifact_wall_big_1_scutum_name: "Старый скутум легиона"
- artifact_wall_big_1_scutum_description: "Скутум - древний тип щита, используемый италиками, а позже римлянами, когда они сменили построение своей армии с греческой фаланги гоплитов на манипулы."
+ ############################## 
+ # Procedural court artifacts # 
+ ############################## 
+ artifact_wall_big_1_scutum_name:0 "Старый скутум легиона"
+ artifact_wall_big_1_scutum_description:0 "Скутум - древний тип щита, используемый италийцами, а позже римлянами, когда они сменили построение своей армии с греческой фаланги гоплитов на манипулы."
+
+ artifact_obeliskfull_name:0 "Древний обелиск"
+ artifact_obeliskfull_description:0 "Этот обелиск, представляющий из себя коническую монолитную колонну, вырезанную из цельного куска камня каменотёсами, изначально был установлен последователями у входа в древнеегипетский религиозный и политический объект."
+
+ artifact_obeliskdamaged_name:0 "Поврежденный обелиск"
+ artifact_obeliskdamaged_description:0 "Этот обелиск, представляющий из себя коническую монолитную колонну, вырезанную из цельного куска камня каменотёсами, изначально был установлен последователями у входа в древнеегипетский религиозный и политический объект. К сожалению, этот прекрасный образец мастерства был повреждён долгими и жестокими войнами, свидетелем которых он был."
+
+ artifact_marcusbust_name:0 "Бюст Марка Аврелия"
+ artifact_marcusbust_description:0 "Марк Аврелий Антонин был римским императором, правившим с 161 по 180 г. н.э., известным своими военными походами против германских народов и своими философскими трактатами. Он был последним из числа правителей, известных как «Пять хороших императоров», и последним императором, который руководил Pax Romana."
+
+ artifact_aurelianhelmet_name:0 "Шлем Аврелиана"
+ artifact_aurelianhelmet_description:0 "Аврелиан был римским императором, правившим во время кризиса третьего века с 270 по 275 год нашей эры. Как император, он одержал беспрецедентную серию военных побед, которые воссоединили Римскую империю после того, как она распалась во время кризиса."
+
+ artifact_centurionhelmet_name:0 "Шлем центуриона"
+ artifact_centurionhelmet_description:0 "Старая версия шлема римского легионера."
+
+ artifact_galeahelmet_name:0 "Шлем Galea"
+ artifact_galeahelmet_description:0 "Старая версия шлема римского легионера."
+
+ artifact_westregalia_name:0 "Регалии Западной Римской империи"
+ artifact_westregalia_description:0 "Регалии, принадлежавшие монархам Западной Римской империи, являются знаком могущества, величия и статуса над вашими вассалами."
   
- artifact_obeliskfull_name: "Нетронутый обелиск"
- artifact_obeliskfull_description: "Коническая монолитная колонна, обелиск первоначально был установлен парами у входов в древние египетские религиозные и политические объекты, сначала вырезанный из цельного куска камня мастерами.."
+ artifact_eastregalia_name:0 "Регалии Восточной Римской империи"
+ artifact_eastregalia_description:0 "Регалии, принадлежавшие монархам Западной Римской империи, являются знаком могущества, величия и статуса над вашими вассалами."
+
+ artifact_spatha_name:0 "Римская спата"
+ artifact_spatha_description:0 "Спата была типом длинного меча, использовавшегося на территории Римской империи в период с I по VI века нашей эры. Римская спата использовалась в военных конфликтах и для гладиаторских боев."
   
- artifact_obeliskdamaged_name: "Поврежденный обелиск"
- artifact_obeliskdamaged_description: "Коническая монолитная колонна, обелиск первоначально был установлен парами у входов в древние египетские религиозные и политические объекты, сначала вырезанный из цельного куска камня мастерами. К сожалению, этот прекрасный образец мастерства был поврежден долгими и жестокими войнами, свидетелем которых он был"
-  
- artifact_marcusbust_name: "Бюст Марка Аврелия"
- artifact_marcusbust_description: "Марк Аврелий Антонин был римским императором, правившим с 161 по 180 г. н.э., известным своими кампаниями против германских народов и своими философскими трактатами. Он был последним из правителей, известных как «Пять хороших императоров», и последним императором, который руководил Pax Romana."
-  
- artifact_aurelianhelmet_name: "Шлем Аврелия"
- artifact_aurelianhelmet_description: "Аврелиан был римским императором, правившим во время кризиса третьего века с 270 по 275 год нашей эры. Как император, он одержал беспрецедентную серию военных побед, которые воссоединили Римскую империю после того, как она распалась во время кризиса."
-  
- artifact_centurionhelmet_name: "Шлем центуриона"
- artifact_centurionhelmet_description: "Старая версия шлема римского легионера."
-  
- artifact_galeahelmet_name: "Шлем Галеа"
- artifact_galeahelmet_description: "Старая версия шлема римского легионера."
-  
- artifact_westregalia_name: "Регалии Западной Римской империи"
- artifact_westregalia_description: "Регалии, принадлежавшие монархам Западной Римской империи, являются знаком могущества, величия и статуса над вашими вассалами."
-  
- artifact_eastregalia_name: "Регалии Восточной Римской империи"
- artifact_eastregalia_description: "Регалии, принадлежавшие монархам Западной Римской империи, являются знаком могущества, величия и статуса над вашими вассалами."
-  
- artifact_spatha_name: "Римская спата"
- artifact_spatha_description: "Спата была типом длинного меча, использовавшегося на территории Римской империи в период с 1 по 6 века нашей эры. Римская спата использовалась в военных конфликтах и для гладиаторских боев."
-  
- artifact_romanregalia_name: "Регалии Римской империи"
- artifact_romanregalia_description: "Эти регалии, принадлежавшие римским императорам, были выкованы путем переплавки регалий распавшихся Римских империй и служат символом могущества и величия над всеми, кто преклоняет колени."
-  
- artifact_roman_sarcophagus_name: "Древнеримский саркофаг"
- artifact_roman_sarcophagus_description: "Этот саркофаг, обнаруженный в глубинах заброшенного римского городища, был найден далеко не в первозданном состоянии, что ясно свидетельствует о множестве грабежей и войн, свидетелем которых он был."
-  
- artifact_golden_diadem_name: "Древнеримская диадема"
- artifact_golden_diadem_description: "Диадемы были одной из основных регалий, которые носили римские императоры или представители знати. В частности, эта древняя диадема слишком хрупка, чтобы ее можно было носить в ее нынешнем состоянии."
-  
- artifact_saliclaw_name: "Лекс Салика"
- artifact_saliclaw_description: "Lex salica объединяет римские законы и некоторые обычаи германского происхождения."
-  
- artifact_visigothiclaw_name: "Либер Юдициорум"
- artifact_visigothic_description: "Liber Iudiciorum был создан для обеспечения единства народа Вестготского королевства без учета культурного разнообразия."
-  
- artifact_burgundianlaw_name: "Лекс Бургундионум"
- artifact_burgundianlaw_description: "Из всех варварских сводов законов этот самый римский. Если бы это не было написано в заголовке, можно было бы задаться вопросом, кто мог это сделать."
-  
- artifact_strangering_name: "Странное кольцо"
- artifact_strangering_description: "Это кольцо, найденное среди сокровищ нибелунгов, обладает таинственным притяжением к людям, которые его окружают. Иногда ночью он светится, и мне кажется, что он шепчет мне на ухо"
-  
- artifact_donatistclub_name: "Дубина святых донатистов"
- artifact_donatistclub_description: "Обрезанная дубина, которая, как считается, принадлежала одному из святых донатистов, такому как Аксидо или Фасир, эта здоровенная дубина вдохновляет их собратьев с еще большим рвением против их угнетателей!"
-  
- artifact_telekdagger_name: "Телек - наручный кинжал"
- artifact_telekdagger_description: "Этот удобный кинжал использовался нумидийской кавалерией во время Пунических войн. Носимый на внутренней стороне левого предплечья, он может выручить своего владельца из затруднительного положения."
-  
- artifact_teleksword_name: "Телек - наручный меч"
- artifact_teleksword_description: "«Они (баркейцы, берберы Барки, Киренаики) несут не щит и угрожающий меч, как другие воины, прикрепленные к их боку, а кольцо, которое окружает их руку своего круга, слегка сжимает их и они позволяют ножнам свисать с голой руки». - Коррипус"
-  
- artifact_adarga_name: "Адарга"
- artifact_adarga_description: "Легкий щит, сделанный из кожи старой самки сернобыка (антилопы), этот северный берберский аксессуар был известен своей гибкостью и, как считалось, даже обладал целебными свойствами!"
-  
- artifact_ahrer_name: "Арер"
- artifact_ahrer_description: "Щит Арер был единственным защитным оружием туарегов и производился племенами Сахеля с использованием кожи эхема (антилопы) и, в редких случаях, жирафа или льва."
-  
- artifact_globa_name: "Глоба"
- artifact_globa_description: "Этот легкий доспех, использовавшийся римлянами и африканцами, состоял из водонепроницаемой овечьей или козьей кожи и кожаных наплечников."
-  
- artifact_lorica_name: "Масштабный корсет"
- artifact_lorica_description: "Чешуйчатый корсет состоит из рядов отдельных кожаных чешуек, сшитых вместе в линии, причем каждый ряд затем укладывается под соседним верхним уровнем. Однако в целом кираса была бы наиболее полезна против ножей, дубинок и тому подобного, а не против любого более элитного оружия."
- artifact_aksumhalberd_name: "Полумесячная алебарда"
- artifact_aksumhalberd_description: "В основном церемониальная по своей природе, эта алебарда имеет символ полумесяца на голове, похожий на символы, встречающиеся на многих аксумских монетах."
-  
- artifact_nubianshield_name: "Мероитский нагревательный щит"
- artifact_nubianshield_description: "Этот щит, отличающийся круглой половиной вершины, ограниченной углублениями на узких сторонах, использовался по всей долине Нила."
-  
- artifact_lancehatchet_name: "Копье с топором"
- artifact_lancehatchet_description: "Это копье, излюбленное оружие в окрестностях Мероэ, снабжено небольшим топориком, прикрепленным к боку для дополнительной гибкости во время боя."
-  
- artifact_crocodilehelmet_name: "Крокодиловый шлем"
- artifact_crocodilehelmet_description: "Этот шлем, сделанный из крокодиловой кожи и напоминающий голову самого страшного зверя, свидетельствует о важности владельца и вселяет страх в сердца врагов!"
-  
- artifact_crocodilearmor_name: "Броня панголина"
- artifact_crocodilearmor_description: "Доспех панголина состоит из тканевой туники, украшенной скорлупой орехов, белых шорт и короткой юбки из рафии вокруг талии; некоторые владельцы также украшают себя лентами на коленях."
-  
- artifact_wickershield_name: "Щит Эпеке"
- artifact_wickershield_description: "Сотканные вместе с использованием стиля плетения, называемого плетением, эти легкие щиты обеспечивали достаточную защиту для любого воина."
-  
- artifact_zandeshield_name: "Гбилийский щит"
- artifact_zandeshield_description: "Тонкий и плотно сплетенный, этот щит носили высшие чины и сановники за линией фронта, и он был больше для вида, чем для битвы."
-  
- artifact_opiasword_name: "Опийский меч"
- artifact_opiasword_description: "Этот меч имеет листообразное лезвие из железа и латуни с рукоятью с центральным ребром от рукояти до середины. Его традиционно украшали лицевая и оборотная стороны, а также нижняя часть клинка переплетениями и геометрическими узорами."
-  
- artifact_crocodilearmorreal_name: "Крокодиловая броня"
- artifact_crocodilearmorreal_description: "Крокодиловая кожа тщательно обработана, чтобы обеспечить защитную оболочку как для прославленного воина, так и для человека с высоким статусом."
-  
- artifact_ivoryscepter_name: "Scipio Eberneus"
- artifact_ivoryscepter_description: "Tribal kings often received ivory scepters like this from Rome to symbolize their high status as Roman allies."
-  
- artifact_festooncrown_name: "Silver Pilos"
- artifact_festooncrown_description: "A crown with festoons, this headdress was less a full head covering than a crown supported by silver bands on all sides."
-  
- artifact_goldchlamys_name: "Silk Chlamys with Gold Tablion"
- artifact_goldchlamys_description: "Greek cloaks like this were used by the emperor and high-ranking courtiers; purple tablions (panels) were reserved for the emperor."
-  
- artifact_trishula_name: "Trishula"
- artifact_trishula_description: "A short-handled weapon mounted on a danda (staff) resembling a trident, it is both a useful weapon and a religious symbol of significance -- for example, Shiva used it to sever the original head of Ganesha!"
-  
- artifact_sosunpattah_name: "Sosun Pattah"
- artifact_sosunpattah_description: "This short recurved sword, also known as a lily leaf (sosan patta) sword, was used by the Rajputs in North India to great effect."
-  
- artifact_kukridagger_name: "Kukri Dagger"
- artifact_kukridagger_description: "This dagger / short sword was used both in war and as a utility tool while working on farms. Its curved shape lent itself well to both chopping and slashing."
-  
- artifact_khandasword_name: "Khanda Sword"
- artifact_khandasword_description: "A straight blade sword with a broader front end, it saw widespread usage among the Maratha warrior clans."
-  
- artifact_charmadhal_name: "Charma Dhal"
- artifact_charmadhal_description: "A type of metal or hide shield found in the Indian subcontinent, they varied in size and curvature but were nearly always round. The most prized were made from Indian rhinoceros hide."
-  
- artifact_nachakh_name: "Nachakh"
- artifact_nachakh_description: "A one-handed axe used primarily by cavalrymen, its half-moon blade suggested Persian influences in its design."
-  
- artifact_reedshield_name: "Reed Shield"
- artifact_reedshield_description: "Typically used by the Pazyryk in the steppes, this shield generally consisted of sticks bound together by leather."
-  
- artifact_persianmace_name: "Qurz Mace"
- artifact_persianmace_description: "Highly decorated yet extremely efficient at brutally breaking through any armor no matter how tough, these weapons were reserved for elite guard units and other heavily armored troops."
-  
- artifact_zhupinspear_name: "Zhupin Spear"
- artifact_zhupinspear_description: "This short spear was named after Zubin (Zupin; Zhubin; Zhupin), a legendary Persian warrior famous for his courage and martial acuity."
-  
- artifact_zirah_name: "Zirah Armor"
- artifact_zirah_description: "This chainmail armor with tubular plate vambraces offered protection for Iranian cavalry while also preserving the mobility necessary for combat."
+ artifact_romanregalia_name:0 "Регалии Римской империи"
+ artifact_romanregalia_description:0 "Эти регалии, принадлежавшие римским императорам, были выкованы путем переплавки регалий распавшихся Римских империй и служат символом могущества и величия над всеми, кто преклоняет колени."
+
+ artifact_roman_sarcophagus_name:0 "Древнеримский саркофаг"
+ artifact_roman_sarcophagus_description:0 "Этот саркофаг, обнаруженный в глубинах заброшенного римского городища, был найден далеко не в первозданном состоянии, что ясно свидетельствует о множестве грабежей и войн, свидетелем которых он был."
+
+ artifact_golden_diadem_name:0 "Древнеримская диадема"
+ artifact_golden_diadem_description:0 "Диадемы были одной из основных регалий, которые носили римские императоры или представители знати. В частности, эта древняя диадема слишком хрупка, чтобы её можно было носить в её нынешнем состоянии."
+
+ artifact_saliclaw_name:0 "Lex Salica"
+ artifact_saliclaw_description:0 "Салическая правда объединяет римские законы и некоторые обычаи германского происхождения."
+
+ artifact_visigothiclaw_name:0 "Liber Iudiciorum"
+ artifact_visigothic_description:0 "Вестготская правда была создана для обеспечения единства народа Вестготского королевства без учета культурного разнообразия."
+
+ artifact_burgundianlaw_name:0 "Lex Burgundionum"
+ artifact_burgundianlaw_description:0 "Из всех варварских сводов законов этот наиболее близок к римским. Если бы это не было написано в заголовке, можно было бы задаться вопросом, кто мог это сделать."
+
+ artifact_strangering_name:0 "Странное кольцо"
+ artifact_strangering_description:0 "Это кольцо, найденное среди сокровищ нибелунгов, обладает таинственным притяжением к людям, которые его окружают. Иногда ночью он светится, и мне кажется, что он шепчёт мне на ухо"
+
+ artifact_donatistclub_name:0 "Дубина святых донатистов"
+ artifact_donatistclub_description:0 "Резная дубина, которая, как считается, принадлежала одному из святых донатистов, такому как Аксидо или Фасир, эта здоровенная дубина вдохновляет их собратьев с ещё большим рвением против их угнетателей!"
+
+ artifact_telekdagger_name:0 "Телек - наручный кинжал"
+ artifact_telekdagger_description:0 "Этот удобный кинжал использовался нумидийской кавалерией во время Пунических войн. Носимый на внутренней стороне левого предплечья, он может выручить своего владельца из затруднительного положения."
+
+ artifact_teleksword_name:0 "Телек - наручный меч"
+ artifact_teleksword_description:0 "«Они (баркейцы, берберы Барки, Киренаики) носят не щит и угрожающий меч, как другие воины, прикреплённые к их бокам, а кольцо, которое окружает их руку, слегка сжимает их и они позволяют ножнам свисать с голой руки» - Коррип"
+
+ artifact_adarga_name:0 "Адарга"
+ artifact_adarga_description:0 "Легкий щит, изготовленный из кожи старой самки сернобыка (антилопы), этот северный берберский аксессуар был известен своей гибкостью и, как считалось, даже обладал целебными свойствами!"
+
+ artifact_ahrer_name:0 "Арер"
+ artifact_ahrer_description:0 "Щит Арер был единственным защитным оружием туарегов и изготавливался племенами Сахеля с использованием кожи эхема (антилопы) и, в редких случаях, жирафа или льва."
+
+ artifact_globa_name:0 "Глоба"
+ artifact_globa_description:0 "Этот лёгкий доспех, использовавшийся римлянами и африканцами, состоял из водонепроницаемой овечьей или козьей кожи и кожаных наплечников."
+
+ artifact_lorica_name:0 "Чешуйчатые латы"
+ artifact_lorica_description:0 "Чешуйчатый корсет состоит из рядов отдельных кожаных чешуек, сшитых вместе в линии, причем каждый ряд затем укладывается под соседним верхним уровнем. Однако в целом кираса была бы наиболее полезна против ножей, дубинок и тому подобного, а не против любого более элитного оружия."
+ artifact_aksumhalberd_name:0 "Алебарда-полумесяц"
+ artifact_aksumhalberd_description:0 "В основном церемониальная по своей природе, эта алебарда имеет символ полумесяца на навершии, похожий на символы, встречающиеся на многих аксумских монетах."
+
+ artifact_nubianshield_name:0 "Мероитский закалённый щит"
+ artifact_nubianshield_description:0 "Этот щит, отличающийся круглой половиной вершины, ограниченной углублениями на узких сторонах, использовался по всей долине Нила."
+
+ artifact_lancehatchet_name:0 "Копье с топором"
+ artifact_lancehatchet_description:0 "Это копье, излюбленное оружие в окрестностях Мероэ, оснащено небольшим топориком, прикрепленным к боку для дополнительной гибкости во время боя."
+
+ artifact_crocodilehelmet_name:0 "Крокодиловый шлем"
+ artifact_crocodilehelmet_description:0 "Этот шлем, изготовленный из крокодиловой кожи и напоминающий голову самого страшного зверя, свидетельствует о важности владельца и вселяет страх в сердца врагов!"
+
+ artifact_crocodilearmor_name:0 "Броня панголина"
+ artifact_crocodilearmor_description:0 "Доспех панголина состоит из тканевой туники, украшенной панцирем, белых шорт и короткой юбки из рафии вокруг талии; некоторые владельцы также украшают себя лентами на коленях."
+
+ artifact_wickershield_name:0 "Щит Эпеке"
+ artifact_wickershield_description:0 "Сотканные вместе с использованием стиля плетения, называемого плетением, эти легкие щиты обеспечивали достаточную защиту для любого воина."
+
+ artifact_zandeshield_name:0 "Гбилийский щит"
+ artifact_zandeshield_description:0 "Тонкий и плотно сплетённый, этот щит носили высшие чины и сановники за линией фронта, и он был больше для вида, чем для битвы."
+
+ artifact_opiasword_name:0 "Опийский меч"
+ artifact_opiasword_description:0 "Этот меч имеет листообразное лезвие из железа и латуни с рукоятью с центральным ребром от рукояти до середины. Его традиционно украшали лицевая и оборотная стороны, а также нижняя часть клинка переплетениями и геометрическими узорами."
+
+ artifact_crocodilearmorreal_name:0 "Крокодиловая броня"
+ artifact_crocodilearmorreal_description:0 "Крокодиловая кожа тщательно обработана, чтобы обеспечить защитную оболочку как для прославленного воина, так и для человека с высоким статусом."
+
+ artifact_ivoryscepter_name:0 "Scipio Eberneus"
+ artifact_ivoryscepter_description:0 "Цари племён часто получали такие скипетры из слоновой кости из Рима, чтобы символизировать свой высокий статус как римских союзников."
+
+ artifact_festooncrown_name:0 "Серебряный пилос"
+ artifact_festooncrown_description:0 "Корона с фестонами - этот головной убор не столько полностью покрывал голову, сколько представлял собой корону, поддерживаемую со всех сторон серебряными лентами."
+
+ artifact_goldchlamys_name:0 "Шелковая хламида с золотыми накладками"
+ artifact_goldchlamys_description:0 "Подобные греческие плащи использовались императором и высокопоставленными придворными; пурпурные таблионы ( накладки) предназначались только для императора."
+
+ artifact_trishula_name:0 "Тришула"
+ artifact_trishula_description:0 "Это короткоручное оружие, закрепленное на данде (посохе) и напоминающее трезубец, является одновременно и полезным оружием, и религиозным символом - например, Шива использовал его, чтобы отрубить изначальную голову Ганеши!"
+
+ artifact_sosunpattah_name:0 "Шосун Патта"
+ artifact_sosunpattah_description:0 "Этот короткий изогнутый меч, также известный как меч из листьев лилии (шосан патта), использовался раджпутами в Северной Индии с большим успехом."
+
+ artifact_kukridagger_name:0 "Кинжал кукри"
+ artifact_kukridagger_description:0 "Этот кинжал/короткий меч использовался как на войне, так и в качестве хозяйственного инструмента при работе на фермах. Его изогнутая форма хорошо подходила как для рубящих, так и для колющих ударов."
+
+ artifact_khandasword_name:0 "Меч Кханда"
+ artifact_khandasword_description:0 "Меч с прямым лезвием и более широким передним концом получил широкое распространение среди маратхских воинских кланов."
+
+ artifact_charmadhal_name:0 "Чарма Дхал"
+ artifact_charmadhal_description:0 "Тип щита из металла или шкуры, найденный на Индийском субконтиненте. Они различались по размеру и кривизне, но почти всегда были круглыми. Самые ценные были сделаны из шкуры индийского носорога."
+
+ artifact_nachakh_name:0 "Начакх"
+ artifact_nachakh_description:0 "Одноручный топор использовался в основном кавалеристами, а его полулунное лезвие наводило на мысль о персидском влиянии в его дизайне."
+
+ artifact_reedshield_name:0 "Тростниковый щит"
+ artifact_reedshield_description:0 "Обычно такой щит использовался пазырыкцами в степях и состоял из палок, скреплённых между собой кожей."
+
+ artifact_persianmace_name:0 "Булава Курз"
+ artifact_persianmace_description:0 "Это оружие, украшенное и чрезвычайно эффективное при пробивании любой брони, какой бы прочной она ни была, предназначалось только для элитных гвардейских отрядов и других тяжелобронированных войск."
+
+ artifact_zhupinspear_name:0 "Копьё Жупина"
+ artifact_zhupinspear_description:0 "Это короткое копьё было названо в честь Зубина (Зупина, Жубина, Жупина), легендарного персидского воина, прославившегося своей храбростью и боевым мастерством."
+
+ artifact_zirah_name:0 "Броня Зира"
+ artifact_zirah_description:0 "Этот цепной доспех с трубчатыми пластинами обеспечивал защиту иранской кавалерии, сохраняя при этом необходимую для боя подвижность."

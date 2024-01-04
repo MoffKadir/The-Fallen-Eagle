@@ -1,33 +1,33 @@
 ﻿l_russian:
-  
-  ############################################# 
+
+ ############################################# 
  #Default Imperial tiers 
- baron_imperial_male: "Магнат"
- baron_imperial_female: "Магнат"
- barony_imperial: "Район"
- count_imperial_male: "Комит"
- count_imperial_female: "Комит"
- county_imperial: "Регион"
- duke_imperial_male: "Проконсул"
- duke_imperial_female: "Проконсул"
- duchy_imperial: "Провинция"
- duke_imperial_independent: "Дукс"
- duke_imperial_independent_female: "Дукисса"
- duchy_imperial_independent: "Дукат"
- king_imperial_male: "Викарий"
- king_imperial_female: "Викария"
- kingdom_imperial: "Диоцез"
- king_imperial_independent_male: "Рекс"
- king_imperial_independent_female: "Регина"
- kingdom_imperial_independent: "Царство"
- emperor_imperial_male: "Император"
- emperor_imperial_female: "Императрица"
- empire_imperial: "Империя"
- legion_commander: "Легат"
-  
+ baron_imperial_male:0 "Магнат"
+ baron_imperial_female:0 "Магнат"
+ barony_imperial:0 "Округ"
+ count_imperial_male:0 "Комит"
+ count_imperial_female:0 "Комит"
+ county_imperial:0 "Регион"
+ duke_imperial_male:0 "Проконсул"
+ duke_imperial_female:0 "Проконсул"
+ duchy_imperial:0 "Провинция"
+ duke_imperial_independent:0 "Дукс"
+ duke_imperial_independent_female:0 "Дукисса"
+ duchy_imperial_independent:0 "Дукат"
+ king_imperial_male:0 "Викарий"
+ king_imperial_female:0 "Викария"
+ kingdom_imperial:0 "Диоцез"
+ king_imperial_independent_male:0 "Рекс"
+ king_imperial_independent_female:0 "Регина"
+ kingdom_imperial_independent:0 "Королевство"
+ emperor_imperial_male:0 "Император"
+ emperor_imperial_female:0 "Императрица"
+ empire_imperial:0 "Империя"
+ legion_commander:0 "Легат"
+
  ### Roman ### 
  # Feudal 
-  #Already in vanilla 
+ #Already in vanilla 
  #baron_feudal_male_roman: "Баро"
  #baron_feudal_female_roman: "Баронисса"
  #barony_feudal_roman: "Каструм"
@@ -75,80 +75,87 @@
  #emperor_viceroyalty_male_roman: "Принцепс"
  #emperor_viceroyalty_female_roman: "Принциписса"
  #empire_viceroyalty_roman: "Принципат"
-  
- arrasool: "[CHARACTER.Custom('ArRasool')]"
- islam_arrasool: "Ар-Расул"
- islam_caliph: "Халиф"
-  
-  #### Celtic Flavour 
- celtic_king: "Рикс"
- celtic_queen: "Ригани"
- briton_duke: "Товиссог"
- briton_duchess: "Товиссог"
- briton_king: "Бригентин"
- briton_queen: "Бригентина"
- bard_chaplain: "Бард"
- bardess_chaplain: "Бардесса"
-  
-  #### Germanic Flavour 
-  # Anglo-Saxon 
+
+ arrasool:0 "[CHARACTER.Custom('ArRasool')]"
+ islam_arrasool:0 "Ар-Расул"
+ islam_caliph:0 "Халиф"
+
+ #### Celtic Flavour 
+ celtic_king:0 "Рикс"
+ celtic_queen:0 "Ригани"
+ briton_duke:0 "Товиссог"
+ briton_duchess:0 "Товиссог"
+ briton_king:0 "Бригентин"
+ briton_queen:0 "Бригентина"
+ bard_chaplain:0 "Бард"
+ bardess_chaplain:0 "Бардесса"
+
+ #### Germanic Flavour 
+ # Anglo-Saxon 
  brethwalda: "Бретвальда"
-  # East Germans 
- east_german_count: "Махтайгс"
- east_german_countess: "Махтайгс"
- east_german_duke: "Вождь"
- east_german_duchess: "Вождь"
- east_german_king: "Король"
- east_german_queen: "Королева"
-  
-  # Han 
- han_male_count: "Маркиз"
- han_female_count: "Маркиза"
- han_count: "Маркизат"
- duchy_han: "Провинция"
- county_han: "Командорство"
- barony_han: "Округ"
-  
+ # East Germans
+ east_german_count:0 "Грефья"
+ east_german_countess:0 "Грефьо"
+ east_german_duke:0 "Харьятуга"
+ east_german_duchess:0 "Харьятугина"
+ east_german_king:0 "Фьюданс"
+ east_german_queen:0 "Фьюдано"
+ east_german_count_tribal:0 "Фатс"
+ east_german_countess_tribal:0 "Фадини"
+ east_german_emperor:0 "Кайсар"
+ east_german_empress:0 "Кайсарини"
+ east_german_prince:0 "Кунингс"
+ east_german_prince_empire:0 "Кунингс"
+ east_german_princess:0 "Кунингини"
+ east_german_princess_empire:0 "Кунингини"
+
+ # Han 
+ han_male_count:0 "Маркиз"
+ han_female_count:0 "Маркиза"
+ han_count:0 "Маркизат"
+ duchy_han:0 "Провинция"
+ county_han:0 "Командование"
+ barony_han:0 "Округ"
+
  duke_feudal_voivode: "Воевода"
  duchy_feudal_voivode: "Воеводство"
-  # Because there isn't a way to make flavorization apply only to vassals for some reason 
+ # Because there isn't a way to make flavorization apply only to vassals for some reason 
  duke_feudal_male_voivode_independent: "Князь"
  duke_feudal_female_voivode_independent: "Княгиня"
  duchy_feudal_voivode_independent: "Княжество"
+
+ pontifex:0 "Великий понтифик"
+
+ senator_flavour:0 "[CHARACTER.Custom('senator')]"
+ senator_title:0 "Сенатор"
+ not_senator:0 ""
+
+ # Guanche pagan 
+ baron_theocracy_male_north_african_acham_pagan:0 "Канку"
+ baron_theocracy_female_north_african_acham_pagan:0 "Канку"
+ count_theocracy_male_north_african_acham_pagan:0 "Файкан"
+ count_theocracy_female_north_african_acham_pagan:0 "Файкан"
+ duke_theocracy_male_north_african_acham_pagan:0 "Гуаньямэнье"
+ duke_theocracy_female_north_african_acham_pagan:0 "Магуада"
+ king_theocracy_male_north_african_acham_pagan:0 "Менси-Гуаньямэнье"
+ king_theocracy_female_north_african_acham_pagan:0 "Менси-Магуада"
+
+ # Bretwalda 
+ bretwalda:0 "Бретвальда"
+
+ sarkibraterbetti:0 "Сар Кибрат Эбретти"
   
- pontifex: "Понтифекс Максимус"
-  
- senator_flavour: "[CHARACTER.Custom('senator')]"
- senator_title: "Сенатор"
- not_senator: ""
-  
-  # Guanche pagan 
- baron_theocracy_male_north_african_acham_pagan: "Канку"
- baron_theocracy_female_north_african_acham_pagan: "Канку"
- count_theocracy_male_north_african_acham_pagan: "Файкан"
- count_theocracy_female_north_african_acham_pagan: "Файкан"
- duke_theocracy_male_north_african_acham_pagan: "Гуаньямэнье"
- duke_theocracy_female_north_african_acham_pagan: "Магуада"
- king_theocracy_male_north_african_acham_pagan: "Менси-Гуаньямэнье"
- king_theocracy_female_north_african_acham_pagan: "Менси-Магуада"
-  
-  # Bretwalda 
- bretwalda: "Бретвальда"
-  
- sarkibraterbetti: "Царь Четырех Сторон Света"
-  
- pirate_king: "Король пиратов"
- pirate_queen: "Королева пиратов"
-  
-  # Berbers 
- north_berber_male_baron: "Амгар"
- north_berber_female_baron: "Тамгарт"
- north_berber_male_count: "Агеллид Амеска"
- north_berber_female_count: "Тагеллит Амеска"
- north_berber_male_duke: "Амусно"
- north_berber_female_duke: "Тамуснаут"
- north_berber_male_king: "Агеллид"
- north_berber_female_king: "Тагелидт"
- north_berber_male_emperor: "Аменкад"
- north_berber_female_emperor: "Таменкадт"
-  
+ pirate_king:0 "Король пиратов"
+ pirate_queen:0 "Королева пиратов"
+
+ # Berbers 
+ north_berber_male_baron:0 "Амгар"
+ north_berber_female_baron:0 "Тамгарт"
+ north_berber_male_count:0 "Агеллид Амеска"
+ north_berber_female_count:0 "Тагеллит Амеска"
+ north_berber_male_duke:0 "Амусно"
+ north_berber_female_duke:0 "Тамуснаут"
+ north_berber_male_king:0 "Агеллид"
+ north_berber_female_king:0 "Тагелидт"
+ north_berber_male_emperor:0 "Аменкад"
+ north_berber_female_emperor:0 "Таменкадт"
