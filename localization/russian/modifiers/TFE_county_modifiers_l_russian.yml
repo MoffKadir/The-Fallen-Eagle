@@ -68,3 +68,21 @@
  #dharma_hero_stone_heros_weak: "Камень героизма" #NT!
  #dharma_hero_stone_ancestors_strong: "Камень легитимности" #NT!
  #dharma_hero_stone_ancestors_weak: "Камень легитимности" #NT!
+
+ roman_camps:0 "Roman Fortifications"
+ surprise_attack:0 "Surprise!"
+
+ plague_justinian:0 "Great Plague"
+ plague_priests_healing:0 "Diligent Priests"
+ plague_trade_closed:0 "Trade Routes Closed"
+ plague_garrisons_reduced:0 "Plagued Garrisons"
+ plague_excellent_physician:0 "Excellent Physicians"
+ plague_incompetent_physician:0 "Incompetent Physicians"
+ plague_riots:0 "Riots"
+ plague_supplies_reduced:0 "Reduced Supplies"
+ plague_curfew:0 "Curfew Enacted"
+
+ plague_best_ending:0 "Harmed by Plague"
+ plague_mid_ending:0 "Destroyed by Plague"
+ plague_bad_ending:0 "Wrecked by Plague"
+ plague_worst_ending:0 "Ravaged by Plague"

@@ -19,3 +19,12 @@
  GET_DIPLO_COMPETENCE_COMPLETE_BREAKDOWN: "#T [diplo_comp|E]:#!\n$GET_DIPLO_COMPETENCE_BREAKDOWN$\n\n[GetPlayer.MakeScope.GetScriptValueDesc('diplo_competence_total')|1]"
  GET_DIPLO_COMPETENCE_BREAKDOWN: "[GetPlayer.MakeScope.GetScriptValueDesc('diplo_competence_net')]"
  DIPLO_COMP_EXPLAIN: "Дипломатическая компетентность зависит от положительных внутренних отношений, а также внешних отношений с державами, которые состоят в союзе с вами."
+
+ GET_MIL_COMPETENCE_NUMS: "#T Компетентность: [GetPlayer.MakeScope.Var('mil_comp').GetValue|0]\nИзменение: [GetPlayer.MakeScope.ScriptValue('mil_competence_total')|1]#! "
+
+ GET_CIV_COMPETENCE_NUMS: "#T Компетентность: [GetPlayer.MakeScope.Var('civic_comp').GetValue|0]\nИзменение: [GetPlayer.MakeScope.ScriptValue('civic_competence_total')|1]#! "
+
+ GET_DIP_COMPETENCE_NUMS: "#T Компетентность: [GetPlayer.MakeScope.Var('diplo_comp').GetValue|0]\nИзменение: [GetPlayer.MakeScope.ScriptValue('diplo_competence_total')|1]#! "
+ EDICTS: "Эдикты"
+ DISASTERS: "Бедствия"
+ POLICIES: "Политики"
