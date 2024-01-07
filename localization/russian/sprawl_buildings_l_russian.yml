@@ -1,82 +1,183 @@
 ﻿l_russian:
- building_type_prambanan_temple_01: "Храм Прамбанан" #NT!
- building_type_prambanan_temple_01_desc: "Храм Прамбанан посвящен Тримурти, индуистским божествам Брахме, Вишну и Шиве, и является одним из крупнейших индуистских храмов в Юго-Восточной Азии. Дизайн храма основан на традиционной Васту Шастре, архитектуре индуизма. Большой комплекс разделен на три зоны: Бхурлока, представляющая царство смертных и демонов, Бхуварлока, представляющая среднее царство святых людей и меньших богов, и Сварлока, представляющая высшее и самое святое царство, с похожей на драгоценный камень вершиной храм, Ратна Прамбанана, олицетворяющая нерушимость." #NT!
- building_prambanan_temple_01: "$building_type_prambanan_temple_01$" #NT!
- building_prambanan_temple_01_desc: "$building_type_prambanan_temple_01_desc$" #NT!
+
+
+ building_type_greek_academy_01:0 "Платоническая академия"
+ building_type_greek_academy_01_desc:0 "Основанная Платоном, Афинская школа сохранялась на протяжении всего эллинистического периода как центр обучения и греческой философии. Известные члены академии включают Спевсиппа, Ксенократа, Аристотеля, Гераклида, Евдокса Книдского и Гераклида Понтийского."
+ building_greek_academy_01:0 "$building_type_greek_academy_01$"
+ building_greek_academy_01_desc:0 "$building_type_greek_academy_01_desc$"
+
+ building_type_knossos_palace_01:0 "Кносский дворец"
+ building_type_knossos_palace_01_desc:0 "Один из старейших городов Европы, Кносс со временем стал церемониальным и политическим центром древней минойской цивилизации, ныне являющейся тенью своего былого величия. Согласно греческим легендам, во дворце жил древний царь Минос, строитель лабиринта, в котором находился легендарный Минотавр."
+ building_knossos_palace_01:0 "$building_type_knossos_palace_01$ - руины"
+ building_knossos_palace_01_desc:0 "$building_type_knossos_palace_01_desc$"
+ building_knossos_palace_02:0 "$building_type_knossos_palace_01$"
+ building_knossos_palace_02_desc:0 "$building_type_knossos_palace_01_desc$"
   
- building_type_borobudur_temple_01: "Храм Боробудур" #NT!
- building_type_borobudur_temple_01_desc: "Храм Боробудур, состоящий из девяти сложенных друг на друга платформ, увенчанных множеством ступ и панелей, изображающих жизнь Будды, является символом Индонезии. Дизайн в форме мандалы соответствует яванской буддийской архитектуре, сочетающей яванские концепции поклонения предкам и буддийской нирваны. Основание ступенчатой ​​пирамиды служит напоминанием о горных обителях духов предков, о трех подразделениях, символизирующих буддийскую космологию, о царстве желаний у основания, о царстве форм посередине и на вершине, о бесформенном царстве." #NT!
- building_borobudur_temple_01: "$building_type_borobudur_temple_01$" #NT!
- building_borobudur_temple_01_desc: "$building_type_borobudur_temple_01_desc$" #NT!
+ building_type_athenian_acropolis_01:0 "Афинский Акрополь"
+ building_type_athenian_acropolis_01_desc:0 "Древний храм-цитадель, которая доминировала над городом Афины в древности, Акрополь является физическим проявлением древней афинской славы и могущества."
+ building_athenian_acropolis_01:0 "Руины Акрополя"
+ building_athenian_acropolis_01_desc:0 "$building_type_athenian_acropolis_01_desc$"
+ building_athenian_acropolis_02:0 "$building_type_athenian_acropolis_01$"
+ building_athenian_acropolis_02_desc:0 "$building_type_athenian_acropolis_01_desc$"
   
- building_type_bamberg_cathedral_01: "Бамбергский собор" #NT!
- building_type_bamberg_cathedral_01_desc: "Огни пасхальных свечей поглотили первые два собора Бамберга, но здесь стоит более крупное, великолепное здание с четырьмя башнями. Строительство началось в романском стиле, а на позднем этапе строительства перешло в готический стиль.\n\nВ склепе внизу ждет скульптурная гробница из мрамора." #NT!
- building_bamberg_cathedral_01: "$building_type_bamberg_cathedral_01$" #NT!
- building_bamberg_cathedral_01_desc: "$building_type_bamberg_cathedral_01_desc$" #NT!
+ building_type_cothon_01:0 "Великий котон Карфагена"
+ building_type_cothon_01_desc:0 "Великий котон в Карфагене был разделён на прямоугольную торговую гавань, за которой следовали внутренняя защищённая гавань и верфь, предназначенная для военно-морского флота. Эта внутренняя гавань имела круглую форму и была окружена кольцом сухих доков, способных вместить двести двадцать кораблей. В центре располагался командный пункт, приподнятый так, чтобы начальник порта мог видеть весь залив."
+ building_cothon_01:0 "Руины гавани"
+ building_cothon_01_desc:0 "$building_type_cothon_01_desc$"
+ building_cothon_02:0 "$building_type_cothon_01$"
+ building_cothon_02_desc:0 "$building_type_cothon_01_desc$"
+
+ building_type_serpents_wall_01:0 "Змеиная стена"
+ building_type_serpents_wall_01_desc:0 "Древесно-земляная оборонительная стена #low (идущая извилистыми путями многих рек)#!, охраняет плодородные земли среднего Днепра от кочующих по степи врагов. Говорят, что он существовал в форме земляного вала на протяжении тысячелетий, сводя на нет скорость и внезапность степных лошадей."
+ building_serpents_wall_01:0 "$building_type_serpents_wall_01$"
+ building_serpents_wall_01_desc:0 "$building_type_serpents_wall_01_desc$"
+ building_type_serpents_wall_bilhorod_01:0 ""$building_type_serpents_wall_01$"
+ building_type_serpents_wall_bilhorod_01_desc:0 "$building_type_serpents_wall_01_desc$"
+ building_serpents_wall_bilhorod_01:0 "$building_type_serpents_wall_01$"
+ building_serpents_wall_bilhorod_01_desc:0 "$building_type_serpents_wall_01_desc$"
+ building_type_serpents_wall_korsun_01:0 "$building_type_serpents_wall_01$"
+ building_type_serpents_wall_korsun_01_desc:0 "$building_type_serpents_wall_01_desc$"
+ building_serpents_wall_korsun_01:0 "$building_type_serpents_wall_01$"
+ building_serpents_wall_korsun_01_desc:0 "$building_type_serpents_wall_01_desc$"
   
- building_type_greek_academy_01: "Платоническая Академия" #NT!
- building_type_greek_academy_01_desc: "Основанная Платоном, Афинская школа сохранялась на протяжении всего эллинистического периода как центр обучения и греческой философии. Известные члены академии включают Спевсиппа, Ксенократа, Аристотеля, Гераклида, Евдокса Книдского и Гераклида Понтийского." #NT!
- building_greek_academy_01: "$building_type_greek_academy_01$" #NT!
- building_greek_academy_01_desc: "$building_type_greek_academy_01_desc$" #NT!
-  
- building_type_knossos_palace_01: "Кносский дворец" #NT!
- building_type_knossos_palace_01_desc: "Один из старейших городов Европы, Кносс со временем стал церемониальным и политическим центром древней минойской цивилизации, ныне являющейся тенью своего прежнего «я». Согласно греческим легендам, во дворце жил древний царь Минос, строитель лабиринта, в котором находился легендарный Минотавр." #NT!
- building_knossos_palace_01: "$building_type_knossos_palace_01$ Руины" #NT!
- building_knossos_palace_01_desc: "$building_type_knossos_palace_01_desc$" #NT!
- building_knossos_palace_02: "$building_type_knossos_palace_01$" #NT!
- building_knossos_palace_02_desc: "$building_type_knossos_palace_01_desc$" #NT!
-  
- building_type_athenian_acropolis_01: "Акрополь Афин" #NT!
- building_type_athenian_acropolis_01_desc: "Древний храм-цитадель, которая доминировала над городом Афины в древности, Акрополь является физическим проявлением древней афинской славы и могущества." #NT!
- building_athenian_acropolis_01: "Руины Акрополя" #NT!
- building_athenian_acropolis_01_desc: "$building_type_athenian_acropolis_01_desc$" #NT!
- building_athenian_acropolis_02: "$building_type_athenian_acropolis_01$" #NT!
- building_athenian_acropolis_02_desc: "$building_type_athenian_acropolis_01_desc$" #NT!
-  
- building_type_cothon_01: "Карфаген Великий Котон" #NT!
- building_type_cothon_01_desc: "Большой котон в Карфагене был разделен на прямоугольную торговую гавань, за которой следовали внутренняя защищенная гавань и верфь, предназначенная для военно-морского флота. Эта внутренняя гавань имела круглую форму и была окружена кольцом сухих доков, способных вместить двести двадцать кораблей. В центре располагался командный пункт, приподнятый так, чтобы начальник порта мог видеть весь залив." #NT!
- building_cothon_01: "Руины гавани" #NT!
- building_cothon_01_desc: "$building_type_cothon_01_desc$" #NT!
- building_cothon_02: "$building_type_cothon_01$" #NT!
- building_cothon_02_desc: "$building_type_cothon_01_desc$" #NT!
-  
- building_type_serpents_wall_01: "Змеиная стена" #NT!
- building_type_serpents_wall_01_desc: "Древесно-земляная оборонительная стена #low (идущая извилистыми путями многих рек)#!, охраняет плодородные земли среднего Днепра от кочующих врагов по степи. Говорят, что он существовал в форме земляного вала на протяжении тысячелетий, сводя на нет скорость и внезапность степной лошади." #NT!
- building_serpents_wall_01: "$building_type_serpents_wall_01$" #NT!
- building_serpents_wall_01_desc: "$building_type_serpents_wall_01_desc$" #NT!
-  
- building_type_maiden_rocks_01: "Дивочи Скели" #NT!
- building_type_maiden_rocks_01_desc: "Любопытное образование скал возле Кременца." #NT!
- building_maiden_rocks_01: "$building_type_maiden_rocks_01$" #NT!
- building_maiden_rocks_01_desc: "$building_type_maiden_rocks_01_desc$" #NT!
-  
- building_type_martand_surya_temple_01: "Храм Мартанд Сурья" #NT!
- building_type_martand_surya_temple_01_desc: "Этот индуистский храм, посвященный форме Мартанды солнечного божества Сурьи, сочетает в себе стили гандхаранской, гуптской и китайской архитектуры. С его позиции на горном плато можно наблюдать всю Кашмирскую долину. Комплекс храма Солнца состоит из 84 небольших святынь, окружающих большой главный двор; Центральный храм окружает отражающий бассейн бассейн, отражающий солнце." #NT!
- building_martand_surya_temple_01: "$building_type_martand_surya_temple_01$" #NT!
- building_martand_surya_temple_01_desc: "$building_type_martand_surya_temple_01_desc$" #NT!
-  
-  # Trigger Localisation 
- current_date_above_1200_trigger: "Текущая дата находится за пределами 13 века." #NT!
-  
- has_western_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $western_building_gfx$." #NT!
- has_western_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $western_building_gfx$." #NT!
- has_western_building_gfx_trigger_third: "$has_western_building_gfx_trigger_first$" #NT!
- has_western_building_gfx_trigger_third_not: "$has_western_building_gfx_trigger_first_not$" #NT!
-  
- has_mediterranean_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mediterranean_building_gfx$." #NT!
- has_mediterranean_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mediterranean_building_gfx$." #NT!
- has_mediterranean_building_gfx_trigger_third: "$has_mediterranean_building_gfx_trigger_first$" #NT!
- has_mediterranean_building_gfx_trigger_third_not: "$has_mediterranean_building_gfx_trigger_first_not$" #NT!
-  
- has_indian_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $indian_building_gfx$." #NT!
- has_indian_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $indian_building_gfx$." #NT!
- has_indian_building_gfx_trigger_third: "$has_indian_building_gfx_trigger_first$" #NT!
- has_indian_building_gfx_trigger_third_not: "$has_indian_building_gfx_trigger_first_not$" #NT!
-  
- has_mena_building_gfx_trigger_first: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mena_building_gfx$." #NT!
- has_mena_building_gfx_trigger_first_not: "[CULTURE.GetName|U] [culture|E] имеет архитектуру $mena_building_gfx$." #NT!
- has_mena_building_gfx_trigger_third: "$has_mena_building_gfx_trigger_first$" #NT!
- has_mena_building_gfx_trigger_third_not: "$has_mena_building_gfx_trigger_first_not$" #NT!
-  
-  
-  
+ building_type_maiden_rocks_01:0 "Дивочи Скели"
+ building_type_maiden_rocks_01_desc:0 "Любопытное образование скал возле Кременца."
+ building_maiden_rocks_01:0 "$building_type_maiden_rocks_01$"
+ building_maiden_rocks_01_desc:0 "$building_type_maiden_rocks_01_desc$"
+
+ building_type_martand_surya_temple_01:0 "Храм Мартанд Сурья"
+ building_type_martand_surya_temple_01_desc:0 "Этот индуистский храм, посвященный форме Мартанды солнечного божества Сурьи, сочетает в себе стили гандхаранской, гуптской и китайской архитектуры. С его позиции на горном плато можно наблюдать всю Кашмирскую долину. Комплекс храма Солнца состоит из 84 небольших святынь, окружающих большой главный двор; Центральный храм окружает отражающий бассейн бассейн, отражающий солнце."
+ building_martand_surya_temple_01:0 "$building_type_martand_surya_temple_01$"
+ building_martand_surya_temple_01_desc:0 "$building_type_martand_surya_temple_01_desc$"
+
+ building_type_newgrange_01:0 "Newgrange"
+ building_type_newgrange_01_desc:0 "Newgrange is a sacred monument built from earth and stone, a passage leads into a chamber in the heart of the hill where pagans once laid offerings to their gods. The passage’s alignment is such that on the day of the winter solstice a beam of light enters a hidden opening and illuminates the chamber."
+ building_newgrange_01:0 "$building_type_newgrange_01$"
+ building_newgrange_01_desc:0 "$building_type_newgrange_01_desc$"
+ 
+ building_type_giants_causeway_01:0 "Giant's Causeway"
+ building_type_giants_causeway_01_desc:0 "Stepping stones of the Fomóire, an ancient and malevolent people. Built so they could traverse traverse the North Channel #low (Sea of Hebrides)#!."
+ building_giants_causeway_01:0 "$building_type_giants_causeway_01$"
+ building_giants_causeway_01_desc:0 "$building_type_giants_causeway_01_desc$"
+ 
+ building_type_azatiwataya_fortress_01:0 "Azatiwataya Fortress"
+ building_type_azatiwataya_fortress_01_desc:0 "On a dark hill sits some mysterious remains, perhaps the ruins of an ancient Anatolian civilization."
+ building_azatiwataya_fortress_01:0 "Karatepe"
+ building_azatiwataya_fortress_01_desc:0 "$building_type_azatiwataya_fortress_01_desc$"
+ building_azatiwataya_fortress_02:0 "$building_type_azatiwataya_fortress_01$"
+ building_azatiwataya_fortress_02_desc:0 "$building_type_azatiwataya_fortress_01_desc$"
+ 
+ #building_type_palace_of_aachen_01:1 "$building_palace_of_aachen_01$"
+ #building_type_palace_of_aachen_01_desc:0 "The Palace of Aachen was chosen by Charlemagne to be the center of power of the Carolingian Empire. It served a both political and religious purpose, and is still an excellent place for hosting important gatherings."
+ building_palace_of_aachen_02:0 "Aachen Cathedral: Gothic Choir"
+ building_palace_of_aachen_02_desc:0 "The Aachen Cathedral is a prime example of the Carolingian-Romanesque style, modelled after the octagonal San Vitale at Ravenna. Many pilgrims visit the Aachen Cathedral, and this Gothic Choir is a glass reliquary of holy relics for them to pay respect to."
+ 
+ building_type_chichester_cathedral_01:0 "Chichester Cathedral"
+ building_type_chichester_cathedral_01_desc:0 "The spire of the Chichester Cathedral is so tall that sailors use it as a landmark. It is typical of English cathedrals, and there cannot be much to say about the local community at Chichester except that they can fit entirely within the available seating."
+ building_chichester_cathedral_01:0 "$building_type_chichester_cathedral_01$"
+ building_chichester_cathedral_01_desc:0 "$building_type_chichester_cathedral_01_desc$"
+ 
+ building_type_rock_of_cashel_01:0 "Rock of Cashel"
+ building_type_rock_of_cashel_01_desc:0 "Built on the Rock of Cashel, the traditional seat of power in Munster, this cathedral features a high round tower and Cormac’s Chapel. From inside you hear a victorous song.\nCríosta ó cumhdaigh mé,\nCríosta coimhéad mé\nCríosta coinnigh mé\nCríosta an Rí"
+ building_rock_of_cashel_01:0 "$building_type_rock_of_cashel_01$"
+ building_rock_of_cashel_01_desc:0 "$building_type_rock_of_cashel_01_desc$"
+ 
+ building_type_chartres_cathedral_01:0 "Chartres Cathedral"
+ building_type_chartres_cathedral_01_desc:0 "Five holy temples stood before the building of the Chartres Cathdral, each with a story of their own firey demise. The Roman church was foiled by Aquitaine arson, then Danes and their arson, then Gislebert's candles, wooden beams caught fire next, followed by an inferno."
+ building_chartres_cathedral_01:0 "$building_type_chartres_cathedral_01$"
+ building_chartres_cathedral_01_desc:0 "$building_type_chartres_cathedral_01_desc$"
+ 
+ building_type_premyslid_fort_01:0 "Přemyslid fort"
+ building_type_premyslid_fort_01_desc:0 "Castle within Prague, contains the Cathedral of Saints Vitus, Wenceslaus and Adalbert. (All wrapped up into one!)"
+ building_premyslid_fort_01:0 "$building_type_premyslid_fort_01$"
+ building_premyslid_fort_01_desc:0 "$building_type_premyslid_fort_01_desc$"
+ 
+ building_type_mausoleum_of_theodoric_01:0 "Mausoleum of Theodoric"
+ building_type_mausoleum_of_theodoric_01_desc:0 "Inside a Roman bath tub is the body of Theodoric, squeaky clean."
+ building_mausoleum_of_theodoric_01:0 "$building_type_mausoleum_of_theodoric_01$"
+ building_mausoleum_of_theodoric_01_desc:0 "$building_type_mausoleum_of_theodoric_01_desc$"
+ 
+ building_type_marib_dam_01:0 "Dam of Ma'rib"
+ building_type_marib_dam_01_desc:0 "Built by the ancient Sabaeans to harvest the monsoon rains."
+ building_marib_dam_01:0 "Great $building_type_marib_dam_01$"
+ building_marib_dam_01_desc:0 "A marvel of ancient engineering, the Great Dam of Ma'rib may date back as far as 1,700 BC, with the final version completed in the 8th century BC by the prosperous Kingdom of Saba. South Arabia was greener and wetter in those times than it is today, and the dam captured the periodic monsoon rains that fell on the nearby mountains to water the area around the Sabaean capital, Ma'rib. The dam was maintained and damaged several times throughout history. In 145 BC, it was breached during the war between the people of Raydān and the Kingdom of Saba. The resulting flooding ruined crops and triggered a mass exodus of people in search of sustenance. Subsequent damage to the dam in the 2nd and 3rd centuries AD witnessed the further and definitive dispersal of the population."
+ building_marib_dam_02:0 "Ruins of the $building_type_marib_dam_01$"
+ building_marib_dam_02_desc:0 "Damage to the dam have rendered the once fertile fields below it arid."
+ building_marib_dam_03:0 "Restored $building_type_marib_dam_01$"
+ building_marib_dam_03_desc:0 "The dam has been restored further upstream from the ruins and now waters the land below."
+ 
+ building_type_royal_mausoleum_of_mauretania_01:0 "Royal Mausoleum of Mauretania"
+ building_type_royal_mausoleum_of_mauretania_01_desc:0 "Last of the Numidian Berber Kings and Queens, Juba II and Cleopatra Selene II are buried here."
+ building_royal_mausoleum_of_mauretania_01:0 "$building_type_royal_mausoleum_of_mauretania_01$"
+ building_royal_mausoleum_of_mauretania_01_desc:0 "$building_type_royal_mausoleum_of_mauretania_01_desc$"
+ 
+ building_type_athenian_piraeus_01:0 "Piraeus"
+ building_type_athenian_piraeus_01_desc:0 "Naval base of Athens."
+ building_athenian_piraeus_01:0 "$building_type_athenian_piraeus_01$"
+ building_athenian_piraeus_01_desc:0 "$building_type_athenian_piraeus_01_desc$"
+ 
+ building_type_abtei_laach_01:0 "Abtei Laach"
+ building_type_abtei_laach_01_desc:0 "A controversal Benedictine abbey on the shores of Laacher See."
+ building_abtei_laach_01:0 "$building_type_abtei_laach_01$"
+ building_abtei_laach_01_desc:0 "$building_type_abtei_laach_01_desc$"
+ 
+ building_type_borgund_stave_church_01:0 "Borgund Stave Church"
+ building_type_borgund_stave_church_01_desc:0 "Tiered, overhanging roofs, each with a dragon's head swooping in from carved ridge crests, warding off the power of evil."
+ building_borgund_stave_church_01:0 "$building_type_borgund_stave_church_01$"
+ building_borgund_stave_church_01_desc:0 "$building_type_borgund_stave_church_01_desc$"
+ 
+ # Kyiv Pechersk Lavra
+ # Lavra (Cave Monastery) as a rare Orthodox duchy capital building?
+ 
+ # Kamianets-Podilskyi Castle
+ 
+ #building_type__01:0 ""
+ #building_type__01_desc:0 ""
+ #building__01:0 "$$"
+ #building__01_desc:0 "$$"
+ 
+ 
+ 
+ 
+ 
+ # Effect Localisation
+ pagan_opinion:0 "Мнение язычников"
+ 
+ # Trigger Localisation 
+ current_date_above_1200_trigger:0 "Текущая дата находится за пределами 13 века."
+ eastern_religion_trigger:0 "[holder|E] должен принадлежать к $rf_eastern$ому [Concept('religious_family', 'роду' )|El]"
+ eastern_religion_trigger_not:0 "$eastern_religion_trigger$"
+
+ improved_artisan_inspiration_name:0 "Опытные ремесленники"
+ next_level_trade_ports_name:0 "Торговый меркантилизм"
+ hill_farms_building_bonuses_name:0 "Обитатели холмов"
+ castle_fortifications_increase_name:0 "Хранители замков"
+
+ # TFE
+ has_game_rule_dead_cultures_trigger:0 "Имеется игровое правило: #high $rule_dead_cultures$#!"
+ has_game_rule_dead_cultures_trigger_not:0 "Не имеется игровое правило: #high $rule_dead_cultures$#!"
+
+ has_western_building_gfx_trigger_first:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] свойственна $western_building_gfx$ [architecture|El]."
+ has_western_building_gfx_trigger_first_not:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] не свойственна $western_building_gfx$ [architecture|El]."
+ has_western_building_gfx_trigger_third:0 "$has_western_building_gfx_trigger_first$"
+ has_western_building_gfx_trigger_third_not:0 "$has_western_building_gfx_trigger_first_not$"
+
+ has_mediterranean_building_gfx_trigger_first:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] свойственна $mediterranean_building_gfx$ [architecture|El]."
+ has_mediterranean_building_gfx_trigger_first_not:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] не свойственна  $mediterranean_building_gfx$ [architecture|El]."
+ has_mediterranean_building_gfx_trigger_third:0 "$has_mediterranean_building_gfx_trigger_first$"
+ has_mediterranean_building_gfx_trigger_third_not:0 "$has_mediterranean_building_gfx_trigger_first_not$"
+
+ has_indian_building_gfx_trigger_first:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] свойственна $indian_building_gfx$ [architecture|El]."
+ has_indian_building_gfx_trigger_first_not:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] не свойственна $indian_building_gfx$ [architecture|El]."
+ has_indian_building_gfx_trigger_third:0 "$has_indian_building_gfx_trigger_first$"
+ has_indian_building_gfx_trigger_third_not:0 "$has_indian_building_gfx_trigger_first_not$"
+
+ has_mena_building_gfx_trigger_first:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] свойственна $mena_building_gfx$ архитектура."
+ has_mena_building_gfx_trigger_first_not:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] не свойственна $mena_building_gfx$ [architecture|El]."
+ has_mena_building_gfx_trigger_third:0 "$has_mena_building_gfx_trigger_first$"
+ has_mena_building_gfx_trigger_third_not:0 "$has_mena_building_gfx_trigger_first_not$"
+
+ has_steppe_building_gfx_trigger_first:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] свойственна $steppe_building_gfx$ [architecture|El]."
+ has_steppe_building_gfx_trigger_first_not:0 "[PROVINCE.GetCulture.GetCollectiveNoun|U]ой [Concept( 'culture', 'культуре' )|E] не свойственна $steppe_building_gfx$ [architecture|El]."
+ has_steppe_building_gfx_trigger_third:0 "$has_steppe_building_gfx_trigger_first$"
+ has_steppe_building_gfx_trigger_third_not:0 "$has_steppe_building_gfx_trigger_first_not$"

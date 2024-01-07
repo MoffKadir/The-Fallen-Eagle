@@ -2,7 +2,7 @@
   
  nick_the_thin: "[Select_CString( CHARACTER.IsFemale, 'Тонкая', 'Тонкий' )]"
  nick_of_the_hosts: "Хозяин"
- nock_of_the_nine_hostages: "из Девяти заложников"
+ nock_of_the_nine_hostages: "из Девяти мучеников"
  nick_of_the_great_army: "из Великой Армии"
  nick_steel_arms: "Стальные руки"
  nick_the_ragged: "[Select_CString( CHARACTER.IsFemale, 'Оборванная', 'Оборванный' )]"
@@ -13,6 +13,8 @@
  nick_restitutor_orbis: "Реститутор Орбис"
  nick_the_warmonger: "[Select_CString( CHARACTER.IsFemale, 'Разжигательница войны', 'Разжигатель войны' )]"
  nick_the_incendiarist: "[Select_CString( CHARACTER.IsFemale, 'Поджигательница', 'Поджигатель' )]"
+ nick_the_patrician:0 "Патриций"
+ nick_the_armenian:0 "[Select_CString( CHARACTER.IsFemale, 'Армянка', 'Арменин' )]"
  #Already in vanilla 
  #nick_the_one_eyed: "Одноглазый"
  nick_the_burner: "Горелка"
@@ -33,5 +35,9 @@
  nick_dharmamaharaj_desc: "Этот персонаж восстановил наследие Праварасены и, таким образом, носит его титул."
  nick_vanpukal: "Ванпукал"
  nick_vanpukal_desc: "Этот персонаж был прославлен небесами за то, что восстановил Мувентар как правителей отведенных земель в Тамилакаме."
- nick_the_patricide: "отцеубийца"
+ nick_the_patricide: "Отцеубийца"
  nick_the_patricide_desc: "Этот персонаж хладнокровно убил своего отца. Такое гнусное, непростительное преступление заставляет их поносить людей с праведным и благородным сердцем."
+ nick_houlufule: 0 "Хоулуфул"
+ nick_houlufule_desc: 0 "Афучжило был провозглашён великим сыном Неба народом тиле после того, как возглавил победоносное восстание против кагана Доулуня."
+ nick_azarethes:0 "Азарет"
+ nick_azarethes_desc:0 "Вероятно, неверно истолковав титул «хазарафта», римляне прозвали этого человека Азаретом"

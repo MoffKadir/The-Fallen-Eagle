@@ -68,15 +68,6 @@
  #building_hagia_sophia_02: "Мечеть Святой Софии"
  #building_hagia_sophia_02_desc: "Собор Святой Софии — настоящее чудо инженерной мысли, его массивный купол и четыре впечатляющих минарета выделяются как самые впечатляющие черты. Основанная в 537 г. н.э. императором Юстинианом I, она с тех пор превратилась во впечатляющую мечеть.\n\nИ таковой она останется на всю вечность, ведь ничто не могло сокрушить могущество Рума."
   
- building_type_jousting_lists_01: "Площадки для Скачек"
- building_type_jousting_lists_01_desc: "Наличие специальных площадок для гонок на колесницах способствует тому, что больше наездников и спортсменов тренируются и присоединяются к знаменам."
- building_jousting_lists_01: "Стадион колесниц"
- building_jousting_lists_01_desc: "Круглый год поляна остается открытой, чтобы облегчить тренировки наездников и спортсменов."
- building_jousting_lists_02: "Ипподром"
- building_jousting_lists_02_desc: "Эти турнирные площадки со скачками и трибунами для публики привлекают огромное количество участников."
- building_jousting_lists_03: "Императорский ипподром"
- building_jousting_lists_03_desc: "Модернизированный с местами для императорских гостей и более просторной ярмарочной площадкой, Императорский ипподром действительно впечатляет."
-  
  building_type_dolaucothi_gold_mines_01: "Золотые копи Долаукоти"
  building_type_dolaucothi_gold_mines_01_desc: "Единственный римский золотой рудник Британии, золотые копи Долаукоти являются ценным и важным местом в римской Британии. Пока римские войска находятся на острове, рудники будут снабжать провинцию золотом."
  building_type_dolaucothi_gold_mines_warning: "#N Если Римская империя покинет Британию или потеряет контроль над провинцией, в которой находятся шахты, инфраструктура, поддерживающая их, она будет заброшена. Только не племенной правитель, чья [Concept('culture', 'культура')|E]] разблокировала [Concept('innovation', 'инновацию')|E] #V $innovation_crop_rotation$#!, сможет восстановить её.#!"
@@ -109,12 +100,12 @@
  building_edessa_cathedral_02_desc: "Сейчас в основном забытый, Эдесский собор был построен Юстинианом I (возможно, начиная с 524 года, через год после наводнения) и, как редко говорят, соперничал с Константинопольской Святой Софией. "
  building_edessa_cathedral_03_desc: "Сейчас в основном забытый, Эдесский собор был построен Юстинианом I (возможно, начиная с 524 года, через год после наводнения) и, как редко говорят, соперничал с Константинопольской Святой Софией. "
   
+ building_type_marib_dam: "Марибская плотина"
+ building_type_marib_dam_desc: "Плотина Мариб была подвигом классической инженерии для королевств Саба и Химьяр. Говорят, что это самая старая из известных гидравлических плотин, Мариб несколько раз реставрировалась за время своего существования."
  building_marib_dam: "Марибская плотина"
  building_marib_dam_desc: "Плотина Мариб была подвигом классической инженерии для королевств Саба и Химьяр. Говорят, что это самая старая из известных гидравлических плотин, Мариб несколько раз реставрировалась за время своего существования."
   
- building_type_marib_dam: "Марибская плотина"
- building_type_marib_dam_desc: "Плотина Мариб была подвигом классической инженерии для королевств Саба и Химьяр. Говорят, что это самая старая из известных гидравлических плотин, Мариб несколько раз реставрировалась за время своего существования."
-  
+
  building_great_gurgan_wall: "Великая стена Горганов"
  building_great_gurgan_wall_desc: "Стена Горгана больше, чем Стена Адриана и Стена Антонина вместе взятые, и сдерживает кочевые племена севера и любого другого врага, осмеливающегося напасть на Эрана."
   
@@ -365,3 +356,13 @@
  building_kuektanar_iron_mines_03_desc: "Куектанарские железные рудники значительно расширились с момента своего скромного начала и, несомненно, являются крупнейшим источником железа в регионе. Ритуалы и жертвоприношения, проводимые в этих шахтах, также стали масштабнее и многочисленнее." #NT!
  building_kuektanar_iron_mines_04: "Куектанарский горнодобывающий комплекс" #NT!
  building_kuektanar_iron_mines_04_desc: "Куектанарские железные рудники являются одними из крупнейших горнодобывающих предприятий в мире, что значительно расширило как их экономическую производительность, так и их ритуальное значение в культурах, которые считают их священными." #NT!
+
+ building_type_beirut_university:0 "Law School of Berytus"
+ building_type_beirut_university_desc:0 "$building_type_generic_university_desc$\n\nThe Law School of Berytus was the preeminent center of jurisprudence uder the Romans; such was its prominence that it was known as the 'Mother of Laws'."
+ building_beirut_university:0 "$building_type_beirut_university$"
+ building_beirut_university_desc:0 "$building_type_beirut_university_desc$"
+
+ building_type_adur_gushnasp:0 "Adur Gushnasp"
+ building_type_adur_gushnasp_desc:0 "Adur Gushnasp was one of the Three Great Fire Temples of Zoroastrianism, with its fire held to be directly derived from Ahura Mazda. Traditionally associated with the warrior class, it became an important pilgrimage site for rulers of note. "
+ building_adur_gushnasp:0 "$building_type_adur_gushnasp$"
+ building_adur_gushnasp_desc:0 "$building_type_adur_gushnasp_desc$"

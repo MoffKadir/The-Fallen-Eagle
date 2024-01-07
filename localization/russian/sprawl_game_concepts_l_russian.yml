@@ -1,0 +1,6 @@
+﻿l_russian:
+ game_concept_architecture:0 "Архитектура"
+ game_concept_architectures:0 "Архитектуры"
+ game_concept_architectural:0 "Архитектурный"
+ game_concept_architecture_desc:0 "$game_concept_architectural$ стиль представляет искусство и дизайн зданий, возводимых зодчими и инженерами этой [Concept('culture', 'культуры')|E]."
+ 

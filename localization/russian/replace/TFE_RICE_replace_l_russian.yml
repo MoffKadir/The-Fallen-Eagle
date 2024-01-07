@@ -16,3 +16,33 @@
  game_concept_RICE_land_grant: "Земельный грант"
  game_concept_RICE_land_grants: "Земельные гранты"
  game_concept_RICE_land_grants_desc: "[rulers|E], которые следуют $buddhism_religion_adj$, $hinduism_religion_adj$ или $jainism_religion_adj$ [faiths|E], могут от [decide|E] до $RICE_india_land_grant_decision$.\n\nПри получении этого [decision|E] вам нужно выбрать предоставление земли одному из трех [religions|E]. Это означает, что можно предоставить землю [religion|E], на которого вы не подписаны.\n\nЭто дает вам $buddhism_religion_adj$0, повышающий $buddhism_religion_adj$1 для последователей этого [religion|E], и добавляет $buddhism_religion_adj$3 к вашему $buddhism_religion_adj$4 с несколькими преимуществами. $buddhism_religion_adj$5 уменьшает $buddhism_religion_adj$6, но увеличивает и $buddhism_religion_adj$7. Если вы будете следовать $buddhism_religion_adj$8 из выбранных вами [religion|E], $hinduism_religion_adj$0 также улучшит $hinduism_religion_adj$1, а если вы этого не сделаете, $hinduism_religion_adj$0 вместо этого еще больше улучшит $buddhism_religion_adj$7. Квалифицируя $buddhism_religion_adj$4 с $hinduism_religion_adj$5, вы получаете более мощную версию $hinduism_religion_adj$0, которую вы получаете.\n\nКроме того, в затронутом $buddhism_religion_adj$4 [decision|E] имеет небольшой шанс добавить $hinduism_religion_adj$9 к случайному $buddhism_religion_adj$8 из [religion|E], который вы получаете. выбрали или, что еще реже, прямо преобразовали $buddhism_religion_adj$4 в этот $buddhism_religion_adj$8."
+
+
+ # Yazidi Rework
+ yazidi_religion:0 "West Iranic"
+ yazidi_religion_adj:0 "West Iranic"
+ yazidi_religion_adherent:0 "West Iranian"
+ yazidi_religion_adherent_plural:0 "West Iranians"
+ yazidi_religion_desc:0 "The mountains of northern Mesopotamia and Western Iran are home to Iranian-speaking peoples, who have, over centuries, strengthened their existing beliefs by syncretizing ideas from a multitude of spiritual traditions, including Zoroastrianism, Gnosticism, and the Abrahmic faiths."
+
+ meshefaresism:0 "Yarsanism"
+ meshefares_adj:0 "Yarsani"
+ meshefaresism_adj:0 "Yarsani"
+ meshefares_adherent:0 "Yarsani"
+ meshefaresism_adherent:0 "$meshefares_adherent$"
+ meshefares_adherent_plural:0 "Yarsanis"
+ meshefaresism_adherent_plural:0 "$meshefares_adherent_plural$"
+ meshefares_desc:0 "The "Group of Friends," also known as Ahl-e Haqq, or "People of Truth," believe that God manifests in one primary and seven secondary incarnations in each epoch of the world. These seven persons are called the #Italic Haft Tan#!. The primary incarnation of the current, fourth epoch is Sultan Sahak."
+ meshefaresism_desc:0 "$meshefares_desc$"
+ meshefaresism_holy_text:0 "$yarsani_religious_text$"
+ meshefaresism_holy_text_2:0 "$yarsani_religious_text$" # Optional translation alt
+ meshefaresism_holy_text_3:0 "$yarsani_religious_text$" # Optional translation alt
+
+ kitebacilweism:0 "Mehrism" # Dar = Tree # Kutayeism - Kutaye
+ kitebacilweism_adj:0 "Mehrist"
+ kitebacilweism_adherent:0 "Mehrist"
+ kitebacilweism_adherent_plural:0 "Mehrists"
+ kitebacilweism_desc:0 "The Northwest Iranians' old religious beliefs are related to but distinct from orthodox Zoroastrianism, which it may have coexisted during the Sassanids' heyday. Veneration of nature is prominent, and the old Iranian deity Mithra, or Mehr, plays an key cosmological role as the demiurge and common object of worship – a role that might have inspired the Roman Cult of Mithras centuries before."
+ kitebacilweism_holy_text:0 "$kurdish_pagan_religious_text$"
+ kitebacilweism_holy_text_2:0 "$kurdish_pagan_religious_text$" # Optional translation alt
+ kitebacilweism_holy_text_3:0 "$kurdish_pagan_religious_text$" # Optional translation alt

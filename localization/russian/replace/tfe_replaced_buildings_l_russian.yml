@@ -1,0 +1,11 @@
+﻿l_russian:
+ 
+ ### note: base game Jousting Lists to Racing Grounds to be more appropriate.
+ building_type_jousting_lists_01:0 "Площадка для гонок"
+ building_type_jousting_lists_01_desc:0 "Если мы выделим специальную землю для гонок на колесницах, к нам потянутся всадники и атлеты, желающие тренироваться и участвовать в гонках."
+ building_jousting_lists_01:0 "Площадка для колесниц"
+ building_jousting_lists_01_desc:0 "Открытое пространство, где так привольно тренироваться всадникам и атлетам."
+ building_jousting_lists_02:0 "Ипподром"
+ building_jousting_lists_02_desc:0 "Всегда найдется масса желающих поучаствовать в гонках — и посмотреть на это действо."
+ building_jousting_lists_03:0 "Имперский ипподром"
+ building_jousting_lists_03_desc:0 "Отдельные места на трибунах предназначены для имперских зрителей, а для гонок на колесниц и прочих представлений отведено огромное пространство."

@@ -44,7 +44,7 @@
  struggle_north_indian_ending_foreign_domination_correct_phase_tt: "Текущий [struggle_phase|E] — это [struggle_phase_north_indian_invasion|E] или [struggle_phase_north_indian_glory|E]"
  struggle_north_indian_ending_domination_region_tt: "Вы контролируете более [SCOPE.ScriptValue('struggle_north_indian_ending_domination_owned_percent_value')|0]% из [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName] [region|E] (Текущий: [SCOPE.ScriptValue('TFE_north_indian_struggle_region_owned_percent_value')|0]%)"
  struggle_north_indian_ending_others_domination_decision_region_tt: "Ни один другой [independent|E] [struggle_involved|E] [ruler|E] не контролирует более [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName]"
- struggle_north_indian_foreigner_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_terror_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_mastery_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_authority_modifier').GetNameWithTooltip|L]"
+ struggle_north_indian_foreigner_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_terror_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_mastery_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_authority_modifier').GetNameWithTooltip|L]"
   
   # Indian 
  struggle_north_indian_ending_indian_domination_decision: "Индийское превосходство"
@@ -52,7 +52,7 @@
  struggle_north_indian_ending_indian_domination_decision_tooltip: "Завершить $north_indian_struggle$"
  struggle_north_indian_ending_indian_domination_decision_confirm: "$struggle_north_indian_ending_foreign_domination_decision_tooltip$"
  struggle_north_indian_ending_indian_domination_correct_phase_tt: "$struggle_north_indian_ending_foreign_domination_correct_phase_tt$"
- struggle_north_indian_indian_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_majesty_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_might_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_opulence_modifier').GetNameWithTooltip|L]"
+ struggle_north_indian_indian_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_majesty_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_might_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_opulence_modifier').GetNameWithTooltip|L]"
   
   # Confluence 
  struggle_north_indian_ending_confluence_decision: "Слияние"
@@ -64,7 +64,7 @@
  struggle_north_indian_ending_buddhism_county_req_tt: "По крайней мере [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E], которыми вы владеете в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], следует за любыми [faith|E] из #bold $buddhism_religion_adj$#! [religion|E]"
  struggle_north_indian_ending_hinduism_county_req_tt: "По крайней мере [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E], которыми вы владеете в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], следует за любыми [faith|E] из #bold $hinduism_religion_adj$#! [religion|E]"
  struggle_north_indian_ending_jainism_county_req_tt: "По крайней мере [EmptyScope.ScriptValue('struggle_north_indian_development_county_value')|0] [counties|E], которыми вы владеете в [GetGeographicalRegion('TFE_north_indian_struggle_region').GetName], следует за любыми [faith|E] из #bold $jainism_religion_adj$#! [religion|E]"
- struggle_north_indian_confluence_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_religious_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_cultural_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('struggle_north_indian_house_economical_modifier').GetNameWithTooltip|L]"
+ struggle_north_indian_confluence_modifier_list_tt: "Выберите один из следующих модификаторов для [house|E]:\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_religious_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_cultural_modifier').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetStaticModifier('struggle_north_indian_house_economical_modifier').GetNameWithTooltip|L]"
   
   
   # Ending Events 
