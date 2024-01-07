@@ -30,3 +30,14 @@
  calling_nomadic_empire_desc: "Наши враги граничат с кочевым [empire|E], и поэтому у нас есть возможность призвать империю на помощь нам против наших врагов." #NT!
  at_war_with_bordering_non_nomadic_empire: "В состоянии войны с царством, граничащим с кочевым [empire|E]." #NT!
  NOT_at_war_with_bordering_non_nomadic_empire: "Не воюет с царством, граничащим с кочевым [empire|E]." #NT!
+
+ TFE_negotiate_alliance_interaction: "Заключить союз (имперский)"
+ TFE_negotiate_alliance_interaction_extra_icon: "$hook_extra_icon$"
+ TFE_negotiate_alliance_interaction_desc: "Предложите союз с помощью имперской политики"
+
+ IMPERIAL_MARRIAGE: "У вас есть имперская политика, поощряющая браки"
+
+ relocate_legion_domain_interaction: "Переместить легион в пределах домена"
+ recently_relocated_legion_tt: "Этот легион уже перемещался в течение последних 5 лет!"
+ capital_county_legion_relocate_tt: "Вы не можете перебросить легион в свою столицу!"
+ 

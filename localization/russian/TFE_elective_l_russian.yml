@@ -11,7 +11,7 @@
  polish_elective_succession_law: "Польские выборы"
  polish_elective_succession_law_subname: "Сейм"
  polish_elective_electors: "Все прямые и косвенные вассалы де-юре"
- polish_elective_electors_tooltip: "Чтобы быть действительным выборщиком сейма, персонаж должен быть вассалом де-юре, прямым или косвенным."
+ polish_elective_electors_tooltip: "Чтобы быть  выборщиком сейма, персонаж должен быть вассалом де-юре, прямым или косвенным."
  polish_elective_candidates: "Родственники и претенденты"
  polish_elective_candidates_tooltip: "Чтобы быть кандидатом, персонаж должен быть либо частью [Concept('close_family', 'близким родственником')|E] или [Concept('extended_family', 'членом расширенной семьи')|E] текущего правителя, либо претендентом на титул."
   
@@ -20,7 +20,22 @@
  gana_sangha_elective_succession_law_subname: "Гана Сангха"
   
  gana_sangha_elective_candidates: "Прямые вассалы, претенденты и дети"
- gana_sangha_elective_candidates_tooltip: "Чтобы быть действительным кандидатом в Гана Сангху, персонаж должен быть прямым вассалом [de_jure|E], претендентом или одним из текущих детей правителя."
+ gana_sangha_elective_candidates_tooltip: "Чтобы быть  кандидатом в Гана Сангху, персонаж должен быть прямым вассалом [de_jure|E], претендентом или одним из текущих детей правителя."
   
  gana_sangha_elective_electors: "Прямые вассалы, претенденты и родственные рыцари"
- gana_sangha_elective_electors_tooltip: "Чтобы быть действительным избирателем Гана Сангхи, персонаж должен быть прямым вассалом [de_jure|E], претендентом или одним из командующих армией, связанных с правителем."
+ gana_sangha_elective_electors_tooltip: "Чтобы быть  избирателем Гана Сангхи, персонаж должен быть прямым вассалом [de_jure|E], претендентом или одним из командующих армией, связанных с правителем."
+ 
+ culture_parameter_gothic_elective_enabled: "Можно принять [Concept( 'succession_law', 'закон наследования' )|E] #high «$gothic_elective_succession_law$»#!"
+
+ gothic_elective_succession_law: "Готские выборы"
+ gothic_elective_succession_law_subname: "Готские"
+ gothic_elective_succession_law_effects: "[ruler|E] и все [vassals|El] (кроме баронов) с тем же наследием могут выдвинуть кандидатуру [Concept( 'title_heir', 'наследника титула' )|E] из числа [Concept( 'extended_family', 'дальних родственников' )|E] правителя, любого [Concept( 'claimants', 'претендента' )|E], и самих себя. [Concept( 'voting_power', 'Сила голоса' )|E] зависит от ранга [Concept( 'elector', 'выборщика' )|E]."
+
+ gothic_elective_candidates: "Вассалы, претенденты и дальние родственники того же наследия"
+ gothic_elective_candidates_tooltip: "Чтобы быть кандидатом, персонаж должен быть прямым вассалом, претендентом или дальним родственником правителя."
+
+ gothic_elective_electors: "Вассалы того же наследия"
+ gothic_elective_electors_tooltip: "Чтобы быть выборщиком, персонаж должен быть прямым вассалом того же наследия."
+
+ tooltip_gothic_elector_vote_candidate_ruling_house: "[candidate.GetShortUIName|U] принадлежит к правящей династии: $VALUE|=+0$"
+ 
