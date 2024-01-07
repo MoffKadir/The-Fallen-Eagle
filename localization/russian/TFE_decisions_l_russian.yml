@@ -183,11 +183,11 @@
  establish_the_old_north_tooltip: "Заявить права на [ROOT.Char.GetCulture.GetName] Англию"
  establish_the_old_north_desc: "После стольких лет у нас, Бриттов, до сих пор нет собственного королевства, которое мы могли бы назвать своим. Неудивительно, что на протяжении веков наши земли грабили Римляне, Саксы и многие другие народы! В эти непредсказуемые времена мы, Бритты, должны взять судьбу в собственные руки и основать собственное королевство."
  establish_the_old_north_confirm: "Слава нашему новому королевству!"
-  
-  # Iran & HOS flavour 
-  # Recruit Regional units 
- TFE_regional_units_eran_decision: "Нанять региональных экспертов из Ērānshahr"
- TFE_regional_units_eran_decision_tooltip: "Эранская империя простирается далеко и широко. Мы были бы глупцами, если бы не использовали уникальные навыки каждого региона для усиления наших армий."
+
+ # Iran & HOS flavour 
+ # Recruit Regional units 
+ TFE_regional_units_eran_decision: "Нанять региональных экспертов из Ирана"
+ TFE_regional_units_eran_decision_tooltip: "Иранская империя простирается далеко и широко. Мы были бы глупцами, если бы не использовали уникальные навыки каждого региона для усиления наших армий."
  TFE_regional_units_eran_decision_desc: "Родом из изолированных горных долин, пустынь и джунглей, люди съезжаются сражаться под нашим знаменем со всех уголков известного мира. Используя их особые таланты и знания, мы можем снабдить нашу армию более полным и мощным набором юнитов."
   
  TFE_regional_units_eran_decision_tooltip_1: "Вы получите [special_troops|E], состоящий из единицы по вашему выбору."
@@ -315,9 +315,9 @@
  tfe_theodoric_rome_unite_name: "Объединить две культуры"
  tfe_theodoric_rome_unite_desc: "Потратьте свои ресурсы, чтобы рассказать о многих сходствах между римлянами и теми, кого они считают «варварами», прокладывая путь для формирования гибридной идентичности."
  tfe_theodoric_rome_segregate_name: "Каждому свое"
- tfe_theodoric_rome_unite_tooltip: "Ваша культура и римляне получают #P +40%#! [cultural_acceptance|E] друг с другом\nКаждое $roman$ графство в вашем [realm|E] получает [GetModifier('tfe_hybridised_barbarians_and_romans').GetNameWithTooltip] на #V 50 лет#!"
+ tfe_theodoric_rome_unite_tooltip: "Ваша культура и римляне получают #P +40%#! [cultural_acceptance|E] друг с другом\nКаждое $roman$ графство в вашем [realm|E] получает [GetStaticModifier('tfe_hybridised_barbarians_and_romans').GetNameWithTooltip] на #V 50 лет#!"
  tfe_theodoric_rome_segregate_desc: "Синергия воинов [GetPlayer.GetCulture.GetNameNoTooltip] и римских администраторов будет лучше для королевства. Формализуйте эту договоренность."
- tfe_theodoric_rome_segregate_tooltip: "Ваш [dynasty|E] получает [GetModifier('tfe_segregated_barbarians_and_romans').GetNameWithTooltip] за #V 100 лет#!"
+ tfe_theodoric_rome_segregate_tooltip: "Ваш [dynasty|E] получает [GetStaticModifier('tfe_segregated_barbarians_and_romans').GetNameWithTooltip] за #V 100 лет#!"
   
  tfe_theodoric_rome_decision_if_hybridise: "Если вы решите гибридизировать"
  tfe_theodoric_rome_decision_if_segregate: "Если вы решите разделить"
@@ -428,7 +428,7 @@
   # Hero Stone 
  dharma_raise_hero_stone_decision_name: "Поднять камень героя"
  raise_hero_stone_decision_desc: "Смерть предка могла быть поводом для празднования их жизни и важных событий, особенно военных. Возможно, мне было бы полезно воздвигнуть Камень Героя..."
- dharma_hero_stone_decision_tt.effects_list: "Один из ваших [counties|E] получит один из следующих [modifiers|E]:\n#indent_newline: $EFFECT_LIST_BULLET$ [GetModifier('dharma_hero_stone_heros_strong').GetNameWithTooltip]"
+ dharma_hero_stone_decision_tt.effects_list: "Один из ваших [counties|E] получит один из следующих [modifiers|E]:\n#indent_newline: $EFFECT_LIST_BULLET$ [GetStaticModifier('dharma_hero_stone_heros_strong').GetNameWithTooltip]"
  raise_hero_stone_decision_tooltip: "Заплатите за вырезание рунического камня в одном из ваших графств."
  dharma_raise_hero_stone_decision_confirm: "Но что вырезать?"
  dharma_raised_hero_stone_vassals: "$EFFECT_LIST_BULLET$Все [direct_vassals|E], которые также используют Камень Героя"
@@ -472,10 +472,47 @@
  TFE_establish_the_rouran_khaganate_tooltip: "Настало время новой империи в степях" #NT!
  TFE_establish_the_rouran_khaganate_desc: "Наши враги высмеивают нашего прародителя Мугулу, говоря, что он был простым рабом, сбежавшим от своих хозяев в степь. Они даже смеются над нами, Жужанами, называя нас «извивающимися червями». Будут ли эти дураки по-прежнему смеяться, когда мы, «черви», создадим новую империю, чтобы поработить их и подчинить себе все на своем пути?" #NT!
  TFE_establish_the_rouran_khaganate_confirm: "Мы не черви, а гордый, могучий народ!" #NT!
- TFE_establish_the_rouran_khaganate_tooltip.a: "Вы получаете [casus_belli|E], чтобы распространить свой Каганат по степям.\n#warning Значение [casus_belli|E] зависит от того, есть ли в вашей династии [GetModifier('rouran_khagans').GetName] [modifier|E], а вы являетесь [emperor|E]#!." #NT!
+ TFE_establish_the_rouran_khaganate_tooltip.a: "Вы получаете [casus_belli|E], чтобы распространить свой Каганат по степям.\n#warning Значение [casus_belli|E] зависит от того, есть ли в вашей династии [GetStaticModifier('rouran_khagans').GetName] [modifier|E], а вы являетесь [emperor|E]#!." #NT!
   
   #Sicila Vandal Decision 
- concession_of_italy: "Концессия Сицилии" #NT!
+ concession_of_italy: "Продать Сицилию" #NT!
  concession_of_italy_decision_desc: "Хотя Сицилия — это земля, богатая ресурсами, правители Италии жадно следят за ней. Вместо того, чтобы удерживать его, мы, возможно, сможем продать его за значительную сумму, чтобы профинансировать другие, более плодотворные начинания..." #NT!
  concession_of_italy_decision_tooltip: "Продать Сицилию за лот [gold|E]" #NT!
  concession_of_italy_confirm: "Продать Сицилию" #NT!
+
+ #Eternal Peace decision
+ break_eternal_peace: "Нарушить вечный мир"
+ break_eternal_peace_desc: "Вечный мир — договор, подписанный между Юстинианом I и Хосровой I и завершивший Пиренейскую войну. В нем, помимо прочего, оговаривалось, что две империи больше никогда не будут воевать друг с другом. Хотя в прошлом это было выгодно, сейчас настало время для новых завоеваний против нашего ненавистного врага! Мы разрушим этот договор и сотрем наших врагов в пыль!"
+ break_eternal_peace_tooltip: "Отправить гонцов"
+ break_eternal_peace_confirm: "Подтвердить"
+
+ # Vandalic War decision
+ vandalic_war: "Втогнуться в Королевство вандалов"
+ vandalic_war_desc: "Хильдерих был в теплых отношениях с нами, но его низложение, совершенное его кузеном Гелимером, стало последней каплей.\n\n#bold Скоро римский штандарт снова будет развеваться на Западе!"
+ vandalic_war_tooltip: "Выбрать командующего"
+ vandalic_war_custom_tooltip: "Вы потратите 250 золота и 1000 престижа."
+ vandalic_war_confirm: "Приготовить экспедиционные силы!"
+
+ # Vandalic War Aftermath decision
+ vandalic_aftermath_vassals: "Судьба вандалов"
+ vandalic_aftermath_vassals_desc: "Исторически вандалы исповедовали арианство и другие гетеродоксальные верования. Успешно отразив предыдущие римские вторжения, они, очевидно, представляют угрозу стабильности империи как в религиозном, так и в военном плане. Хотя бывшие вассалы Королевства вандалов все еще владеют значительными землями в бывшей житнице империи, мы не можем быть уверены в их лояльности. Мы должны воспользоваться возможностью, предоставленной нам недавним завоеванием вандалов, и вытеснить их из Северной Африки, пока они остаются язычниками и еретиками!"
+ vandalic_aftermath_vassals_tooltip: "Гонения или терпимость?"
+ vandalic_aftermath_vassals_custom_tooltip: "Вы потратите 750 престижа."
+ vandalic_aftermath_vassals_warning: "#warning Внимание: это решение отправит всем вассалам вандалов и всем вассалам Наместника Африки требование обращения в христианство. Если они откажутся, то начнут войну за независимость.#!"
+ vandalic_aftermath_vassals_confirm: "Подтвердить"
+
+ #Recall Belisarius decision
+ recall_belisarius: "Отозвать Велизария из Африки"
+ recall_belisarius_desc: "Велизарий превзошел все ожидания и захватил Королевство вандалов целиком. Он успешный полководец — возможно, некоторые могут сказать, что слишком успешный. До вас дошли слухи о том, что Велизарий, окрыленный успехами в подавлении бунта в Нике и в Африке, готовится к восстанию против вас. Чтобы развеять сомнения, вы можете предложить Велизарию четкий выбор: остаться в Африке в качестве губернатора или вернуться в столицу для получения императорского триумфа и назначения на другую должность. Время проверить его лояльность пришло."
+ recall_belisarius_tooltip: "Друг или враг?"
+ recall_belisarius_custom_tooltip: "Вы потратите 500 престижа и 250 золота."
+ recall_belisarius_warning: "#warning Внимание: это отправит событие Велизарию. Если он откажется вернуться, то начнется Война за независимость.#!"
+ recall_belisarius_confirm: "Подтвердить"
+
+ #Gothic War decision
+ start_gothic_war: "Вернуть Италию"
+ start_gothic_war_desc: "После провала планов Амаласунты передать Италию ее законному хозяину — мне — нам предстоит взять силой то, что принадлежит нам по праву! Мы начнем с вторжения на Сицилию, а затем вторгнемся в Италию..."
+ start_gothic_war_tooltip: "Защитите родину снова"
+ start_gothic_war_custom_tooltip: "Вы потратите 500 престижа и 250 золота."
+ gothic_war_belisarius_warning: "#warning Внимание: если Велизарий все еще сражается в Вандальской войне, он не перестанет быть вашим командиром.#!"
+ start_gothic_war_confirm: "Подтвердить"

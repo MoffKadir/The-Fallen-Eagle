@@ -82,14 +82,14 @@
  RADAGAISUS_INVASION_NAME: "Готское вторжение в Италию"
  RADAGAISUS_INVASION_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  RADAGAISUS_INVASION_CB_NAME: "Готское вторжение в Италию"
- radagaisus_invasion_victory_desc: "Радагайзус захватит римские провинции Italia Annonariae и Italia Suburbicariae, сделав их безопасным убежищем для готов."
- radagaisus_invasion_victory_desc_attacker: "Вы захватите римские провинции Italia Annonariae и Italia Suburbicariae, сделав их безопасным убежищем для готов"
+ radagaisus_invasion_victory_desc: "Радагайс захватит римские диоцезы Сельская Италия и Пригородная Италия, сделав их безопасным убежищем для готов."
+ radagaisus_invasion_victory_desc_attacker: "Вы захватите римские диоцезы Сельская Италия и Пригородная Италия, сделав их безопасным убежищем для готов"
  radagaisus_invasion_victory_desc_defender: "Рим пал. Орды варваров захватили город. Боже, спаси нас"
  radagaisus_invasion_white_peace_desc: "Пролитие крови зашло слишком далеко, хотя это и унизительно, мы должны прийти к соглашению."
  radagaisus_invasion_white_peace_desc_attacker: "Пролитие крови зашло слишком далеко, хотя и унизительно, нам нужно договориться."
  radagaisus_invasion_white_peace_desc_defender: "Пролитие крови зашло слишком далеко, хотя и унизительно, нам нужно договориться."
- radagaisus_invasion_defeat_desc: "Radagaisus был оттеснен от Италии, положив конец его безжалостному нападению."
- radagaisus_invasion_defeat_desc_attacker: "Мы проиграли! Радагайзус взят в плен, а наши армии разбиты, мы должны жить, чтобы сражаться еще один день"
+ radagaisus_invasion_defeat_desc: "Радагайс был оттеснен от Италии, положив конец его безжалостному нападению."
+ radagaisus_invasion_defeat_desc_attacker: "Мы проиграли! Радагайс взят в плен, а наши армии разбиты, мы должны жить, чтобы сражаться еще один день"
  radagaisus_invasion_defeat_desc_defender: "Вы захватите языческого короля и уничтожите его армии, остановив вторжение готских войск"
  radagaisus_event_troops: "Готская орда"
   
@@ -170,9 +170,44 @@
   
  ROURAN_INVASION_WAR_NAME: "Вторжение Жужан-Кагана" #NT!
  ROURAN_INVASION_EMPIRE_CB_NAME: "Вторжение Жужан-Кагана" #NT!
-  
+ rouran_invasion_cooldown: "Вы использовали этот казус белли в течение последних 5 лет"
+ 
  GOKTURK_INVADERS: "Гектюркские захватчики" #NT!
   
  gokturk_rouran_war: "Гектюркское восстание" #NT!
  GOKTURK_ROURAN_WAR_NAME: "Гектюркское восстание" #NT!
  GOKTURK_ROURAN_WAR_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
+
+ #Vandalic War
+ VANDALIC_WAR_NAME: "Вандальская война"
+ VANDALIC_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ VANDALIC_CB_NAME: "Вандальская война"
+ vandalic_war_end_effect: "Император решит судьбу Северной Африки"
+
+ #Gothic War -- Amalasuntha
+ cb_gothic_wars_amalasuntha: "Готская война"
+ cb_gothic_wars_amalasuntha_NAME: "Готская война"
+ cb_gothic_wars_amalasuntha_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ cb_gothic_wars_amalasuntha_NAME: "Готская война"
+ cb_gothic_wars_amalasuntha_victory_desc: "Остготы восстановят контроль."
+ cb_gothic_wars_amalasuntha_victory_desc_attacker: "Вы получите земли, захваченные римлянами."
+ cb_gothic_wars_amalasuntha_victory_desc_defender: "Вы завоюете земли остготов и присягнете на верность римлянам."
+ cb_gothic_wars_amalasuntha_defeat_desc_attacker: "Римляне унизили нас, мы побеждены."
+ cb_gothic_wars_amalasuntha_defeat_desc_defender: "Остготы унизили нас, мы побеждены."
+ cb_gothic_wars_amalasuntha_defeat_desc: "Остготы потеряют свою независимость."
+ cb_gothic_wars_amalasuntha_white_peace_desc: "Италия разделена."
+
+ FRANKISH_SUBJUGATION_WAR_NAME: "Франкское завоевание титула [DEFENDER.GetPrimaryTitle.GetName]"
+ FRANKISH_SUBJUGATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ FRANKISH_SUBJUGATION_CB_NAME: "Франкское завоевание"
+
+ #Gothic War -- Regular
+ GOTHIC_WAR_AMA_NAME: "Готская война"
+ GOTHIC_WAR_AMA_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ gothic_war_end_effect: "Император решит судьбу Италии"
+ gothic_war_end_effect2: "Начнется полномасштабное вторжение в Италию"
+
+
+ FRANKISH_BURGUNDY_WAR_NAME: "Франкская аннексия Бургундии"
+ FRANKISH_BURGUNDY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ FRANKISH_BURGUNDY_CB_NAME: "TФранкская аннексия Бургундии"

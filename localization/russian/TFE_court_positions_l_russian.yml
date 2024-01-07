@@ -10,7 +10,7 @@
  k_britannia_governor_desc: "Защитник и управляющий Британии"
   
  k_italia_suburbicariae_governor: "Наместник Пригородной Италии"
- k_italia_suburbicariae_governor_employer_custom_effect_description: "Governs and protects the lands of Italia Suburbicariae"
+ k_italia_suburbicariae_governor_employer_custom_effect_description: "Защитник и управляющий Пригородной Италии"
  k_italia_suburbicariae_governor_desc: "Защитник и управляющий Пригородной Италии"
   
  k_africae_governor: "Наместник Африки"
@@ -21,9 +21,9 @@
  k_hispania_governor_employer_custom_effect_description: "Защитник и управляющий Испании"
  k_hispania_governor_desc: "Защитник и управляющий Испании"
   
- k_septem_provinciae_governor: "Наместник Септума Провинции"
- k_septem_provinciae_governor_employer_custom_effect_description: "Governs and protects the lands of Septum Provinciae"
- k_septem_provinciae_governor_desc: "Защитник и управляющий Септум Провинции"
+ k_septem_provinciae_governor: "Наместник Семи Провинции"
+ k_septem_provinciae_governor_employer_custom_effect_description: "Защитник и управляющий Семи Провинции"
+ k_septem_provinciae_governor_desc: "Защитник и управляющий Семи Провинции"
   
  k_pannonia_governor: "Наместник Паннонии"
  k_pannonia_governor_employer_custom_effect_description: "Защитник и управляющий Паннонии"
@@ -53,9 +53,9 @@
  k_asiae_governor_employer_custom_effect_description: "Защитник и управляющий Азии"
  k_asiae_governor_desc: "Защитник и управляющий Азии"
   
- k_orientis_governor: "Наместник Ориентиса"
- k_orientis_governor_employer_custom_effect_description: "Защитник и управляющий Ориентиса"
- k_orientis_governor_desc: "Защитник и управляющий Ориентиса"
+ k_orientis_governor: "Наместник Востока"
+ k_orientis_governor_employer_custom_effect_description: "Защитник и управляющий Востока"
+ k_orientis_governor_desc: "Защитник и управляющий Востока"
   
  k_nikaea_governor: "Наместник Никеи"
  k_nikaea_governor_employer_custom_effect_description: "Защитник и управляющий Никеи"
