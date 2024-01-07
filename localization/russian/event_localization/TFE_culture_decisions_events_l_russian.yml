@@ -1,16 +1,16 @@
 ﻿l_russian:
- TFE_culture_decisions.0001.t: "Пускай едят хлеб!"
- TFE_culture_decisions.0001.desc: "Голодное население сильно - факт, который хорошо понимали богатые и могущественные правители моей культуры. Всякий раз, когда население начинает волноваться, принято раздавать предметы первой необходимости, такие как хлеб. Хотя это дорогая и временная мера, тем не менее это принесло мир во многие регионы, где ситуация была на грани взрыва.\n\nОднако это может быть #emp очень#! дорого; в конце концов, мир не дешев."
- TFE_culture_decisions.0001.a: "Раздайте хлеб в столице, [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]."
- TFE_culture_decisions.0001.b: "Раздайте хлеб в столице и ее окрестностях, [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]."
- every_owned_county_within_de_jure_capital_kingdom_tt: "Каждое подконтрольное графство, де-юре входящее в первый королевский титул"
- TFE_culture_decisions.0001.c: "Раздайте хлеб по всем владениям, [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]."
- every_owned_county_within_de_jure_capital_empire_tt: "Каждое подконтрольное графство, де-юре входящее в имперский титул"
- TFE_culture_decisions.0001.d: "Раздайте хлеб по всему [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]."
- TFE_culture_decisions.0001.e: "Действительно #emp очень#! дорого."
- TFE_culture_decisions.0001.e_effect: "Не будет никакой раздачи хлеба."
-  
-  # Djeddar 
- TFE_djeddar_decision.t: "Джеддар построен"
- TFE_djeddar_decision.desc: "Соглоасно традиции, небольшая группа придворных собралась в недавно построенном джеддаре, чтобы мы могли достойно похоронить тело моего предшественника."
- TFE_djeddar_decision.a: "Покойся с миром."
+ TFE_culture_decisions.0001.t:0 "Пускай едят хлеб!"
+ TFE_culture_decisions.0001.desc:0 "Голодное население сильно - факт, который хорошо понимали богатые и могущественные правители моей культуры. Всякий раз, когда население начинает волноваться, принято раздавать предметы первой необходимости, такие как хлеб. Хотя это дорогая и временная мера, тем не менее это принесло мир во многие регионы, где ситуация была на грани взрыва.\n\nОднако это может быть #emp очень#! дорого; в конце концов, мир не дешёв."
+ TFE_culture_decisions.0001.a:0 "Раздайте хлеб в столице, [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]."
+ TFE_culture_decisions.0001.b:0 "Раздайте хлеб в столице и ее окрестностях, [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]."
+ every_owned_county_within_de_jure_capital_kingdom_tt:0 "Каждое подконтрольное графство, де-юре входящее в первый королевский титул"
+ TFE_culture_decisions.0001.c:0 "Раздайте хлеб по всем владениям, [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]."
+ every_owned_county_within_de_jure_capital_empire_tt:0 "Каждое подконтрольное графство, де-юре входящее в имперский титул"
+ TFE_culture_decisions.0001.d:0 "Раздайте хлеб по всему [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]."
+ TFE_culture_decisions.0001.e:0 "Действительно #emp очень#! дорого."
+ TFE_culture_decisions.0001.e_effect:0 "Не будет никакой раздачи хлеба."
+
+ # Djeddar 
+ TFE_djeddar_decision.t:0 "Джеддар построен"
+ TFE_djeddar_decision.desc:0 "Согласно традиции, небольшая группа придворных собралась в недавно построенном джеддаре, чтобы мы могли достойно похоронить тело моего предшественника."
+ TFE_djeddar_decision.a:0 "Покойся с миром."

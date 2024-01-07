@@ -1,19 +1,19 @@
 ﻿l_russian:
 
  #Become the King of Cantabria by Wrench
- become_king_of_cantabria: "Стать королем Кантабрии"
- become_king_of_cantabria_desc: "Я объединю побережье Кантабрии в одно королевство!"
- become_king_of_cantabria_confirm: "Да здравствует Королевство побережья!"
- become_king_of_cantabria_tooltip: "Королевство Кантабрия получает Арагорна и восточное и южное побережье Кантабрии"
-  
- cantabria.0001.title: "Королевство побережья"
- cantabria.0001.desc: "После столетий раскола побережье Кантабрии наконец-то объединено в одно королевство — навсегда!"
- cantabria.0001.a: "Вся Иберия будет моей!"
- cantabria.0001.a.tt: "Вы получили Королевство Кантабрия и все его новые де-юре земли!"
-  
- cantabria.0002.title: "Королевство побережья"
- cantabria.0002.desc: "После столетий разделения Кантабрийское побережье навсегда объединилось в одно королевство!"
- cantabria.0002.a: "Мы должны внимательно следить за их действиями"
+ become_king_of_cantabria:0 "Стать [Select_CString(ROOT.Char.IsFemale, 'королевой', 'королём' )] Кантабрии"
+ become_king_of_cantabria_desc:0 "Я объединю побережье Кантабрии в одно королевство!"
+ become_king_of_cantabria_confirm:0 "Да здравствует королевство побережья!"
+ become_king_of_cantabria_tooltip:0 "Королевство Кантабрия получает Арагон и восточное и южное побережье Кантабрии"
+
+ cantabria.0001.title:0 "Королевство побережья"
+ cantabria.0001.desc:0 "После столетий раскола побережье Кантабрии наконец-то объединено в одно королевство — навсегда!"
+ cantabria.0001.a:0 "Вся Иберия будет моей!"
+ cantabria.0001.a.tt:0 "Вы получили уоролевство Кантабрия и все его новые де-юре земли!"
+
+ cantabria.0002.title:0 "Королевство побережья"
+ cantabria.0002.desc:0 "После столетий разделения Кантабрийское побережье навсегда объединилось в одно королевство!"
+ cantabria.0002.a:0 "Мы должны внимательно следить за их действиями"
 
  # New Basque Pagan Localization
- favour_the_countryside_basques_decision.tt.all_neighbouring_christian_rulers: "Каждый соседний христианский [ruler|El]"
+ favour_the_countryside_basques_decision.tt.all_neighbouring_christian_rulers:0 "Каждый соседний христианский [ruler|El]"

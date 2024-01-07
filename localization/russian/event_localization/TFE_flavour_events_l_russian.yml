@@ -1,107 +1,163 @@
 ﻿l_russian:
-  
-  # TFE_flavour_events 
- TFE_flavour_events.0001.t: "Монастырь Сен-Жермен-л'Осеруа"
- TFE_flavour_events.0001.desc: "В 448 году от Рождества Христова,умоляя римлян о снисхождении к варварам Арморики, благочестивый и милосердный святой Герман Оксерский скончался в Равенне. В его честь был основан монастырь в [auxerre.GetNameNoTier] - процветающее ныне учреждение, в котором обучаются последователи со всего мира!"
- TFE_flavour_events.0001.a: "Слава Санктусу Германусу!"
- TFE_flavour_events.0002.t: "Из волос и штанов"
- TFE_flavour_events.0002.desc: "Центр города [county.GetNameNoTier] заполонили люди, одетые в штаны! и сапоги! Ты можешь в это поверить? Я даже видел мужчину с длинными волосами! Куда делись старые РИМСКИЕ нравы?? Мы должны положить этому конец!"
- TFE_flavour_events.0002.a: "Запретить все, что даже отдаленно варварское!"
- TFE_flavour_events.0002.b: "Нам нужно идти дальше... запретить длинные волосы и бороды!!"
-  
- TFE_flavour_events.0003.t: "Восстановление плотины Мариб"
- TFE_flavour_events.0003.desc: "Плотина Мариб — это великое чудо, которое многие посещают, чтобы убедиться в нашем могуществе и инновациях, идущих из дрвености. Так же, плотина может помочь защитить наши земли и поля от наводнений, о которых сообщают простолюдины.\n\nДаже временно, плотина может значительно улучшить наше королевство и условия жизни, и поэтому мы должны рассмотреть возможность инвестирования, чтобы вернуть ей былую сабейскую мощь.\n\n Неспособность восстановить ее должным образом будет довольно унизительной для нашего народа и королевства."
- TFE_flavour_events.0003.a: "Приступить к восстановлению"
- TFE_flavour_events.0003.b: "....Неважно"
-  
- TFE_flavour_events.0004.t: "Восстановление плотины Мариб"
- TFE_flavour_events.0004.desc: "Плотина Мариб — это великое чудо, которое многие посещают, чтобы убедиться в нашем могуществе и инновациях, идущих из дрвености. Так же, плотина может помочь защитить наши земли и поля от наводнений, о которых сообщают простолюдины.\n\nПосле встречи с моим советом мы решили, что восстановление плотины в обозримом будущем — это лучший и наиболее эффективный путь."
- TFE_flavour_events.0004.a: "Пришло время восстановить нашу мощь!"
-  
- TFE_flavour_events.0005.t: "Гонения на христиан в Аравии"
- TFE_flavour_events.0005.desc: "Мы только что получили известие о том, что наших христианских братьев в Аравии преследует их царь. Мы могли бы возглавить экспедицию, чтобы отомстить за это оскорбление и положить конец этому языческому царству."
- TFE_flavour_events.0005.a: "К оружию!"
- TFE_flavour_events.0005.b: "Мы должны подготовиться"
- TFE_flavour_events.0005.c: "Давай притворимся, что ничего не произошло"
- AKSUM_CHRISTIAN_ARMY: "Христианские фанатики"
-  
- TFE_flavour_events.0006.t: "Сокровище нибелунгов"
- TFE_flavour_events.0006.desc: "В нашем стремлении отомстить всплыли некоторые древние легенды о мифическом сокровище. Каково же было наше удивление, когда один из наших людей сказал нам, что он завладел богатствами нибелунгов."
- TFE_flavour_events.0006.a: "Интересно"
-  
- TFE_flavour_events.0007.t: "Компенсация Синнимара"
- TFE_flavour_events.0007.desc: "После долгих лет непрерывного строительства Синнимар подходит ко мне и сообщает, что дворец в Хаварнаке наконец-то готов. Но есть что-то странное в его поведении, и я стал внимательно прислушивался, когда мы начали разговор.\n\n"Ваше величество, прежде чем я завершу здесь свою работу, я должен предупредить вас, что во дворце есть кирпич, который может привести к его полному разрушению одним движением, и только я знаю его местонахождение. И если однажды вам снова потребуются мои услуги, я также способен построить еще более величественный дворец, который будет двигаться вместе с солнечным светом, куда бы он ни направлялся."\n\nМои глаза расширяются, и я не могу не чувствовать, как во мне закипает ярость. Его знание о кирпиче слишком опасно, и я не могу даже представить себе, что он получит покровительство другого правителя и построит дворец более величественный, чем тот, который он построил для меня. Синнимар это замечает.\n\n""Ваше Величество?""
- TFE_flavour_events.0007.a: "Охрана, предоставьте Синнимару его #italic заслуженную #!нагруду"
- TFE_flavour_events.0007.b: "Пусть [ROOT.Char.GetFaith.HighGodName] оберегает вас в пути"
-  
-  
- TFE_flavour_events.0009.t: "Наша династия возвышается!"
- TFE_flavour_events.0009.desc: "После смерти одного из великих домов наш великий шах решил возвысить нашу династию до одного из великих домов Эрана!\nЭто положение принесет много наград, а также много опасностей, поскольку мы ведем эту великую империю к процветанию."
- TFE_flavour_events.0009.a: "Наше имя будет звучать тысячелетиями"
- TFE_flavour_events.0009.a.tt: "[recipient.GetDynasty.GetName] теперь [great_house|E]"
-  
-  # Scapulimancy 
- TFE_flavour_events.0010.t: "Проконсультируйтесь с костями"
- TFE_flavour_events.0010.desc.beginning: "Я призвал шамана сжечь кости и истолковать их для меня, надеясь, что результаты шамана могут пролить свет на мое будущее.\n\nШаман спросил меня, на каком типе событий ему следует сосредоточиться. Я решаю спросить его о..."
- TFE_flavour_events.0010.a: "...мои отношения с окружающими"
- TFE_flavour_events.0010.b: "...любые сражения и войны на горизонте"
- TFE_flavour_events.0010.c: "...процветание моих земель и народа"
- TFE_flavour_events.0010.d: "... заговоры и те, кто скрывается в тени"
- TFE_flavour_events.0010.e: "...моя вера и любые личные откровения"
- TFE_flavour_events.0011.t: "Консультации с костями"
- TFE_flavour_events.0011.a: "Что еще принесет будущее?"
- TFE_flavour_events.0011.desc.insane_outcome: "Я с трудом мог поверить в удивительную новость, которую принес мне радостный шаман. Воистину, я был благословлен!"
- TFE_flavour_events.0011.desc.great_outcome: "Отличные новости! Шаман сказал мне, что в костях есть великие предзнаменования для моего будущего."
- TFE_flavour_events.0011.desc.good_outcome: "Шаман с радостью сообщает мне, что признаки обнадеживают и что мои будущие усилия, похоже, увенчаются успехом."
- TFE_flavour_events.0011.desc.neutral_outcome: "Знаки, на этот раз, неоднозначны. Шаман не может разглядеть для меня четкий путь вперед."
- TFE_flavour_events.0011.desc.bad_outcome: "Шаман серьезно сообщает мне, что знамения мрачны; мое будущее кажется самым беспокойным ..."
- TFE_flavour_events.0011.desc.terrible_outcome: "Горе! Всего несколько мгновений назад ко мне бросился шаман с бледным лицом и трясущимися от страха руками. Похоже, мое будущее действительно выглядит ужасным..."
-  
- TFE_flavour_events.0016.t: "Новый король пиратов"
- TFE_flavour_events.0016.desc: "Древние иллирийцы были печально известными пиратами. Благодаря их опыту в морской войне и хитрости их вождей, таких как королева Теута, другие цивилизации очень их боялись. Давайте подражать этим древним иллирийцам!"
- TFE_flavour_events.0016.a: "Адриатическое море познает наш гнев!"
-  
- TFE_flavour_events.0017.t: "Брахманы"
- TFE_flavour_events.0017.desc: "Поскольку мы принимаем высшую варну, жизненно важно, чтобы брахманы признали нас законными членами знати. К этой ситуации нужно подходить осторожно, поскольку отношения с брахманами могут решить судьбу нашего дома и его статус среди высших варн Индии. После обсуждения ситуации с моими советниками у меня есть 3 варианта."
- TFE_flavour_events.0017.a: "Достаточно крупного пожертвования в местные храмы."
- TFE_flavour_events.0017.b: "Мы можем предложить местным храмам представителя в наших советах."
- TFE_flavour_events.0017.c: "Я правитель, и ни один брахман не может усомниться в моем благородстве!"
- shared_power_with_clergy: "Разделенная власть с духовенством"
- disrespected_clergy: "Неуважаемое духовенство"
-  
-  
- steppe.0012.t: "Призыв о помощи" #NT!
- steppe.0012.desc: "Наша ситуация ужасна, и мы должны призвать соседних правителей помочь нам выиграть войну.\nУбедить их будет нелегко, даже если наши отношения с [recipient.GetName] хорошие. Чтобы заключить сделку и убедиться, что они примут наше предложение, мы должны предоставить некоторую денежную поддержку." #NT!
- steppe.0012.option.a: "Немного золота должно быть достаточно" #NT!
- steppe.0012.option.b: "Нужна большая сумма золота." #NT!
- steppe.0012.option.c: "Мы не должны оставлять места для отказа" #NT!
- steppe.0012.option.a.tooltip: "Вы отправите вызов помощи с 50 [gold|E]" #NT!
- steppe.0012.option.b.tooltip: "Вы отправите призыв о помощи с 200 [gold|E]" #NT!
- steppe.0012.option.c.tooltip: "Вы отправите вызов помощи с 500 [gold|E]" #NT!
- steppe.0012.option.d: "Неважно" #NT!
-  
- steppe.0013.t: "Призыв о помощи" #NT!
- steppe.0013.desc: "Мы получили звонок от [actor.GetName] с просьбой помочь им против [empire_enemy.GetName]. Наше участие принесет нам большее влияние при их дворе, а также золото и престиж." #NT!
- steppe.0013.option.a: "Мы принимаем их вызов!" #NT!
- steppe.0013.option.b: "Нам не нужно вмешиваться в их игры" #NT!
-  
- calling_nomadic_empire_accepted: "Наш звонок принят!" #NT!
- calling_nomadic_empire_accepted_desc: "[recipient.GetName] принял наш призыв к войне!" #NT!
-  
- calling_nomadic_empire_denied: "Наш звонок отклонен!" #NT!
- calling_nomadic_empire_denied_desc: "[recipient.GetName] отверг наш призыв к войне!" #NT!
- ignored_call_for_help: "Проигнорированный призыв о помощи" #NT!
-  
- ROURAN_INVADERS: "Жужанские захватчики" #NT!
-  
- TFE_flavour_events.0018.t: "Открытие золотого рудника (мировое событие)" #NT!
- TFE_flavour_events.0018.desc: "Золото было обнаружено во время некоторых первоначальных экспедиций по добыче полезных ископаемых. Теперь можно построить золотую жилу после открытия соответствующих инноваций." #NT!
- TFE_flavour_events.0018.a: "Интересный..." #NT!
-  
- TFE_flavour_events.0033.t: "Гектюркское восстание" #NT!
- TFE_flavour_events.0033.desc: "В течение многих лет мы трудились под руководством Жужанского каганата, ведя их войны и принося процветание их кланам за счет наших собственных. В течение многих лет наше негодование и гнев росли с каждым оскорблением и несправедливостью. Тем не менее, в течение многих лет мы терпели эти злоупотребления и просто злились на себя.\n\nОднако недавно лидеры Жужань дали мне довольно унизительный ответ, когда я вежливо попросил, чтобы мы получили больше признания за наши усилия помочь им. «Ты раб-кузнец. Как ты смеешь произносить эти слова?»\n\nЯ не простой раб. Я #bold [ROOT.Char.GetTitledFirstName]#!!. Я потомок великого клана [ROOT.Char.GetDynasty.GetName]!\n\nМой народ и мои вассалы тоже в ярости и требуют, чтобы мы не только унизили жужан, но свергли их и заняли наше место. как выдающуюся силу в степях." #NT!
- TFE_flavour_events.0033.a: "Они познают гнев этих «рабов», которых они презирают!" #NT!
-  
- TFE_flavour_events.0034.t: "$TFE_flavour_events.0033.t$" #NT!
- TFE_flavour_events.0034.desc:0 "For years, the Göktürk clans have toiled under the Rouran Khaganate, fighting their wars and bringing prosperity to the Rouran at the expense of our own.  For years, Göktürk resentment and anger grew with each and every insult and injustice. Yet, for years, they tolerated these abuses, and merely fumed to themselves.\n\nRecently, however, one of their chiefs, [gokturk_leader.GetName], politely requested more acknowledgement for their efforts to help the Rouran, they received the following, degrading response from the Rouran leaders: "В течение многих лет кланы Гектюрков трудились под руководством Жужаньского каганата, ведя войны и принося процветание Жужань за счет нашего собственного. В течение многих лет негодование и гнев Гектюрка росли с каждым оскорблением и несправедливостью. Тем не менее, в течение многих лет они терпели эти злоупотребления и просто злились на себя.\n\nОднако недавно один из их вождей, [gokturk_leader.GetName], вежливо попросил большего признания за их усилия по помощи жужанам, они получили следующий унизительный ответ: от вождей Жужан: «Ты раб-кузнец. Как ты смеешь произносить эти слова?»\n\n[gokturk_leader.GetFirstNameNoTooltip], как потомок великого клана [gokturk_leader.GetDynasty.GetName], приходит в ярость, и люди [gokturk_leader.GetHerHis] тоже. Теперь [gokturk_leader.GetSheHe] стремится не только унизить жужан, но и свергнуть их и занять их место в качестве выдающейся силы в степях. Может ли это стать концом Жужанского каганата?" #NT!
- TFE_flavour_events.0034.a: "Плохое предзнаменование для жужжан..." #NT!
+
+ # TFE_flavour_events 
+ TFE_flavour_events.0001.t:0 "Монастырь святого Германа Оксерского"
+ TFE_flavour_events.0001.desc:0 "В 448 году от Рождества Христова, умоляя римлян о снисхождении к варварам Арморики, благочестивый и милосердный святой Герман Оксерский скончался в Равенне. В его честь был основан монастырь в графстве [auxerre.GetNameNoTier] - процветающее ныне учреждение, в котором обучаются последователи со всего мира!"
+ TFE_flavour_events.0001.a:0 "Слава святому Герману!"
+ TFE_flavour_events.0002.t:0 "Из волос и штанов"
+ TFE_flavour_events.0002.desc:0 "Центр города [county.GetNameNoTier] заполонили люди, одетые в штаны! и сапоги! Ты можешь в это поверить? Я даже видел мужчину с длинными волосами! Куда делись старые РИМСКИЕ нравы?? Мы должны положить этому конец!"
+ TFE_flavour_events.0002.a:0 "Запретить всё, что даже отдалённо напоминает варварское!"
+ TFE_flavour_events.0002.b:0 "Нам нужно идти дальше... запретить длинные волосы и бороды!!"
+
+ TFE_flavour_events.0003.t:0 "Восстановление плотины Мариб"
+ TFE_flavour_events.0003.desc:0 "Плотина Мариб — это великое чудо, которое многие посещают, чтобы убедиться в нашем могуществе и инновациях, идущих из дрвености. Так же, плотина может помочь защитить наши земли и поля от наводнений, о которых сообщают простолюдины.\n\nДаже временно, плотина может значительно улучшить наше королевство и условия жизни, и поэтому мы должны рассмотреть возможность инвестирования, чтобы вернуть ей былую сабейскую мощь.\n\n Неспособность восстановить ее должным образом будет довольно унизительной для нашего народа и королевства."
+ TFE_flavour_events.0003.a:0 "Приступить к восстановлению"
+ TFE_flavour_events.0003.b:0 "...Неважно"
+
+ TFE_flavour_events.0004.t:0 "Восстановление плотины Мариб"
+ TFE_flavour_events.0004.desc:0 "Плотина Мариб — это великое чудо, которое многие посещают, чтобы убедиться в нашем могуществе и инновациях, идущих из дрвености. Так же, плотина может помочь защитить наши земли и поля от наводнений, о которых сообщают простолюдины.\n\nПосле встречи с моим советом мы решили, что восстановление плотины в обозримом будущем — это лучший и наиболее эффективный путь."
+ TFE_flavour_events.0004.a:0 "Пришло время восстановить нашу мощь!"
+
+ TFE_flavour_events.0005.t:0 "Гонения христиан в Аравии"
+ TFE_flavour_events.0005.desc:0 "Мы только что получили известие о том, что наших христианских братьев в Аравии преследует их царь. Мы могли бы возглавить экспедицию, чтобы отомстить за это оскорбление и положить конец этому языческому царству."
+ TFE_flavour_events.0005.a:0 "К оружию!"
+ TFE_flavour_events.0005.b:0 "Мы должны подготовиться"
+ TFE_flavour_events.0005.c:0 "Давай притворимся, что ничего не произошло"
+ AKSUM_CHRISTIAN_ARMY:0 "Христианские фанатики"
+
+ TFE_flavour_events.0006.t:0 "Сокровище нибелунгов"
+ TFE_flavour_events.0006.desc:0 "В нашем стремлении отомстить всплыли некоторые древние легенды о мифическом сокровище. Каково же было наше удивление, когда один из наших людей сказал нам, что он завладел богатствами нибелунгов."
+ TFE_flavour_events.0006.a:0 "Интересно"
+
+ TFE_flavour_events.0007.t:0 "Компенсация Синнимара"
+ TFE_flavour_events.0007.desc:0 "После долгих лет непрерывного строительства Синнимар подходит ко мне и сообщает, что дворец в Хаварнаке наконец-то готов. Но есть что-то странное в его поведении, и я стал внимательно прислушивался, когда мы начали разговор.\n\n«Ваше величество, прежде чем я завершу здесь свою работу, я должен предупредить вас, что во дворце есть кирпич, который может привести к его полному разрушению одним движением, и только я знаю его местонахождение. И если однажды вам снова потребуются мои услуги, я также способен построить еще более величественный дворец, который будет двигаться вместе с солнечным светом, куда бы он ни направлялся.»\n\nМои глаза расширяются, и я не могу не чувствовать, как во мне закипает ярость. Его знание о кирпиче слишком опасно, и я не могу даже представить себе, что он получит покровительство другого правителя и построит дворец более величественный, чем тот, который он построил для меня. Синнимар это замечает.\n\n«Ваше Величество?»"
+ TFE_flavour_events.0007.a:0 "Стража, предоставьте Синнимару его #italic заслуженную #! награду"
+ TFE_flavour_events.0007.b:0 "Пусть [ROOT.Char.GetFaith.HighGodName] оберегает вас в пути"
+
+
+ TFE_flavour_events.0009.t:0 "Наша династия возвышается!"
+ TFE_flavour_events.0009.desc:0 "После смерти одного из великих домов наш великий шах решил возвысить нашу династию до одного из великих домов Эрана!\nЭто положение принесет много наград, а также много опасностей, поскольку мы ведем эту великую империю к процветанию."
+ TFE_flavour_events.0009.a:0 "Наше имя будет звучать тысячелетиями"
+ TFE_flavour_events.0009.a.tt:0 "[recipient.GetDynasty.GetName] становится [Concept( 'great_house', 'великим домом' )|E]"
+
+ # Scapulimancy 
+ TFE_flavour_events.0010.t:0 "Советы костей"
+ TFE_flavour_events.0010.desc.beginning:0 "Я призвал шамана сжечь кости и истолковать их для меня, надеясь, что результаты шамана могут пролить свет на мое будущее.\n\nШаман спросил меня, на каком типе событий ему следует сосредоточиться. Я решаю спросить его о..."
+ TFE_flavour_events.0010.a:0 "...моих отношениях с окружающими"
+ TFE_flavour_events.0010.b:0 "...любых сражениях и войнах на горизонте"
+ TFE_flavour_events.0010.c:0 "...процветании моих земель и народа"
+ TFE_flavour_events.0010.d:0 "...заговорах и тех, кто скрывается в тени"
+ TFE_flavour_events.0010.e:0 "...моей вере и любых личных откровениях"
+ TFE_flavour_events.0011.t:0 "Советы костей"
+ TFE_flavour_events.0011.a:0 "Что ещё принесёт будущее?"
+ TFE_flavour_events.0011.desc.insane_outcome:0 "Я с трудом мог поверить в удивительную новость, которую принёс мне радостный шаман. Воистину, я был благословлён!"
+ TFE_flavour_events.0011.desc.great_outcome:0 "Отличные новости! Шаман сказал мне, что в костях есть великие предзнаменования для моего будущего."
+ TFE_flavour_events.0011.desc.good_outcome:0 "Шаман с радостью сообщает мне, что признаки обнадеживают и что мои будущие усилия, похоже, увенчаются успехом."
+ TFE_flavour_events.0011.desc.neutral_outcome:0 "Знаки, на этот раз, неоднозначны. Шаман не может разглядеть для меня четкий путь вперед."
+ TFE_flavour_events.0011.desc.bad_outcome:0 "Шаман серьезно сообщает мне, что знамения мрачны; моё будущее кажется самым беспокойным..."
+ TFE_flavour_events.0011.desc.terrible_outcome:0 "Горе! Всего несколько мгновений назад ко мне бросился шаман с бледным лицом и трясущимися от страха руками. Похоже, мое будущее действительно выглядит ужасным..."
+
+ TFE_flavour_events.0016.t:0 "Новый король пиратов"
+ TFE_flavour_events.0016.desc:0 "Древние иллирийцы были печально известными пиратами. Благодаря их опыту в морской войне и хитрости их вождей, таких как царица Тевта, другие цивилизации очень их боялись. Давайте подражать этим древним иллирийцам!"
+ TFE_flavour_events.0016.a:0 "Адриатическое море познает наш гнев!"
+
+ TFE_flavour_events.0017.t:0 "Брахманы"
+ TFE_flavour_events.0017.desc:0 "Поскольку мы принимаем высшую варну, жизненно важно, чтобы брахманы признали нас законными членами знати. К этой ситуации нужно подходить осторожно, поскольку отношения с брахманами могут решить судьбу нашего дома и его статус среди высших варн Индии. После обсуждения ситуации с моими советниками у меня есть 3 варианта."
+ TFE_flavour_events.0017.a:0 "Достаточно крупного пожертвования в местные храмы."
+ TFE_flavour_events.0017.b:0 "Мы можем предложить местным храмам представителя в наших советах."
+ TFE_flavour_events.0017.c:0 "Я правитель, и ни один брахман не может усомниться в моем благородстве!"
+ shared_power_with_clergy:0 "Разделенная власть с духовенством"
+ disrespected_clergy:0 "Неуважаемое духовенство"
+
+
+ steppe.0012.t:0 "Призыв о помощи"
+ steppe.0012.desc:0 "Наша ситуация ужасна, и мы должны призвать соседних правителей помочь нам выиграть войну.\nУбедить их будет нелегко, даже если наши отношения с персонажем [recipient.GetName] хорошие. Чтобы заключить сделку и убедиться, что они примут наше предложение, мы должны предоставить некоторую денежную поддержку."
+ steppe.0012.option.a:0 "Немного золота должно быть достаточно"
+ steppe.0012.option.b:0 "Нужна большая сумма золота."
+ steppe.0012.option.c:0 "Мы не должны оставлять места для отказа"
+ steppe.0012.option.a.tooltip:0 "Вы вложите 50 [Concept( 'gold', 'золотых' )|E] в письмо с призывом о помощи"
+ steppe.0012.option.b.tooltip:0 "Вы отправите призыв о помощи с 200 [Concept( 'gold', 'золотых' )|E]"
+ steppe.0012.option.c.tooltip:0 "Вы отправите вызов помощи с 500 [Concept( 'gold', 'золотых' )|E]"
+ steppe.0012.option.d:0 "Неважно"
+
+ steppe.0013.t:0 "Призыв о помощи"
+ steppe.0013.desc:0 "Мы получили письмо от персонаж [actor.GetName] с просьбой помочь им в войне против персонажа [empire_enemy.GetName]. Наше участие принесёт нам большее влияние при их дворе, а также золото и престиж."
+ steppe.0013.option.a:0 "Мы принимаем их призыв!"
+ steppe.0013.option.b:0 "Нам не нужно вмешиваться в их игры"
+
+ calling_nomadic_empire_accepted:0 "Наш призыв принят!"
+ calling_nomadic_empire_accepted_desc:0 "[recipient.GetName] принимает наш призыв к войне!"
+
+ calling_nomadic_empire_denied:0 "Наш призыв отклонён!"
+ calling_nomadic_empire_denied_desc:0 "[recipient.GetName] отвергает наш призыв к войне!"
+ ignored_call_for_help:0 "Проигнорированный призыв о помощи"
+
+ ROURAN_INVADERS:0 "Жужаньские захватчики"
+
+ TFE_flavour_events.0018.t:0 "Открытие золотого рудника (мировое событие)"
+ TFE_flavour_events.0018.desc:0 "Золото было обнаружено во время некоторых первоначальных экспедиций по добыче полезных ископаемых. Теперь можно построить золотую шахту после открытия соответствующих инноваций."
+ TFE_flavour_events.0018.a:0 "Интересный..."
+
+ TFE_flavour_events.0033.t:0 "Тюркское восстание"
+ TFE_flavour_events.0033.desc:0 "В течение многих лет мы изнывали под игом Жужаньского каганата, ведя их войны и принося процветание их кланам за счет наших собственных. В течение многих лет наше негодование и гнев росли с каждым оскорблением и несправедливостью. Тем не менее, в течение многих лет мы терпели эти злоупотребления и просто злились на себя.\n\nОднако недавно предводители жужаней дали мне довольно унизительный ответ, когда я вежливо попросил, чтобы мы получили больше признания за наши усилия помочь им. «Ты раб-кузнец. Как ты смеешь произносить эти слова?»\n\nЯ не простой раб. Я #bold [ROOT.Char.GetTitledFirstName]#!!. Я потомок великого клана [ROOT.Char.GetDynasty.GetName]!\n\nМой народ и мои вассалы тоже в ярости и требуют, чтобы мы не только унизили жужаней, но свергли их и заняли наше место, как выдающуюся силу в степях."
+ TFE_flavour_events.0033.a:0 "Они познают гнев этих «рабов», которых они презирают!"
+
+ TFE_flavour_events.0034.t:0 "$TFE_flavour_events.0033.t$"
+ TFE_flavour_events.0034.desc:0 "В течение многих лет кланы тюрков изнывали под игом Жужаньского каганата, ведя войны и принося процветание жужаням за наш счет. В течение многих лет негодование и гнев тюрков росли с каждым оскорблением и несправедливостью. Тем не менее, в течение многих лет они терпели эти злоупотребления и просто злились на себя.\n\nОднако недавно один из их вождей, [gokturk_leader.GetName], вежливо попросил большего признания за их усилия по помощи жужаням, они получили следующий унизительный ответ от жужаньских вождей: «Ты раб-кузнец. Как ты смеешь произносить эти слова?»\n\n[gokturk_leader.GetFirstNameNoTooltip], как потомок великого клана [gokturk_leader.GetDynasty.GetName], приходит в ярость, как и [gokturk_leader.GetHerHis] люди. Теперь [gokturk_leader.GetSheHe] стремится не только унизить жужаней, но и свергнуть их и занять их место в качестве выдающейся силы в степях. Может ли это стать концом Жужаньского каганата"
+ TFE_flavour_events.0034.a:0 "Плохое предзнаменование для жужаней..."
+
+ TFE_flavour_events.0035.t:0 "The Eternal Peace is Broken!"
+ TFE_flavour_events.0035.desc:0 "The court erupted in dismay after a messanger approached me with an alarming development from the east: [truce_breaker.GetName] has declared our 'perpetual' peace to be null and void. \n\nWhile the peace was fragile at best, it nonetheless warranted shock and outrage among my courtiers and government officials. The threat of another war between the two empires is on the horizon. Tt is now only a matter of #italic when#! it will come..."
+ TFE_flavour_events.0035.a:0 "This is an outrage!"
+
+ TFE_flavour_events.0036.t:0 "The Eternal Peace is Broken!"
+ TFE_flavour_events.0036.desc:0 "I have just received word that [truce_breaker.GetName] has declared their 'perpetual' peace with [truce_breakee.GetName] to be null and void. War is on the horizon..."
+ TFE_flavour_events.0036.a:0 "Interesting..."
+
+ TFE_flavour_events.0037.t:0 "A Worthy Victory Site? (World Event)"
+ TFE_flavour_events.0037.desc:0 "A successful Islamic conqueror (or convert) can now construct the Minarets of Jam"
+ TFE_flavour_events.0037.a:0 "Interesting..."
+
+ #TFE_flavour_events.0039.t:0 "A Solid Vantage Point (World Event)"
+ #TFE_flavour_events.0039.desc:0 "A keen-eyed ruler can now construct Alamut Castle"
+ #TFE_flavour_events.0039.a:0 "Interesting..."
+
+ TFE_flavour_events.0039.t:0 "The Plague of [ROOT.Char.GetFirstName]"
+ TFE_flavour_events.0039.desc:0 "It was an otherwise inconspicuous banquet: goblets brimming with wine were slammed upon the polished tables, the air was choked by a cacaphony of lively conversations - mostly in [ROOT.Char.GetCulture.GetLanguage.GetName], but also in other languages of the empire - and each course was succeeded by the next; more spoilsome and extravagent than the last. \n\nAll the guests were startled as [first_blood_plague.GetName] burst into the room, with a visible corruption upon their face and body caused by some horrid malady. The hall was emptied as I called my councilors into a separate chamber to discuss the dire matter at hand. A stench of dread filled the air as a frantic messanger burst in with a troubling report; a new disease is spreading rapidly across the empire. \n\n\n#N Death Toll: 1#!"
+ TFE_flavour_events.0039.a:0 "[ROOT.Char.GetFaith.HighGodName] preserve us from what may come..."
+ TFE_flavour_events.0039.a.tt:0 "#low A plague started! You will get a random event once a year until the situation is concluded.#!"
+
+ TFE_flavour_events.0040.desc:0 "It started with whispers, but now the streets echo with the agonizing wails of the afflicted. The clergy's efforts have proven effective in mitigating the devastation. Blessed priests tirelessly work to soothe the suffering and provide solace to those on the brink of despair. Though the situation remains dire, there is a glimmer of hope amidst the darkness.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0041.desc:0 "The once bustling trade routes now lie dormant, shrouded in the fear of the spreading plague. The merchants have shuttered their shops, and the marketplaces stand eerily silent. The economic heartbeat of the realm falters, its pulse weakened by the merciless grip of the insidious disease.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0042.desc:0 "The garrison, once a stalwart defender of the realm, has been diminished by the relentless onslaught of the plague. The soldiers, bravely standing guard, are now afflicted and weakened. The defenses that once inspired confidence now stand vulnerable, a shadow of their former strength.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0043.desc:0 "A solemn atmosphere pervades the court as the once vibrant gatherings now bear the weight of sorrow, for [plague_kill.GetName] has succumbed to the merciless grasp of the plague. The loss is felt deeply, a poignant reminder of the fragility of life in the face of an unseen enemy.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0044.desc:0 "Skilled physicians tirelessly toil to curb the advance of the plague. Their efforts yield some success, as the number of casualties is kept in check. The realm owes a debt of gratitude to these healers, who work tirelessly to mend the wounds inflicted by the merciless scourge.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0045.desc:0 "The once peaceful streets now echo with the sounds of unrest. Riots erupt as the people, gripped by fear and desperation, demand a better solution. The delicate balance between order and chaos teeters on the edge, threatening to plunge the realm into further turmoil.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0046.desc:0 "The skills of the physicians prove lacking in the face of the relentless plague. Despite their best efforts, the disease persists, claiming lives unabated. The realm grapples with the harsh reality that not all healers possess the expertise needed to combat this unseen adversary.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0047.desc:0 "While returning to your palace, you come across a tavern, its doors swinging open in the breeze. The choice lies before you — will you seek solace within its walls, embracing a temporary reprieve from the grim reality, or will you close it down, acknowledging the need for strict measures in the face of the spreading plague?\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0048.desc:0 "The relentless advance of the plague takes its toll, Supplies dwindle as the disease disrupts the flow of goods and resources. The once plentiful storerooms now stand depleted, and the realm must grapple with the challenges of sustaining itself in the midst of the relentless onslaught.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0049.desc:0 "A somber decree echoes through the realm. A curfew is enacted, a measure deemed necessary to contain the spread of the plague. The once bustling streets now lie deserted after nightfall, the silence broken only by the distant wails of the afflicted. The people, though subdued, cling to the hope that these sacrifices will pave the way to a brighter tomorrow.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!"
+
+ TFE_flavour_events.0040.a:0 "Praise our faithful priests!"
+ TFE_flavour_events.0041.a:0 "When will our prayers be answered?!"
+ TFE_flavour_events.0042.a:0 "When will our prayers be answered?!"
+ TFE_flavour_events.0043.a:0 "Another life lost in this terrible war"
+ TFE_flavour_events.0044.a:0 "Praise our diligent physicians!"
+ TFE_flavour_events.0045.a:0 "What more can we do?!"
+ TFE_flavour_events.0046.a:0 "There is no room for incompetence in this time!"
+ TFE_flavour_events.0047.a:0 "Some pleasure in this dark time"
+ TFE_flavour_events.0047.b:0 "We can't be leisured when our subjects are dying!"
+ TFE_flavour_events.0048.a:0 "We need to find a way to sustain our realm."
+ TFE_flavour_events.0049.a:0 "It is necessary"
+
+ TFE_flavour_events.0050.desc:0 "The relentless grip of the plague begins to loosen its hold on our realm. As the days pass, a collective sigh of relief echoes through the land. The once-fearful whispers are replaced by the sounds of rebuilding and renewal. The city now stands as a solemn testament to the sacrifices endured and the lives forever changed.\n\n\n#N Death Toll: [GetGlobalVariable('plague_event_counter').GetValue|0] #!" # ending event
+ TFE_flavour_events.0050.a:0 "Увы"
