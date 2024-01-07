@@ -32,11 +32,11 @@
  RHODES_TITLE: "Великий Колосс Родосский"
 
  BUILD_GARDEN: "#T Построить сады: 500 [Concept( 'gold', 'золота' )|E]#!"
- BUILD_GARDEN_DESC: "Постройте сад вокруг вашего великого памятника. Хотя это и не обеспечит безопасности, как ограда, но поднимет народное мнение и вдохновит местных жителей на застройку округа.\nЭффекты для графства:\n[GetModifier('monument_gardens').GetDesc]\nЭффекты для владельца:\n[GetModifier('monument_gardens_char').GetDesc]"
+ BUILD_GARDEN_DESC: "Постройте сад вокруг вашего великого памятника. Хотя это и не обеспечит безопасности, как ограда, но поднимет народное мнение и вдохновит местных жителей на застройку округа.\nЭффекты для графства:\n[GetStaticModifier('monument_gardens').GetDescWithEffects]\nЭффекты для владельца:\n[GetStaticModifier('monument_gardens_char').GetDescWithEffects]"
  GARDENS_BUILT: "#T Построенные сады#!"
 
  BUILD_FENCES: "#T Построить ограду: 500 [gold|E]#!"
- BUILD_FENCES_DESC: "Постройте крепкую ограду вокруг вашего великого памятника. Хотя это и не обеспечит красоты, как сады, но повысит ваш контроль над людьми и увеличит ваш ужас.\nЭффекты для графства:\n[GetModifier('monument_fences').GetDesc]\nЭффекты для владельца:\ n[GetModifier('monument_fences_char').GetDesc]"
+ BUILD_FENCES_DESC: "Постройте крепкую ограду вокруг вашего великого памятника. Хотя это и не обеспечит красоты, как сады, но повысит ваш контроль над людьми и увеличит ваш ужас.\nЭффекты для графства:\n[GetStaticModifier('monument_fences').GetDescWithEffects]\nЭффекты для владельца:\ n[GetStaticModifier('monument_fences_char').GetDescWithEffects]"
  FENCES_BUILT: "#T Построенная ограда#!"
 
  DESTROY_MONUMENT: "#T Уничтожить памятник: [HoldingView.GetTitle.MakeScope.ScriptValue('monument_refund')|0] [Concept( 'gold', 'золота' )|E] будет возвращено#!"
