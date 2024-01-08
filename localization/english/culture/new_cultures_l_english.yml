@@ -485,9 +485,14 @@
  himyarite:0 "Himyarite"
  himyarite_prefix:0 "Himyaro"
  himyarite_collective_noun:1 "Himyarites"
- kemetic:0 "Kemetic"
- kemetic_prefix:0 "Kemeto"
- kemetic_collective_noun:0 "Kemites"
+ #kemetic:0 "Kemetic"
+ #kemetic_prefix:0 "Kemeto"
+ #kemetic_collective_noun:0 "Kemites"
+ # Renamed per Luthien's suggestion
+ # Coptic wouldn't work well because there is already a faith named that
+ kemetic:0 "Khemi"
+ kemetic_prefix:0 "Khemi"
+ kemetic_collective_noun:0 "Khemi"
  jewish:0 "Jewish"
  jewish_prefix:0 "Judeo"
  jewish_collective_noun:0 "Jews"

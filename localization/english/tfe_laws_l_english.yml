@@ -65,7 +65,7 @@
  civic_law_4_3:0 "Coffers"
  civic_law_4_4:0 "Manpower"
  civic_law_4_5:0 "Hybridising"
- civic_law_4_5_effects:0 "#V Hybridising#! is 30% cheaper"
+ civic_law_4_5_effects:0 "#V Hybridising#! threshold is 30% less"
  civic_law_4_6:0 "Integration"
  civic_law_4_6_effects:0 "#V Promote Culture Task#! is 10% faster"
  civic_law_4_7:0 "Inclusion"

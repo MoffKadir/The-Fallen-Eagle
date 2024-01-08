@@ -73,6 +73,7 @@
  council_chalcedonia_coptic_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_coptic').GetName] have converted to the [coptic_faith.GetName] faith"
  council_chalcedonia_nestorian_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_nestorian').GetName] have converted to the [nestorian_faith.GetName] faith"
  council_chalcedonia_apostolic_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_apostolic').GetName] have converted to the [armenian_apostolic_faith.GetName] faith"
+ council_chalcedonia_syriac_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_syriac').GetName] have converted to the [syriac_faith.GetName] faith"
  council_chalcedonia_chalcedonian_conversion:0 "Other provinces and characters have converted to the [chalcedonian_faith.GetName] faith"
  council_chalcedonia_faiths_receive_ecumenical_doctrine:0 "These four faiths have received the [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] [doctrine|E]"
  council_chalcedonia_nicene_disabled:0 "Conversion to the four previously mentioned faiths has been #P enabled#!\nConversion to [nicene_faith.GetName] has been #N disabled#!"

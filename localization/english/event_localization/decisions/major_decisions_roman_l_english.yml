@@ -157,6 +157,7 @@
 
  britannia_diocese_desc:0 "Britannia"
  britannia_diocese_tooltip:0 "Take back the western edge of the Empire where Hadrian's Wall stands guard! \n#bold Requirements:# \n#N Control [GetGeographicalRegion('britannia_diocese_region').GetName]#"
+ gallia_first_restore_tt:0 "You must first restore the Diocese of Gallia"
 
  africae_diocese_desc:0 "Africae"
  africae_diocese_tooltip:0 "Take back the old Carthaginian heartland! \n#bold Requirements:# \n#N Control [GetGeographicalRegion('africae_diocese_region').GetName]#"
@@ -165,25 +166,25 @@
  western_roman.0050.desc:0 "As the Emperor of Rome, in a move reminiscent of the great Julius Caesar, we boldly reassert our claim over Britannia. This decision, steeped in the legacy of our ancestors, marks a new chapter in our glorious history. Our reclamation is more than a conquest; it's a renewal of Rome's eternal vision, a testament to our rightful place as leaders and protectors of Britannia.\n\nThis is the dawn of a new era, where Rome, guided by its unwavering spirit and strength, reestablishes its reign, ensuring a prosperous and enduring future for Britannia under the Roman banner."
  western_roman.0050.option:0 "Proclaim Reign"
  western_roman.0050.option.tooltip_1:0 "You gained the [GetTitleByKey('k_britannia').GetName]#"
- western_roman.0050.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_britannia').GetName]# have been reverted to their original Roman provincial structures"
+ western_roman.0050.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_britannia').GetName] have been reverted to their original Roman provincial structures"
 
  western_roman.0051.t:0 "Reconstituting the [GetTitleByKey('k_septem_provinciae').GetNameNoTier]#"
  western_roman.0051.desc:0 "In the wake of our revitalized empire, we turn our attention to the strategic Diocese of Septem Provinciae, a region once bustling with Roman culture, commerce, and governance. This diocese, encompassing the vital provinces of Aquitania, Narbonensis, and the Alpine regions, was renowned for its economic prosperity, cultural richness, and as a crucial link in our Mediterranean dominion.\n\nReestablishing this diocese is more than a mere administrative act; it is a revival of Rome's legacy, reaffirming our commitment to the ideals and traditions that shaped our Empire during its zenith."
  western_roman.0051.option:0 "Restore Roman Order"
  western_roman.0051.option.tooltip_1:0 "You gained the [GetTitleByKey('k_septem_provinciae').GetName]#"
- western_roman.0051.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_septem_provinciae').GetName]# have been reverted to their original Roman provincial structures"
+ western_roman.0051.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_septem_provinciae').GetName] have been reverted to their original Roman provincial structures"
 
  western_roman.0052.t:0 "Reviving the [GetTitleByKey('k_gallia').GetName]#"
  western_roman.0052.desc:0 "As we continue to fortify the foundations of our resurgent empire, our focus now shifts to the Diocese of Gallia, a land that was once a cornerstone of Roman power in the West. Encompassing regions from the lush landscapes of Belgica to the rich fields of Lugdunensis and the strategic crossroads of Germania Superior, Gallia was a beacon of Roman administration, culture, and military strength. Its cities, like Lugdunum (Lyon) and Lutetia (Paris), were centers of Roman civic life and culture in the West.\n\nThe restoration of the Diocese of Gallia is not merely a reclamation of territory; it is a rekindling of the Roman spirit in these lands, a reaffirmation of our enduring legacy and a reassertion of the Pax Romana across these historically vital provinces."
- western_roman.0052.option:0 "Reestablish Roman Gall"
+ western_roman.0052.option:0 "Reestablish Roman Gallia"
  western_roman.0052.option.tooltip_1:0 "You gained the [GetTitleByKey('k_gallia').GetName]#"
- western_roman.0052.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_gallia').GetName]# have been reverted to their original Roman provincial structures"
+ western_roman.0052.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_gallia').GetName] have been reverted to their original Roman provincial structures"
 
  western_roman.0053.t:0 "Restoring the [GetTitleByKey('k_hispania').GetName]#"
  western_roman.0053.desc:0 "With our empire's resurgence, we now turn to rejuvenate the Diocese of Hispania, once a bastion of Roman prosperity and culture in the West. This diocese, spanning the diverse and resource-rich territories of Hispania Baetica, Tarraconensis, Lusitania, and Carthaginensis, was celebrated for its agricultural bounty, mineral wealth, and strategic significance. Cities like Emerita Augusta (Mérida) and Tarraco (Tarragona) stood as beacons of Roman civilization on the Iberian Peninsula.\n\nReinvigorating the Diocese of Hispania is not just about reclaiming lost territories; it represents the restoration of Roman order, culture, and economic vitality in these lands. We aim to reassert the ideals of Roman governance and the Pax Romana, ensuring that these provinces once again thrive under the eagle standard."
  western_roman.0053.option:0 "Reinstate Roman Hispania"
  western_roman.0053.option.tooltip_1:0 "You gained the [GetTitleByKey('k_hispania').GetName]#"
- western_roman.0053.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_hispania').GetName]# have been reverted to their original Roman provincial structures"
+ western_roman.0053.option.tooltip_2:0 "The de-jure territories of the [GetTitleByKey('k_hispania').GetName] have been reverted to their original Roman provincial structures"
 
  western_roman.0060.t:0 "Extending the Empire's Grasp to [GetTitleByKey('d_caledonia').GetNameNoTier]"
  western_roman.0060.desc:0 "With the might of Rome now firmly reestablished in Britannia, our imperial gaze turns northward to the untamed lands of Caledonia. In a bold stroke echoing the ambitions of emperors past, we venture beyond the Antonine Wall, bringing the light of Rome to these distant shores. This campaign, a blend of martial prowess and imperial vision, heralds a new chapter in our Empire's legacy.\n\nIn conquering Caledonia, we do not merely expand our borders; we extend the reach of Roman civilization, law, and order. This marks the beginning of a new era of Roman dominance in these northern territories, promising peace and prosperity under the steadfast rule of the Empire."

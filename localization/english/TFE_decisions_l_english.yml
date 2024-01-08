@@ -514,5 +514,12 @@
  start_gothic_war_desc:0 "With the failure of Amalasuntha's plans to hand over Italia to its rightful masters -- me -- it falls to us to take by force what is ours by right! We will start with an invasion of Sicily, followed by an incursion into Italia..."
  start_gothic_war_tooltip:0 "The Heartlands Secure Once More"
  start_gothic_war_custom_tooltip:0 "You will spend 500 Prestige and 250 Gold"
- gothic_war_belisarius_warning:0 "#warning Warning -- If Belisarius is still fighting the Vandalic War, he will not be your commander. #!"
+ gothic_war_belisarius_warning:0 "#warning Warning -- If Belisarius is still fighting the Vandalic War or ruling as Vicar of Africa, he will not be your commander. #!"
  start_gothic_war_confirm:0 "Confirm"
+
+ #Amalasuntha Coup decision
+ start_amalasuntha_coup:0 "Enact Amalasuntha's Plans"
+ start_amalasuntha_coup_desc:0 "Amalasuntha awaits our approval to proceed with her coup -- we should hurry, before the tides turn against our efforts..."
+ start_amalasuntha_coup_tooltip:0 "The Heartlands Secure Once More"
+ start_amalasuntha_coup_custom_tooltip:0 "You will spend 250 Prestige"
+ start_amalasuntha_coup_confirm:0 "Confirm"

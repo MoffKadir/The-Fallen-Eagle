@@ -1630,3 +1630,43 @@
  south_mesopotamian_pagan_old_desc:0 "$vedda_pagan_desc$"
 
 
+ # Arabic names of the below
+ # ash-Shams = the Sun
+ # al-Qamar = the Moon
+ # al-Mushtarì = Jupiter
+ # Zu˙al = Saturn
+ # 'Utarid = Mercury
+ # az-Zuhara = Venus
+ # al-Mirrìkh = Mars
+
+ south_mesopotamian_pagan_high_god_name:0 "ash-Shams"
+ south_mesopotamian_pagan_high_god_name_2:0 "$south_mesopotamian_pagan_high_god_name$" # Optional translation alt
+ south_mesopotamian_pagan_high_god_name_3:0 "$south_mesopotamian_pagan_high_god_name$" # Optional translation alt
+ south_mesopotamian_pagan_high_god_name_possessive:0 "ash-Shams'"
+ south_mesopotamian_pagan_creator_god_name:0 "$south_mesopotamian_pagan_high_god_name$"
+ south_mesopotamian_pagan_creator_god_name_possessive:0 "$south_mesopotamian_pagan_high_god_name_possessive$"
+ south_mesopotamian_pagan_good_god_name:0 "al-Qamar"
+ south_mesopotamian_pagan_good_god_name_possessive:0 "al-Qamar's"
+ south_mesopotamian_pagan_health_god_name:0 "Tammuz"
+ south_mesopotamian_pagan_health_god_name_possessive:0 "Tammuz's"
+ south_mesopotamian_pagan_fertility_god_name:0 "$south_mesopotamian_pagan_health_god_name$"
+ south_mesopotamian_pagan_fertility_god_name_possessive:0 "$south_mesopotamian_pagan_health_god_name_possessive$"
+ south_mesopotamian_pagan_wealth_god_name:0 "Zu'al" # Saturn
+ south_mesopotamian_pagan_wealth_god_name_possessive:0 "Zu'al's"
+ south_mesopotamian_pagan_household_god_name:0 "az-Zuhara" # Venus
+ south_mesopotamian_pagan_household_god_name_possessive:0 "az-Zuhara's"
+ south_mesopotamian_pagan_fate_god_name:0 "al-Mushtari" # Jupiter
+ south_mesopotamian_pagan_fate_god_name_possessive:0 "al-Mushtari's"
+ south_mesopotamian_pagan_knowledge_god_name:0 "'Utarid" # Mercury
+ south_mesopotamian_pagan_knowledge_god_name_possessive:0 "'Utarid's"
+ south_mesopotamian_pagan_war_god_name:0 "al-Mirrikh" 
+ south_mesopotamian_pagan_war_god_name_possessive:0 "al-Mirrikh's"
+ south_mesopotamian_pagan_trickster_god_name:0 "the evil spirits" # Evil spirits
+ south_mesopotamian_pagan_trickster_god_name_possessive:0 "the evil spirits'"
+ south_mesopotamian_pagan_night_god_name:0 "$south_mesopotamian_pagan_good_god_name$"
+ south_mesopotamian_pagan_night_god_name_possessive:0 "$south_mesopotamian_pagan_good_god_name_possessive$"
+ south_mesopotamian_pagan_water_god_name:0 "al-Mirrikh" # Mars
+ south_mesopotamian_pagan_water_god_name_possessive:0 "al-Mirrikh's"
+ south_mesopotamian_pagan_religious_text:0 "ancient legends"
+
+

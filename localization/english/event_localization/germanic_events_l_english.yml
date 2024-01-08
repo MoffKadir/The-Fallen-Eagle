@@ -155,11 +155,27 @@
  germanic_events.0029.a:0 "Treachery!"
 
  germanic_events.0030.t:0 "The Gothic Revival"
- germanic_events.0030.desc:0 "Now is the time to free ourselves from the yoke of the Romans! Now is the time for war!"
+ germanic_events.0030.desc:0 "I have been anointed as the leader of the Gothic Revivalists, charged with regaining independence. Now is the time to free ourselves from the yoke of the Romans! Now is the time for war!"
  germanic_events.0030.a:0 "For freedom!"
+ germanic_events.0030.b:0 "Actually, Roman rule sounds better."
 
  germanic_events.0031.t:0 "The Gothic Revival"
  germanic_events.0031.desc:0 "Reports in the preceding days have been clouded under speculation and rumor, but the situation has now become clear - the Goths have risen up against Roman rule once more. \n\nWar is now inevitable between loyalists who cling to the idea of an independent Ostrogothic realm and the Romans who had so recently thought to have pacified the Goths. \n\n#bold The only question remaining is which side I will support in this new conflict - a conflict that will decide the fate of the Italian peninsula..."
  germanic_events.0031.a:0 "My current side"
  germanic_events.0031.b:0 "The opposing side"
  germanic_events.0031.c:0 "Neither; I declare independence"
+
+ germanic_events.0032.t:0 "Amalasuntha's Plot"
+ germanic_events.0032.desc:0 "News comes from the Ostrogothic Kingdom that Amalasuntha is ready to move forward with her plans to hand over Italia to us; she only awaits word of our approval. While we can potentially delay enactment of her plans, we should bear in mind that the political situation in the Ostrogothic Kingdom remains fluid..."
+ germanic_events.0032.a:0 "Strike while it's hot"
+ germanic_events.0032.b:0 "Wait and prepare"
+
+ germanic_events.0033.t:0 "Choosing a Commander"
+ germanic_events.0033.desc:0 "Now that I have decided to invade Italia, I must appoint a suitable commander to launch an assault. \n\nTwo candidates have been proposed to lead the invasion. \n\n#bold Who shall I choose to attack at once?"
+ germanic_events.0033.a:0 "[commander_1.GetName] is my pick."
+ germanic_events.0033.b:0 "[commander_2.GetName] is capable."
+
+ germanic_events.0034.t:0 "The Gothic Revival"
+ germanic_events.0034.desc:0 "The Goths have risen once more against the Romans. While not their leader, I remain invested in the fortunes of those now battling in Italia. Opportunity awaits those bold enough to seize it..."
+ germanic_events.0034.a:0 "If only I was in charge..."
+ germanic_events.0034.b:0 "I wonder how they will fare..."

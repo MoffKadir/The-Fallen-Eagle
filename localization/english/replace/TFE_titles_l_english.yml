@@ -1956,6 +1956,9 @@
  d_zaba_article:0 "the "
  d_zaba:0 "Zaba"
  d_zaba_adj:0 "Zaban"
+ d_naffur_article:0 "the "
+ d_naffur:0 "Naffurs"
+ d_naffur_adj:0 "Naffur"
 
  #Titular Heruli Tribe
  k_heruli_article:0 "the "
@@ -2419,3 +2422,7 @@ k_ramannadesa_adj:0 "Thaton"
  c_abwab:0 "Meroë"
  c_abwab_adj:0 "Meroëi"
  b_al-abwab:0 "Meroë"
+
+ # Armenia
+ c_mayyafariqin:0 "Martyropolis"
+ b_mayyafariqin:0 "Martyropolis"
