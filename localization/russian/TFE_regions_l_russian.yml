@@ -2,6 +2,7 @@
  custom_council_chalcedonia_coptic: "Халкидонский собор - Коптский"
  custom_council_chalcedonia_nestorian: "Халкидонский собор - Несторианский"
  custom_council_chalcedonia_apostolic: "Халкидонский собор - Апостольский"
+ custom_council_chalcedonia_syriac:0 "Халкидонский собор - Сирийский"
  custom_worms: "Королевство Вормс"
  custom_caucasian_empire: "Кавказ"
  region_assyria: "Основные земли Ассирии"
@@ -9,6 +10,6 @@
   
  custom_slavic_migration_region: "Исторические славянские земли"
   
- region_rouran_lands: "Западный плацдарм" #NT!
+ region_rouran_lands: "Западный плацдарм"
 
  form_the_hre_TFE_ere_region: "Восточно-римская экспансия"

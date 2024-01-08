@@ -1947,6 +1947,9 @@
  d_bavares_article:0 " "
  d_bavares:0 "Бавары"
  d_bavares_adj:0 "Баварск"
+ d_naffur_article:0 " "
+ d_naffur:0 "Наффуры"
+ d_naffur_adj:0 "Наффурск"
  d_eastbavares_article:0 " "
  d_eastbavares:0 "Восточные бавары"
  d_eastbavares_adj:0 "Восточно-баварск"
@@ -2419,3 +2422,7 @@
  c_abwab:0 "Мероэ"
  c_abwab_adj:0 "Мероитск"
  b_al-abwab:0 "Мероэ"
+
+ # Armenia
+ c_mayyafariqin:0 "Мартирополь"
+ b_mayyafariqin:0 "Мартирополь"

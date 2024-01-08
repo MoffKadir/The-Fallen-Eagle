@@ -183,7 +183,49 @@
  western_roman.0062.b:0 "Принять прямой контроль"
  western_roman.0062.c:0 "Восстановить прежние диоцезы и назначить новых викариев"
  western_roman.0062.d:0 "Восстановить прежние диоцезы и принять прямой контроль"
+ western_roman.0062.e:0 "Восстановить прежние диоцезы и позволить править Велизарию и Нарсесу"
 
  western_roman.0063.t:0 "Падение Сицилии"
  western_roman.0063.desc:0 "Я только что [Select_CString(ROOT.Char.IsFemale, 'получила', 'получил' )] письмо от своего командующего о том, что остров Сицилия перешёл под контроль наших войск. Через Мессинский пролив лежит остальная часть Итальянского полуострова, которая слишком долго была оторвана от управления Римской империей. \n\nПосле того, как Сицилия вернулась под нашу юрисдикцию, настало время расширить наши военные цели до Italia Proper. Война за бывшее сердце империи начнётся немедленно!"
  western_roman.0063.a:0 "Остготы падут!"
+
+ western_roman.0064.t:0 "The Eternal Peace Broken"
+ western_roman.0064.desc:0 "While the Perpetual Peace has served us well, it has now become a liability. The Romans, distracted by their expansive conquests in the West, will surely be unable to handle pressure from both sides. Now that the peacce treaty has been abrogated, the only question is to where we shall strike..."
+ western_roman.0064.a:0 "Invade the Romans directly and seize control of the border!"
+ western_roman.0064.b:0 "Attack their tributary in the Caucasus!"
+ western_roman.0064.c:0 "Let us prepare a while longer..."
+
+ western_roman.0065.t:0 "The Eternal Peace Broken"
+ western_roman.0065.desc:0 "Treachery from the East! The Ērānians have broken the so-called 'Eternal' Peace and viciously attacked us, no doubt hoping to capitalize on our current engagement in Italia. What should be done about this turn of events?"
+ western_roman.0065.a:0 "Send orders to Belisarius to negotiate peace and transfer to Pontus"
+ western_roman.0065.b:0 "Negotiate a quick end to the Gothic War"
+ western_roman.0065.c:0 "A war on two fronts is nothing"
+
+ western_roman.0066.t:0 "The Eternal Peace Broken"
+ western_roman.0066.desc:0 "Treachery from the East! The Ērānians have broken the so-called 'Eternal' Peace and viciously attacked my liege, no doubt hoping to capitalize on our current engagement in Italia. In response, the Emperor has sent fresh orders to abandon the conquest of Italia for the time being and to transfer to the East, taking up a command in Pontus. I am certain, however, that the Gothic War is still winnable. Should I ignore my liege's orders, even if that brings wrath upon my head?"
+ western_roman.0066.a:0 "I know the situation better; we can still win"
+ western_roman.0066.b:0 "Obey orders and march East" 
+ western_roman.0066.b.tooltip:0 "You send a #V white peace#! offer to the #V Ostrogoths#!"
+
+ western_roman.0067.t:0 "Belisarius' Defiance"
+ western_roman.0067.desc:0 "Despite my very clear orders, Belisarius has chosen instead to ignore his recall and to press the attack against the Goths! After a series of provocations, peace now seems extremely unlikely. Must all my subjects be so disloyal?"
+ western_roman.0067.a:0 "Insubordination!"
+
+ western_roman.0068.t:0 "The Gothic War Drags On"
+ western_roman.0068.desc:0 "War has broken out between the Romans and the Ērānians, yet the carnage in Italia continues. Word, however, has reached us that a rift has opened up between Belisarius and his liege over the prosecution of the war against us. If we were to offer Belisarius a suitable reward, perhaps he could be convinced to join us..."
+ western_roman.0068.a:0 "Send a missive to Belisarius offering fealty to the Western Roman Empire"
+ western_roman.0068.b:0 "We will soldier on"
+
+ western_roman.0069.t:0 "The Ostrogoths Offer a Crown"
+ western_roman.0069.desc:0 "Bitter recriminations have arrived from my liege, as expected, but in addition, I have received a most peculiar missive from my erstwhile enemies the Goths... in exchange for peace, they offer to crown me Emperor of the West. I will naturally face my liege in a war for survival immediately, but can I pass this opportunity up?"
+ western_roman.0069.a:0 "The true Emperor rises"
+ western_roman.0069.b:0 "I will remain loyal"
+
+ western_roman.0070.t:0 "Belisarius, the Rebel"
+ western_roman.0070.desc:0 "Even worse news has arrived from Italia -- Belisarius has raised his banners in rebellion and declared himself Emperor with the support of the very people he was supposed to be conquering for me!"
+ western_roman.0070.a:0 "I will triumph over everyone!"
+
+ western_roman.0071.t:0 "Peace Offered"
+ western_roman.0071.desc:0 "Our enemies have been attacked from the east and thus have sent a peace offer to put an end to this front. We would retain all land north of the Po and maintain our indpendence from the Eastern Roman Empire. We now have the oppurtunity to shut the Roman offense and prepare for a later time."
+ western_roman.0071.a:0 "A fair offer"
+ western_roman.0071.b:0 "We will not stop until we win!"

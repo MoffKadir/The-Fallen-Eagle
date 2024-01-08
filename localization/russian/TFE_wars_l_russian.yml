@@ -1,13 +1,13 @@
 ﻿l_russian:
  cultural_war_victory_desc: "[attacker.GetShortUIName|U] захватывает все титулы в королевстве [defender.GetShortUINamePossessive] с их культурой."
  cultural_war_warning_desc: "\n\n#X Вы можете попытаться только одно культурное завоевание за всю жизнь#!"
- migration_war_warning_desc: "\n\n#X You may only attempt one migration per lifetime#!"
+ migration_war_warning_desc: "\n\n#X Вы можете попытаться начать только одно переселение за всю жизнь#!"
  visigothic_invasion_war_victory_desc_attacker: "Вы захватываете все титулы в пределах [defender.GetShortUINamePossessive] королевства в провинции Иллирия. Все земли за ее пределами будут покинуты"
  visigothic_invasion_war_victory_desc: "Вы захватываете все титулы в пределах [defender.GetShortUINamePossessive] королевства в Иллирийской провинции. Все земли за ее пределами будут покинуты"
  visigothic_invasion_war_warning_desc: "\n\n#X Миграция может быть предпринята только один раз за кампанию кем-либо вообще.#!"
- war_395_visigothic_rebellion: "$visigothic$ Миграция в Паннонию"
+ war_395_visigothic_rebellion:0 "$visigothic_collective_noun$ое переселение в Паннонию"
  VISIGOTHIC_REBELLION_WAR_NAME_BASE: ""
- VISIGOTHIC_REBELLION_CB_NAME: "Миграция в провинцию Иллирикум"
+ VISIGOTHIC_REBELLION_CB_NAME:0 "Переселение в провинцию Иллирикум"
  visigothic_rebellion_scripted_effect.tt.custom_roman_illyricum_region_usurped: "Провинция Иллирикум узурпирована. Вы получаете $k_hungary$ и $k_croatia$"
  visigothic_rebellion_scripted_effect.tt.destroy_other_kingdoms: "Любые [королевства|E], находящиеся за пределами провинции Иллирикум, уничтожены"
  visigothic_rebellion_scripted_effect.tt.romans_move_into_realm: "$roman_collective_noun$ перемещаются во все [counties|E] в вашем [realm|E] за пределами провинции Иллирикум"
@@ -210,4 +210,14 @@
 
  FRANKISH_BURGUNDY_WAR_NAME: "Франкская аннексия Бургундии"
  FRANKISH_BURGUNDY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- FRANKISH_BURGUNDY_CB_NAME: "TФранкская аннексия Бургундии"
+ FRANKISH_BURGUNDY_CB_NAME: "Франкская аннексия Бургундии"
+
+ TFE_gothic_outbreak_county_struggle_cb:0 "Пограничный конфликт"
+ GOTHIC_WAR_NO_PEACE:0 "Белый мир запрещён"
+
+ gothic_subjugation_cb:0 "Покорение"
+
+ WHITE_PEACE_DECLINED:0 "Наше предложение о мире отвергнуто!"
+ WHITE_PEACE_ACCEPTED:0 "Наше предложение о мире принято!"
+
+ gothic_independence_war:o "Возрождение готов"

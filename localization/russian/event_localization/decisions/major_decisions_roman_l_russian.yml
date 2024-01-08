@@ -157,6 +157,7 @@
 
  britannia_diocese_desc:0 "Британия"
  britannia_diocese_tooltip:0 "Верните западную границу империи, на страже которой стоит Адрианов вал! \n#bold Требования:# \n#N Контролировать регион [GetGeographicalRegion('britannia_diocese_region').GetName]#"
+ gallia_first_restore_tt:0 "Вы должны сперва восстановить диоцез Галлия"
 
  africae_diocese_desc:0 "Африка"
  africae_diocese_tooltip:0 "Вернуть бьющееся сердце древнего Карфагена! \n#bold Требования:# \n#N Контролировать регион [GetGeographicalRegion('africae_diocese_region').GetName]#"

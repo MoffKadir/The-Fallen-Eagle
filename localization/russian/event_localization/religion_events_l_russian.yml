@@ -73,6 +73,7 @@
  council_chalcedonia_coptic_conversion:0 "Провинции и персонажи в регионе [GetGeographicalRegion('custom_council_chalcedonia_coptic').GetName] обратились в [coptic_faith.GetName]ую конфессию"
  council_chalcedonia_nestorian_conversion:0 "Провинции и персонажи в регионе [GetGeographicalRegion('custom_council_chalcedonia_nestorian').GetName] обратились в [nestorian_faith.GetName]ую конфессию"
  council_chalcedonia_apostolic_conversion:0 "Провинции и персонажи в регионе [GetGeographicalRegion('custom_council_chalcedonia_apostolic').GetName] обратились в [armenian_apostolic_faith.GetName]ую конфессию"
+ council_chalcedonia_syriac_conversion:0 "Провинции и персонажи в регионе [GetGeographicalRegion('custom_council_chalcedonia_syriac').GetName] обратились в [syriac_faith.GetName]ую конфессию"
  council_chalcedonia_chalcedonian_conversion:0 "Другие провинции и персонажи обратились в [chalcedonian_faith.GetName]ую конфессию"
  council_chalcedonia_faiths_receive_ecumenical_doctrine:0 "Эти четыре конфессии получили [Concept ('doctrine', 'доктрину')|E] [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]"
  council_chalcedonia_nicene_disabled:0 "Обращение в четыре ранее упомянутые конфессии было #P включено#!\nОбращение в [nicene_faith.GetName] было #N отключено#!"
