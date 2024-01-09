@@ -53,7 +53,7 @@
  language_qiangic_name:0 "Цянгикский"
  language_wallachian_name:0 "Валахский"
  language_israelite_name:0 "Ивритский"
- heritage_tocharian_name:0 "Serindian"
+ heritage_tocharian_name:0 "Сериндийск"
  name_list_latgalian:0 "Латышский"
  cn_gaochan:0 "Гаочан"
  cn_gaochan_adj:0 "Гаочан"
@@ -86,21 +86,21 @@
  # basque_religion_adherent:0 "Иберийский"
  # basque_religion_adherent_plural:0 "Иберийцы"
   
- GAME_DATE_STRING:0 "$DAY$ $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)200'),'',' AD'),' BC')]"
- GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)200'),'',' AD'),' BC')]"
- GAME_DATE_STRING_LONG:0 "$DAY|O$ of $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), ' AD',' BC')]"
- CULTURE_WINDOW_ERA_JOINED:0 "[Abs_int32(Subtract_int32('(int32)$JOINED$', Select_int32(GreaterThan_int32('(int32)$JOINED$', '(int32)0'), '(int32)0', '(int32)1')))][Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)200'),'',' AD'),' BC')]"
- CULTURE_WINDOW_ERA_JOINED_LEFT:0 "[Abs_int32(Subtract_int32('(int32)$JOINED$', Select_int32(GreaterThan_int32('(int32)$JOINED$', '(int32)0'), '(int32)0', '(int32)1')))][Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)200'),'',' AD'),' BC')]"
-  
-  # Guanche religion 
+ GAME_DATE_STRING:0 "$DAY$ $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)200'),'',' н.э.'),' до н.э.')]"
+ GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)200'),'',' н.э.'),' до н.э.')]"
+ GAME_DATE_STRING_LONG:0 "$DAY|O$ $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', Select_int32(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), '(int32)0', Select_int32(And(EqualTo_string('$DAY$', '1'), EqualTo_string('$MONTH$', 'January')), '(int32)1', '(int32)2'))))][Select_CString(GreaterThan_int32('(int32)$YEAR$', '(int32)0'), ' н.э.',' до н.э.')]"
+ CULTURE_WINDOW_ERA_JOINED:0 "[Abs_int32(Subtract_int32('(int32)$JOINED$', Select_int32(GreaterThan_int32('(int32)$JOINED$', '(int32)0'), '(int32)0', '(int32)1')))][Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)200'),'',' н.э.'),' до н.э.')]"
+ CULTURE_WINDOW_ERA_JOINED_LEFT:0 "[Abs_int32(Subtract_int32('(int32)$JOINED$', Select_int32(GreaterThan_int32('(int32)$JOINED$', '(int32)0'), '(int32)0', '(int32)1')))][Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)0'),Select_CString(GreaterThan_int32('(int32)$JOINED$', '(int32)200'),'',' н.э.'),' до н.э.')]"
+
+ # Guanche religion 
  north_african_religion:0 "Гуанчи"
  north_african_religion_adj:0 "Гуанчи"
  north_african_religion_adherent:0 "Гуанчи"
  north_african_religion_plural:0 "Гуанчи"
  north_african_religion_desc:0 "Традиционные верования гуанчей следуют культу мертвых и считают, что когда человек уходит из этого мира, он становится обожествленным среди своей семьи. Поклонение камням и строительство мегалитов приближает последователей к богам, а главными божествами, уступающими Творцу, являются боги Солнца и Луны.."
-  
+
  world_europe_west_francia:0 "Галлия"
-  # Game rules 
+ # Game rules 
  setting_none_hybrid_culture_ai_frequency_desc:0 "Созданные не игроками [hybrid_cultures|E] не будут появляться.\n#P Примечание TFE: Мы рекомендуем отключить все отделения и гибридизации культуры AI, поскольку TFE добавляет свою собственную коллекцию исторических культур..#!"
  setting_none_divergent_culture_ai_frequency_desc:0 "Созданные не игроками [divergent_cultures|E] не появятся.\n#P Примечание TFE: Мы рекомендуем отключить все дивергентные и гибридные культуры AI, так как TFE добавляет свою собственную коллекцию исторических культур..#!"
   

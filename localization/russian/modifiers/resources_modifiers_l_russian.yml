@@ -316,10 +316,10 @@
  glass2_resources2_modifier: "Импортированное стекло"
   
   
- resource_amber_decision: "Импортный янтарь"
- resource_amber_decision_desc: "Импорт янтаря позволит правителю получить бонус к известности."
- resource_amber_decision_tt: "Импортирует в царство Эмбер из-за границы."
- resource_amber_decision_confirm: "Продолжить"
+ resource_amber_decision:0 "Импортировать янтарь"
+ resource_amber_decision_desc:0 "Импорт янтаря позволит правителю получить бонус к известности."
+ resource_amber_decision_tt:0 "Импортировать в державу янтарь из-за границы."
+ resource_amber_decision_confirm:0 "Продолжить"
  resource_amber_decision_effect_tooltip: "Ежемесячные затраты: -2 [gold_i][gold|E]\n\n#italic Вы можете остановить импорт через пять лет#!"
   
  resource_amber2_decision: "Прекратить импорт янтаря"

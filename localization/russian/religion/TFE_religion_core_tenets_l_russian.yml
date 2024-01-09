@@ -1,66 +1,66 @@
 ﻿l_russian:
 
  #Tenet Incompatibility
- incompatible_tenet_asceticism_trigger: "Несовместимый [core_tenet|El] — [GetFaithDoctrine('tenet_asceticism').GetName( GetPlayer.GetFaith )]"
- incompatible_tenet_jovinianism_trigger: "Несовместимый [core_tenet|El] — [GetFaithDoctrine('tenet_jovinianism').GetName( GetPlayer.GetFaith )]"
- incompatible_tenet_chaste_marriages_trigger: "Несовместимый [core_tenet|El] — [GetFaithDoctrine('tenet_chaste_marriages').GetName( GetPlayer.GetFaith )]"
+ incompatible_tenet_asceticism_trigger:0 "Несовместимо с [Concept( 'core_tenet', 'догматом' )|E] «[GetFaithDoctrine('tenet_asceticism').GetName( GetPlayer.GetFaith )]»"
+ incompatible_tenet_jovinianism_trigger:0 "Несовместимо с [Concept( 'core_tenet', 'догматом' )|E] «[GetFaithDoctrine('tenet_jovinianism').GetName( GetPlayer.GetFaith )]»"
+ incompatible_tenet_chaste_marriages_trigger:0 "Несовместимо с [Concept( 'core_tenet', 'догматом' )|E] «[GetFaithDoctrine('tenet_chaste_marriages').GetName( GetPlayer.GetFaith )]»"
 
  #Renamed tenets
- tenet_literalism_buddhism_name: "Абхидхарма"
+ tenet_literalism_buddhism_name:0 "Абхидхарма"
 
  #Christian tenets
- tenet_pure_priesthood_name: "Чистое священство"
- tenet_pure_priesthood_desc: "Это абсолютное лицемерие — позволять священникам отступать от тех нравственных норм, которых мы ожидаем от нашей паствы. Любой человек, обладающий религиозной властью, должен быть отвергнут и изгнан, если он оказался запятнанным грехом."
- doctrine_parameter_sinful_characters_no_priesthood_active: "Персонажи с [Concept('sinful', 'греховными')|E] свойствами не могут быть частью [Concept('clergy', 'духовенства')|E]"
+ tenet_pure_priesthood_name:0 "Чистое священство"
+ tenet_pure_priesthood_desc:0 "Это абсолютное лицемерие — позволять священникам отступать от тех нравственных норм, которых мы ожидаем от нашей паствы. Любой человек, обладающий религиозной властью, должен быть отвергнут и изгнан, если он оказался запятнан грехом."
+ doctrine_parameter_sinful_characters_no_priesthood_active:0 "Персонажи с [Concept('sinful', 'греховными')|E] свойствами не могут быть частью [Concept('clergy', 'духовенства')|E]"
 
- tenet_sacred_witchcraft_name: "Священное ведовство"
- tenet_sacred_witchcraft_desc: "Оккультные и мистические способности наших мужчин и женщин должны быть не отвергнуты, а прославлены."
+ tenet_sacred_witchcraft_name:0 "Священное ведовство"
+ tenet_sacred_witchcraft_desc:0 "Оккультные и мистические способности наших мужчин и женщин должны быть не отвергнуты, а прославлены."
 
- tenet_alexandrian_catechism_reformed_name: "Реформированный $tenet_alexandrian_catechism_name$"
- tenet_alexandrian_catechism_reformed_desc: "С реконструкцией нашей катехизической школы и признанием ее учений равными римским, в нашу веру вернулся уникальный акцент на науке и вопросе статус-кво в поисках истины."
+ tenet_alexandrian_catechism_reformed_name:0 "Реформированный $tenet_alexandrian_catechism_name$"
+ tenet_alexandrian_catechism_reformed_desc:0 "С реконструкцией нашей катехизической школы и признанием её учений равными римским, в нашу веру вернулся уникальный акцент на науке и вопросе статус-кво в поисках истины."
 
  #Hellenic syncretism 
- hellenic_syncretic_recipient_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
- hellenic_syncretic_actor_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
- hellenic_syncretic_recipient_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
- hellenic_syncretic_actor_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
- tenet_hellenic_syncretism_name: "Эллинистический синкретизм"
- tenet_hellenic_syncretism_desc: "Пантеон Греции и Рима — это постоянно меняющаяся группа божеств, включающая и исключающая божества по мере того, как их популярность и культ ослабевают и усиливаются. Боги из других культур легко рассматриваются как еще один аспект существующего эллинского бога, или же они просто добавляются к основным эллинским божествам."
- doctrine_parameter_hostility_override_hellenic_hostility_doctrine: "Греко-римские [faiths|El] воспринимаются как [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|Vl]"
- doctrine_parameter_is_hellenic_faith_bilateral_loc_override: "Воспринимает греко-римскую [Concept('faith', 'веру')|E] как [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|Vl], а не $hostility_hostile_tooltippable$, греко-римская [Concept('faith', 'веру')|E] отвечает тем же"
- doctrine_parameter_hostility_override_special_doctrine_is_hellenic_faith: "Воспринимает греко-римскую [Concept('faith', 'веру')|E]  как [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|Vl], а не $hostility_hostile_tooltippable$, греко-римская [Concept('faith', 'веру')|E] отвечает тем же"
- doctrine_parameter_hellenic_syncretic_actor_opinion_active: "Взаимный бонус мнения [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] с греко-римскими конфессиями"
- doctrine_parameter_opinion_of_hellenic_syncretic_recipient_opinion_active: ""
- doctrine_parameter_hellenic_syncretic_recipient_opinion_active: "Взаимный бонус мнения [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] с конфессиями, которые имеют [core_tenet|El] $tenet_hellenic_syncretism_name$"
- doctrine_parameter_opinion_of_hellenic_syncretic_actor_opinion_active: ""
- special_doctrine_is_hellenic_faith_name: "Эллинистический синкретизм"
- is_hellenic_faith_name: "$special_doctrine_is_hellenic_faith_name$"
- special_doctrine_is_hellenic_faith_desc: "Пантеон Греции и Рима — это постоянно меняющаяся группа божеств, включающая и исключающая божества по мере того, как их популярность и культ ослабевают и усиливаются. Боги из других культур легко рассматриваются как еще один аспект существующего эллинского бога, или же они просто добавляются к основным эллинским божествам."
- doctrine_parameter_hostility_override_tenet_hellenic_syncretism: "Негреко-римские [Concept('faith', 'веры')|E] с догматом $tenet_hellenic_syncretism_name$ воспринимаются как [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V], а не $hostility_hostile_tooltippable$"
+ hellenic_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ hellenic_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ hellenic_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ hellenic_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ tenet_hellenic_syncretism_name:0 "Эллинистический синкретизм"
+ tenet_hellenic_syncretism_desc:0 "Пантеон Греции и Рима — это постоянно меняющаяся группа божеств, включающая и исключающая божества по мере того, как их популярность и культ ослабевают и усиливаются. Боги из других культур легко рассматриваются как ещё один аспект существующего эллинского бога, или же они просто добавляются к основным эллинским божествам."
+ doctrine_parameter_hostility_override_hellenic_hostility_doctrine:0 "Греко-римские [faiths|El] воспринимаются как [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|Vl]"
+ doctrine_parameter_is_hellenic_faith_bilateral_loc_override:0 "Считает, что греко-римские [Concept('faith', 'конфессии')|E] - [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|Vl], а не $hostility_hostile_tooltippable$, греко-римские [Concept('faith', 'конфессии')|E] отвечает тем же"
+ doctrine_parameter_hostility_override_special_doctrine_is_hellenic_faith:0 "Считает, что греко-римские [Concept('faith', 'конфессии')|E] - [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|Vl], а не $hostility_hostile_tooltippable$, греко-римские [Concept('faith', 'конфессии')|E] отвечает тем же"
+ doctrine_parameter_hellenic_syncretic_actor_opinion_active:0 "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] к [Concept( 'opinion', 'мнению' )|E] персонажей, принадлежащих к греко-римским [Concept( 'faiths', 'конфессиям' )|E]"
+ doctrine_parameter_opinion_of_hellenic_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_hellenic_syncretic_recipient_opinion_active:0 "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] к [Concept( 'opinion', 'мнению' )|E] персонажей, принадлежащих к [Concept( 'faiths', 'конфессиям' )|E] с догматом «$tenet_hellenic_syncretism_name$»"
+ doctrine_parameter_opinion_of_hellenic_syncretic_actor_opinion_active:0 ""
+ special_doctrine_is_hellenic_faith_name:0 "Эллинистический синкретизм"
+ is_hellenic_faith_name:0 "$special_doctrine_is_hellenic_faith_name$"
+ special_doctrine_is_hellenic_faith_desc:0 "Пантеон Греции и Рима — это постоянно меняющаяся группа божеств, включающая и исключающая божества по мере того, как их популярность и культ ослабевают и усиливаются. Боги из других культур легко рассматриваются как ещё один аспект существующего эллинского бога, или же они просто добавляются к числу основных эллинских божеств."
+ doctrine_parameter_hostility_override_tenet_hellenic_syncretism:0 "Негреко-римские [Concept('faith', 'веры')|E] с догматом «$tenet_hellenic_syncretism_name$» воспринимаются как [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V], а не $hostility_hostile_tooltippable$"
 
- #Cult of the Virgin Mary 
- tenet_cult_of_the_virgin_mary_name: "Культ Девы Марии"
- tenet_cult_of_the_virgin_mary_desc: "Дева Мария, мать Иисуса, — самая святая из святых, и к ней следует относиться соответственно. Интенсивное почитание ее — самый верный путь к поклонению и пониманию Бога."
- doctrine_parameter_tfe_offer_mary_bread_decision_enabled: "Открывает [decision|El] «$TFE_offer_bread_to_the_virgin_mary$»"
+ #Cult of the Virgin Mary
+ tenet_cult_of_the_virgin_mary_name:0 "Культ Девы Марии"
+ tenet_cult_of_the_virgin_mary_desc:0 "Дева Мария, мать Иисуса, — самая святая из святых, и к ней следует относиться соответственно. Её интенсивное почитание — самый верный путь к поклонению и пониманию Бога."
+ doctrine_parameter_tfe_offer_mary_bread_decision_enabled:0 "Доступно [decision|El] «$TFE_offer_bread_to_the_virgin_mary$»"
 
- #Religious Silence 
- tenet_religious_silence_name: "Священная тишина"
- tenet_religious_silence_desc: "Наши тайны должны тщательно охраняться и открываться только тем, кто этого достоин. Другие ложные секты, поощряющие мученичество, сильно заблуждаются: это напрасная честь, которая не будет оценена или признана какой-либо божественной силой и привлечет нежелательное внимание к верующим."
+ #Religious Silence
+ tenet_religious_silence_name:0 "Священная тишина"
+ tenet_religious_silence_desc:0 "Наши тайны должны тщательно охраняться и открываться только тем, кто этого достоин. Другие ложные секты, поощряющие мученичество, сильно заблуждаются: это напрасная честь, которая не будет оценена или признана какой-либо божественной силой и привлечёт нежелательное внимание к верующим."
 
- #Chaste Marriages 
- tenet_chaste_marriages_name: "Целомудренные браки"
- tenet_chaste_marriages_desc: "Хотя мы с радостью празднуем бракосочетание, самой святой формой брака является та, в которой супруги не доводят свой союз до конца. Это позволяет им любить друг друга более чисто и сосредоточиться на правильном поклонении и почитании Божественного."
- doctrine_parameter_tfe_enables_adoption: "Открывает [Concept( 'character_interaction', 'взаимодействие' )|El] $adopt_interaction$"
+ #Chaste Marriages
+ tenet_chaste_marriages_name:0 "Целомудренные браки"
+ tenet_chaste_marriages_desc:0 "Хотя мы с радостью празднуем бракосочетание, самой святой формой брака является та, в которой супруги не доводят свой союз до конца. Это позволяет им любить друг друга более чисто и сосредоточиться на правильном поклонении и почитании Божественного."
+ doctrine_parameter_tfe_enables_adoption:0 "Открывает [Concept( 'character_interaction', 'взаимодействие' )|El] «$adopt_interaction$» и снижает его стоимость"
 
  #Religious Monumental Buildings 
- tenet_religious_monumental_buildings_name: "Памятники"
- tenet_religious_monumental_buildings_desc: "Вполне естественно, что мы возводим самые грандиозные памятники. От культовых зданий до гробниц, мемориалов и статуй — мы стремимся создавать величественные сооружения, которые будут радовать небеса."
+ tenet_religious_monumental_buildings_name:0 "Памятники"
+ tenet_religious_monumental_buildings_desc:0 "Вполне естественно, что мы возводим самые грандиозные памятники. От культовых зданий до гробниц, мемориалов и статуй — мы стремимся создавать величественные сооружения, которые будут радовать небеса."
 
- #Jovinianism 
- tenet_jovinianism_name: "Святость без различия"
- tenet_jovinianism_desc: "Только через крещение мужчина или женщина освобождаются от греха. Различия между семейным положением и безбрачием, между аскетичной и комфортной жизнью не могут быть источником святости. Точно так же все грехи одинаково страшны, а все добродетели одинаково благородны и праведны, чтобы привести верующих к небу. Поэтому вести жизнь в условиях крайнего аскетизма не только самонадеянно, но и не по-христиански."
+ #Jovinianism
+ tenet_jovinianism_name:0 "Святость без различия"
+ tenet_jovinianism_desc:0 "Только через крещение мужчина или женщина освобождаются от греха. Различия между семейным положением и безбрачием, между аскетичной и комфортной жизнью не могут быть источником святости. Точно так же все грехи одинаково страшны, а все добродетели одинаково благородны и праведны, чтобы привести верующих к небу. Поэтому вести жизнь в условиях крайнего аскетизма не только самонадеянно, но и не по-христиански."
 
- #Illyrian Cults 
- tenet_illyrian_cults_name: "Иллирийские культы"
- tenet_illyrian_cults_desc: "Среди иллирийцев традиционно преобладают два основных культа. Культ Солнца распространен среди северных иллирийских племен; ему обычно поклонялись на горах, а важными солярными символами были водоплавающие птицы и олени. Культ змеи распространен среди южных иллирийских племен, поскольку змея рассматривается как благосклонное водное и хтоническое божество плодородия и магии."
- doctrine_parameter_tfe_enables_illyrian_pagan_decisions: "Открывает [decision|El] «$TFE_illyrian_sacrifice_decision$»"
+ #Illyrian Cults
+ tenet_illyrian_cults_name:0 "Иллирийские культы"
+ tenet_illyrian_cults_desc:0 "Среди иллирийцев традиционно преобладают два основных культа. Культ Солнца распространен среди северных иллирийских племен; ему обычно поклонялись в горах, а важными солярными символами были водоплавающие птицы и олени. Культ Змеи распространён среди южных иллирийских племён, поскольку змея рассматривается как благосклонное водное и хтоническое божество плодородия и магии."
+ doctrine_parameter_tfe_enables_illyrian_pagan_decisions:0 "Открывает [decision|El] «$TFE_illyrian_sacrifice_decision$»"
