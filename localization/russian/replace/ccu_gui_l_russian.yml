@@ -1,4 +1,4 @@
 ﻿l_russian:
-  
- CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "#P +[EmptyScope.ScriptValue('same_heritage_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing this Heritage"
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT: "#P +[EmptyScope.ScriptValue('same_language_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing this Language"
+
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT:0 "#P +[EmptyScope.ScriptValue('same_heritage_cultural_acceptance')|0]#! ед. [Concept( 'cultural_acceptance_baseline', 'базовой терпимости' )|E] к культурам, имеющим это наследие"
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT:0 "#P +[EmptyScope.ScriptValue('same_language_cultural_acceptance')|0]#! ед. [Concept( 'cultural_acceptance_baseline', 'базовой терпимости' )|E] к культурам, говорящим на этом языке"

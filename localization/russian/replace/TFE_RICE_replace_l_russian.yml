@@ -1,48 +1,48 @@
 ﻿l_russian:
-  
-  ##################################### 
-  # 
-  # OVERRIDE FOR RICE LOC 
-  # WHEN RUNNING RICE+TFE 
-  # DO NOT ALTER/MODIFY TO ENSURE IT WORKS WITH RICE 
-  # 
-  ##################################### 
-  
-  # Indian Land Grants from RICE 
- RICE_india_land_grant_decision_req: "У вас есть хотя бы один [county|E] из [GetGeographicalRegion('world_india').GetName]"
- RICE_india_land_grant_decision_effect_tooltip_4: "Существует очень небольшой шанс, что ваш [counties|E] получит [minority_faiths|E] из случайных [faith|E] из выбранных вами [religion|E] или, что еще реже, превратится в этот [faith|E]."
- game_concept_RICE_grant: "Грант"
- game_concept_RICE_grants: "Гранты"
- game_concept_RICE_land_grant: "Земельный грант"
- game_concept_RICE_land_grants: "Земельные гранты"
- game_concept_RICE_land_grants_desc: "[rulers|E], которые следуют $buddhism_religion_adj$, $hinduism_religion_adj$ или $jainism_religion_adj$ [faiths|E], могут от [decide|E] до $RICE_india_land_grant_decision$.\n\nПри получении этого [decision|E] вам нужно выбрать предоставление земли одному из трех [religions|E]. Это означает, что можно предоставить землю [religion|E], на которого вы не подписаны.\n\nЭто дает вам $buddhism_religion_adj$0, повышающий $buddhism_religion_adj$1 для последователей этого [religion|E], и добавляет $buddhism_religion_adj$3 к вашему $buddhism_religion_adj$4 с несколькими преимуществами. $buddhism_religion_adj$5 уменьшает $buddhism_religion_adj$6, но увеличивает и $buddhism_religion_adj$7. Если вы будете следовать $buddhism_religion_adj$8 из выбранных вами [religion|E], $hinduism_religion_adj$0 также улучшит $hinduism_religion_adj$1, а если вы этого не сделаете, $hinduism_religion_adj$0 вместо этого еще больше улучшит $buddhism_religion_adj$7. Квалифицируя $buddhism_religion_adj$4 с $hinduism_religion_adj$5, вы получаете более мощную версию $hinduism_religion_adj$0, которую вы получаете.\n\nКроме того, в затронутом $buddhism_religion_adj$4 [decision|E] имеет небольшой шанс добавить $hinduism_religion_adj$9 к случайному $buddhism_religion_adj$8 из [religion|E], который вы получаете. выбрали или, что еще реже, прямо преобразовали $buddhism_religion_adj$4 в этот $buddhism_religion_adj$8."
+
+ ##################################### 
+ # 
+ # OVERRIDE FOR RICE LOC 
+ # WHEN RUNNING RICE+TFE 
+ # DO NOT ALTER/MODIFY TO ENSURE IT WORKS WITH RICE 
+ # 
+ ##################################### 
+
+ # Indian Land Grants from RICE
+ RICE_india_land_grant_decision_req:0 "У вас есть хотя бы одно [county|El] в регионе «[GetGeographicalRegion('world_india').GetName]»"
+ RICE_india_land_grant_decision_effect_tooltip_4:0 "Есть очень маленький шанс, что ваши [counties|El] получат [Concept( 'minority_faiths', 'меньшинства' )|E], исповедующие случайную [Concept( 'faith', 'конфессию' )|E] из выбранной вами [Concept( 'religion', 'религии' )|E], или, что ещё более редко, обратятся в эту [Concept( 'faith', 'конфессию' )|E]."
+ game_concept_RICE_grant:0 "Надел"
+ game_concept_RICE_grants:0 "Наделы"
+ game_concept_RICE_land_grant:0 "Земельный надел"
+ game_concept_RICE_land_grants:0 "Земельные наделы"
+ game_concept_RICE_land_grants_desc:0 "[rulers|E], которые исповедуют $buddhism_religion$ие, $hinduism_religion$ие или $jainism_religion$ие [faiths|El], могут [Concept( 'decide', 'решить' )|E] $RICE_india_land_grant_decision$.\n\nПри принятии этого [Concept( 'decision', 'решения' )|E] вам нужно выбрать предоставление земли одной из трёх [Concept( 'religions', 'религий' )|E]. Это означает, что вы можете даровать землю [Concept( 'religion', 'религии' )|E], которую вы не исповедуете.\n\nЭто даёт вам [character_modifier|El], повышающий [opinion|El] последователей этой [Concept( 'religion', 'религии' )|E], а ваши [counties|El] получат [county_modifiers|El] с различными бонусами. [county_modifier|E] уменьшает [Concept( 'tax', 'налоги' )|E], но повышает [development_growth|El]. Если вы исповедуете [Concept( 'faith', 'конфессию' )|E] выбранной вами [Concept( 'religion', 'религии' )|E], то [modifier|El] также повысит [county_opinion|El], а если нет, то [modifier|El] ещё больше увеличит [development_growth|El]. Специализированные [counties|El] с [Concept( 'church_holding', 'храмовыми владениями' )|E] получат усиленную версию полученного вами [Concept( 'modifier', 'модификатора' )|E].\n\nКроме того, в затронутых [Concept( 'decision', 'решением' )|E] [Concept( 'counties', 'графствах' )|E] существует возможность появления [Concept( 'minority_faiths', 'меньшинства' )|E] случайной [Concept( 'faith', 'конфессии' )|E],  выбранной вами [Concept( 'religion', 'религии' )|E], или, что ещё более редко, [counties|El] обратятся в эту [Concept( 'faith', 'конфессию' )|E]."
 
 
  # Yazidi Rework
- yazidi_religion:0 "West Iranic"
- yazidi_religion_adj:0 "West Iranic"
- yazidi_religion_adherent:0 "West Iranian"
- yazidi_religion_adherent_plural:0 "West Iranians"
- yazidi_religion_desc:0 "The mountains of northern Mesopotamia and Western Iran are home to Iranian-speaking peoples, who have, over centuries, strengthened their existing beliefs by syncretizing ideas from a multitude of spiritual traditions, including Zoroastrianism, Gnosticism, and the Abrahmic faiths."
+ yazidi_religion:0 "Западно-иранск"
+ yazidi_religion_adj:0 "Западно-иранские верования"
+ yazidi_religion_adherent:0 "Западный иранец"
+ yazidi_religion_adherent_plural:0 "Западные иранцы"
+ yazidi_religion_desc:0 "В горах Северной Месопотамии и Западного Ирана живут ираноязычные народы, которые на протяжении веков укрепляли свои верования, синкретизируя идеи из множества духовных традиций, включая зороастризм, гностицизм и авраамические верования."
 
- meshefaresism:0 "Yarsanism"
- meshefares_adj:0 "Yarsani"
- meshefaresism_adj:0 "Yarsani"
- meshefares_adherent:0 "Yarsani"
+ meshefaresism:0 "Ярсанитск"
+ meshefares_adj:0 "Ярсанизм"
+ meshefaresism_adj:0 "Ярсанизм"
+ meshefares_adherent:0 "Ярсанит"
  meshefaresism_adherent:0 "$meshefares_adherent$"
- meshefares_adherent_plural:0 "Yarsanis"
+ meshefares_adherent_plural:0 "Ярсаниты"
  meshefaresism_adherent_plural:0 "$meshefares_adherent_plural$"
- meshefares_desc:0 "The "Group of Friends," also known as Ahl-e Haqq, or "People of Truth," believe that God manifests in one primary and seven secondary incarnations in each epoch of the world. These seven persons are called the #Italic Haft Tan#!. The primary incarnation of the current, fourth epoch is Sultan Sahak."
+ meshefares_desc:0 "«Группа друзей», также известная как Аль-е Хакк, или «Люди истины», верит, что Бог проявляется в одной первичной и семи вторичных инкарнациях в каждую эпоху мира. Эти семь личностей называются #Italic Хафт Тан#!. Первичным воплощением нынешней, четвёртой эпохи является Султан Сахак."
  meshefaresism_desc:0 "$meshefares_desc$"
  meshefaresism_holy_text:0 "$yarsani_religious_text$"
  meshefaresism_holy_text_2:0 "$yarsani_religious_text$" # Optional translation alt
  meshefaresism_holy_text_3:0 "$yarsani_religious_text$" # Optional translation alt
 
- kitebacilweism:0 "Mehrism" # Dar = Tree # Kutayeism - Kutaye
- kitebacilweism_adj:0 "Mehrist"
- kitebacilweism_adherent:0 "Mehrist"
- kitebacilweism_adherent_plural:0 "Mehrists"
- kitebacilweism_desc:0 "The Northwest Iranians' old religious beliefs are related to but distinct from orthodox Zoroastrianism, which it may have coexisted during the Sassanids' heyday. Veneration of nature is prominent, and the old Iranian deity Mithra, or Mehr, plays an key cosmological role as the demiurge and common object of worship – a role that might have inspired the Roman Cult of Mithras centuries before."
+ kitebacilweism:0 "Мехритск" # Dar = Tree # Kutayeism - Kutaye
+ kitebacilweism_adj:0 "Мехризм"
+ kitebacilweism_adherent:0 "Мехрит"
+ kitebacilweism_adherent_plural:0 "Мехриты"
+ kitebacilweism_desc:0 "Старые религиозные верования северо-западных иранцев родственны, но отличны от ортодоксального зороастризма, с которым они, возможно, сосуществовали во времена расцвета Сасанидов. Почитание природы занимает важное место, а древнеиранское божество Митра, или Мехр, играет ключевую космологическую роль как демиург и общий объект поклонения - роль, которая, возможно, вдохновила римский культ Митры за много веков до этого."
  kitebacilweism_holy_text:0 "$kurdish_pagan_religious_text$"
  kitebacilweism_holy_text_2:0 "$kurdish_pagan_religious_text$" # Optional translation alt
  kitebacilweism_holy_text_3:0 "$kurdish_pagan_religious_text$" # Optional translation alt
