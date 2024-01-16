@@ -1,521 +1,521 @@
 ﻿l_russian:
- new_official_imperial_faith_decision: "Новая имперская вера"
- # new_official_imperial_faith_decision_desc: "Хотя моя вера сильна и все граждане моей Империи стремятся обратиться, некоторые сопротивляются, утверждая вместо этого, что их старые убеждения защищены имперским законом. быть единственной и официальной Верой Империи. С этим новым актом тысячи людей станут нашими новыми братьями, а Империя наконец объединится как телом, так и духом."
- new_official_imperial_faith_decision_desc: "Хотя моя вера сильна, и все граждане моей Империи стремятся принять ее, некоторые сопротивляются, утверждая, что их старые убеждения защищены имперским законом.\n\nПришло время принять новый имперский указ, объявляющий мою веру единственной и официальной верой Империи."
- new_official_imperial_faith_decision_confirm: "За верующих!"
- new_official_imperial_faith_decision_tooltip: "Сделать [ROOT.Char.GetFaith.GetName] единственной [Concept('official_faith','официальной верой')|E] в Империи!"
- must_use_new_official_imperial_faith_decision: "Вы должны использовать [decision|E] #V $new_official_imperial_faith_decision$#!"
-  
- new_official_imperial_faith_decision_effect_old_faith_tt: "[old_faith.GetName] теряет свой статус [Concept('official_faith','официальной веры')|E] в пределах [empire.GetName]"
- new_official_imperial_faith_decision_effect_new_faith_tt: "[new_faith.GetName] становится новой [Concept('official_faith','официальной верой')|E] в [empire.GetName]"
- new_official_imperial_faith_decision_effect_conversion_tt: "Каждое графство в пределах Империи #N не#! распространяет имперскую [Concept('faith','веру')|E]"
- new_official_imperial_faith_decision_effect_conversion_non_religion_tt: "Имеет #V 10%#! вероятность обращения в [new_faith.GetName], если они #N не разделяют#! императорскую [Concept('religion','религию')|E]"
- new_official_imperial_faith_decision_effect_conversion_religion_tt: "Имеет #V 40%#! шанс обращения в [new_faith.GetName], если они #P разделют#! императорскую [Concept('religion','религию')|E]"
- new_official_imperial_faith_effect_primary_empire_becomes_hof_title_tt: "[empire.GetName] становится новым обладателем [Concept('title','титула')|E] [Concept('head_of_faith','глава конфесии')|E] [new_faith.GetName]"
- new_official_imperial_faith_effect_can_challenge_hof_title_tt: "Поскольку [Concept('title','титул')|E] [head_of_faith|E] [new_faith.GetName] уже существуют, вы получите [casus_belli|E], чтобы #V Бросить ему вызов#!"
- reject_official_faith: "Отвергнуть официальную имперскую веру"
- reject_official_faith_desc: "В то время как моя Империя разработала имперский указ, объявляющий мою веру единственной официальной верой Империи, я больше не питаю того рвения, которое когда-то проявлял к [ROOT.Char.GetFaith.GetName]. Пришло время перевернуть новую страницу и отменить наш императорский указ."
- reject_official_faith_confirm: "Для Империи"
- reject_official_imperial_faith_effect_tt: "[empire.GetHolder.GetFaith.GetName] теряет свой статус [official_faith|E] в пределах [empire.GetName]"
-  
- TFE_major_decisions.0001.t: "$new_official_imperial_faith_decision$"
- TFE_major_decisions.0001.desc_intro: "Имперский указ, объявляющий [new_faith.GetName] новой официальной верой в [empire.GetName], наконец-то готов.\nСотни посланников и религиозных делегаций уже отправлены по всей империи, и новости о спонтанных обращениях уже достигли моих ушей и ушей моих религиозных советников."
- TFE_major_decisions.0001.desc_pluralistic: "\n\nНесмотря на то, что ранее наша вера была известна своей относительной религиозной терпимостью и принятием других, наше управление и руководство на такой обширной территории требует новой степени централизации."
- TFE_major_decisions.0001.desc_righteous: "\n\nНа месте старых храмов уже строятся новые, к радости и протесту местного населения."
- TFE_major_decisions.0001.desc_fundamentalist: "\n\nНекоторые из более неохотно обращающихся уже протестуют против того, что они считают недостойным религиозным преследованием, но даже они со временем прозреют."
- TFE_major_decisions.0001.desc_end: "\n\nЭто укрепление духа [new_faith.GetAdjective] придает силы новому поколению священников, и мои религиозные советники уверяют меня, что даже те, кто еще не обратился, обратятся через несколько лет."
- TFE_major_decisions.0001.a: "За верующих!"
-  
- COURT_CHAPLAIN_CONVERSION_OFFICIAL_IMPERIAL_FAITH_EMPIRE: "Обращение в [Concept('official_imperial_faith','официальную имперскую веру')|E]"
-  
-  ### Catechetical school of Alexendria 
- reopen_catechetical_school_alexandria: "Вновь открыть Александрийскую катехизическую школу"
- reopen_catechetical_school_alexandria_desc: "Некоторые из наших традиций пришлось оставить после Халкидонского Собора, и учение Александрии было вытеснено учением Рима.\nНародные волнения привели к разрушению нашей катехизической школы, но если наша власть над христианством позволит, мы сможем восстановить ее и добиться того, чтобы учение Александрии было признано остальными Соборами."
- reopen_catechetical_school_alexandria_confirm: "За нашу веру!"
- reopen_catechetical_school_alexandria_tooltip: "Исправьте ошибки Халкидонского Собора и укрепите нашу веру!"
- fervor_gain_reopen_catechetical_school_alexandria: "Вновь открылась Катехитическая школа Александрии."
-  
- TFE_major_decisions.0010.t: "Новая катехизическая школа Александрии"
- TFE_major_decisions.0010.desc: "Александрийская катехизическая школа была уничтожена после народных волнений, вызванных Халкидонским собором, утвердившим верховенство епископа Рима и его учения над нашим.\n\nНаши традиции учености никогда по-настоящему не угасали, однако, и поскольку наша власть над христианством сейчас намного сильнее, чем во время созыва собора, мы смогли созвать новый собор, чтобы отменить некоторые из его решений и утвердить учение Александрии как равное."
- TFE_major_decisions.0010.a: "За верующих!"
-  
- # new_official_imperial_faith_decision_effect_tt: ""
-  
-  # culture stuff 
- embrace_visigothic_identity_decision: "Принять вестготскую идентичность"
- embrace_visigothic_identity_decision_effect.tt: "Все [old_culture.GetName] графства и персонажи в Испании и Галлии становятся [new_culture.GetName]"
- embrace_visigothic_identity_decision_confirm: "Пора"
- embrace_visigothic_identity_decision_tooltip: "Готские графства в Испании и Галлии становятся вестготскими."
- embrace_visigothic_identity_decision_desc: ""
- visigothic_decision_requirement: "По крайней мере, 8 графств в Испании или Галлии имеют готскую культуру."
- embrace_ostrogothic_identity_decision: "Принять остготскую идентичность"
- embrace_ostrogothic_identity_decision_effect.tt: "Все [old_culture.GetName] графства и персонажи в Италии и Иллирии становятся [new_culture.GetName]"
- embrace_ostrogothic_identity_decision_desc: ""
- embrace_ostrogothic_identity_decision_confirm: "Пора"
- embrace_ostrogothic_identity_decision_tooltip: "Готские графства в Италии и Иллирии становятся остготскими."
- ostrogothic_decision_requirement: "По крайней мере, в 8 графствах Италии или Иллирии обладают готской культурой."
-  
- found_kingdom_of_prussia_decision: "Основать королевство Пруссия"
- found_kingdom_of_prussia_decision_desc: "У прибалтов веками не было королевства, которое они могли бы назвать своим. Эта суровая, неукрощенная земля племен и разрозненных языческих верований давно лишена идентичности, но, возможно, я все это изменю…"
- found_kingdom_of_prussia_decision_tooltip: "Пруссия становится [de_jure|E] [Concept('kingdom','Королевством')|E]"
- found_kingdom_of_prussia_decision_confirm: "[ROOT.Char.GetLadyLord|U] всех прибалтов!"
- found_plc_decision: "Основание Речи Посполитой."
- found_plc_decision_desc: "Объединение королевств Польши и Литвы под общим престолом создаст могучее государство, способное противостоять нашим врагам."
- found_plc_decision_tooltip: "Основание Речи Посполитой."
- found_plc_decision_confirm: "Основание Речи Посполитой."
-  
- TFE_establish_northern_liang: "Основать Северную Лян"
- TFE_establish_northern_liang_tooltip: "Пришло время создать новое королевство, Северная Лян!"
- TFE_establish_northern_liang_desc: "Когда-то [GetGeographicalRegion('custom_liang').GetName] были прочными воротами Срединного царства. Но теперь, как и в Китае, им правят мелкие военачальники и безжалостные варвары, и он впал в хаос. Пришло время навести порядок на этом рубеже цивилизации, провозгласив новое королевство, Северная Лян. Мы докажем, что мы законные правители Ляны!"
- TFE_establish_northern_liang_confirm: "Наша династия продлится на несколько поколений!"
-  
- TFE_establish_eastern_liang: "Основать Восточную Лян"
- TFE_establish_eastern_liang_tooltip: "Пришло время создать новое королевство, Восточная Лян!"
- TFE_establish_eastern_liang_desc: "Когда-то [GetGeographicalRegion('custom_liang').GetName] был непоколебимыми воротами Срединного царства. Но теперь, как и в Китае, им правят мелкие военачальники и безжалостные варвары, и он погрузился в хаос. Пришло время навести порядок на этой границе цивилизации, провозгласив новое королевство, Восточная Лян. Мы докажем, что являемся законными правителями Ляны!"
- TFE_establish_eastern_liang_confirm: "Наша династия продлится на несколько поколений!"
-  
- TFE_establish_southern_liang: "Основать Южную Лян"
- TFE_establish_southern_liang_tooltip: "Пришло время создать новое королевство, Южная Лян!"
- TFE_establish_southern_liang_desc: "Когда-то [GetGeographicalRegion('custom_liang').GetName] был непоколебимыми воротами Срединного царства. Но теперь, как и в Китае, им правят мелкие военачальники и безжалостные варвары, и он погрузился в хаос. Пришло время навести порядок на этой границе цивилизации, провозгласив новое королевство, Южная лян. Мы докажем, что являемся законными правителями Ляны!"
- TFE_establish_southern_liang_confirm: "Наша династия продлится на несколько поколений!"
-  
- TFE_establish_western_liang: "Основать Западную Лян"
- TFE_establish_western_liang_tooltip: "Пришло время создать новое королевство, Западная Лян!"
- TFE_establish_western_liang_desc: "Когда-то [GetGeographicalRegion('custom_liang').GetName] был непоколебимыми воротами Срединного царства. Но теперь, как и в Китае, им правят мелкие военачальники и безжалостные варвары, и он погрузился в хаос. Пришло время навести порядок на этой границе цивилизации, провозгласив новое королевство, Западная Лян. Мы докажем, что являемся законными правителями Ляны!"
- TFE_establish_western_liang_confirm: "Наша династия продлится на несколько поколений!"
-  
- TFE_restore_order_to_liang: "Восстановление порядка в провинции Лян"
- TFE_restore_order_to_liang_tooltip: "Хаос должен закончиться сейчас же."
- TFE_restore_order_to_liang_desc: "[GetGeographicalRegion('custom_liang').GetName], как и большая часть Срединного царства, уже много лет охвачена, казалось бы, бесконечными распрями и конфликтами. Однако если местный правитель, обладающий достаточными амбициями, мудростью и добродетелью, сможет объединить Лян под одним знаменем, то, возможно, удастся положить конец хаосу и восстановить порядок в Ляне."
- TFE_restore_order_to_liang_confirm: "Провинция Лян должна вернуться к миру!"
-  
- TFE_restore_order_to_liang_effect_tooltip: "Другие [titles|E] [Concept('kingdom','королевства')|E] Лян, удерживаемые другими [Concept('rulers','правителями')|E], будут уничтожены."
-  
- TFE_claim_descent_from_li_ling: "Заявить о происхождении от Ли Лина"
- TFE_claim_descent_from_li_ling_tooltip: "Ли Линг, трагический ханьский генерал, несомненно, наш праотец..."
- TFE_claim_descent_from_li_ling_desc: "Много веков назад великий ханьский полководец Ли Линг был побежден могущественными хунну, и его заставили служить им. Стыдясь того, что ему пришлось предать родину, он отказался вернуться домой, даже когда ему предложили помилование. Правитель Хунну, #italic Чаньюй#!, отдал Ли Лингу руку своей дочери. Говорят, что у него есть потомки, которые до сих пор бродят по степям, вечно нося в сердце печаль своего предка... но кто такие #italic эти#! его потомки?"
- TFE_claim_descent_from_li_ling_confirm: "Мы потомки Ли Лина!"
- TFE_li_ling_steppe_requirement: "[capital|E] находится в [GetGeographicalRegion('world_steppe_east').GetName] или [GetGeographicalRegion('world_steppe_tarim').GetName]"
- TFE_li_ling_already_done_requirement: "Никакая другая [dynasty|E] еще не пыталась заявить о своем происхождении от Ли Лина."
- han_opinion: "Мнение Хана"
-  
- become_emperor_of_gaul_decision: "Возродить Галльскую Империю"
- become_emperor_of_gaul_decision_desc: "Во время кризиса III века неустойчивое состояние Римской империи привело к образованию двух отколовшихся империй, одной из которых была Галльская империя, сосредоточенная вокруг Галлии и Британии. Несмотря на то, что Аврелиан восстановил римское правление в Галлии и Британии ближе к завершению кризиса, надвигающаяся катастрофа, с которой столкнулась Западная Римская империя, требует необходимого разделения власти; правительство в Медиолануме оказалось неспособным управлять домом, растянутым до предела, поэтому восстановление Галльской империи необходимо для сохранения римского правления до тех пор, пока Западный Рим продолжает стоять на милости внутренних и внешних опасностей."
- become_emperor_of_gaul_decision_tooltip: "Один шаг к величию..."
- become_emperor_of_gaul_decision_confirm: "Империя снова будет существовать!"
-  
- integrate_hispania_gallic_empire: "Интегрировать Испанию"
- integrate_hispania_gallic_empire_desc: "Испания ненадолго отошла от Галльской империи. Итак, мы должны вернуть ее и интегрировать как провинцию в нашу империю!"
- integrate_hispania_gallic_empire_tooltip: "Испания должна снова стать нашей."
- integrate_hispania_gallic_empire_confirm: "На шаг ближе к контролю над Римом..."
-  
- restore_palmyrene_empire_decision: "Возродить Пальмирскую империю"
- restore_palmyrene_empire_desc: "Во время кризиса III века неустойчивое состояние Римской империи привело к образованию двух отколовшихся империй, одной из которых была Пальмирская империя с центром в Леванте и Южной Анатолии. Несмотря на то, что царица Зенобия не смогла превзойти успехи своего мужа Одената, шаткое положение Восточной Римской империи привело к необходимости разделения власти для обеспечения римского влияния в восточных провинциях!"
- restore_palmyrene_empire_decision_tooltip: "Один шаг к величию..."
- restore_palmyrene_empire_decision_confirm: "Империя снова будет существовать!"
-  
- distribute_bread_decision: "Раздавать хлеб в столице"
- distribute_bread_decision_desc: "Наш народ не любит ничего больше, чем бесплатную еду и развлечения. Хотя это и дорого, но обеспечение хлебом нашего населения гарантирует, что оно останется верным и послушным."
- distribute_bread_decision_extend_to_county: "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.MakeScope.ScriptValue('distribute_bread_price')]#! мы обеспечим [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetName] хлебом."
- distribute_bread_decision_extend_to_duchy: "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.MakeScope.ScriptValue('distribute_bread_price')]#! мы бы снабдили [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetName] хлебом, дав каждому округу в нем модификатор."
- distribute_bread_decision_extend_to_kingdom: "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.MakeScope.ScriptValue('distribute_bread_price')]#! мы бы снабдили [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetName] хлебом, дав каждому округу в нем модификатор."
- distribute_bread_decision_extend_to_empire: "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.MakeScope.ScriptValue('distribute_bread_price')]#! мы бы снабдили [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetName] хлебом, дав каждому округу в нем модификатор."
- distribute_bread_decision_confirm: "Пусть едят хлеб!"
- distribute_bread_decision_tooltip: "Купить мир едой"
-  
- sponsor_gladiator_games_decision: "Спонсировать Гладиаторские игры"
- sponsor_gladiator_games_decision_desc: "Горячий воздух арены, вкус песка, звон металла, крики боли и победы...\nНарод любит хороший бой до смерти. Давайте дадим им то, что они хотят, спонсируя великие гладиаторские бои!"
- sponsor_gladiator_games_decision_effect: "В течение следующих нескольких недель будет проведена серия различных #V Гладиаторских боев#! и некоторые из них потребуют вашего участия\nКак эти бои будут проходить, могут привести к различным результатам"
- sponsor_gladiator_games_decision_effect_2: "Если #V Гладиаторские игры#! разрешено продолжить и закончить, вы получите [prestige_i|E] [prestige|E]"
- sponsor_gladiator_games_decision_abrahamic_religions_reaction: "Поскольку ваша [faith|E] является частью семьи Авраама, #N религиозных авторитетов могут протестовать против этих игр#!, что в конечном итоге приведет к #N полному религиозному запрету этой практики#!"
- sponsor_gladiator_games_decision_county_abrahamic_religions_reaction: "Округа в пределах вашего [Concept('domain','домена')|E], чья Вера является частью семьи Авраама, могут #N протестовать против этих игр#!"
- sponsor_gladiator_games_decision_confirm: "Пусть победит сильнейший воин!"
- sponsor_gladiator_games_decision_tooltip: "Тебе скучно?!"
-  
-  # Kushan Decision 
- TFE_restore_kushan_empire: "Восстановить Кушанскую империю"
- TFE_restore_kushan_empire_tooltip: "После стольких лет кушаны должны снова стать мировой державой..."
- TFE_restore_kushan_empire_desc: "Кушанскую империю боялись и уважали как одну из великих держав древнего мира, наряду с Римом, Китаем и Персией. Настало время возродить Кушанскую империю из пепла!"
- TFE_restore_kushan_empire_confirm: "Кушаны вернулись!"
-  
-  # Bosporan Kingdom 
- restore_kingdom_of_bosporus: "Восстановить Боспорское царство"
- restore_kingdom_of_bosporus_decision_tooltip: "Как феникс, вновь восстанет Босфор!"
- restore_kingdom_of_bosporus_decision_desc: "Многовековое Боспорское царство управляло северным Причерноморьем до его падения от рук готов и гуннов, но, возможно, новое эллинское наступление в этом регионе могло привести к восстановлению старого царства."
- restore_kingdom_of_bosporus_decision_tt: "Все герцогства в регионе [GetGeographicalRegion('custom_core_bosporus').GetName] перейдут на [GetTitleByKey('k_bosporus').GetName]"
- restore_kingdom_of_bosporus_decision_culture_tt: "И [GetTitleByKey('d_crimea').GetNameNoTier], и [GetTitleByKey('d_azov').GetNameNoTier] относятся к культуре [GetPlayer.GetCulture.GetName]."
- restore_kingdom_of_bosporus_confirm: "Боспорские корабли снова поплывут по Меотидскому озеру!"
-  # h 
- dong_zhuo_culture_decision: "Примите культуру Суассона"
- dong_zhuo_culture_decision_desc: "Где сои?"
- dong_zhuo_culture_decision_confirm: "Слава сои!"
-  
-  # Visigothic Capital Decision 
- visigothic_capital_decision: "Основать новую столицу вестготов"
- visigothic_capital_decision_tooltip: "Сделайте свою столицу истинным местом вестготов"
- visigothic_capital_decision_confirm: "Великая столица навсегда!"
- visigothic_capital_decision_desc: "С тех пор, как мы покинули Восточные Степи, мы скитались по чужим землям в поисках нового дома... \nТеперь, когда мы нашли его, мы не должны позволить гордым римлянам забыть, кто их истинный повелитель. \n\nПривязав наше правление к месту, мы закрепим нашу власть над плодородными землями Испании и Аквитании."
- visigothic_capital_decision_your_capital_is_in_spain_or_gaul: "Ваша столица находится в Галлии или Испании"
- found_capital_of_the_visigoths_decision_before_last_date: "Дата 600.1.1 или более ранняя"
-  
-  # Heptarchy Decision 
- consolidate_the_heptarchy_decision: "Объеденить Гептархию"
- consolidate_the_heptarchy_decision_tooltip: "Претензия на Англию для [ROOT.Char.GetCulture.GetName]"
- consolidate_the_heptarchy_decision_desc: "Племя за племенем падает под нашими знаменами. Ни один Бритт или Римлянин не осмелится противостоять нам, мы - настоящие короли этого острова. Пришло время всем это признать."
- TFE_heptarchy_has_been_claimed_effects_desc: "Все действующие правители, участвующие в Гептархии, получат [prestige|E], [Concept('dynasty','династический')|E] [modifier|El], увеличение [Concept('opinion','мнения')|E] о вас и [truce|E]. Кроме того, они также примут [feudal_government|E]."
- consolidate_the_heptarchy_decision_confirm: "Британия наша!"
- any_ruler_count: "В [GetGeographicalRegion('custom_england').GetName] есть как минимум 7 независимых правителей."
- TFE_is_heptarch_trigger_desc: "Должен быть независимым государством королевством как минимум [Concept('duchy','герцогского')|E] уровня и существовать в [GetGeographicalRegion('custom_england').GetName]"
-  
-  # Personal Deity Celts 
- select_personal_deity_celtic_decision: "Определить личное божество"
- select_personal_deity_celtic_decision_tooltip: "[ROOT.Char.GetFaith.PantheonTerm|U] занимают все мысли"
- select_personal_deity_celtic_decision_desc: "#F Довольно часто [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l] уделяют особое внимание какому-то одному божеству, отвечающему их личным предпочтениям и целям.\n\nМне стоит поразмыслить об этих божественных сущностях и решить, кто из них мне ближе #!"
- select_personal_deity_celtic_decision_confirm: "Станьте последователем одного конкретного бога"
- select_personal_deity_celtic_decision_tt: "You begin to live your life according to the values of"
- select_personal_deity_celtic_decision.select_brigantia: "Бригантия, защитница Британии"
- select_personal_deity_celtic_decision.select_sulis: "Сулис, Владычица вод"
- select_personal_deity_celtic_decision.select_cunomaglus: "Куномаглус, Повелитель Охоты"
- select_personal_deity_celtic_decision.select_epona: "Эпона, богиня коневодства"
-  
-  # Struggle 
- establish_the_old_north: "Основать Королевство Старого Севера"
- establish_the_old_north_tooltip: "Заявить права на [ROOT.Char.GetCulture.GetName] Англию"
- establish_the_old_north_desc: "После стольких лет у нас, Бриттов, до сих пор нет собственного королевства, которое мы могли бы назвать своим. Неудивительно, что на протяжении веков наши земли грабили Римляне, Саксы и многие другие народы! В эти непредсказуемые времена мы, Бритты, должны взять судьбу в собственные руки и основать собственное королевство."
- establish_the_old_north_confirm: "Слава нашему новому королевству!"
+ new_official_imperial_faith_decision:0 "Провозгласить новую имперскую религию"
+ # new_official_imperial_faith_decision_desc:0 "Хотя моя вера сильна и все граждане моей Империи стремятся обратиться, некоторые сопротивляются, утверждая вместо этого, что их старые убеждения защищены имперским законом. быть единственной и официальной Верой Империи. С этим новым актом тысячи людей станут нашими новыми братьями, а Империя наконец объединится как телом, так и духом."
+ new_official_imperial_faith_decision_desc:0 "Хотя моя вера сильна, и все граждане моей империи стремятся принять её, некоторые сопротивляются, утверждая, что их старые убеждения защищены имперским законом.\n\nПришло время принять новый имперский указ, объявляющий мою конфессию единственной и официальной религией Империи."
+ new_official_imperial_faith_decision_confirm:0 "За верующих!"
+ new_official_imperial_faith_decision_tooltip:0 "Сделать [ROOT.Char.GetFaith.GetAdjective] единственной [Concept('official_faith', 'официальной религией')|E] империи!"
+ must_use_new_official_imperial_faith_decision:0 "Вы должны принять [decision|El] #V $new_official_imperial_faith_decision$#!"
+
+ new_official_imperial_faith_decision_effect_old_faith_tt:0 "[old_faith.GetAdjective] теряет свой статус [Concept('official_faith', 'официальной религии')|E] в границах державы [empire.GetName]"
+ new_official_imperial_faith_decision_effect_new_faith_tt:0 "[new_faith.GetAdjective] становится новой [Concept('official_faith', 'официальной религией')|E] в державе [empire.GetName]"
+ new_official_imperial_faith_decision_effect_conversion_tt:0 "Каждое графство в пределах империи, #N не#! разделяющее [Concept('faith', 'конфессию')|E] императора"
+ new_official_imperial_faith_decision_effect_conversion_non_religion_tt:0 "Имеет #V 10%#! вероятность обращения в [new_faith.GetAdjective], если они #N не разделяют#! [Concept('religion', 'конфессию')|E] императора"
+ new_official_imperial_faith_decision_effect_conversion_religion_tt:0 "Имеет #V 40%#! шанс обращения в [new_faith.GetAdjective], если они #P разделяют#! [Concept('religion', 'религию')|E] императора"
+ new_official_imperial_faith_effect_primary_empire_becomes_hof_title_tt:0 "[empire.GetName] становится новым обладателем [Concept('title', 'титула')|E] [Concept('head_of_faith', 'главы конфессии')|E] [new_faith.GetAdjective]"
+ new_official_imperial_faith_effect_can_challenge_hof_title_tt:0 "Поскольку [Concept('title', 'титул')|E] [Concept('head_of_faith', 'главы конфессии')|E] [new_faith.GetAdjective] уже существует, вы получите [casus_belli|El], чтобы #V оспорить его#!"
+ reject_official_faith:0 "Отвергнуть официальную имперскую религию"
+ reject_official_faith_desc:0 "В то время как моя империя разработала имперский указ, объявляющий мою конфессию единственной официальной религией империи, я больше не питаю того рвения, которое когда-то [Select_CString(ROOT.Char.IsFemale, 'проявляла', 'проявлял' )] к конфессии, что известна как [ROOT.Char.GetFaith.GetAdjective]. Пришло время перевернуть новую страницу и отменить имперский указ."
+ reject_official_faith_confirm:0 "Во имя империи"
+ reject_official_imperial_faith_effect_tt:0 "[empire.GetHolder.GetFaith.GetAdjective] теряет статус [Concept('official_faith', 'официальной религии')|E] в пределах державы [empire.GetName]"
+
+ TFE_major_decisions.0001.t:0 "$new_official_imperial_faith_decision$"
+ TFE_major_decisions.0001.desc_intro:0 "Имперский указ, объявляющий [new_faith.GetAdjective] новой официальной религией в державе [empire.GetName], наконец-то готов.\nСотни посланников и религиозных делегаций уже разосланы по всей империи, и новости о спонтанных обращениях уже достигли моих ушей и ушей моих религиозных советников."
+ TFE_major_decisions.0001.desc_pluralistic:0 "\n\nНесмотря на то, что ранее наша конфессия была известна своей относительной религиозной терпимостью и принятием других, наше управление и руководство на такой обширной территории требует новой степени централизации."
+ TFE_major_decisions.0001.desc_righteous:0 "\n\nНа месте старых храмов уже строятся новые, к радости и недовольству местного населения."
+ TFE_major_decisions.0001.desc_fundamentalist:0 "\n\nНекоторые из более неохотно обращающихся уже выражают недовольство против того, что они считают недостойным религиозным преследованием, но даже они со временем прозреют."
+ TFE_major_decisions.0001.desc_end:0 "\n\nЭто укрепление [new_faith.GetName]ого духа придаёт силы новому поколению священников, и мои религиозные советники уверяют меня, что даже те, кто ещё не обратился, обратятся через несколько лет."
+ TFE_major_decisions.0001.a:0 "За верующих!"
+
+ COURT_CHAPLAIN_CONVERSION_OFFICIAL_IMPERIAL_FAITH_EMPIRE:0 "Обращение в [Concept('official_imperial_faith', 'официальную имперскую религию')|E]"
+
+ ### Catechetical school of Alexendria 
+ reopen_catechetical_school_alexandria:0 "Вновь открыть Александрийскую катехизическую школу"
+ reopen_catechetical_school_alexandria_desc:0 "Некоторые из наших традиций пришлось оставить после Халкидонского собора, и учение Александрии было вытеснено учением Рима.\nНародные волнения привели к разрушению нашей катехизической школы, но если наша власть над христианством позволит, мы сможем восстановить её и добиться того, чтобы учение Александрии было признано остальными соборами."
+ reopen_catechetical_school_alexandria_confirm:0 "За нашу веру!"
+ reopen_catechetical_school_alexandria_tooltip:0 "Исправить ошибки Халкидонского собора и укрепить нашу веру!"
+ fervor_gain_reopen_catechetical_school_alexandria:0 "Вновь открылась катехизическая школа Александрии."
+
+ TFE_major_decisions.0010.t:0 "Новая катехизическая школа Александрии"
+ TFE_major_decisions.0010.desc:0 "Александрийская катехизическая школа была уничтожена после народных волнений, вызванных Халкидонским собором, утвердившим верховенство епископа Рима и его учения над нашим.\n\nНаши традиции учёности никогда по-настоящему не угасали, однако, и поскольку наша власть над христианством сейчас намного сильнее, чем во время созыва собора, мы смогли созвать новый собор, чтобы отменить некоторые из его решений и утвердить учение Александрии как равное."
+ TFE_major_decisions.0010.a:0 "За верующих!"
+
+ # new_official_imperial_faith_decision_effect_tt:0 ""
+
+ # culture stuff 
+ embrace_visigothic_identity_decision:0 "Принять вестготскую идентичность"
+ embrace_visigothic_identity_decision_effect.tt:0 "Все [old_culture.GetCollectiveNoun]ие графства и персонажи в Испании и Галлии принимают [new_culture.GetCollectiveNoun]ую культуру"
+ embrace_visigothic_identity_decision_confirm:0 "Пора"
+ embrace_visigothic_identity_decision_tooltip:0 "Готские графства в Испании и Галлии становятся вестготскими"
+ embrace_visigothic_identity_decision_desc:0 ""
+ visigothic_decision_requirement:0 "По крайней мере, 8 графств в Испании или Галлии имеют готскую культуру."
+ embrace_ostrogothic_identity_decision:0 "Принять остготскую идентичность"
+ embrace_ostrogothic_identity_decision_effect.tt:0 "Все [old_culture.GetCollectiveNoun]ие графства и персонажи в Италии и Иллирии принимают [new_culture.GetCollectiveNoun]ую культуру"
+ embrace_ostrogothic_identity_decision_desc:0 ""
+ embrace_ostrogothic_identity_decision_confirm:0 "Пора"
+ embrace_ostrogothic_identity_decision_tooltip:0 "Готские графства в Италии и Иллирии становятся остготскими."
+ ostrogothic_decision_requirement:0 "По крайней мере, 8 графств в Италии или Иллирии имеют готскую культуру."
+
+ found_kingdom_of_prussia_decision:0 "Основать королевство Пруссия"
+ found_kingdom_of_prussia_decision_desc:0 "У балтов веками не было королевства, которое они могли бы назвать своим. Эта суровая, неукрощённая земля племён и разрозненных языческих верований давно лишена идентичности, но, возможно, я всё это изменю..."
+ found_kingdom_of_prussia_decision_tooltip:0 "Пруссия становится [de_jure|El] [Concept('kingdom', 'королевством')|E]"
+ found_kingdom_of_prussia_decision_confirm:0 "[ROOT.Char.GetLadyLord|U] всех балтов!"
+ found_plc_decision:0 "Основать Речь Посполитую"
+ found_plc_decision_desc:0 "Объединение королевств Польши и Литвы под общим престолом создаст могучее государство, способное противостоять нашим врагам."
+ found_plc_decision_tooltip:0 "Основать Речь Посполитую"
+ found_plc_decision_confirm:0 "Основать Речь Посполитую"
+
+ TFE_establish_northern_liang:0 "Основать Северную Лян"
+ TFE_establish_northern_liang_tooltip:0 "Пришло время создать новое королевство, Северную Лян!"
+ TFE_establish_northern_liang_desc:0 "Когда-то [GetGeographicalRegion('custom_liang').GetName] была непоколебимыми вратами Срединного царства. Но теперь, как и в Китае, ей правят мелкие военачальники и безжалостные варвары, и она погрузилась в хаос. Пришло время навести порядок на этом рубеже цивилизации, провозгласив новое королевство, Северную Лян. Мы докажем, что являемся законными правителями Лян!"
+ TFE_establish_northern_liang_confirm:0 "Наша династия продлится на несколько поколений!"
+
+ TFE_establish_eastern_liang:0 "Основать Восточную Лян"
+ TFE_establish_eastern_liang_tooltip:0 "Пришло время создать новое королевство, Восточную Лян!"
+ TFE_establish_eastern_liang_desc:0 "Когда-то [GetGeographicalRegion('custom_liang').GetName] была непоколебимыми вратами Срединного царства. Но теперь, как и в Китае, ей правят мелкие военачальники и безжалостные варвары, и она погрузилась в хаос. Пришло время навести порядок на этом рубеже цивилизации, провозгласив новое королевство, Восточную Лян. Мы докажем, что являемся законными правителями Лян!"
+ TFE_establish_eastern_liang_confirm:0 "Наша династия продлится на несколько поколений!"
+
+ TFE_establish_southern_liang:0 "Основать Южную Лян"
+ TFE_establish_southern_liang_tooltip:0 "Пришло время создать новое королевство, Южную Лян!"
+ TFE_establish_southern_liang_desc:0 "Когда-то [GetGeographicalRegion('custom_liang').GetName] была непоколебимыми воротами Срединного царства. Но теперь, как и в Китае, ей правят мелкие военачальники и безжалостные варвары, и она погрузилась в хаос. Пришло время навести порядок на этом рубеже цивилизации, провозгласив новое королевство, Южную Лян. Мы докажем, что являемся законными правителями Лян!"
+ TFE_establish_southern_liang_confirm:0 "Наша династия продлится на несколько поколений!"
+
+ TFE_establish_western_liang:0 "Основать Западную Лян"
+ TFE_establish_western_liang_tooltip:0 "Пришло время создать новое королевство, Западную Лян!"
+ TFE_establish_western_liang_desc:0 "Когда-то [GetGeographicalRegion('custom_liang').GetName] была непоколебимыми вратами Срединного царства. Но теперь, как и в Китае, ей правят мелкие военачальники и безжалостные варвары, и она погрузилась в хаос. Пришло время навести порядок на этом рубеже цивилизации, провозгласив новое королевство, Западную Лян. Мы докажем, что являемся законными правителями Лян!"
+ TFE_establish_western_liang_confirm:0 "Наша династия продлится на несколько поколений!"
+
+ TFE_restore_order_to_liang:0 "Восстановить порядок в провинции Лян"
+ TFE_restore_order_to_liang_tooltip:0 "Хаос должен закончиться сейчас же."
+ TFE_restore_order_to_liang_desc:0 "[GetGeographicalRegion('custom_liang').GetName], как и большая часть Срединного царства, уже много лет охвачена, казалось бы, бесконечными распрями и конфликтами. Однако если местный правитель, обладающий достаточными амбициями, мудростью и добродетелью, сможет объединить Лян под одним знаменем, то, возможно, удастся положить конец хаосу и восстановить порядок в Лян."
+ TFE_restore_order_to_liang_confirm:0 "Провинция Лян должна вернуться к миру!"
+
+ TFE_restore_order_to_liang_effect_tooltip:0 "Прочие [titles|El] [Concept('kingdom', 'королевства')|E] Лян, удерживаемые другими [Concept('rulers', 'правителями')|E], будут уничтожены."
+
+ TFE_claim_descent_from_li_ling:0 "Заявить о происхождении от Ли Лина"
+ TFE_claim_descent_from_li_ling_tooltip:0 "Ли Лин, трагический ханьский генерал, несомненно, наш праотец..."
+ TFE_claim_descent_from_li_ling_desc:0 "Много веков назад великий ханьский полководец Ли Лин был побеждён могущественными сюнну, и его заставили служить им. Стыдясь того, что ему пришлось предать родину, он отказался вернуться домой, даже когда ему предложили помилование. Правитель сюнну, #italic Чаньюй#!, отдал Ли Лину руку своей дочери. Говорят, что у него есть потомки, которые до сих пор бродят по степям, вечно нося в сердце печаль своего предка... но кто такие #italic эти#! его потомки?"
+ TFE_claim_descent_from_li_ling_confirm:0 "Мы потомки Ли Лина!"
+ TFE_li_ling_steppe_requirement:0 "[capital|E] находится в регионе [GetGeographicalRegion('world_steppe_east').GetName] или [GetGeographicalRegion('world_steppe_tarim').GetName]"
+ TFE_li_ling_already_done_requirement:0 "Никакая другая [dynasty|El] ещё не пыталась заявить о своём происхождении от Ли Лина."
+ han_opinion:0 "Мнение хань"
+
+ become_emperor_of_gaul_decision:0 "Возродить Галльскую империю"
+ become_emperor_of_gaul_decision_desc:0 "Во время кризиса III века неустойчивое состояние Римской империи привело к образованию двух отколовшихся империй, одной из которых была Галльская империя, сосредоточенная вокруг Галлии и Британии. Несмотря на то, что Аврелиан восстановил римское правление в Галлии и Британии ближе к завершению кризиса, надвигающаяся катастрофа, с которой столкнулась Западная Римская империя, требует необходимого разделения власти; правительство в Медиолане оказалось неспособным управлять домом, растянутым до предела, поэтому восстановление Галльской империи необходимо для сохранения римского правления до тех пор, пока Западный Рим продолжает стоять на милости внутренних и внешних опасностей."
+ become_emperor_of_gaul_decision_tooltip:0 "Один шаг к величию..."
+ become_emperor_of_gaul_decision_confirm:0 "Империя снова будет существовать!"
+
+ integrate_hispania_gallic_empire:0 "Интегрировать Испанию"
+ integrate_hispania_gallic_empire_desc:0 "Испания какое-то время была частью Галльской империи. Мы должны вернуть её и интегрировать как провинцию в нашу империю!"
+ integrate_hispania_gallic_empire_tooltip:0 "Испания должна снова стать нашей."
+ integrate_hispania_gallic_empire_confirm:0 "На шаг ближе к контролю над Римом..."
+
+ restore_palmyrene_empire_decision:0 "Возродить Пальмирскую империю"
+ restore_palmyrene_empire_desc:0 "Во время кризиса III века неустойчивое состояние Римской империи привело к образованию двух отколовшихся империй, одной из которых была Пальмирская империя с центром в Леванте и Южной Анатолии. Несмотря на то, что царица Зенобия не смогла превзойти успехи своего мужа Одената, шаткое положение Восточной Римской империи привело к необходимости разделения власти для обеспечения римского влияния в восточных провинциях!"
+ restore_palmyrene_empire_decision_tooltip:0 "Один шаг к величию..."
+ restore_palmyrene_empire_decision_confirm:0 "Империя снова будет существовать!"
+
+ distribute_bread_decision:0 "Раздавать хлеб в столице"
+ distribute_bread_decision_desc:0 "Наш народ не любит ничего больше, чем бесплатную еду и развлечения. Хотя это и дорого, но обеспечение хлебом нашего населения гарантирует, что оно останется верным и послушным."
+ distribute_bread_decision_extend_to_county:0 "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.MakeScope.ScriptValue('distribute_bread_price')]#! золота, мы обеспечим графство [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetName] хлебом."
+ distribute_bread_decision_extend_to_duchy:0 "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.MakeScope.ScriptValue('distribute_bread_price')]#! золота, мы бы снабдили всю область [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetName] хлебом, что предоставит каждому графству в его пределах модификатор."
+ distribute_bread_decision_extend_to_kingdom:0 "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.MakeScope.ScriptValue('distribute_bread_price')]#! золота, мы бы снабдили всю провинцию [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetName] хлебом, что предоставит каждому графству в её пределах модификатор."
+ distribute_bread_decision_extend_to_empire:0 "Заплатив #V [gold_i|E][GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.MakeScope.ScriptValue('distribute_bread_price')]#! золота, мы бы снабдили всю державу [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetName] хлебом, что предоставит каждому графству в её пределах модификатор."
+ distribute_bread_decision_confirm:0 "Пусть едят хлеб!"
+ distribute_bread_decision_tooltip:0 "Купить мир едой"
+
+ sponsor_gladiator_games_decision:0 "Спонсировать гладиаторские игры"
+ sponsor_gladiator_games_decision_desc:0 "Горячий воздух арены, вкус песка, звон металла, крики боли и победы...\nНарод любит хороший бой насмерть. Давайте дадим им то, что они хотят, спонсируя великие гладиаторские бои!"
+ sponsor_gladiator_games_decision_effect:0 "В течение следующих нескольких недель будет проведена серия различных #V гладиаторских боёв#! и некоторые из них потребуют вашего участия\nХод боёв может привести к различным результатам"
+ sponsor_gladiator_games_decision_effect_2:0 "Если #V гладиаторские игры#! разрешено продолжить и закончить, вы получите [prestige_i|E] [prestige|El]"
+ sponsor_gladiator_games_decision_abrahamic_religions_reaction:0 "Поскольку ваша [faith|El] является частью авраамических религий, #N религиозные власти могут выступить против проведения этих игр#!, что в конечном итоге приведёт к #N полному религиозному запрету этой практики#!"
+ sponsor_gladiator_games_decision_county_abrahamic_religions_reaction:0 "Графства в пределах вашего [Concept('domain', 'домена')|E], чья конфессия является частью авраамических религий, могут #N выступить против проведения этих игр#!"
+ sponsor_gladiator_games_decision_confirm:0 "Пусть победит сильнейший воин!"
+ sponsor_gladiator_games_decision_tooltip:0 "Вам скучно?!"
+
+ # Kushan Decision 
+ TFE_restore_kushan_empire:0 "Восстановить Кушанское царство"
+ TFE_restore_kushan_empire_tooltip:0 "После стольких лет кушаны должны снова стать мировой державой..."
+ TFE_restore_kushan_empire_desc:0 "Кушанское царство вызывало страх и уважение, как одна из великих держав древнего мира, наряду с Римом, Китаем и Эраном. Настало время возродить Кушанское царство из пепла!"
+ TFE_restore_kushan_empire_confirm:0 "Кушаны вернулись!"
+
+ # Bosporan Kingdom 
+ restore_kingdom_of_bosporus:0 "Восстановить Боспорское царство"
+ restore_kingdom_of_bosporus_decision_tooltip:0 "Как феникс, вновь восстанет Босфор!"
+ restore_kingdom_of_bosporus_decision_desc:0 "Многовековое Боспорское царство управляло северным Причерноморьем до его падения от рук готов и гуннов, но, возможно, новое эллинское наступление в этом регионе могло привести к восстановлению старого царства."
+ restore_kingdom_of_bosporus_decision_tt:0 "Все герцогства в регионе [GetGeographicalRegion('custom_core_bosporus').GetName] станут частью державы [GetTitleByKey('k_bosporus').GetName]"
+ restore_kingdom_of_bosporus_decision_culture_tt:0 "[GetTitleByKey('d_crimea').GetNameNoTier] и [GetTitleByKey('d_azov').GetNameNoTier] относятся к [GetPlayer.GetCulture.GetCollectiveNoun]ой культуре."
+ restore_kingdom_of_bosporus_confirm:0 "Боспорские корабли снова поплывут по Меотидскому озеру!"
+ # h
+ dong_zhuo_culture_decision:0 "Принять суассонскую культуру"
+ dong_zhuo_culture_decision_desc:0 "Где сои?"
+ dong_zhuo_culture_decision_confirm:0 "Слава сои!"
+
+ # Visigothic Capital Decision 
+ visigothic_capital_decision:0 "Основать новую столицу вестготов"
+ visigothic_capital_decision_tooltip:0 "Сделать свою столицу истинным престолом вестготов"
+ visigothic_capital_decision_confirm:0 "Великая столица навеки!"
+ visigothic_capital_decision_desc:0 "С тех пор, как мы покинули Восточные Степи, мы скитались по чужим землям в поисках нового дома... \nТеперь, когда мы нашли его, мы не должны позволить гордым римлянам забыть, кто их истинные повелители. \n\nПривязав наше правление к месту, мы закрепим нашу власть над плодородными землями Испании и Аквитании."
+ visigothic_capital_decision_your_capital_is_in_spain_or_gaul:0 "Ваша столица находится в Галлии или Испании"
+ found_capital_of_the_visigoths_decision_before_last_date:0 "Дата 600.1.1 или более ранняя"
+
+ # Heptarchy Decision 
+ consolidate_the_heptarchy_decision:0 "Объединить Гептархию"
+ consolidate_the_heptarchy_decision_tooltip:0 "Претендовать на Англию от имени [ROOT.Char.GetCulture.GetCollectiveNoun]ого народа"
+ consolidate_the_heptarchy_decision_desc:0 "Племя за племенем преклоняется перед нашими знамёнами. Ни один бритт или римлянин не осмелится противостоять нам, мы - настоящие короли этого острова. Пришло время всем это признать."
+ TFE_heptarchy_has_been_claimed_effects_desc:0 "Все вовлечённые правители, участвующие в Гептархии, получат [prestige|El], [Concept('dynasty', 'династический')|E] [modifier|El], улучшат [Concept('opinion', 'мнение')|E] о вас и заключат [truce|El]. Кроме того, они также примут [feudal_government|El]."
+ consolidate_the_heptarchy_decision_confirm:0 "Британия наша!"
+ any_ruler_count:0 "В регионе [GetGeographicalRegion('custom_england').GetName] есть как минимум 7 подходящих правителей."
+ TFE_is_heptarch_trigger_desc:0 "Необходимо независимое германское государство как минимум [Concept('duchy', 'герцогского')|E] уровня и существовать в регионе [GetGeographicalRegion('custom_england').GetName]"
+
+ # Personal Deity Celts 
+ select_personal_deity_celtic_decision:0 "Определить личное божество"
+ select_personal_deity_celtic_decision_tooltip:0 "[ROOT.Char.GetFaith.PantheonTerm|U] занимают все мысли"
+ select_personal_deity_celtic_decision_desc:0 "#F Довольно часто [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l] уделяют особое внимание какому-то одному божеству, отвечающему их личным предпочтениям и целям.\n\nМне стоит поразмыслить об этих божественных сущностях и решить, кто из них мне ближе.#!"
+ select_personal_deity_celtic_decision_confirm:0 "Посвятить себя одному конкретному божеству"
+ select_personal_deity_celtic_decision_tt:0 "Вы начинаете жить в соответствии с ценностями"
+ select_personal_deity_celtic_decision.select_brigantia:0 "Бригантии, защитницы Британии"
+ select_personal_deity_celtic_decision.select_sulis:0 "Сулис, Владычицы вод"
+ select_personal_deity_celtic_decision.select_cunomaglus:0 "Куномаглуса, Повелителя Охоты"
+ select_personal_deity_celtic_decision.select_epona:0 "Эпоны, богини коневодства"
+
+ # Struggle 
+ establish_the_old_north:0 "Основать королевство Старого Севера"
+ establish_the_old_north_tooltip:0 "Выдвинуть претензию на Англию от имени [ROOT.Char.GetCulture.GetCollectiveNoun]ого народа"
+ establish_the_old_north_desc:0 "После стольких лет у нас, бриттов, до сих пор нет собственного королевства, которое мы могли бы назвать своим. Неудивительно, что на протяжении веков наши земли разоряли римляне, саксы и многие другие народы! В эти непредсказуемые времена мы, бритты, должны взять судьбу в собственные руки и основать собственное королевство."
+ establish_the_old_north_confirm:0 "Слава нашему новому королевству!"
 
  # Iran & HOS flavour 
  # Recruit Regional units 
- TFE_regional_units_eran_decision: "Нанять региональных экспертов из Ирана"
- TFE_regional_units_eran_decision_tooltip: "Иранская империя простирается далеко и широко. Мы были бы глупцами, если бы не использовали уникальные навыки каждого региона для усиления наших армий."
- TFE_regional_units_eran_decision_desc: "Родом из изолированных горных долин, пустынь и джунглей, люди съезжаются сражаться под нашим знаменем со всех уголков известного мира. Используя их особые таланты и знания, мы можем снабдить нашу армию более полным и мощным набором юнитов."
+ TFE_regional_units_eran_decision:0 "Нанять региональных специалистов из Эрана"
+ TFE_regional_units_eran_decision_tooltip:0 "Эраншахр простирается далеко и широко. Мы были бы глупцами, если бы не использовали уникальные навыки каждого региона для усиления наших армий."
+ TFE_regional_units_eran_decision_desc:0 "Родом из изолированных горных долин, пустынь и джунглей, люди съезжаются сражаться под нашим знаменем со всех уголков известного мира. Используя их особые таланты и знания, мы можем снабдить нашу армию более полным и мощным набором юнитов."
+
+ TFE_regional_units_eran_decision_tooltip_1:0 "Вы получите [special_troops|El], состоящие из единиц по вашему выбору."
+ TFE_regional_units_eran_decision_tooltip_2:0 "Вы можете выбрать один из трёх размеров единиц с разной стоимостью: маленькие (#weak [gold_i|E]500#!), средние (#weak [gold_i|E]1000#!), и большие (#weak [gold_i|E]2000#!))"
+ TFE_regional_units_eran_decision_choose_type:0 "Кто может предоставить нам воинов?"
+ TFE_regional_units_eran_decision_confirm:0 "Пусть они отдадут мне свои мечи!"
+ TFE_region_units_iran_elephant_req:0 "У вас есть хотя бы одно [county|El], в которой распространена [Concept( 'culture', 'культура' )|E], которая открыла [Concept( 'innovation', 'инновацию' )|E] $innovation_elephantry$"
+ TFE_region_units_iran_daylami_req:0 "У вас есть хотя бы одно [county|El], в которой распространена [Concept( 'culture', 'культура' )|E], которая открыла [Concept( 'innovation', 'инновацию' )|E] $tradition_mard_o_mard_name$"
+
+ TFE_regional_units_eran_choose_type:0 "Тип единиц"
+ TFE_regional_units_eran_war_elephants_decision_option:0 "Боевые слоны"
+ TFE_regional_units_eran_war_elephants_decision_option_desc:0 "Ужасающие и могущественные звери, своими размерами вселяющие страх в наших врагов, будь то на поле боя или в осаде. Мы можем импортировать их в наши земли из региона [GetGeographicalRegion('world_india').GetName]."
+ TFE_regional_units_eran_war_elephants_decision_option_tooltip:0 "$TFE_regional_units_eran_war_elephants_decision_option_desc$"
+
+ TFE_regional_units_eran_daylami_decision_option:0 "Дейлемиты"
+ TFE_regional_units_eran_daylami_decision_option_desc:0 "Иностранцы считают население региона [GetGeographicalRegion('world_daylam').GetName] воинственными и варварскими. Таким образом, они являются идеальным подразделением для пополнения рядов нашей армии, потому что они дешёвые, верные и невероятные бойцы."
+ TFE_regional_units_eran_daylami_decision_option_tooltip:0 "$TFE_regional_units_eran_daylami_decision_option_desc$"
+
+ # Sponsor the Foundation of a holy City 
+ TFE_sponsor_foundation_yazd_decision:0 "Основать новый священный город"
+ TFE_sponsor_foundation_yazd_decision_desc:0 "Старый город [GetTitleByKey('c_yazd').GetNameNoTier] расположен в центре региона [GetGeographicalRegion('world_persia').GetName], что делает его идеальным местом, в котором [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] могли совершать свои обряды. Священный город на вершине наверняка станет великим храмом для [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName]."
+ TFE_sponsor_foundation_yazd_decision_tooltip:0 "[GetTitleByKey('c_yazd').GetNameNoTier] станет новым центром поклонения, в которое будут стекаться [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] со всей державы."
+ TFE_sponsor_foundation_yazd_decision_confirm:0 "Зажечь огни!"
+ TFE_sponsor_foundation_yazd_effect_tooltip:0 "[GetTitleByKey('c_yazd').GetNameNoTier] станет новым центром власти для всего зороастрийского жречества."
+
+ # Revive Greater Armenia Reworked Loc 
+ TFE_create_armenian_empire_decision:0 "Возродить Великую Армению"
+ TFE_create_armenian_empire_decision_desc:0 "Эллада и Эран — не единственные земли, когда-либо сохранившие имперское достоинство. Со времен Тиграна «Великого» земли, окружающие Таврские горы и Армянское нагорье, служили убежищем для нашей собственной империи; ещё до того, как Рим увидел императора, наш монарх был царём царей. Это время вернуться, если мы возвестим о возрождении Великой Армении. #italic Мец Айк!#!"
+ TFE_create_armenian_empire_decision_tooltip:0 "Армения становится [de_jure|El] [Concept( 'empire', 'империей' )|E]"
+ TFE_create_armenian_empire_decision_effects_de_jure_tt_a:0 "Следующие [kingdoms|El] станут [de_jure|El] частью державы [armenian_armenia_empire.GetNameNoTier], если находятся под контролем:\n[armenian_georgia.GetNameNoTier], [armenian_daylam.GetNameNoTier], [armenian_jazira.GetNameNoTier], [armenian_syria.GetNameNoTier], [armenian_anatolia.GetNameNoTier], [armenian_pontus.GetNameNoTier], [armenian_jerusalem.GetNameNoTier]"
+ TFE_create_armenian_empire_decision_effects_de_jure_tt_b:0 "Все [duchies|El] в державе $custom_greater_armenia$ становятся [de_jure|El] частью державы [armenian_armenia.GetNameNoTier] или остаются частью текущего [Concept( 'kingdom', 'королевства' )|E], если вы являетесь обладателем этого титула."
+ TFE_create_armenian_empire_decision_confirm:0 "И снова от моря до моря."
+
+ # Restore Parthia 
+ TFE_restore_parthia_decision:0 "Восстановить Великую Парфию"
+ TFE_restore_parthia_decision_desc:0 "Парфянские подданные державы [GetTitleByKey('e_persia').GetNameNoTier] выжидают. Но однажды новый Михрдат восстановит Хварру, Славу царей!"
+ TFE_restore_parthia_decision_tooltip:0 "Верните Парфии былую славу"
+ TFE_restore_parthia_decision_confirm:0 "За Парфию!"
+ TFE_restore_parthia_decision_effect_tooltip:0 "Название державы [GetTitleByKey('e_persia').GetNameNoTier] изменится, чтобы отразить это изменение."
+
+ # Hegemony Over Hispania 
+ hegemony_over_hispania:0 "Гегемония над Испанией"
+ hegemony_over_hispania_t:0 "Гегемония над Испанией"
+ hegemony_over_hispania_desc:0 "Хотя наши земли, приписываемые римлянами, находятся в Галлии, наша судьба, похоже, связана с Испанией. Ослабление свевов в Галиции и наших многочисленных сторонников в регионе — прекрасная возможность. Настало время положить конец этой неуверенности и, наконец, выполнить миссию, возложенную на нас императорами!"
+ hegemony_over_hispania_tooltip:0 "Заявите о своём господстве над Испанией и решите, что делать со свевами!"
+ hegemony_over_hispania_tooltip2:0 "Территории королевств Лузитания, Бетика, Карфагенской, Тарраконской Испании станут [de_jure|El] частью Вестготского королевства."
+ hegemony_over_hispania_decision_confirm:0 "Через Пиренеи мы летим!"
+ respected_independece:0 "Уважение к независимости"
+
+ # Aksum Monument Decision 
+ aksum_monument_decision:0 "Возвести монумент"
+ aksum_monument_decision_desc:0 "Создать свидетельство своей славы"
+ aksum_monument_decision_tooltip:0 "Это даст нам престиж и общественное мнение в столице."
+ aksum_monument_decision_effect_tooltip:0 "Мы должны отпраздновать наше недавнее завоевание так же, как и в прошлом — с монументом, который позволит будущим поколениям восхищаться нашей славой."
+ aksum_monument_decision_custom:0 "Победа в войне за последние 5 лет"
+ aksum_monument_decision_confirm:0 "Возвести монумент"
+
+ aksum_monument.0001.t:0 "Победа, которую нужно помнить"
+ aksum_monument.0001.desc:0 "В очередной раз наше царство доминировало над другим. Этот монумент увековечит величие нашей армии и [Select_CString(ROOT.Char.IsFemale, 'нашей правительницы', 'нашего правителя' )], [ROOT.Char.GetName]!"
+ aksum_monument.0001.a:0 "Слава Аксуму!"
+
+ # Build Djeddar Decision 
+ build_djeddar_decision:0 "Построить джеддар для моего предшественника"
+ build_djeddar_decision_tooltip:0 "Доставить вашего предшественника в место упокоения и получить [piety|El] и [opinion|El] [Concept( 'vassal', 'вассалов' )|E]"
+ build_djeddar_decision_desc:0 "Мой предшественник скончался. Традиция диктует, что они должны быть похоронены в джеддаре."
+ build_djeddar_decision_confirm:0 "Построить джеддар"
+ build_djeddar_vassals:0 "Каждый вассал, который одобряет джеддары"
+
+ # Reunite Huns - Become Heir of Attila 
+ restore_black_huns_decision:0 "Восстановить империю гуннов"
+ restore_black_huns_decision_desc:0 "#F Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )] созвать собрание всех вождей кланов со всех уголков моей огромной державы. Они провозгласят меня [Select_CString(ROOT.Char.IsFemale, 'наследницей', 'наследником' )] Аттилы, [Select_CString(ROOT.Char.IsFemale, 'законной правительницей', 'законным правителем' )] всего, что под Небом. С этого начнутся наши завоевания.#!"
+ restore_black_huns_decision_tooltip:0 "Создайте империю гуннов и станьте [Select_CString(ROOT.Char.IsFemale, 'наследницей', 'наследником' )] Аттилы - правителя мира"
+ restore_black_huns_decision_confirm:0 "Созвать вождей"
+ hun_head_tooltip:0 "Я глава гуннской культуры"
+
+ TFE_major_decisions.6666.t:0 "Мир передо мной"
+ TFE_major_decisions.6666.desc:0 "Все вожди кланов знают, почему их призвали. Мы проводим долгую ночь в уединении в дворцовой юрте, и они вызывают шаманов и полководцев, чтобы выступить перед ними. Споров нет. Я выхожу из палатки, когда первые лучи солнца пробивают горизонт, и вся собравшаяся орда уже проснулась и ждёт.\n\nОни приветствуют меня, зная, что я не просто их [Select_CString(ROOT.Char.IsFemale, 'правительница', 'правитель' )]. Я [Select_CString(ROOT.Char.IsFemale, 'наследница', 'наследник' )] Аттилы - правителя вселенной."
+ TFE_major_decisions.6666.a:0 "С этого начнутся мои завоевания."
+
+ TFE_major_decisions.6667.t:0 "[Select_CString(heir_of_attila.IsFemale, 'Наследница', 'Наследник' )] Аттилы"
+ TFE_major_decisions.6667.desc:0 "Сюзерен [Select_CString(heir_of_attila.IsFemale, 'призвала', 'призвал' )] меня на великий курултай, собрание вождей всех кланов и вассалов державы. Мы все знали почему, и никогда не было никаких сомнений в ночных обсуждениях, которые проводились в прокуренной юрте. [heir_of_attila.GetFirstName] [heir_of_attila.GetDynastyName] — это [Select_CString(heir_of_attila.IsFemale, 'владычица', 'владыка' )] вселенной — [Select_CString(heir_of_attila.IsFemale, 'истинная наследница', 'истинный наследник' )] Аттилы.\n\nЦеремонии коронации не было, ибо кто [heir_of_attila.GetHerHis] осудит? Вместо этого [heir_of_attila.GetSheHe] [Select_CString(heir_of_attila.IsFemale, 'выступила', 'выступил' )] с речью перед собравшейся ордой.\n\n«Сегодня мы выступим и завоюем всё, что находится под Великим Небом!»"
+ TFE_major_decisions.6667.a:0 "Мир будет трепетать перед нами!"
+
+ TFE_major_decisions.6668.desc:0 "Вестники приносят нам весть о [Select_CString(heir_of_attila.IsFemale, 'новой правительнице', 'новом правителе' )] понтийских степей, кто-то назвал себя «[Select_CString(heir_of_attila.IsFemale, 'Наследницей', 'Наследником' )] Аттилы», [Select_CString(heir_of_attila.IsFemale, 'самопровозглашённой правительницей', 'самопровозглашённым правителем' )] вселенной. Единая орда всадников и воинов устремляется вперёд, покоряя тех, кто отказывается преклонить колено.\n\nЭто, конечно, смехотворные заявления, но падение великих городов перед жестокими завоевателями – это то, чего мир ещё не видел..."
+ TFE_major_decisions.6668.a.distant:0 "Всё это скоро пройдёт."
+ TFE_major_decisions.6668.a.neighbor:0 "Мы должны подготовиться. Впереди трудности."
+
+ # Submit to Black Huns 
+ submit_to_the_black_huns_decision:0 "Подчиниться чёрным гуннам"
+ submit_to_the_black_huns_decision_confirm:0 "Поклясться в верности"
+ submit_to_the_black_huns_decision_opening_desc:0 "Пришло время признать, что гунны действительно являются правителями мира. Я вступлю в их ряды, а не буду сражаться с ними."
+ submit_to_the_black_huns_decision_tooltip:0 "Вы становитесь вассалом гуннского кагана и присоединяетесь к империи гуннов"
+ submit_to_the_black_huns_effect_tooltip:0 "Станьте вассалом чёрных гуннов"
+
+ #Scapulimancy 
+ scapulimancy_decision:0 "Практиковать скапулимантию"
+ scapulimancy_decision_tooltip:0 "Обратитесь к шаману, сведущему в скапулимантии, и определите исход будущих знаменательных событий."
+ scapulimancy_decision_desc:0 "#F Наши судьбы можно предсказать с помощью искусства скапулимантии, когда нагревают и сжигают кости и исследуют результаты. Изучая их, я могу получить некоторое представление о том, что готовит будущее...#!"
+ scapulimancy_decision_confirm:0 "Посоветоваться с костями"
+ scapulimancy_effect:0 "Вы откроете для себя понимание о ближайшем будущем"
+ scapulimancy_trigger:0 "Вы уже советуетесь с шаманом"
+ scapulimancy_modifier:0 "У вас ещё нет модификатора, связанного со скапулимантией"
+
+ # Offer Bread to the Virgin Mary 
+ TFE_offer_bread_to_the_virgin_mary:0 "Поднести хлеб Деве Марии"
+ TFE_offer_bread_to_the_virgin_mary_tooltip:0 "Через Марию мы можем поклоняться Богу."
+ TFE_offer_bread_to_the_virgin_mary_desc:0 "Для тех из нас, кто придерживается [ROOT.Char.GetFaith.GetName]ой секты религии, что известна как [ROOT.Char.GetFaith.GetReligion.GetAdjective], почитание Девы Марии является одним из величайших способов поклоняться Богу. В соответствии с нашими священными текстами мы чтим её несколько раз в год на церемонии, во время которой предлагаем ей хлеб. Пришло время сделать это ещё раз!"
+ TFE_offer_bread_to_the_virgin_mary_confirm:0 "Приготовьтесь печь хлеб!"
+ TFE_offer_bread_to_the_virgin_mary_effect_tooltip_1:0 "Вам будет предоставлен выбор между тремя различными аспектами Девы Марии, что предоставит вам разное количество [piety_i|E] [Concept( 'piety', 'благочестия' )|E], [prestige_i|E] [Concept( 'prestige', 'престижа' )|E] и особый [character_modifier|El] на #v 5#! лет."
+
+ #Byzantine army 
+ tfe_byzantine_army_decision:0 "Реформировать римскую армию"
+ tfe_byzantine_army_decision_desc:0 "Теперь, когда мы остались одни, мы должны подвергнуть сомнению неудачи империи и переоценить наши военные доктрины. Мы должны рассмотреть более гибкие силы с более сильным акцентом на кавалерию, а также обновить тяжёлую пехоту в основе нашей армии."
+ tfe_byzantine_army_decision_confirm:0 "Адаптация — это путь римлян"
+ tfe_byzantine_army_decision_tooltip:0 "Принять тактику византийской армии"
+ tfe_unlocks_byzantine_maa_effect:0 "Предоставляет вашей [GetPlayer.GetCulture.GetCollectiveNoun]ой культуре доступ к следующим [Concept( 'men_at_arms', 'профессионалам' )|E]: [GetMenAtArmsType('tfe_maa_protostates').GetName], [GetMenAtArmsType('tfe_maa_byz_archers').GetName], [GetMenAtArmsType('tfe_maa_hippo_toxotai').GetName], [GetMenAtArmsType('cataphract').GetName]"
+
+ # Theodoric & Rome 
+ tfe_theodoric_rome_decision:0 "Решить судьбу римского и [GetPlayer.GetCulture.GetCollectiveNounNoTooltip]ого народов"
+ tfe_theodoric_rome_decision_desc:0 "Теперь, когда итальянский полуостров находится под нашим контролем, я стою перед задачей управления обеими культурами, присутствующими в королевстве: моим собственным [GetPlayer.GetCulture.GetCollectiveNounNoTooltip]им воинским сословием; и древней римской элитой, всё ещё управляющей гражданской сферой державы.\n\n[Select_CString(ROOT.Char.IsFemale, 'Должна', 'Должен' )] ли я сохранить текущее положение дел и укрепить это разделение культур и обязанностей, или я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] стремиться объединить их?"
+ tfe_theodoric_rome_decision_tooltip:0 "Объединяйте или разделяйте культуры!"
+ TFE_THEODORIC_ROME_SECOND_STEP_BTN:0 "Определиться с курсом"
+ tfe_theodoric_rome_decision_confirm:0 "Подтвердить"
+
+ tfe_theodoric_rome_unite_name:0 "Объединить две культуры"
+ tfe_theodoric_rome_unite_desc:0 "Потратьте свои ресурсы, чтобы рассказать о многих сходствах между римлянами и теми, кого они считают «варварами», прокладывая путь для формирования гибридной идентичности."
+ tfe_theodoric_rome_segregate_name:0 "Каждому своё"
+ tfe_theodoric_rome_unite_tooltip:0 "Ваша культура и римляне получают #P +40%#! [cultural_acceptance|El] друг с другом\nКаждое $roman_collective_noun$ое графство в вашей [Concept( 'realm', 'державе' )|E] получает модификатор [GetStaticModifier('tfe_hybridised_barbarians_and_romans').GetNameWithTooltip] на #V 50 лет#!"
+ tfe_theodoric_rome_segregate_desc:0 "Сочетание [GetPlayer.GetCulture.GetCollectiveNounNoTooltip]их воинов и римских администраторов хорошо послужит державе. Формализовать эту договорённость."
+ tfe_theodoric_rome_segregate_tooltip:0 "Ваша [dynasty|El] получает модификатор [GetStaticModifier('tfe_segregated_barbarians_and_romans').GetNameWithTooltip] на #V 100 лет#!"
+
+ tfe_theodoric_rome_decision_if_hybridise:0 "Если вы решите гибридизировать"
+ tfe_theodoric_rome_decision_if_segregate:0 "Если вы решите разделить"
+
+ tfe_segregated_barbarians_and_romans:0 "Разделённые варвары и римляне"
+ tfe_segregated_barbarians_and_romans_desc:0 "Римляне знают своё место в державе этой династии. Они могут издавать законы, в то время как военное дело остаётся за их новыми повелителями."
+ tfe_hybridised_barbarians_and_romans:0 "Гибрид варваров и римлян"
+ tfe_hybridised_barbarians_and_romans_desc:0 "В этих землях расцветает плодородное сочетание цивилизованных и нецивилизованных народов."
+ tfe_every_roman_realm_county_custom:0 "Каждое $roman_collective_noun$ое$ [county|El] в вашей [Concept( 'realm', 'державе' )|E]"
+ roman_opinion:0 "$roman_collective_noun$ое мнение"
+
+ # Recruit foreign specialist 
+ recruit_foreign_specialist_decision:0 "Нанять иностранного специалиста"
+ recruit_foreign_specialist_decision_desc:0 "У народов за пределами нашей империи есть много опытных полководцев, которых мы можем привлечь, используя наш престиж римского императора."
+ recruit_foreign_specialist_decision.tt:0 "Вы наймёте командира по своему выбору, зависящего от контролируемых регионов, но вызывающего недовольство ваших вассалов и сенаторов (-10 мнений для всех вассалов и придворных)."
+ recruit_foreign_specialist_decision_tooltip:0 "Наймите командира!"
+ recruit_foreign_specialist_decision_tt:0 "Нанять командира."
+ recruit_foreign_specialist_decision_confirm:0 "Подтвердить"
+
+ # Julius Nepos decision 
+ nepos_ambition:0 "Подготовиться ко вторжению в Италию"
+ nepos_ambition_desc:0 "Если я хочу успешно вернуть центральные земли Рима, мне нужно будет подготовить новую армию, чтобы изгнать Одоакра и его варварских последователей. Возможно, Зенона тоже можно убедить увидеть правоту моего дела?"
+ nepos_ambition_tooltip:0 "Начать подготовку"
+ nepos_ambition_custom_tooltip:0 "Вы потратите 250 золотых и 1000 престижа."
+ nepos_ambition_tooltip_2:0 "Открывает [decision|El] для подготовки к вторжению в Италию."
+ nepos_ambition_confirm:0 "Подтвердить"
+
+ # Third Temple decision 
+ rebuild_third_temple:0 "Построить Третий Храм в Иерусалиме"
+ rebuild_third_temple_desc:0 "После разрушения Храма Ирода в результате неудавшегося Великого еврейского восстания евреи давно пытались восстановить то, что они называют Третьим Храмом на Храмовой горе. Этот акт нанесёт решающий удар по растущему подъёму христианства."
+ rebuild_third_temple_tooltip:0 "Восстановите храм"
+ rebuild_third_temple_custom_desc:0 "#warning Внимание - скорее всего, это потребует времени и значительных ресурсов, и такая возможность предоставляется раз в поколение. Не начинайте это, если вы не готовы довести дело до конца. Вы должны выполнить это в течение жизни одного правителя.#!"
+ rebuild_third_temple_confirm:0 "Подтвердить"
+ faith_third_temple:0 "Христианские конфессии понесут огромные потери в рвении, в то время как иудейские обретут возрождение."
+
+ # Illyrian Sacrifice decision 
+ TFE_illyrian_sacrifice_decision:0 "Совершить иллирийские жертвоприношения"
+ TFE_illyrian_sacrifice_decision_tooltip:0 "Поклоняйтесь Солнцу или Змею"
+ TFE_illyrian_sacrifice_decision_desc:0 "Среди культов, которым следуют [ROOT.Char.GetFaith.GetAdherentNamePlural], наиболее главенствующими являются культы Солнца и Змея. Мы должны чтить и поклоняться Солнцу или Змею посредством соответствующих подношений и жертвоприношений."
+ TFE_illyrian_sacrifice_decision_confirm:0 "Начать приготовления к церемонии!"
+ TFE_illyrian_sacrifice_decision_effect_tooltip_1:0 "Вы получите случайное количество [Concept( 'piety', 'благочествия' )|E] в зависимости от потраченного [Concept( 'gold', 'золота' )|E]"
+ TFE_illyrian_sacrifice_decision_effect_tooltip_2:0 "У вас есть шанс получить #P положительный#! [character_modifier|El], эффекты которого зависят от того, поклоняетесь ли вы солнцу или змею."
+ TFE_illyrian_sacrifice_decision_effect_tooltip_3:0 "Шансы на успешное получение [Concept( 'modifier', 'модификатора' )|E] зависят от вашей [Concept( 'piety_level', 'набожности' )|E], [Concept( 'virtues', 'добродетелей' )|E], [Concept( 'sins', 'грехов' )|E] и от количества потраченного вами [Concept( 'gold', 'золота' )|E]"
+ TFE_illyrian_sacrifice_decision_type:0 "Будем мы поклоняться Солнцу или Змею?"
+ TFE_illyrian_sacrifice_decision_type_gui:0 "$TFE_illyrian_sacrifice_decision_type$"
+ TFE_illyrian_sacrifice_sun_option:0 "#Bold #V Солнце#!#!"
+ TFE_illyrian_sacrifice_sun_option_desc:0 "$TFE_illyrian_sacrifice_sun_option$"
+ TFE_illyrian_sacrifice_sun_option_tooltip:0 "Вы можете получить [modifiers|El] с бонусами, связанными с [Concept( 'diplomacy', 'дипломатией' )|E], [Concept( 'martial', 'военным делом' )|E], [Concept( 'prowess', 'доблестью' )|E] и/или [Concept( 'prestige', 'престижем' )|E]\n\n#weak Культ Солнца традиционно был распространён среди северных иллирийских племён. Водоплавающие птицы и олени считались символами Солнца, которому часто поклонялись в горах.#!"
+ TFE_illyrian_sacrifice_serpent_option:0 "#Bold #V Змей#!#!"
+ TFE_illyrian_sacrifice_serpent_option_desc:0 "$TFE_illyrian_sacrifice_serpent_option$"
+ TFE_illyrian_sacrifice_serpent_option_tooltip:0 "Вы можете [modifiers|El] с бонусами, связанными с [Concept( 'stewardship', 'управлением' )|E], [Concept( 'intrigue', 'интригами' )|E], [Concept( 'learning', 'образованностью' )|E] и/или [Concept( 'piety', 'благочестием' )|E]\n\n#weak Культ Змея традиционно был распространён среди южных иллирийских племен. Змей был тотемным водным и хтоническим божеством, считавшимся символом плодородия и магии.#!"
+
+ # Establish Chariot Team 
+ establish_chariot_team:0 "Создать команды колесниц"
+ establish_chariot_team_tooltip:0 "Основать собственные команды колесниц для вашей державы"
+ establish_chariot_team_desc:0 ""
+ establish_chariot_team_confirm:0 "Создать команды"
+ establish_chariot_team_effect_tt:0 "Вы наймёте колесничих, чтобы создать Синюю и Зелёную команды колесниц!"
+
+ # Lines Extracted from imperialdec_l_english.yml 
+ start_hunt_decision_tt_header:0 "Успешная охота принесёт:"
+ start_hunt_decision_stress:0 "#P Снижение [Concept( 'stress', 'стресса' )|E]#!"
+
+ select_personal_deity_decision:0 "Определить бхакти"
+ select_personal_deity_decision_tooltip:0 "Погрузиться в раздумия о сущностях, что известны как [ROOT.Char.GetFaith.PantheonTerm]"
+ select_personal_deity_decision_desc:0 "#F Каждый набожный [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] должен иметь бхакти, или преданность определённому богу или богине, которые наиболее сильно резонируют с его душой.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] созерцать различные божественные сущности и решить, какое из них взывает ко мне больше всего.#!"
+ select_personal_deity_decision_confirm:0 "Созерцать бхакти"
+ select_personal_deity_decision_tt:0 "Вы получите модификатор, связанный с выбранной вами бхакти"
+
+ adopt_roman_culture:0 "Принять римскую культуру"
+ adopt_roman_culture_confirm:0 "Это начинает новую эру"
+ adopt_roman_culture_tooltip:0 "Вы принимаете римскую культуру, основанную на вашей первоначальной культуре"
+ adopt_roman_culture_desc:0 "Мы должны отказаться от наших старых путей, чтобы выжить"
+
+ unite_the_western_slavs_decision_titles_tt:0 "Все западнославянские [Concept('kingdoms', 'королевства')|E] и [titles|El], которыми вы владеете (кроме вашего [Concept('primary_title', 'основного титула')|E]), будут уничтожены, а их территории станут [de_jure|El] частями вашего основного титула ([THIS.Char.GetPrimaryTitle.GetNameNoTier])"
+ unite_the_western_slavs_decision_titles_empire_tt:0 "Все [titles|El] западнославянских [Concept('kingdoms', 'королевств')|E], которым вы владеете (кроме вашего [Concept('primary_title', 'основного титула)'|E]), будут уничтожены, а их территории станут [de_jure|El] частями случайного принадлежащего вам западнославянского королевства"
+
+ # Recreate Indo-Scythia 
   
- TFE_regional_units_eran_decision_tooltip_1: "Вы получите [special_troops|E], состоящий из единицы по вашему выбору."
- TFE_regional_units_eran_decision_tooltip_2: "Вы можете выбрать один из трех размеров единиц с разной стоимостью: маленькие (#weak [gold_i|E]500#!), средние (#weak [gold_i|E]1000#!), и большие (#weak [gold_i|E]2000#!))"
- TFE_regional_units_eran_decision_choose_type: "Кто может предоставить нам мужчин?"
- TFE_regional_units_eran_decision_confirm: "Пусть они отдадут мне свои мечи!"
- TFE_region_units_iran_elephant_req: "У вас есть хотя бы один [county|E] с [culture|E], который разблокировал $innovation_elephantry$ [innovation|E]"
- TFE_region_units_iran_daylami_req: "У вас есть хотя бы один [county|E] с [culture|E], у которого есть $tradition_mard_o_mard_name$ [innovation|E]"
+ reform_indo_scythian_kingdom:0 "Возродить индо-скифское царство"
+ reform_indo_scythian_kingdom_confirm:0 "Наша древняя слава будет восстановлена"
+ reform_indo_scythian_kingdom_tooltip:0 "Индо-Скифия будет возрождена в своём былом великолепии"
+ reform_indo_scythian_kingdom_desc:0 "Шаки были доминирующей силой по всей Северной Индии до того, как мы были сокрушены вторжением Пахлавов и ограничены Саураштрой и Аванти кушанами. \n\nДа будет известно всему миру, что наша слава будет восстановлена, и ни кушаны, ни Гупта, ни какой-либо другой царь больше никогда не покорит нас."
+
+ restore_indo_scythian_kingdom_decision_effects_de_jure_tt_a:0 "[empire|E] Шакадвипы восстановлена"
+
+ # Restore the main House of the Vakataka Dynasty 
+
+ reclaim_vakataka_decision:0 "Восстановить династию Вакатака"
+ reclaim_vakataka_decision_confirm:0 "Наш дом — наследие Виндхьяшакти."
+ reclaim_vakataka_decision_tooltip:0 "Вы станете частью изначального дома Вакатака"
+ reclaim_vakataka_decision_desc:0 "Смерть Махараджадхираджи Праварасены разделила наши земли и династию на 4 ветви, из которых ветви Нандивардхана, Ватсагулма, Кондана и Кальяни претендуют на наследие нашего старого объединённого государства.\n\nНаш дом должен одержать победу в этой борьбе и доказать, что является истинным преемником Виндхьяшакти и Праварасены!"
+
+ # Expand Aryavarta 
+
+ expand_aryavarta_decision:0 "Расширить Арьяварту"
+ expand_aryavarta_decision_confirm:0 "Новые земли будут включены в состав Арьяварты."
+ expand_aryavarta_decision_tooltip:0 "Новые земли будут включены в состав Арьяварты."
+ expand_aryavarta_decision_desc:0 "Когда-то Арьяварта не включала в себя большую часть земель в Виндхьях, Гауде и Калинге, но распространение и завоевания арьев расширили его определение, включив в него эти земли и за их пределами. Земли арьев в Дакшинапатхе, однако, не входят в его границы, но, возможно, удастся убедить народы Арьяварты и за её пределами в том, что земли к югу от нас и к западу от нас являются частью родины ариев для нашей собственной политической выгоды."
+
+ # Restore the Three Crowned Kings 
   
- TFE_regional_units_eran_choose_type: "Тип устройства"
- TFE_regional_units_eran_war_elephants_decision_option: "Боевые слоны"
- TFE_regional_units_eran_war_elephants_decision_option_desc: "Ужасающие и могущественные звери, своими размерами вселяющие страх в наших врагов, будь то на поле боя или в осаде. Мы можем импортировать их в наши земли из [GetGeographicalRegion('world_india').GetName]."
- TFE_regional_units_eran_war_elephants_decision_option_tooltip: "$TFE_regional_units_eran_war_elephants_decision_option_desc$"
-  
- TFE_regional_units_eran_daylami_decision_option: "Дайлами"
- TFE_regional_units_eran_daylami_decision_option_desc: "Иностранцы считают людей [GetGeographicalRegion('world_daylam').GetName] воинственными и варварскими. Таким образом, они являются идеальным подразделением для пополнения рядов нашей армии, потому что они дешевые, верные и невероятные бойцы."
- TFE_regional_units_eran_daylami_decision_option_tooltip: "$TFE_regional_units_eran_daylami_decision_option_desc$"
-  
-  # Sponsor the Foundation of a holy City 
- TFE_sponsor_foundation_yazd_decision: "Найден новый священный город"
- TFE_sponsor_foundation_yazd_decision_desc: "Старый город [GetTitleByKey('c_yazd').GetNameNoTier] расположен в центре [GetGeographicalRegion('world_persia').GetName], что делает его идеальным местом для [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip], чтобы практиковать свою веру. Священный город на вершине наверняка станет великим храмом для [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName]."
- TFE_sponsor_foundation_yazd_decision_tooltip: "[GetTitleByKey('c_yazd').GetNameNoTier] станет новым центральным местом поклонения для всех [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]."
- TFE_sponsor_foundation_yazd_decision_confirm: "Зажгите костры!"
- TFE_sponsor_foundation_yazd_effect_tooltip: "[GetTitleByKey('c_yazd').GetNameNoTier] станет новым центром власти для всех зороастрийских духовенств."
-  
-  # Revive Greater Armenia Reworked Loc 
- TFE_create_armenian_empire_decision: "Возродить Великую Армению" #NT!
- TFE_create_armenian_empire_decision_desc: "Эллада и Эран — не единственные земли, когда-либо сохранившие имперское достоинство. Со времен Тиграна «Великого» земли, окружающие Таврские горы и Армянское нагорье, служили убежищем для нашей собственной империи; еще до того, как Рим увидел императора, наш монарх был царем царей. Это время может еще прийти снова, если мы возвестим о возрождении Великой Армении. #italic Мец Айк!#!" #NT!
- TFE_create_armenian_empire_decision_tooltip: "Армения становится [de_jure|E] [empire|E]" #NT!
- TFE_create_armenian_empire_decision_effects_de_jure_tt_a: "В случае сохранения следующий [kingdoms|E] станет [de_jure|E] частью [armenian_armenia_empire.GetNameNoTier]:\n[armenian_georgia.GetNameNoTier], [armenian_daylam.GetNameNoTier], [armenian_jazira.GetNameNoTier], [armenian_syria.GetNameNoTier], [armenian_anatolia.GetNameNoTier], [armenian_pontus.GetNameNoTier], [armenian_jerusalem.GetNameNoTier]" #NT!
- TFE_create_armenian_empire_decision_effects_de_jure_tt_b: "Все [duchies|E] в $custom_greater_armenia$ становятся [de_jure|E] частью [armenian_armenia.GetNameNoTier] или остаются частью текущего [kingdom|E], если вы являетесь обладателем этого титула." #NT!
- TFE_create_armenian_empire_decision_confirm: "И снова от моря до моря." #NT!
-  
-  # Restore Parthia 
- TFE_restore_parthia_decision: "Восстановить Великую Парфию"
- TFE_restore_parthia_decision_desc: "Парфяне в [GetTitleByKey('e_persia').GetNameNoTier] выжидают. Но однажды новый Михрдат восстановит Хварру, Королевскую Славу!"
- TFE_restore_parthia_decision_tooltip: "Верните Парфии былую славу"
- TFE_restore_parthia_decision_confirm: "За Парфию!"
- TFE_restore_parthia_decision_effect_tooltip: "Имя [GetTitleByKey('e_persia').GetNameNoTier] изменится, чтобы отразить это изменение."
-  
-  # Hegemony Over Hispania 
- hegemony_over_hispania: "Гегемония над Испанией"
- hegemony_over_hispania_t: "Гегемония над Испанией"
- hegemony_over_hispania_desc: "Хотя наши земли, приписываемые римлянами, находятся в Галлии, наша судьба, похоже, связана с Испанией. Ослабление свевов в Галиции и наших многочисленных сторонников в регионе — прекрасная возможность. Настало время положить конец этой неуверенности и, наконец, выполнить миссию, возложенную на нас Императорами!"
- hegemony_over_hispania_tooltip: "Заявите о своем господстве над Испанией и решите, что делать со свебами!"
- hegemony_over_hispania_tooltip2: "Территории королевств Лузитания, Бетика, Карфагенский, Тарраконский теперь входят в [de_jure|E] Королевства Вестготов."
- hegemony_over_hispania_decision_confirm: "Через Пиренеи мы летим!"
- respected_independece: "Уважаемая независимость"
-  
-  # Aksum Monument Decision 
- aksum_monument_decision: "Установить памятник"
- aksum_monument_decision_desc: "Создайте свидетельство своей славы"
- aksum_monument_decision_tooltip: "Это даст нам престиж и общественное мнение в столице."
- aksum_monument_decision_effect_tooltip: "Мы должны отпраздновать наше недавнее завоевание так же, как и в прошлом — с памятником, который позволит будущим поколениям восхищаться нашей славой."
- aksum_monument_decision_custom: "Выиграл войну за последние 5 лет"
- aksum_monument_decision_confirm: "Поднимите памятник"
-  
- aksum_monument.0001.t: "Победа, которую нужно помнить"
- aksum_monument.0001.desc: "В очередной раз наше царство доминировало над другим. Этот памятник будет свидетельствовать о величии нашей армии и нашего правителя, [ROOT.Char.GetName]!"
- aksum_monument.0001.a: "Слава Аксуму!"
-  
-  # Build Djeddar Decision 
- build_djeddar_decision: "Построить джеддар для моего предшественника"
- build_djeddar_decision_tooltip: "Усыпите своего предшественника и получите [piety|E] и [vassal|E] [opinion|E]"
- build_djeddar_decision_desc: "Мой предшественник скончался. Традиция диктует, что они должны быть похоронены в джеддаре."
- build_djeddar_decision_confirm: "Построить джеддар"
- build_djeddar_vassals: "Каждый вассал, который любит джеддаров"
-  
-  # Reunite Huns - Become Heir of Attila 
- restore_black_huns_decision: "Восстановить гуннскую империю"
- restore_black_huns_decision_desc: "#F Я готов созвать на собрание каждого лидера клана со всего моего огромного королевства. Они провозгласят меня наследником Аттилы, законным правителем всего, что под Небом. Оттуда мы побеждаем.#!"
- restore_black_huns_decision_tooltip: "Сформируйте Гуннскую Империю и станьте наследником Аттилы - правителя мира"
- restore_black_huns_decision_confirm: "Позвоните вождям"
- hun_head_tooltip: "Я глава гуннской культуры"
-  
- TFE_major_decisions.6666.t: "Мир передо мной"
- TFE_major_decisions.6666.desc: "Все лидеры кланов знают, почему их призвали. Мы проводим долгую ночь в уединении в дворцовой юрте, и они вызывают шаманов и полководцев, чтобы выступить перед ними. Дебатов нет. Я выхожу из палатки, когда первые лучи солнца пробивают горизонт, и вся собравшаяся армия уже проснулась и ждет.\n\nОни приветствуют меня, зная, что я не просто их правитель. Я наследник Аттилы - правителя вселенной."
- TFE_major_decisions.6666.a: "Здесь действительно начинается мое завоевание."
-  
- TFE_major_decisions.6667.t: "Наследник Аттилы"
- TFE_major_decisions.6667.desc: "Мой сюзерен созвал меня на Великий Курултай, собрание лидеров всех кланов и вассалов королевства. Мы все знали почему, и никогда не было никаких сомнений в ночных обсуждениях, которые проводились в прокуренной юрте. [heir_of_attila.GetFirstName] [heir_of_attila.GetDynastyName] — это [heir_of_attila.GetLadyLord] вселенной — истинный наследник Аттилы.\n\nЦеремонии коронации не было, ибо кто мог судить [heir_of_attila.GetHerHim]? Вместо этого [heir_of_attila.GetSheHe] выступил с заявлением перед тем, как [heir_of_attila.GetHerHis] собрал армии.\n\n"Сегодня мы выступаем и побеждаем все, что находится под Великим Небом!""
- TFE_major_decisions.6667.a: "Мир будет трепетать перед нами!"
-  
- TFE_major_decisions.6668.desc: "Вестники приносят нам весть о новом правителе понтийских степей, кто-то называет себя «Наследником Аттилы», самопровозглашенным правителем вселенной. Единая орда всадников и воинов устремляется вперед, покоряя тех, кто отказывается преклонить колено.\n\nЭто, конечно, смехотворные заявления, но падение великих городов перед жестоким завоевателем – это то, чего мир еще не видел. .."
- TFE_major_decisions.6668.a.distant: "Все это скоро пройдет."
- TFE_major_decisions.6668.a.neighbor: "Мы должны подготовиться. Впереди трудности."
-  
-  # Submit to Black Huns 
- submit_to_the_black_huns_decision: "Подчиниться Черным гуннам"
- submit_to_the_black_huns_decision_confirm: "Клянусь верностью"
- submit_to_the_black_huns_decision_opening_desc: "Пришло время признать, что гунны действительно являются правителями мира. Я вступлю в их ряды, а не буду сражаться с ними."
- submit_to_the_black_huns_decision_tooltip: "Вы становитесь вассалом Гуннского кагана и присоединяетесь к Гуннской империи"
- submit_to_the_black_huns_effect_tooltip: "Станьте вассалом Черных гуннов"
-  
-  #Scapulimancy 
- scapulimancy_decision: "Практика скапулимантии"
- scapulimancy_decision_tooltip: "Обратитесь к шаману, сведущему в скапулимантии, и определите исход будущих знаменательных событий."
- scapulimancy_decision_desc: "#F Наши судьбы можно предсказать с помощью искусства скапулимантии, когда нагревают и сжигают кости и исследуют результаты. Изучая их, я могу получить некоторое представление о том, что готовит будущее...#!"
- scapulimancy_decision_confirm: "Проконсультируйтесь с костями"
- scapulimancy_effect: "Вы откроете для себя понимание в ближайшем будущем"
- scapulimancy_trigger: "Вы уже консультируетесь с шаманом"
- scapulimancy_modifier: "У вас еще нет модификатора, связанного с scapulimancy"
-  
-  # Offer Bread to the Virgin Mary 
- TFE_offer_bread_to_the_virgin_mary: "Подношение хлеба Деве Марии"
- TFE_offer_bread_to_the_virgin_mary_tooltip: "Через Марию мы можем поклоняться Богу."
- TFE_offer_bread_to_the_virgin_mary_desc: "Для тех из нас, кто придерживается секты [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.GetReligion.GetName], почитание Девы Марии является одним из величайших способов поклоняться Богу. В соответствии с нашими священными текстами мы чтим ее несколько раз в год на церемонии, во время которой предлагаем ей хлеб. Пришло время сделать это еще раз!"
- TFE_offer_bread_to_the_virgin_mary_confirm: "Приготовьтесь печь хлеб!"
- TFE_offer_bread_to_the_virgin_mary_effect_tooltip_1: "Вы будете выбирать между тремя различными аспектами Девы Марии, зарабатывая разное количество [piety_i|E] [piety|E], [prestige_i|E] [prestige|E] и мощный [character_modifier|E] за #v 5#! лет."
-  
-  #Byzantine army 
- tfe_byzantine_army_decision: "Реформа византийской армии"
- tfe_byzantine_army_decision_desc: "Теперь, когда мы остались одни, мы должны подвергнуть сомнению неудачи Империи и переоценить наши военные доктрины. Мы должны рассмотреть более гибкие силы с более сильным акцентом на кавалерию, а также обновить тяжелую пехоту в основе нашей армии."
- tfe_byzantine_army_decision_confirm: "Адаптация — это путь римлян"
- tfe_byzantine_army_decision_tooltip: "Принять тактику византийской армии"
- tfe_unlocks_byzantine_maa_effect: "Предоставляет вашей культуре, [GetPlayer.GetCulture.GetName], доступ к этим [men_at_arms|E]: [GetMenAtArmsType('tfe_maa_protostates').GetName], [GetMenAtArmsType('tfe_maa_byz_archers').GetName], [GetMenAtArmsType('tfe_maa_hippo_toxotai').GetName], [GetMenAtArmsType('cataphract').GetName]"
-  
-  # Theodoric & Rome 
- tfe_theodoric_rome_decision: "Решите судьбу римлян и [GetPlayer.GetCulture.GetNameNoTooltip] народов"
- tfe_theodoric_rome_decision_desc: "Теперь, когда итальянский полуостров находится под нашим контролем, я стою перед задачей управления обеими культурами, присутствующими в королевстве: моим собственным классом воинов [GetPlayer.GetCulture.GetNameNoTooltip]; и установленная римская элита, все еще управляющая гражданской стороной королевства.\n\nДолжен ли я сохранить это и укрепить это разделение культур и обязанностей, или я должен стремиться объединить их?"
- tfe_theodoric_rome_decision_tooltip: "Объединяйте или разделяйте культуры!"
- TFE_THEODORIC_ROME_SECOND_STEP_BTN: "Определиться с курсом"
- tfe_theodoric_rome_decision_confirm: "Подтверждать"
-  
- tfe_theodoric_rome_unite_name: "Объединить две культуры"
- tfe_theodoric_rome_unite_desc: "Потратьте свои ресурсы, чтобы рассказать о многих сходствах между римлянами и теми, кого они считают «варварами», прокладывая путь для формирования гибридной идентичности."
- tfe_theodoric_rome_segregate_name: "Каждому свое"
- tfe_theodoric_rome_unite_tooltip: "Ваша культура и римляне получают #P +40%#! [cultural_acceptance|E] друг с другом\nКаждое $roman$ графство в вашем [realm|E] получает [GetStaticModifier('tfe_hybridised_barbarians_and_romans').GetNameWithTooltip] на #V 50 лет#!"
- tfe_theodoric_rome_segregate_desc: "Синергия воинов [GetPlayer.GetCulture.GetNameNoTooltip] и римских администраторов будет лучше для королевства. Формализуйте эту договоренность."
- tfe_theodoric_rome_segregate_tooltip: "Ваш [dynasty|E] получает [GetStaticModifier('tfe_segregated_barbarians_and_romans').GetNameWithTooltip] за #V 100 лет#!"
-  
- tfe_theodoric_rome_decision_if_hybridise: "Если вы решите гибридизировать"
- tfe_theodoric_rome_decision_if_segregate: "Если вы решите разделить"
-  
- tfe_segregated_barbarians_and_romans: "Разделенные варвары и римляне"
- tfe_segregated_barbarians_and_romans_desc: "Римляне знают свое место в царстве этой династии. Они могут издавать законы, в то время как борьба остается за их новыми повелителями."
- tfe_hybridised_barbarians_and_romans: "Гибрид варваров и римлян"
- tfe_hybridised_barbarians_and_romans_desc: "В этих землях расцветает плодородная пара цивилизованных и нецивилизованных."
- tfe_every_roman_realm_county_custom: "Каждый $roman$ [county|E] в вашем [realm|E]"
- roman_opinion: "$roman$ Мнение"
-  
-  # Recruit foreign specialist 
- recruit_foreign_specialist_decision: "Нанять иностранного специалиста"
- recruit_foreign_specialist_decision_desc: "У народов за пределами нашей империи есть много опытных полководцев, которых мы можем привлечь, используя наш престиж римского императора."
- recruit_foreign_specialist_decision.tt: "Вы наймете командира по своему выбору, зависящего от контролируемых регионов, но вызывающего недовольство ваших вассалов и сенаторов (-10 мнений для всех вассалов и придворных)."
- recruit_foreign_specialist_decision_tooltip: "Наймите командира!"
- recruit_foreign_specialist_decision_tt: "Нанять командира."
- recruit_foreign_specialist_decision_confirm: "Подтверждать"
-  
-  # Julius Nepos decision 
- nepos_ambition: "Готовьтесь к вторжению в Италию"
- nepos_ambition_desc: "Если я хочу успешно вернуть центральные земли Рима, мне нужно будет подготовить новую армию, чтобы изгнать Одоакра и его варварских последователей. Возможно, Зенона тоже можно убедить увидеть правоту моего дела?"
- nepos_ambition_tooltip: "Начать подготовку"
- nepos_ambition_custom_tooltip: "Вы потратите 250 золотых и 1000 престижа."
- nepos_ambition_tooltip_2: "Открывает [decision|E] для подготовки к вторжению в Италию."
- nepos_ambition_confirm: "Подтверждать"
-  
-  # Third Temple decision 
- rebuild_third_temple: "Построить третий храм в Иерусалиме"
- rebuild_third_temple_desc: "После разрушения Храма Ирода в результате неудавшегося Великого еврейского восстания евреи давно пытались восстановить то, что они называют Третьим Храмом на Храмовой горе. Этот акт нанесет решающий удар по растущему подъему христианства."
- rebuild_third_temple_tooltip: "Восстановите храм"
- rebuild_third_temple_custom_desc: "#warning Предупреждение. Скорее всего, это потребует времени и значительных ресурсов, и такая возможность предоставляется раз в поколение. Не начинайте это, если вы не готовы довести дело до конца. Вы должны выполнить это в течение жизни одного правителя.#!"
- rebuild_third_temple_confirm: "Подтверждать"
- faith_third_temple: "Christian faiths will suffer massive fervor penalties, while Jewish faiths will be revitalized."
-  
-  # Illyrian Sacrifice decision 
- TFE_illyrian_sacrifice_decision: "Совершить иллирийские жертвоприношения"
- TFE_illyrian_sacrifice_decision_tooltip: "Поклоняйтесь Солнцу или Змею"
- TFE_illyrian_sacrifice_decision_desc: "Культ Солнца и Культ Змеи — два доминирующих культа среди [ROOT.Char.GetFaith.GetAdherentNamePlural]. Мы должны чтить и поклоняться Солнцу или Змею посредством соответствующих подношений и жертвоприношений."
- TFE_illyrian_sacrifice_decision_confirm: "Готовьтесь к церемонии!"
- TFE_illyrian_sacrifice_decision_effect_tooltip_1: "Вы получите случайную сумму [piety|E] в зависимости от того, сколько [gold|E] вы готовы потратить"
- TFE_illyrian_sacrifice_decision_effect_tooltip_2: "У вас есть шанс получить #P положительного #! [character_modifier|E], эффекты которого зависят от того, поклоняетесь ли вы солнцу или змею."
- TFE_illyrian_sacrifice_decision_effect_tooltip_3: "Шансы на успешное получение [modifier|E] зависят от ваших [piety_level|E], [virtues|E], [sins|E] и от того, сколько [gold|E] вы готовы потратить."
- TFE_illyrian_sacrifice_decision_type: "Будем мы поклоняться Солнцу или Змею?"
- TFE_illyrian_sacrifice_decision_type_gui: "$TFE_illyrian_sacrifice_decision_type$"
- TFE_illyrian_sacrifice_sun_option: "#Bold #V Солнце#!#!"
- TFE_illyrian_sacrifice_sun_option_desc: "$TFE_illyrian_sacrifice_sun_option$"
- TFE_illyrian_sacrifice_sun_option_tooltip: "Потенциально получите [modifiers|E] с бонусами, связанными с [diplomacy|E], [martial|E], [prowess|E] и/или [prestige|E]\n\n#weak Культ Солнца традиционно был известен среди северных иллирийских племен. Водоплавающие птицы и олени считались символами Солнца, которому часто поклонялись в горах.#!"
- TFE_illyrian_sacrifice_serpent_option: "#Bold #V Змей#!#!"
- TFE_illyrian_sacrifice_serpent_option_desc: "$TFE_illyrian_sacrifice_serpent_option$"
- TFE_illyrian_sacrifice_serpent_option_tooltip: "Потенциально получите [modifiers|E] с бонусами, связанными с [stewardship|E], [intrigue|E], [learning|E] и/или [piety|E]\n\n#weak Культ Змея традиционно был известен среди южных иллирийских племен. Змей был тотемным водным и хтоническим божеством, считавшимся символом плодородия и магии.#!"
-  
-  # Establish Chariot Team 
- establish_chariot_team: "Создать команды колесниц"
- establish_chariot_team_tooltip: "Найди свои собственные команды колесниц для своего королевства"
- establish_chariot_team_desc: ""
- establish_chariot_team_confirm: "Создать команды"
- establish_chariot_team_effect_tt: "Вы наймете колесничих, чтобы создать команды синей и зеленой колесниц!"
-  
-  # Lines Extracted from imperialdec_l_english.yml 
- start_hunt_decision_tt_header: "Успешная охота принесет:"
- start_hunt_decision_stress: "#P Уменьшите свой [stress|E]#!"
-  
- select_personal_deity_decision: "Определить бхакти"
- select_personal_deity_decision_tooltip: "Подумайте о [ROOT.Char.GetFaith.PantheonTerm]"
- select_personal_deity_decision_desc: "#F Каждый верующий [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] должен иметь бхакти, или преданность определенному богу или богине, которые наиболее сильно резонируют с его душой.\n\nЯ должен созерцать различные божественные существа и решить, какое из них взывает ко мне больше всего.#!"
- select_personal_deity_decision_confirm: "Созерцать бхакти"
- select_personal_deity_decision_tt: "Вы получаете модификатор, связанный с выбранной вами бхакти"
-  
- adopt_roman_culture: "Принять римскую культуру"
- adopt_roman_culture_confirm: "Это начинает новую эру"
- adopt_roman_culture_tooltip: "Вы принимаете римскую культуру, основанную на вашей первоначальной культуре"
- adopt_roman_culture_desc: "Мы должны отказаться от наших старых путей, чтобы выжить"
-  
- unite_the_western_slavs_decision_titles_tt: "Все западнославянские [Concept('kingdoms', 'королевства')|E] и [titles|E], которыми вы владеете (кроме вашего [Concept('primary_title', 'основного титула')|E]), будут уничтожены, а их территории станут [de_jure|E] вашего основного титула ([THIS.Char.GetPrimaryTitle.GetNameNoTier])"
- unite_the_western_slavs_decision_titles_empire_tt: "Каждое западнославянское [Concept('kingdoms', 'королевства')|E] [titles|E], которым вы владеете (кроме вашего [Concept('primary_title', 'основного титула)'|E])), будет уничтожено, а их территории станут [de_jure|E] случайного западнославянского королевства"
-  
-  # Recreate Indo-Scythia 
-  
- reform_indo_scythian_kingdom: "Восстановить индо-скифское царство"
- reform_indo_scythian_kingdom_confirm: "Наша старая слава будет восстановлена"
- reform_indo_scythian_kingdom_tooltip: "Индо-Скифия будет восстановлена ​​до своей территориальной высоты"
- reform_indo_scythian_kingdom_desc: "Шаки были доминирующей силой по всей Северной Индии до того, как мы были сокрушены вторжением Пахлавов и ограничены Саураштрой и Аванти кушанами. другой Король когда-нибудь снова одолеет нас."
-  
- restore_indo_scythian_kingdom_decision_effects_de_jure_tt_a: "[empire|E] Шакадвипы восстановлен"
-  
-  # Restore the main House of the Vakataka Dynasty 
-  
- reclaim_vakataka_decision: "Восстановить династию Вакатака"
- reclaim_vakataka_decision_confirm: "Наш Дом — наследие Виндхьяшакти."
- reclaim_vakataka_decision_tooltip: "Вы станете частью оригинального дома Вакатака"
- reclaim_vakataka_decision_desc: "Смерть Махараджадхираджи Праварасены разделила наши земли и династию на 4 ветви, из которых ветви Нандивардхана, Ватсагулма, Кондана и Кальяни претендуют на наследие нашего старого объединенного государства.\n\nНаш дом должен одержать победу в этой борьбе и оказаться истинные преемники Виндхьяшакти и Праварасены!"
-  
-  # Expand Aryavarta 
-  
- expand_aryavarta_decision: "Развернуть Арьяварта"
- expand_aryavarta_decision_confirm: "Новые земли будут присоединены к Арьяварте."
- expand_aryavarta_decision_tooltip: "Новые земли будут присоединены к Арьяварте."
- expand_aryavarta_decision_desc: "Когда-то Арьяварта не включал в себя большую часть земель в Виндхьях, Гауде и Калинге, но распространение и завоевания Арьев расширили его определение, включив в него эти земли и за их пределами. Земли арьев в Дакшинапатхе, однако, не входят в его границы, но, возможно, удастся убедить народы Арьяварты и за ее пределами в том, что земли к югу от нас и к западу от нас являются частью родины ариев для нашей собственной политической выгоды."
-  
-  # Restore the Three Crowned Kings 
-  
- muvendhar_restoration_decision: "Восстановите трех коронованных королей"
- muvendhar_restoration_decision_confirm: "Порядок будет восстановлен в Тамилакаме"
- muvendhar_restoration_decision_tooltip: "Три Коронованных Короля будут восстановлены"
- muvendhar_restoration_decision_desc: "Вира Чола, Ула Чера и Ваджранга Пандья были созданы Шивой как три царя Мувентар Тамилакама для защиты земли от преследователей народа Арья. Его усилия сошли на нет с завоеваниями варваров Калабхраса, и теперь три его короля находятся в рабстве.\n\nЖизненно важно, чтобы Мувентары были возвращены на свои законные места в качестве правителей Чола Наду, Пандья Наду и Чера Наду, со мной как правителем всего Тамилакама."
-  
-  # Hero Stone 
- dharma_raise_hero_stone_decision_name: "Поднять камень героя"
- raise_hero_stone_decision_desc: "Смерть предка могла быть поводом для празднования их жизни и важных событий, особенно военных. Возможно, мне было бы полезно воздвигнуть Камень Героя..."
- dharma_hero_stone_decision_tt.effects_list: "Один из ваших [counties|E] получит один из следующих [modifiers|E]:\n#indent_newline: $EFFECT_LIST_BULLET$ [GetStaticModifier('dharma_hero_stone_heros_strong').GetNameWithTooltip]"
- raise_hero_stone_decision_tooltip: "Заплатите за вырезание рунического камня в одном из ваших графств."
- dharma_raise_hero_stone_decision_confirm: "Но что вырезать?"
- dharma_raised_hero_stone_vassals: "$EFFECT_LIST_BULLET$Все [direct_vassals|E], которые также используют Камень Героя"
-  
- dharma_hero_stone_decision_knight: "У вас на службе был недавно умерший герой"
- dharma_hero_stone_heros_strong_desc: "Камень героизма"
- dharma_hero_stone_heros_strong: "Камень героизма"
- dharma_hero_stone_heros_weak: "Камень героизма"
- dharma_hero_stone_ancestors_strong: "Камень легитимности"
- dharma_hero_stone_ancestors_strong_desc: "Камень в память об умершем предке."
- dharma_hero_stone_ancestors_weak: "Камень легитимности"
-  
-  # Slavic State Formation decisions 
-  
- croatia_formation_decision: "Основано Королевство Хорватия"
- croatia_formation_decision_desc: "С тех пор как славяне пришли на землю иллирийцев, мы, хорваты, сделали ее своим домом и будем защищать ее так же яростно, как древние иллирийцы защищали свои королевства от римлян. Изменение характера этой земли в связи с нашим прибытием требует нового названия для этой территории, которое содержит имена ее новых жителей: #bold Хорватия#!."
- croatia_formation_decision_confirm: "Иллирия теперь навсегда будет известна как Хорватия."
- croatia_formation_decision_tooltip: "Создайте заголовок [kingdom|E] на хорватском языке"
-  
- poland_formation_decision: "Основал Королевство Польское."
- poland_formation_decision_desc: "Если мы укрепим нашу власть над берегами Вислы, создав новое королевство, мы обретем большое богатство. Такое обещание, вероятно, имел в виду наш предок Лех, когда завоевывал эту землю для своего народа. Объединенные лехитские племена должны перейти под польское знамя, и это королевство теперь должно носить имя #bold Польша#!."
- poland_formation_decision_confirm: "Польша будет править сердцем Европы"
- poland_formation_decision_tooltip: "Создайте заголовок на польском языке [kingdom|E]"
-  
- bohemia_formation_decision: "Основал Королевство Чехии"
- bohemia_formation_decision_desc: "Чешский народ сделал землю, известную как Богемия, своим домом с момента ее завоевания нашим предком Чехом. Наша судьба была связана с ним, и поэтому эта земля и наше царство должны быть известны под новым именем: #bold Чечи#!."
- bohemia_formation_decision_confirm: "Богемия станет родиной чехов"
- bohemia_formation_decision_tooltip: "Создайте заголовок на чешском языке [kingdom|E]"
-  
-  #Raid Northern China 
- TFE_raid_china_decision: "Рейд на Северный Китай" #NT!
- TFE_raid_china_decision_confirm: "Соберите войска!" #NT!
- TFE_raid_china_decision_tooltip: "Вы отправляете рейдовый отряд за добычей в Северный Китай." #NT!
- TFE_raid_china_decision_desc: "Северный Китай разделен императорами, генералами, военачальниками и вождями разных народов, борющимися друг с другом за господство над Центральными равнинами. Итак, оно созрело для грабежа, для тех, у кого есть хитрость и сила. Воины [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] требуют сформировать рейдовый отряд под моим именем, чтобы (надеюсь) получить обильную добычу из Китая." #NT!
- nomad_or_tribal_china_raid_tt: "Вы либо племенной, либо кочевой" #NT!
- TFE_raid_china_decision_effect_tooltip_1: "Вы заплатите от [gold_i|E] #V 100#! до [gold_i|E] #V 1000#! [gold|E], чтобы сформировать рейдовый отряд." #NT!
- TFE_raid_china_decision_effect_tooltip_2: "Находясь в Китае, группа рейдеров может принести различные блага." #NT!
- TFE_raid_china_decision_effect_tooltip_3: "Если рейдерская группа не будет уничтожена, она вернется к вам как [special_troops|E]." #NT!
-  
- TFE_establish_the_rouran_khaganate: "Основание Жужаньского каганата" #NT!
- TFE_establish_the_rouran_khaganate_tooltip: "Настало время новой империи в степях" #NT!
- TFE_establish_the_rouran_khaganate_desc: "Наши враги высмеивают нашего прародителя Мугулу, говоря, что он был простым рабом, сбежавшим от своих хозяев в степь. Они даже смеются над нами, Жужанами, называя нас «извивающимися червями». Будут ли эти дураки по-прежнему смеяться, когда мы, «черви», создадим новую империю, чтобы поработить их и подчинить себе все на своем пути?" #NT!
- TFE_establish_the_rouran_khaganate_confirm: "Мы не черви, а гордый, могучий народ!" #NT!
- TFE_establish_the_rouran_khaganate_tooltip.a: "Вы получаете [casus_belli|E], чтобы распространить свой Каганат по степям.\n#warning Значение [casus_belli|E] зависит от того, есть ли в вашей династии [GetStaticModifier('rouran_khagans').GetName] [modifier|E], а вы являетесь [emperor|E]#!." #NT!
-  
-  #Sicila Vandal Decision 
- concession_of_italy: "Продать Сицилию" #NT!
- concession_of_italy_decision_desc: "Хотя Сицилия — это земля, богатая ресурсами, правители Италии жадно следят за ней. Вместо того, чтобы удерживать его, мы, возможно, сможем продать его за значительную сумму, чтобы профинансировать другие, более плодотворные начинания..." #NT!
- concession_of_italy_decision_tooltip: "Продать Сицилию за лот [gold|E]" #NT!
- concession_of_italy_confirm: "Продать Сицилию" #NT!
+ muvendhar_restoration_decision:0 "Восстановить трёх коронованных правителей"
+ muvendhar_restoration_decision_confirm:0 "Порядок будет восстановлен в Тамилакаме"
+ muvendhar_restoration_decision_tooltip:0 "Три коронованных царя будут восстановлены"
+ muvendhar_restoration_decision_desc:0 "Вира Чола, Ула Чера и Ваджранга Пандья были созданы Шивой как три царя Мувентар Тамилакама для защиты земли от преследователей народа арья. Его усилия сошли на нет с завоеваниями варваров Калабхраса, и теперь трое его правителей находятся в рабстве.\n\nЖизненно важно, чтобы Мувентары были возвращены на свои законные места в качестве правителей Чола Наду, Пандья Наду и Чера Наду, со мной как правителем всего Тамилакама."
+
+ # Hero Stone 
+ dharma_raise_hero_stone_decision_name:0 "Воздвигнуть камень героя"
+ raise_hero_stone_decision_desc:0 "Смерть предка могла быть поводом для празднования их жизни и важных событий, особенно воинов. Возможно, мне было бы полезно воздвигнуть камень героя..."
+ dharma_hero_stone_decision_tt.effects_list:0 "Одно из ваших [Concept( 'counties', 'графств' )|E] получит один из следующих [Concept( 'modifiers', 'модификаторов' )|E]:\n#indent_newline: $EFFECT_LIST_BULLET$ [GetStaticModifier('dharma_hero_stone_heros_strong').GetNameWithTooltip]"
+ raise_hero_stone_decision_tooltip:0 "Заплатите за вырезание рунического камня в одном из ваших графств."
+ dharma_raise_hero_stone_decision_confirm:0 "Но что вырезать?"
+ dharma_raised_hero_stone_vassals:0 "$EFFECT_LIST_BULLET$Все [direct_vassals|El], которые также используют камень кероя"
+
+ dharma_hero_stone_decision_knight:0 "У вас на службе был недавно умерший герой"
+ dharma_hero_stone_heros_strong_desc:0 "Камень героя"
+ dharma_hero_stone_heros_strong:0 "Камень героя"
+ dharma_hero_stone_heros_weak:0 "Камень героя"
+ dharma_hero_stone_ancestors_strong:0 "Камень легитимности"
+ dharma_hero_stone_ancestors_strong_desc:0 "Камень в память об умершем предке."
+ dharma_hero_stone_ancestors_weak:0 "Камень легитимности"
+
+ # Slavic State Formation decisions 
+
+ croatia_formation_decision:0 "Основать королевство Хорватия"
+ croatia_formation_decision_desc:0 "С тех пор как славяне пришли на землю иллирийцев, мы, хорваты, сделали её своим домом и будем защищать её так же яростно, как древние иллирийцы защищали свои королевства от римлян. Изменение характера этой земли в связи с нашим прибытием требует нового названия для этой территории, которое содержит имена её новых жителей: #bold Хорватия#!."
+ croatia_formation_decision_confirm:0 "Иллирия теперь навсегда будет известна как Хорватия."
+ croatia_formation_decision_tooltip:0 "Создать [Concept( 'kingdom', 'королевский' )|E] титул Хорватии"
+
+ poland_formation_decision:0 "Основать королевство Польша"
+ poland_formation_decision_desc:0 "Если мы укрепим нашу власть над берегами Вислы, создав новое королевство, мы обретём большое богатство. Такое обещание, вероятно, имел в виду наш предок Лех, когда завоёвывал эту землю для своего народа. Объединённые лехитские племена должны перейти под польское знамя, и это королевство теперь должно носить имя #bold Польша#!."
+ poland_formation_decision_confirm:0 "Польша будет править сердцем Европы"
+ poland_formation_decision_tooltip:0 "Создать [Concept( 'kingdom', 'королевский' )|E] титул Польши"
+
+ bohemia_formation_decision:0 "Основать королевство Чехия"
+ bohemia_formation_decision_desc:0 "Чешский народ сделал землю, известную как Богемия, своим домом с момента её завоевания нашим предком Чехом. Наша судьба была связана с ним, и поэтому эта земля и наше царство должны быть известны под новым именем: #bold Чехия#!."
+ bohemia_formation_decision_confirm:0 "Богемия станет родиной чехов"
+ bohemia_formation_decision_tooltip:0 "Создать [Concept( 'kingdom', 'королевский' )|E] титул Чехии"
+
+ #Raid Northern China 
+ TFE_raid_china_decision:0 "Разорить Северный Китай"
+ TFE_raid_china_decision_confirm:0 "Созвать войска!"
+ TFE_raid_china_decision_tooltip:0 "Вы отправляете отряд налётчиков за добычей в Северный Китай"
+ TFE_raid_china_decision_desc:0 "Северный Китай разделён императорами, генералами, военачальниками и вождями разных народов, борющимися друг с другом за господство над Центральными равнинами. Итак, оно созрело для грабежа, для тех, у кого есть хитрость и сила. [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ие воины требуют собрать отряд налётчиков от моего имени, чтобы (остаётся надеяться) получить обильную добычу из Китая."
+ nomad_or_tribal_china_raid_tt:0 "Является племенем или кочевниками"
+ TFE_raid_china_decision_effect_tooltip_1:0 "Вы заплатите от [gold_i|E] #V 100#! до [gold_i|E] #V 1000#! [Concept( 'gold', 'золота' )|E], чтобы собрать отряд налётчиков"
+ TFE_raid_china_decision_effect_tooltip_2:0 "Находясь в Китае, налётчики могут принести различные блага"
+ TFE_raid_china_decision_effect_tooltip_3:0 "Если отряд налётчиков не будет уничтожен, они вернутся к вам как [special_troops|El]"
+
+ TFE_establish_the_rouran_khaganate:0 "Основать Жужаньский каганат"
+ TFE_establish_the_rouran_khaganate_tooltip:0 "Настало время новой империи в степях"
+ TFE_establish_the_rouran_khaganate_desc:0 "Наши враги высмеивают нашего прародителя Мугулу, говоря, что он был простым рабом, сбежавшим от своих хозяев в степь. Они даже смеются над нами, жужанями, называя нас «извивающимися червями». Будут ли эти дураки по-прежнему смеяться, когда мы, «черви», создадим новую империю, чтобы поработить их и подчинить себе всё на своём пути?"
+ TFE_establish_the_rouran_khaganate_confirm:0 "Мы не черви, а гордый, могучий народ!"
+ TFE_establish_the_rouran_khaganate_tooltip.a:0 "Вы получаете [casus_belli|El], чтобы расширить свой каганат по степям.\n#warning [casus_belli|E] зависит от того, имеет ли ваша династия [modifier|El] [GetStaticModifier('rouran_khagans').GetName] и являетесь ли вы [Concept( 'emperor', 'императором' )|E]#!"
+
+ #Sicila Vandal Decision 
+ concession_of_italy:0 "Продажа Сицилии"
+ concession_of_italy_decision_desc:0 "Хотя Сицилия — это земля, богатая ресурсами, правители Италии жадно следят за ней. Вместо того, чтобы удерживать её, мы, возможно, сможем продать её за значительную сумму, чтобы профинансировать другие, более плодотворные начинания..."
+ concession_of_italy_decision_tooltip:0 "Продать Сицилию за гору [Concept( 'gold', 'золота' )|E]"
+ concession_of_italy_confirm:0 "Продать Сицилию"
 
  #Eternal Peace decision
- break_eternal_peace: "Нарушить вечный мир"
- break_eternal_peace_desc: "Вечный мир — договор, подписанный между Юстинианом I и Хосровой I и завершивший Пиренейскую войну. В нем, помимо прочего, оговаривалось, что две империи больше никогда не будут воевать друг с другом. Хотя в прошлом это было выгодно, сейчас настало время для новых завоеваний против нашего ненавистного врага! Мы разрушим этот договор и сотрем наших врагов в пыль!"
- break_eternal_peace_tooltip: "Отправить гонцов"
- break_eternal_peace_confirm: "Подтвердить"
+ break_eternal_peace:0 "Нарушить вечный мир"
+ break_eternal_peace_desc:0 "Вечный мир — договор, подписанный между Юстинианом I и Хосровой I и завершивший Иберийскую войну. В нём, помимо прочего, оговаривалось, что две империи больше никогда не будут воевать друг с другом. Хотя в прошлом это было выгодно, сейчас настало время для новых завоеваний против нашего ненавистного врага! Мы нарушим этот договор и сотрём наших врагов в пыль!"
+ break_eternal_peace_tooltip:0 "Отправить гонцов"
+ break_eternal_peace_confirm:0 "Подтвердить"
 
  # Vandalic War decision
- vandalic_war: "Втогнуться в Королевство вандалов"
- vandalic_war_desc: "Хильдерих был в теплых отношениях с нами, но его низложение, совершенное его кузеном Гелимером, стало последней каплей.\n\n#bold Скоро римский штандарт снова будет развеваться на Западе!"
- vandalic_war_tooltip: "Выбрать командующего"
- vandalic_war_custom_tooltip: "Вы потратите 250 золота и 1000 престижа."
- vandalic_war_confirm: "Приготовить экспедиционные силы!"
+ vandalic_war:0 "Втогнуться в Королевство вандалов"
+ vandalic_war_desc:0 "Хильдерих был в тёплых отношениях с нами, но его низложение, совершённое его кузеном Гелимером, стало последней каплей.\n\n#bold Скоро римский штандарт снова будет развеваться на Западе!"
+ vandalic_war_tooltip:0 "Выбрать командующего"
+ vandalic_war_custom_tooltip:0 "Вы потратите 250 золота и 1000 престижа"
+ vandalic_war_confirm:0 "Подготовить экспедиционные силы!"
 
  # Vandalic War Aftermath decision
- vandalic_aftermath_vassals: "Судьба вандалов"
- vandalic_aftermath_vassals_desc: "Исторически вандалы исповедовали арианство и другие гетеродоксальные верования. Успешно отразив предыдущие римские вторжения, они, очевидно, представляют угрозу стабильности империи как в религиозном, так и в военном плане. Хотя бывшие вассалы Королевства вандалов все еще владеют значительными землями в бывшей житнице империи, мы не можем быть уверены в их лояльности. Мы должны воспользоваться возможностью, предоставленной нам недавним завоеванием вандалов, и вытеснить их из Северной Африки, пока они остаются язычниками и еретиками!"
- vandalic_aftermath_vassals_tooltip: "Гонения или терпимость?"
- vandalic_aftermath_vassals_custom_tooltip: "Вы потратите 750 престижа."
- vandalic_aftermath_vassals_warning: "#warning Внимание: это решение отправит всем вассалам вандалов и всем вассалам Наместника Африки требование обращения в христианство. Если они откажутся, то начнут войну за независимость.#!"
- vandalic_aftermath_vassals_confirm: "Подтвердить"
+ vandalic_aftermath_vassals:0 "Судьба вандалов"
+ vandalic_aftermath_vassals_desc:0 "Исторически вандалы исповедовали арианство и другие гетеродоксальные верования. Успешно отразив предыдущие римские вторжения, они, очевидно, представляют угрозу стабильности империи как в религиозном, так и в военном плане. Хотя бывшие вассалы Королевства вандалов всё ещё владеют значительными землями в бывшей житнице империи, мы не можем быть уверены в их лояльности. Мы должны воспользоваться возможностью, предоставленной нам недавним завоеванием вандалов, и вытеснить их из Северной Африки, пока они остаются язычниками и еретиками!"
+ vandalic_aftermath_vassals_tooltip:0 "Гонения или терпимость?"
+ vandalic_aftermath_vassals_custom_tooltip:0 "Вы потратите 750 престижа"
+ vandalic_aftermath_vassals_warning:0 "#warning Внимание: это решение отправит всем вассалам вандалов и всем вассалам викария Африки требование обращения в христианство. Если они откажутся, то начнут войну за независимость.#!"
+ vandalic_aftermath_vassals_confirm:0 "Подтвердить"
 
  #Recall Belisarius decision
- recall_belisarius: "Отозвать Велизария из Африки"
- recall_belisarius_desc: "Велизарий превзошел все ожидания и захватил Королевство вандалов целиком. Он успешный полководец — возможно, некоторые могут сказать, что слишком успешный. До вас дошли слухи о том, что Велизарий, окрыленный успехами в подавлении бунта в Нике и в Африке, готовится к восстанию против вас. Чтобы развеять сомнения, вы можете предложить Велизарию четкий выбор: остаться в Африке в качестве губернатора или вернуться в столицу для получения императорского триумфа и назначения на другую должность. Время проверить его лояльность пришло."
- recall_belisarius_tooltip: "Друг или враг?"
- recall_belisarius_custom_tooltip: "Вы потратите 500 престижа и 250 золота."
- recall_belisarius_warning: "#warning Внимание: это отправит событие Велизарию. Если он откажется вернуться, то начнется Война за независимость.#!"
- recall_belisarius_confirm: "Подтвердить"
+ recall_belisarius:0 "Отозвать Велизария из Африки"
+ recall_belisarius_desc:0 "Велизарий превзошёл все ожидания и полностью захватил Королевство вандалов. Он успешный полководец — возможно, некоторые могут сказать, что слишком успешный. До вас дошли слухи о том, что Велизарий, окрылённый успехами в подавлении восстания Ники и в Африке, готовится к восстанию против вас. Чтобы развеять сомнения, вы можете предложить Велизарию чёткий выбор: остаться в Африке в качестве наместника или вернуться в столицу для получения императорского триумфа и назначения на другую должность. Время проверить его лояльность пришло."
+ recall_belisarius_tooltip:0 "Друг или враг?"
+ recall_belisarius_custom_tooltip:0 "Вы потратите 500 престижа и 250 золота"
+ recall_belisarius_warning:0 "#warning Внимание: это отправит событие Велизарию. Если он откажется вернуться, то начнётся война за независимость.#!"
+ recall_belisarius_confirm:0 "Подтвердить"
 
  #Gothic War decision
- start_gothic_war: "Вернуть Италию"
- start_gothic_war_desc: "После провала планов Амаласунты передать Италию её законному хозяину — мне — нам предстоит взять силой то, что принадлежит нам по праву! Мы начнем с вторжения на Сицилию, а затем вторгнемся в Италию..."
- start_gothic_war_tooltip: "Защитите родину снова"
- start_gothic_war_custom_tooltip: "Вы потратите 500 престижа и 250 золота."
- gothic_war_belisarius_warning: "#warning Внимание: если Велизарий всё ещё сражается в Вандальской войне или правит в Африке в качестве викария, он перестанет быть вашим командиром.#!"
- start_gothic_war_confirm: "Подтвердить"
+ start_gothic_war:0 "Вернуть Италию"
+ start_gothic_war_desc:0 "После провала планов Амаласунты передать Италию её законному хозяину — мне — нам предстоит взять силой то, что принадлежит нам по праву! Мы начнём с вторжения на Сицилию, а затем вторгнемся в Италию..."
+ start_gothic_war_tooltip:0 "Защитите родину снова"
+ start_gothic_war_custom_tooltip:0 "Вы потратите 500 престижа и 250 золота"
+ gothic_war_belisarius_warning:0 "#warning Внимание: если Велизарий всё ещё сражается в Вандальской войне или правит в Африке в качестве викария, он перестанет быть вашим командиром.#!"
+ start_gothic_war_confirm:0 "Подтвердить"
 
  #Amalasuntha Coup decision
  start_amalasuntha_coup:0 "Претворить в жизнь происки Амаласунты"
