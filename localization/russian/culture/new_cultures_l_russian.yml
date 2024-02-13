@@ -485,6 +485,11 @@
  himyarite:0 "Химьяриты"
  himyarite_prefix:0 "Химьяро"
  himyarite_collective_noun:0 "Химьярск"
+ #kemetic:0 "Кеметы"
+ #kemetic_prefix:0 "Кемето"
+ #kemetic_collective_noun:0 "Кеметск"
+ # Renamed per Luthien's suggestion
+ # Coptic wouldn't work well because there is already a faith named that
  kemetic:0 "Кеметы"
  kemetic_prefix:0 "Кемето"
  kemetic_collective_noun:0 "Кеметск"
